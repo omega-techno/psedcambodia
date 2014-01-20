@@ -1,0 +1,10 @@
+/* airport family */
+#airport-family { width:836px; margin:0 auto; padding:50px 72px 0; font-size:14px; line-height:1.6em; }
+#airport-family h3 { font-size:1.1428em; line-height:1.375em; margin-bottom:5px; }/* 16px/22px */
+#airport-family.grid2col .column.first { width:453px; }
+#airport-family.grid2col .column.first br { line-height:2em; }
+#airport-family.grid2col .column.last { width:369px; margin-top:-49px; }
+#airport-family.grid2col .column.last img { margin:-2px -4px -6px 4px; }
+
+
+

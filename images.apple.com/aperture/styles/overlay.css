@@ -1,0 +1,34 @@
+/* -- Overlay Styles --*/
+.overlaypanel img.overlayPanelShadowImage { display: block; top: 0 !important; left: 0 !important; width: 100% !important; height: 100% !important; -webkit-border-top-left-radius: 6px; -webkit-border-top-right-radius: 6px; -o-border-radius: 6px 6px 0 0; border-radius: 6px 6px 0 0; -webkit-box-shadow: rgba(0,0,0,0.5) 0 2px 7px; -moz-box-shadow: rgba(0,0,0,0.5) 0 2px 7px; -o-box-shadow: rgba(0,0,0,0.5) 0 2px 7px; box-shadow: rgba(0,0,0,0.5) 0 2px 7px; }
+
+.overlaypanel .nested { width: 884px; height: 400px; padding: 54px 30px 40px; }
+.overlaypanel .nested h2 { width: 884px; padding: 0 10px; margin: 0; position: absolute; top: 0; left: 0; border-bottom: 1px solid #3d3d3d; padding: 0 30px; text-align: center; color: #fefefe; text-shadow: rgba(0,0,0,0.5) 0 -1px 0; -webkit-border-top-left-radius: 6px; -webkit-border-top-right-radius: 6px; -o-border-radius: 6px 6px 0 0; border-radius: 6px 6px 0 0; height: 24px; font-size: 11px; line-height: 24px; background: url(../../global/elements/zoomerlay/zoomerlay_headerbg.png) repeat-x; _background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://images.apple.com/global/elements/zoomerlay/zoomerlay_headerbg.png', sizingMethod='scale') !important; }
+.overlaypanel .nested .tutorial .featured { display:none; }
+
+.overlaypanel .nested .nested-swap { width: 640px; float: left; }
+.overlaypanel .nested .nested-swapnav { width: 225px; display: inline; float: right; }
+.overlaypanel .nested .nested-swapnav h3 { margin-top: 58px;  margin-bottom: .8em; font-size: 14px; font-weight: normal; color: #8a8a8a; line-height: 1em; *margin-top: 48px; }
+.overlaypanel .nested .nested-swapnav a { width: 209px; height: 54px; padding: 6px 8px 0; margin: 0 0 6px; display: block; position: relative; text-decoration: none; background: url(../images/overlay-related-video-bg-20091020.png) no-repeat 0 0; _background-image: url(http://images.apple.com/aperture/images/overlay-related-video-bg-20091020.gif); }
+
+.overlaypanel .nested .nested-swapnav a strong { display: block; padding-right: 75px; font-weight: normal; font-size: 11px; line-height: 14px; color: #fff; }
+.overlaypanel .nested .nested-swapnav a i { display: block; position: absolute; bottom: 1px; left: 9px; font-size: 11px; color: #969696; font-style: normal; }
+.overlaypanel .nested .nested-swapnav a span { width: 100%; padding-left: 19px; display: none; position: absolute; font-size: 11px; color: #afb7b7; bottom: 1px; background: url(../images/overlay-related-video-arrow-20091020.png) no-repeat 0 50%; }
+.overlaypanel .nested .nested-swapnav a img { position: absolute; top: 11px; right: 11px; }
+
+.overlaypanel .nested .nested-swapnav a:hover { background-position: 0 -60px; }
+
+.overlaypanel .nested .nested-swapnav a.active { cursor: default; outline: none; background-position: 0 -120px !important; }
+.overlaypanel .nested .nested-swapnav a.active i { display: none; }
+.overlaypanel .nested .nested-swapnav a.active span { display: block; }
+.overlaypanel .nested .nested-swapnav a.active img { -moz-opacity: .60; filter: alpha(opacity=60); opacity: .60; }
+
+.overlaypanel .endState,
+.overlaypanel .moviePanel { height: 400px; width: 640px; }
+.overlaypanel .endState ul { padding-top: 26%; }
+.overlaypanel .endState { background-image:url(../../global/elements/quicktime/qt_endstate640x400.jpg); }
+
+.overlaypanel .closeButtonContainer { top: -2px !important; left: -3px !important; }
+.overlaypanel a.close { background-image: url(../../global/elements/zoomerlay/zoomerlay_close.png) !important; _background: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://images.apple.com/global/elements/zoomerlay/zoomerlay_close.png', sizingMethod='crop') !important; }
+
+/* -- individual adjustments --*/
+.overlay-slideshowexamples.overlaypanel .nested .nested-swapnav h3 { margin-top:83px; }

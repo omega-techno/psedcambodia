@@ -1,0 +1,445 @@
+/*V Styles*/
+html,
+body#app-store { background-color:#f3f3f3; }
+
+body#app-store #main .row { width:980px; padding:0; text-align:center; }
+body#app-store #main .block { display:block; margin:auto; }
+
+/* Hero Section */
+body#app-store #main .hero-intro { margin:50px auto 0; }
+body#app-store #main .hero-intro .intro { padding:0 120px; }
+
+body#app-store #main .hero { position:relative; height:800px; *height:806px; margin-top:35px;
+	*overflow:hidden;
+	*border-right:1px solid #ccc;
+	*border-left:1px solid #ccc;
+ }
+
+/* App Gallery */
+
+/* App Gallery Static
+----------------------*/
+body#app-store #main .hero #app-gallery-scroller { height:825px;
+	/*IE7 & 8*/
+	*height:775px;
+	*width:410px;
+	width:410px \0/;
+}
+
+body#app-store #main .hero #app-gallery { position:absolute; top:0; left:-290px; width:3000px; height:590px; overflow:hidden; z-index:1000;
+	-webkit-transition:-webkit-transform 500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+	   -moz-transition:   -moz-transform 500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+		    transition:        transform 500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+}
+
+/* App Gallery Dynamic
+----------------------*/
+body#app-store #main .hero #app-gallery.ac-ambient-canplay { left:431px; width:7000px; padding-left:330px; display:block; }
+
+/* Starting Position of Dynamic Gallery */
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms.init {
+	-webkit-transform:translate3d(-329px, 0px, 0px);
+	   -moz-transform:translate3d(-329px, 0px, 0px);
+		    transform:translate3d(-329px, 0px, 0px);
+}
+
+/* Apps Static
+----------------------*/
+body#app-store #main .hero #app-gallery .app { display:block; position:relative; float:left; margin-right:10px; opacity:1; z-index:2; }
+
+body#app-store #main .hero #app-gallery .app.active { z-index:1000; }
+
+body#app-store #main .hero #app-gallery .app.horz { width:168px; height:118px; margin-top:215px; margin-left:0; }
+body#app-store #main .hero #app-gallery .app.vert { width:118px; height:168px; margin-top:185px; margin-left:0; }
+
+body#app-store #main .hero #app-gallery .app.horz.active { margin-top:50px; }
+body#app-store #main .hero #app-gallery .app.vert.active { margin-top:0px; }
+
+
+/* Apps Dynamic
+----------------------*/
+body#app-store #main .hero #app-gallery.ac-ambient-canplay .app { position:relative; float:left; margin-right:10px; opacity:1; z-index:2; }
+
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app { display:none;
+	-webkit-transform:translate3d(0px, 0px, 0px);
+	   -moz-transform:translate3d(0px, 0px, 0px);
+		    transform:translate3d(0px, 0px, 0px);
+
+	-webkit-transition:700ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+	   -moz-transition:700ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+		    transition:700ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+}
+
+body#app-store #main .hero #app-gallery.ac-ambient-canplay .app.horz.active { width:585px; *width:530px; *margin-left:60px; height:600px; }
+body#app-store #main .hero #app-gallery.ac-ambient-canplay .app.vert.active { width:410px; *width:350px; *margin-left:55px; height:600px; }
+
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.active { z-index:1000; margin-right:10px;
+	-webkit-transition:500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+	   -moz-transition:500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+		    transition:500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+}
+
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.display { display:block; }
+
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.horz.active { margin-top:215px; width:168px; }
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.vert.active { margin-top:185px; width:118px; }
+
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms  .app.move-left {
+	-webkit-transform:translate3d(-210px, 0px, 0px);
+	   -moz-transform:translate3d(-210px, 0px, 0px);
+		    transform:translate3d(-210px, 0px, 0px);
+
+	-webkit-transition:500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+	   -moz-transition:500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+		    transition:500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+}
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms  .app.move-right {
+	-webkit-transform:translate3d(210px, 0px, 0px);
+	   -moz-transform:translate3d(210px, 0px, 0px);
+		    transform:translate3d(210px, 0px, 0px);
+
+	-webkit-transition:500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+	   -moz-transition:500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+		    transition:500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+}
+
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms  .app.move-left-vert {
+	-webkit-transform:translate3d(-150px, 0px, 0px);
+	   -moz-transform:translate3d(-150px, 0px, 0px);
+		    transform:translate3d(-150px, 0px, 0px);
+
+	-webkit-transition:500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+	   -moz-transition:500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+		    transition:500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+}
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms  .app.move-right-vert {
+	-webkit-transform:translate3d(150px, 0px, 0px);
+	   -moz-transform:translate3d(150px, 0px, 0px);
+		    transform:translate3d(150px, 0px, 0px);
+
+	-webkit-transition:500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+	   -moz-transition:500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+		    transition:500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+}
+@media only screen and (max-device-width:768px) {
+	body#app-store #main .hero #app-gallery .app.dummy-app { display:none !important; }
+}
+
+/* Apps > Device Static
+------------------------*/
+body#app-store #main .hero #app-gallery .app .device { display:none; background-repeat:no-repeat; background-position:0 0; }
+
+body#app-store #main .hero #app-gallery .app .device.vert { width:414px; height:588px; *height:535px; height:535px \0/; padding-top:53px; background-size:414px 588px; background-image:url(../images/ipad_hardware_portrait.jpg); }
+body#app-store #main .hero #app-gallery .app .device.horz { width:588px; height:414px; *height:388px; height:388px \0/; padding-top:26px; background-size:588px 414px; background-image:url(../images/ipad_hardware_landscape.jpg); }
+
+body#app-store #main .hero #app-gallery .app.active .device { display:block; opacity:1; z-index:3000; }
+
+body#app-store #main .hero #app-gallery.ac-ambient-canplay .app.start-app,
+body#app-store #main .hero #app-gallery.ac-ambient-canplay .app.start-app .device { z-index:5000; }
+
+body#app-store #main .hero #app-gallery.ac-ambient-canplay .app.start-app.active { display:block; *margin-left:0px; z-index:5000; }
+body#app-store #main .hero #app-gallery.ac-ambient-canplay .app.start-app.active .device { z-index:5000; }
+
+/* Apps > Device Dynamic
+------------------------*/
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.init .device { display:none; }
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.init.start-app .device.hide { display:block; }
+
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app .device { display:none; opacity:1; position:absolute; top:0; z-index:1;
+	-webkit-transform-perspective:0px;
+	   -moz-transform-perspective:0px;
+		    transform-perspective:0px;
+
+		 -webkit-transform-style: preserve-3d;
+
+	-webkit-transition:-webkit-transform 500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms, z-index 0ms 500ms;
+	   -moz-transition:   -moz-transform 500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms, z-index 0ms 500ms;
+		    transition:        transform 500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms, z-index 0ms 500ms;
+}
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app .device.hide { opacity:0; }
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.start-app .device.hide { display:block; opacity:1; }
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app .device.display { display:block; }
+
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app .device.vert { width:414px; height:541px; left:-147px; top:-185px; padding-top:54px; background-size:414px 588px; background-image:url(../images/ipad_hardware_portrait.jpg);
+	-webkit-transform-origin:center 259px;
+	   -moz-transform-origin:center 259px;
+	        transform-origin:center 259px;
+
+	-webkit-transform:scale(0.286) translate3d(0px, 0px, 0px);
+	   -moz-transform:scale(0.286) translate3d(0px, 0px, 0px);
+			transform:scale(0.286) translate3d(0px, 0px, 0px);
+}
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app .device.horz { width:588px; height:414px; left:-210px; top:-150px; padding-top:26px; background-size:588px 414px; background-image:url(../images/ipad_hardware_landscape.jpg);
+	-webkit-transform-origin:center 211px;
+	   -moz-transform-origin:center 211px;
+	        transform-origin:center 211px;
+
+	-webkit-transform:scale(0.286) translate3d(0px, 0px, 0px);
+	   -moz-transform:scale(0.286) translate3d(0px, 0px, 0px);
+		    transform:scale(0.286) translate3d(0px, 0px, 0px);
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px), only screen and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+	body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app .device.vert { background-image:url(../images/ipad_hardware_portrait_2x.jpg); }
+	body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app .device.horz { background-image:url(../images/ipad_hardware_landscape_2x.jpg); }
+}
+
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.active .device { opacity:1; z-index:9999;
+	-webkit-transform:scale(1) translate3d(0px, 0px, 0px);
+	   -moz-transform:scale(1) translate3d(0px, 0px, 0px);
+		    transform:scale(1) translate3d(0px, 0px, 0px);
+
+    -webkit-transition:-webkit-transform 500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+	   -moz-transition:   -moz-transform 500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+		    transition:        transform 500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+}
+
+/* Apps > Triggers Static
+------------------------*/
+body#app-store #main .hero #app-gallery .app a.app-gallery-trigger { display:block; position:absolute; margin:auto; z-index:2; background-color:transparent;
+	-webkit-border-radius:7px;
+	   -moz-border-radius:7px;
+	        border-radius:7px;
+	-webkit-transition:background-color 0.25s ease;
+	   -moz-transition:background-color 0.25s ease;
+		    transition:background-color 0.25s ease;
+}
+body#app-store #main .hero #app-gallery .app.horz a.app-gallery-trigger { width:168px; height:118px; *margin-left:-25px; }
+body#app-store #main .hero #app-gallery .app.vert a.app-gallery-trigger { width:118px; height:168px; }
+
+body#app-store #main .hero #app-gallery .app a.app-gallery-trigger img {display:none; z-index:1; }
+body#app-store #main .hero #app-gallery .app a.app-gallery-trigger img.show { display:block; opacity:1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter:alpha(opacity=100);
+	-webkit-transition:opacity 0.25s ease;
+	   -moz-transition:opacity 0.25s ease;
+		    transition:opacity 0.25s ease;
+}
+
+body#app-store #main .hero #app-gallery .app.active a.app-gallery-trigger { display:none; z-index:1; }
+body#app-store #main .hero #app-gallery .app.init.start-app .thumb,
+body#app-store #main .hero #app-gallery .app.init.start-app a.app-gallery-trigger { display:block !important; }
+
+body#app-store #main .hero #app-gallery .app.hover a.app-gallery-trigger { background-color:#000; *background-color:transparent; }
+body#app-store #main .hero #app-gallery .app.hover a.app-gallery-trigger img { opacity:0.8;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter:alpha(opacity=80);
+}
+
+/* Apps > Triggers Dynamic
+------------------------*/
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app a.app-gallery-trigger { opacity:1; }
+
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app a.app-gallery-trigger img { -webkit-transform:translateZ(0); }
+
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.active a.app-gallery-trigger { display:block; opacity:0; z-index:1; }
+
+/* Apps > Content Static
+------------------------*/
+body#app-store #main .hero .gallery .captions { position:absolute; width:780px; height:100px; left:50%; margin-left:-390px; padding-top:30px; bottom:70px; border-top:1px solid #d0d0d0; z-index:10;
+	/*IE7 & 8*/
+	*bottom:20px;
+}
+
+body#app-store #main .hero .gallery .captions .info { display:none; position:absolute; left:50%; width:550px; margin-left:-275px; text-align:left; z-index:1; }
+body#app-store #main .hero .gallery .captions .info.active,
+body#app-store #main .hero .gallery .captions .info.static-active { display:block; z-index:5; }
+
+body#app-store #main .hero .gallery .captions .info img { float:left; margin-top:7px; margin-right:20px; padding-bottom:55px; }
+body#app-store #main .hero .gallery .captions .info h2 { margin-bottom:3px; padding-top:0; font-size:1.397em; }
+body#app-store #main .hero .gallery .captions .info p { padding-left:74px; margin-bottom:0; font-size:0.875em; line-height:1.5; }
+
+/* Apps > Content Dynamic
+------------------------*/
+body#app-store #main .hero .gallery .captions.ac-ambient-canplay .info { display:none; background-color:#f3f3f3; }
+
+body#app-store #main .hero .gallery .captions.ac-ambient-canplay.transforms .info { display:block; opacity:0; background-color:transparent;
+	-webkit-transform:translateZ(0);
+	   -moz-transform:translateZ(0);
+		    transform:translateZ(0);
+
+	-webkit-transition:opacity 500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+	   -moz-transition:opacity 500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+		    transition:opacity 500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+}
+body#app-store #main .hero .gallery .captions.ac-ambient-canplay .info.active { display:block; z-index:5; }
+
+body#app-store #main .hero .gallery .captions.ac-ambient-canplay.transforms .info.active { opacity:1;
+	-webkit-transition:opacity 500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+	   -moz-transition:opacity 500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+		    transition:opacity 500ms cubic-bezier(0.645, 0.010, 0.295, 1.065) 0ms;
+}
+
+/* App Gallery Build-in */
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.init { opacity:0; display:block;
+	-webkit-transform:translate3d(1100px, 0px, 0px);
+	   -moz-transform:translate3d(1100px, 0px, 0px);
+		    transform:translate3d(1100px, 0px, 0px);
+
+	-webkit-transition-duration:500ms;
+	   -moz-transition-duration:500ms;
+		    transition-duration:500ms;
+
+	-webkit-transition-timing-function:cubic-bezier(0.645, 0.010, 0.295, 1.065);
+	   -moz-transition-timing-function:cubic-bezier(0.645, 0.010, 0.295, 1.065);
+		    transition-timing-function:cubic-bezier(0.645, 0.010, 0.295, 1.065);
+}
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.build:nth-child(1) {
+	-webkit-transition-delay:640ms;
+	   -moz-transition-delay:640ms;
+		    transition-delay:640ms;
+}
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.build:nth-child(2) {
+	-webkit-transition-delay:680ms;
+	   -moz-transition-delay:680ms;
+		    transition-delay:680ms;
+}
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.build:nth-child(3) {
+	-webkit-transition-delay:730ms;
+	   -moz-transition-delay:730ms;
+		    transition-delay:730ms;
+}
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.build:nth-child(4) {
+	-webkit-transition-delay:780ms;
+	   -moz-transition-delay:780ms;
+		    transition-delay:780ms;
+}
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.build:nth-child(5) {
+	-webkit-transition-delay:840ms;
+	   -moz-transition-delay:840ms;
+		    transition-delay:840ms;
+}
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.build:nth-child(6) {
+	-webkit-transition-delay:910ms;
+	   -moz-transition-delay:910ms;
+		    transition-delay:910ms;
+}
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.build:nth-child(7) {
+	-webkit-transition-delay:980ms;
+	   -moz-transition-delay:980ms;
+		    transition-delay:980ms;
+}
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.build:nth-child(8) {
+	-webkit-transition-delay:1060ms;
+	   -moz-transition-delay:1060ms;
+		    transition-delay:1060ms;
+}
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.build:nth-child(9) {
+	-webkit-transition-delay:1120ms;
+	   -moz-transition-delay:1120ms;
+		    transition-delay:1120ms;
+}
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.build:nth-child(10) {
+	-webkit-transition-delay:1210ms;
+	   -moz-transition-delay:1210ms;
+		    transition-delay:1210ms;
+}
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.build:nth-child(11) {
+	-webkit-transition-delay:1040ms;
+	   -moz-transition-delay:1040ms;
+		    transition-delay:1040ms;
+}
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.build:nth-child(12) {
+	-webkit-transition-delay:1080ms;
+	   -moz-transition-delay:1080ms;
+		    transition-delay:1080ms;
+}
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.build:nth-child(13) {
+	-webkit-transition-delay:1120ms;
+	   -moz-transition-delay:1120ms;
+		    transition-delay:1120ms;
+}
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.build:nth-child(14) {
+	-webkit-transition-delay:1160ms;
+	   -moz-transition-delay:1160ms;
+		    transition-delay:1160ms;
+}
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.build:nth-child(15) {
+	-webkit-transition-delay:1200ms;
+	   -moz-transition-delay:1200ms;
+		    transition-delay:1200ms;
+}
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms .app.build:nth-child(16) {
+	-webkit-transition-delay:1240ms;
+	   -moz-transition-delay:1240ms;
+		    transition-delay:1240ms;
+}
+
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms.init .app .device { display:none; }
+body#app-store #main .hero #app-gallery.ac-ambient-canplay.transforms.init .app.start-app .device { display:block; }
+
+
+/* Gallery Paddle Nav */
+body#app-store #main .hero #app-gallery-scroller .paddle-nav { position:relative; left:0; top:620px; width:835px; margin:0 auto; height:0; z-index:1000;
+	/*IE7 & 8*/
+	*width:820px;
+	*left:-213px;
+	left:-213px \0/;
+}
+body#app-store #main .hero #app-gallery-scroller .paddle-nav li { height:0; }
+body#app-store #main .hero #app-gallery-scroller .paddle-nav .arrow { position:static; opacity:0; z-index:1001; margin:0; padding:60px 50px 75px 50px; width:auto; height:auto; *background-color:#f3f3f3;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Chroma(color='#f3f3f3') progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+	filter:progid:DXImageTransform.Microsoft.Chroma(color='#f3f3f3') progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+
+	-webkit-transition:opacity 500ms ease-in;
+	   -moz-transition:opacity 500ms ease-in;
+		    transition:opacity 500ms ease-in;
+}
+body#app-store #main .hero #app-gallery-scroller .paddle-nav .arrow.active { opacity:0.5;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter:alpha(opacity=50);
+}
+body#app-store #main .hero #app-gallery-scroller .paddle-nav .arrow.next { float:right; padding-left:65px; }
+body#app-store #main .hero #app-gallery-scroller .paddle-nav .arrow.prev { float:left; padding-right:65px; }
+
+body#app-store #main .hero #app-gallery-scroller .paddle-nav .arrow.active:hover{ opacity:1;
+-ms-filter:"progid:DXImageTransform.Microsoft.Chroma(color='#f3f3f3') progid:DXImageTransform.Microsoft.Alpha(opacity=100)";
+	filter:progid:DXImageTransform.Microsoft.Chroma(color='#f3f3f3') progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+}
+
+body#app-store #main .hero #app-gallery-scroller .paddle-nav .arrow.disabled { opacity:0;
+-ms-filter:"progid:DXImageTransform.Microsoft.Chroma(color='#f3f3f3') progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+	filter:progid:DXImageTransform.Microsoft.Chroma(color='#f3f3f3') progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+body#app-store #main .hero #app-gallery-scroller .paddle-nav .arrow.disabled:hover { opacity:0; cursor:default;
+-ms-filter:"progid:DXImageTransform.Microsoft.Chroma(color='#f3f3f3') progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+	filter:progid:DXImageTransform.Microsoft.Chroma(color='#f3f3f3') progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+@media only screen and (max-device-width:768px) {
+	body#app-store #main .hero #app-gallery-scroller .paddle-nav { display:block; }
+}
+
+/* For iPad Section */
+body#app-store #main #for-ipad { margin:20px auto 0; padding:60px 0; border-bottom:1px solid #e6e6e6; background:#fff; text-align:left; }
+
+body#app-store #main #for-ipad header p,
+body#app-store #main .appstore header p { padding:0 150px; color:#404040; }
+
+body#app-store #main #for-ipad .grid2col { margin-top:70px; margin-bottom:25px; text-align:left; }
+body#app-store #main #for-ipad .grid2col .left { margin-left:-245px; margin-top:-35px; }
+body#app-store #main #for-ipad .grid2col p { padding-right:105px; margin-bottom:40px; }
+
+body#app-store #main #for-ipad .row.updates { padding-top:65px; border-top:1px solid #e6e6e6; text-align:center; }
+body#app-store #main #for-ipad .row.updates header p { padding:0 82px;}
+body#app-store #main #for-ipad .row.updates .grid3col { width:913px; margin:auto; }
+body#app-store #main #for-ipad .row.updates .grid3col .column { max-width:290px; margin-left:2.5%; text-align:left; }
+body#app-store #main #for-ipad .row.updates .grid3col h2,
+body#app-store #main #for-ipad .row.updates .grid3col p { padding-left:15px; padding-right:10px; }
+body#app-store #main #for-ipad .row.updates .block { margin-bottom:40px; margin-top:25px; }
+
+/* App Store Category Section */
+body#app-store #main .appstore { padding-top:50px; padding-bottom:43px; background:#fff; text-align:left; }
+body#app-store #main .appstore .row { margin-bottom:30px; padding-top:4px; }
+body#app-store #main .appstore .row.first { padding-top:2px; }
+body#app-store #main .appstore header.row { margin-bottom:50px; }
+body#app-store #main .appstore .grid3col { width:880px; margin:0 auto; }
+body#app-store #main .appstore .grid3col .column { width:261px; margin-left:48px; }
+body#app-store #main .appstore .grid3col .column h2 { float:left; margin-bottom:15px; }
+body#app-store #main .appstore .grid3col .column p { clear:both; text-align:left; }
+body#app-store #main .appstore .grid3col .column .icon { float:left; margin: 0 2px 0 0; }
+body#app-store #main .appstore .grid3col .column a.wrap .nowrap { display:block; text-align:left; }
+body#app-store #main .appstore .grid3col .column a.wrap:hover .more { text-decoration:underline; }
+
+body#app-store #main .appstore p + .more,
+body#app-store #main .appstore p + .button,
+body#app-store #main .appstore p + .wrap { display:inline-block; position:relative; z-index:1; top:-1.3em; text-align:left; float:left; }

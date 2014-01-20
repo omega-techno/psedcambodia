@@ -1,0 +1,62 @@
+.borderbottom { border-bottom:1px solid #ccc; }
+
+.main .flushrow { padding:0; border:none; }
+.main .flushrow .row { width:980px; padding:50px 0 32px; }
+.main .intro { color:#404040; font-size:1.1428em; line-height:1.6875em; }
+
+.main h1 img,
+.main h2 img { margin:0; }
+
+.main .hardware { position:relative; z-index:1; margin:0 0 8px; width:353px; min-height:640px; }
+.main .hardware img { position:absolute; z-index:1; top:94px; left:77px; display:block; }
+.main .hardware.white { background:url(../images/hardware_5c_white.jpg) no-repeat 0 0; background-size:353px 640px; }
+
+.main .productheader { margin:0 auto; }
+.main .productheader .intro { width:75%; }
+
+.main .hero .row { padding-top:70px; padding-bottom:0; }
+.main .hero h1 { margin-bottom:8px; }
+.main .hero .intro { width:820px; margin-bottom:34px; font-size:1.286em; line-height:1.778em; }
+
+.main .new-apps .row { padding-top:0; }
+.main .new-apps .productheader { padding-top:50px; padding-bottom:2px; }
+.main .new-apps .grid3col { margin:0 auto 0 -64px; width:1060px; }
+.main .new-apps .grid3col .column { width:353px; margin-left:0; }
+.main .new-apps .grid3col .column h2, 
+.main .new-apps .grid3col .column p { display:block; width:250px; margin-left:78px; }
+.main .new-apps .grid3col .column h2 { float:left; margin-top:16px; margin-bottom:8px; }
+.main .new-apps .grid3col .column p { font-size:1em; line-height: 1.714em; }
+
+.main .touchid .row { width:100%; padding:0; 
+	background: #e5e5e5; /* older browsers */
+	background: -moz-linear-gradient(left, #e5e5e5 46%,#f0f0f0 60%, #f4f4f4 100%);
+	background: -webkit-linear-gradient(left, #e5e5e5 46%,#f0f0f0 60%, #f4f4f4 100%);
+	background: -o-linear-gradient(left, #e5e5e5 46%,#f0f0f0 60%, #f4f4f4 100%);
+	background: -ms-linear-gradient(left, #e5e5e5 46%,#f0f0f0 60%, #f4f4f4 100%);
+	background: linear-gradient(to right, #e5e5e5 46%,#f0f0f0 60%, #f4f4f4 100%);
+}
+.main .touchid .grid2col { position:relative; width:1000px; margin:0 auto; }
+.main .touchid .grid2col img.left { margin:0 0 0 -135px; }
+.main .touchid .grid2col .column.last { width:380px; padding:178px 81px 0 50px; }
+.main .touchid .grid2col .column.last .intro { margin:0; padding:0; }
+
+.main .unique .row { padding-top:0; }
+.main .unique .productheader { padding-top:41px; padding-bottom:13px; }
+.main .unique .grid2col { padding-bottom:31px; }
+.main .unique .grid2col img.left { margin:0 0 0 58px; }
+.main .unique .grid2col .column.last { width:385px; padding:102px 80px 0 29px; }
+.main .unique .grid2col .column.last p { margin-bottom:60px; font-size:1em; }
+
+.main .appstore { padding-bottom:43px; }
+.main .appstore .row { padding-top:4px; }
+.main .appstore .productheader { padding-top:41px; }
+.main .appstore .row.first { padding-top:2px; }
+.main .appstore .grid3col { margin:0 auto; width:880px; }
+.main .appstore .grid3col .column { width:261px; margin-left:48px; }
+.main .appstore .grid3col .column h2 { float:left; margin-bottom:15px; }
+.main .appstore .grid3col .column p { clear:both; }
+.main .appstore .grid3col .column .icon { float:left; margin: 0 2px 0 0; }
+.main .appstore .grid3col .column a.wrap .nowrap { display:block; }
+
+/* product-specific */
+.iphone-5s .main .new-apps .row { border-bottom:none; }

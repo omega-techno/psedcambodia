@@ -1,0 +1,155 @@
+/* Shared styles */
+body.ios .gradient-wrap { border-top:1px solid #ccc; *width:100%;
+	background:#fff;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#fff));
+	background-image: -moz-linear-gradient(center top, #f2f2f2 0%, #fff 100%);
+	background-image: -o-linear-gradient(#f2f2f2, #fff);
+}
+
+body.ios .white-rule { border-top:1px solid #fff; }
+
+/* Accessibility - iOS CSS */
+
+body#ios h2 { font-size:1.15em; }
+
+body#ios section { position:relative; }
+
+body#ios .content a.back-to-top { top:27px; right:-48px }
+
+body#ios .callout { margin:0 -50px 75px; padding:28px 40px; *width:900px; }
+body#ios .callout .description-wrap { margin-left:5px; padding-top:18px; }
+body#ios .callout h3 { font-size:1.45em; }
+body#ios .callout p { margin-bottom:0; font-size:1.30em; line-height:1.399em; }
+
+body#ios .pullout { margin:0 -50px; padding:24px 0 24px 47px; min-height:143px; }
+body#ios .pullout img { margin:-7px 0 0 -13px; }
+body#ios .pullout .description-wrap { margin-left:239px; padding-top:18px; }
+body#ios .pullout p { width:575px; }
+
+body#ios .hero h1 { margin-bottom:9px; padding-top:50px; }
+body#ios .hero p.intro { width:845px; text-align:center; }
+body#ios .hero nav { padding:14px 0 42px; }
+
+body#ios #vision { padding-bottom:3px; }
+body#ios #vision h1 { padding-top:64px; }
+body#ios #vision p.intro { margin:0 -25px; text-align:center; }
+body#ios #vision .vision-main-image { margin:0 0 -7px -54px; }
+body#ios #vision .voice-siri img { margin-top:64px; }
+body#ios #vision .voice-siri .column { width:390px; }
+body#ios #vision .voice-siri .column.last { margin-right:25px; }
+body#ios #vision .zoom { padding-top:57px; }
+body#ios #vision .zoom .column { width:260px; padding-top:102px; }
+body#ios #vision .text-invert { padding:23px 0 68px; }
+body#ios #vision .text-invert .column { width:330px; padding-top:118px; }
+
+body#ios #hearing h1 { padding-top:62px; }
+body#ios #hearing p.intro { margin:0 40px; text-align:center; }
+body#ios #hearing .facetime { padding-top:53px; }
+body#ios #hearing .facetime .column { width:253px; padding-top:92px; }
+body#ios #hearing .closed-captions .column { padding-top:46px; }
+body#ios #hearing .messages .column { padding-top:122px; }
+body#ios #hearing .vibrating { padding-bottom:50px; }
+body#ios #hearing .vibrating .column { width:560px; padding-top:164px; }
+body#ios #hearing .vibrating .flash-animation { position:relative; z-index:1; margin:-27px -55px 0 0; width:266px; }
+body#ios #hearing .vibrating .flash-animation .replay-button { margin-top:-27px; }
+body#ios #hearing .vibrating .flash-animation.animate .camera-flash {
+	position:absolute; top:18px; left:60px; z-index:1; height:50px; width:50px; border-radius:50%;
+	background-color:white;
+	box-shadow:
+		0px 0px 10px white,
+		0px 0px 20px white,
+		0px 0px 30px white,
+		0px 0px 40px white,
+		0px 0px 50px white,
+		0px 0px 60px white,
+		0px 0px 70px white,
+		0px 0px 80px white,
+		0px 0px 90px white,
+		0px 0px 100px white;
+	-webkit-animation:flash .25s linear 1s forwards;
+	   -moz-animation:flash .25s linear 1s forwards;
+	-webkit-transform:scale(0);
+	   -moz-transform:scale(0);
+}
+
+@-webkit-keyframes flash {
+	0%, 100% { -webkit-transform: scale(0); }
+	  50%    { -webkit-transform: scale(5); }
+}
+@-moz-keyframes flash {
+	0%, 100% { -moz-transform: scale(0); }
+	  50%    { -moz-transform: scale(5); }
+}
+
+
+body#ios #motor-skills h1 { padding-top:62px; }
+body#ios #motor-skills p.intro { margin:0 50px; text-align:center; }
+body#ios #motor-skills .assistive-siri { padding:55px 0 94px; }
+body#ios #motor-skills .assistive-siri .column { width:390px; }
+body#ios #motor-skills .assistive-siri .column.last { margin-right:25px; }
+body#ios #motor-skills .dictation-keyboard { padding-bottom:31px; }
+body#ios #motor-skills .dictation-keyboard img { margin-top:10px; }
+
+body#ios #learning h1 { padding-top:62px; }
+body#ios #learning p.intro { margin:0 20px; text-align:center; }
+body#ios #learning .guided { padding:66px 0 44px; }
+body#ios #learning .guided img { margin:0 0 0 -52px; }
+body#ios #learning .guided .column { margin-right:22px; padding-top:289px; width:333px; }
+body#ios #learning .speak-dictionary-reader { padding:0 0 73px 65px; }
+body#ios #learning .speak-dictionary-reader .column { margin-right:50px; }
+body#ios #learning .speak-dictionary-reader .column.last { margin-right:-101px; }
+
+body#ios #speech h1 { padding-top:52px; font-size:1.6em; font-weight:bold; }
+body#ios #speech p.speech-intro { width:725px; padding-bottom:37px; }
+body#ios #speech img.speech-bubble { margin:64px -33px 0 0; }
+
+/* voiceover */
+body#voiceover #hero { margin-top:48px; }
+body#voiceover #hero .column.first { position:relative; z-index:10; width:560px; }
+body#voiceover #hero h1 { margin-bottom:11px; padding-top:52px; }
+body#voiceover #hero img.right { position:relative; z-index:1; margin:-326px 0 -76px; }
+body#voiceover h2 { font-size:1.1428em; line-height:1.25em; margin-bottom:7px; }
+body#voiceover #navigation { padding:0; }
+body#voiceover #navigation .left { position:relative; z-index:10; }
+body#voiceover #navigation .column.last { width:414px; padding-top:160px; }
+body#voiceover #text-input { padding:0 0 29px; }
+body#voiceover #text-input .column.first { width:494px; padding-top:26px; }
+body#voiceover #rotor,
+body#voiceover #braille { padding-bottom:0; }
+body#voiceover #rotor .column.last { width:352px; margin-right:-40px; }
+body#voiceover #apps { padding:15px 0 10px; }
+body#voiceover #apps .column.first { width:495px; }
+body#voiceover #apps img.right { margin:40px -22px 16px 20px; }
+body#voiceover #braille .left { margin-bottom:-2px; }
+body#voiceover #braille .column.last { width:458px; padding-top:80px; }
+body#voiceover #voices { margin-bottom:92px; padding:0; }
+body#voiceover #voices .column.first { width:520px; padding-top:90px; }
+body#voiceover #voices img.right { margin-top:128px; }
+body#voiceover .pullout { margin:0 -50px 9px; padding:36px 39px; min-height:115px; *height:115px; *margin-bottom:0; position:relative; z-index:1; }
+body#voiceover .pullout h3 { padding-top:14px; }
+body#voiceover .pullout p { margin-bottom:0; }
+body#voiceover .pullout img.left { margin:-2px 40px 0 0; }
+
+/* ios - braille-display */
+body#braille .hero { margin:64px 0 53px; }
+body#braille .hero h1 { margin-bottom:9px; }
+body#braille .hero .intro { padding-bottom:39px; }
+body#braille .hero p { margin:0 0 11px; }
+
+body#braille h2 { font-size:1.1428em; line-height:1.25em; margin-bottom:7px; }
+body#braille .column { margin-left:68px; }
+body#braille .column.last { width:180px; }
+body#braille #supported-displays { margin-bottom:20px; }
+body#braille #supported-displays h1 { padding-top:61px; }
+body#braille #supported-languages { margin-bottom:26px; border-top:1px solid #e4e4e4; }
+body#braille #supported-languages h1 { padding-top:36px; }
+body#braille ul.disc { margin-bottom:18px; list-style:disc outside; }
+body#braille ul.disc,
+body#braille ul.circle { margin-left:18px; }
+
+body#braille .pullout { width:980px; margin:0 -50px 12px; padding:1px 0 0; min-height:150px; }
+body#braille .pullout .column { padding:32px 30px 12px 27px; }
+body#braille .pullout .column.first { width:583px; border-right:1px solid #dedede; }
+body#braille .pullout .column.last { width:247px; padding-right:50px; }
+body#braille .pullout h3 { padding-top:2px; }
+body#braille .pullout img { margin-right:24px; }

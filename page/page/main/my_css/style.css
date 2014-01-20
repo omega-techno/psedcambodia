@@ -1,0 +1,20 @@
+ 
+#logo {
+    height: 81px;
+    width: 880px;
+}
+.logo {
+    color: #FFFFFF;
+    float: left;
+    font-family: Norma;
+    font-size: 40pt;
+    letter-spacing: 15px;
+    padding-left: 90px;
+    padding-top: 60px;
+}
+#head {
+    background-image: url("image/PSED%20head.jpg");
+    height: 143px;
+    margin: auto;
+    width: 1024px;
+}

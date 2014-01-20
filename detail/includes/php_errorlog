@@ -1,0 +1,1 @@
+[17-Jan-2014 22:01:40 CST6CDT] PHP Fatal error:  Access denied for user 'omega_psed'@'localhost' (using password: YES) in /home/psedcam/public_html/conf/conf.php on line 10

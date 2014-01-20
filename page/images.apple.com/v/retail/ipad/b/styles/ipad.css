@@ -1,0 +1,44 @@
+#ipad #content { padding:40px 40px 23px; }
+#ipad .center { display:block; margin-right:auto; margin-left:auto; text-align:center; }
+#ipad .left { float:left; }
+#ipad .right { float:right; }
+#ipad h1 { font-weight:normal; }
+
+#ipad .hero { margin:0; padding:0 0 23px; border-bottom:none; }
+#ipad .hero h1 { margin-bottom:13px; }
+#ipad .hero p { font-size:1.5em; line-height:1.45; }
+#ipad .hero .intro { margin-bottom:11px; padding:0 100px; text-align:center; color:#888; }
+
+#ipad .nav.hero-search { margin:0 0 50px; width:860px; padding:18px 10px 45px 30px; *padding:25px 20px 30px 30px; font-size:1.5em; overflow:visible; border-radius:5px; }
+#ipad .nav.hero-search.contour { *padding-right:13px; }
+
+#ipad .global-retail-search { margin-left:15px; width:450px; }
+#ipad .nav.hero-search .store-list { padding-right:15px; font-size:0.778em; }
+
+#ipad .frame { position:relative; z-index:1; margin-bottom:0; width:436px; padding:7px; border:1px solid #dfdfdf; box-shadow:rgba(0,0,0,0.6) 0 14px 10px -11px; }
+#ipad .frame:after {
+	content:""; display:block; position:absolute; z-index:1; left:0; bottom:-17px; width:100%; height:15px; background-color:#fff;
+	border-radius:350% 350% 0% 0% / 670% 670% 0% 0%; box-shadow:#fff 0 -2px 5px;
+}
+#ipad .frame img { display:block; }
+
+#ipad .grid2col { margin-bottom:46px; }
+#ipad .grid2col .column.first { width:365px; }
+#ipad .grid2col .column.last { width:404px; }
+#ipad .grid2col h1 { margin-bottom:8px; font-size:1.8333em; line-height:1.1818; }
+#ipad .grid2col p { padding:0; font-size:1.1667em; line-height:1.4286; }
+
+#ipad .choose .last { padding-top:80px; }
+#ipad .choose p { margin-bottom:8px; }
+#ipad .setup .first { padding-top:60px; }
+#ipad .accessories .last { padding-top:75px; }
+
+#ipad .faq { position:relative; z-index:1; padding:0 30px; }
+#ipad .faq:nth-child(1n) { border:none; }
+#ipad .faq .moreinfo-trigger { margin:0 -30px; padding:20px 30px; }
+#ipad .faq .moreinfo-link { margin-top:9px; }
+#ipad .faq h1 { margin:0; font-size:2em; }
+
+@media only screen and (max-device-width:768px) {
+	#ipad .hero .intro { padding:0 90px; }
+}

@@ -1,0 +1,105 @@
+/* Sticky table header */
+.main { position:relative; z-index:1; padding-top:0; }
+.main .row { width:980px; padding:0; }
+.sticky { position:-webkit-sticky; top:0; z-index:2; display:block;  border-bottom:1px solid #e5e5e5; background:#fff; }
+.sticky-container .title div { margin:0 0 0 223px; width:757px; height:25px; padding:16px 0 18px; }
+
+/* General */
+body#compare .left { float:left; }
+body#compare .hero h1 img.left { margin:0 0 0 1px; }
+
+body#compare .compare-iphones { position:relative; z-index:1; padding-bottom:32px; margin-top:-1px; }
+body#compare .compare-iphones table { table-layout:fixed; }
+body#compare .compare-iphones tbody th,
+body#compare .compare-iphones tbody td { vertical-align:top; border-top:1px solid #e5e5e5; }
+
+body#compare .compare-iphones tbody th { width:178px; padding:12px 0 16px 0; border-top:1px solid #e5e5e5; }
+body#compare .compare-iphones tbody th img { margin-left:8px; }
+
+body#compare .compare-iphones tbody tr.row-space { height:30px; }
+body#compare .compare-iphones tbody tr.row-space th,
+body#compare .compare-iphones tbody tr.row-space td { border:none; }
+
+body#compare .compare-iphones tbody td { width:226px; padding:17px 12px 13px 20px; border-right:1px solid #e5e5e5; }
+body#compare .compare-iphones tbody td.first { padding-left:0; }
+body#compare .compare-iphones tbody td.last { border-right:none; }
+
+body#compare .compare-iphones tbody td h4 { margin-bottom:7px; }
+body#compare .compare-iphones tbody td p { margin-bottom:0; }
+body#compare .compare-iphones tbody td.divide { width:46px; padding:0; border:none; }
+
+body#compare .compare-iphones tbody td ul { margin-bottom:-6px; }
+body#compare .compare-iphones tbody td ul li { margin-bottom:6px; }
+body#compare .compare-iphones tbody td ul li.two-line { min-height:3.4286em; }
+body#compare .compare-iphones tbody td ul li.three-line { min-height:5.1429em; }
+body#compare .compare-iphones tbody .positioned { position:relative; z-index:1; }
+body#compare .compare-iphones tbody .positioned img { z-index:1; }
+body#compare .compare-iphones tbody .positioned sup { position:absolute; top:26px; z-index:2; }
+
+/* Page Specific */
+body#compare .compare-iphones tbody .capacity-price th .positioned sup { left:98px; }
+body#compare .compare-iphones tbody .weight th .positioned sup { left:124px; }
+body#compare .compare-iphones tbody .video-calling th .positioned sup { left:75px; }
+body#compare .compare-iphones tbody .audio-calling th .positioned sup { top:0; left:140px; }
+body#compare .compare-iphones tbody .assistant th .positioned sup { left:95px; }
+body#compare .compare-iphones tbody .power-battery th .positioned sup { left:120px; }
+
+body#compare .compare-iphones tbody .phone th,
+body#compare .compare-iphones tbody .phone td,
+body#compare .compare-iphones tbody .phone td.divide { border-top:1px solid transparent; }
+body#compare .compare-iphones tbody .phone th { padding-top:28px; }
+body#compare .compare-iphones tbody .phone td { padding-top:31px; }
+body#compare .compare-iphones tbody .phone td img { margin-bottom:16px; }
+
+body#compare .compare-iphones tbody .capacity-price p { margin-bottom:3px; }
+body#compare .compare-iphones tbody .capacity-price .alignment { width:100%; height:95px; min-height:95px; }
+body#compare .compare-iphones tbody .capacity-price .capacity { margin-top:-2px; padding-right:5px; color:#666; font-size:0.8571em; }
+body#compare .compare-iphones tbody .capacity-price .currency { margin-top:-2px; font-size:0.9144em; line-height:1.5em; }
+body#compare .compare-iphones tbody .capacity-price .price { font-size:1.2857em; line-height:1.15em; }
+body#compare .compare-iphones tbody .capacity-price .buynows { margin-bottom:5px; }
+
+body#compare .compare-iphones tbody .color ul li { padding:0 0 2px 30px; }
+
+body#compare .compare-iphones tbody .color .iphone-5s li { background:url(../images/compare_iphone_5s_colors.jpg) no-repeat; }
+body#compare .compare-iphones tbody .color .iphone-5s li.black,
+body#compare .compare-iphones tbody .color .iphone-5s li.gray { background-position:0 0; }
+body#compare .compare-iphones tbody .color .iphone-5s li.gold { background-position:0 -30px; }
+body#compare .compare-iphones tbody .color .iphone-5s li.silver { background-position:0 -60px; }
+
+body#compare .compare-iphones tbody .color .iphone-5c li { background:url(../images/compare_iphone_5c_colors.jpg) no-repeat; }
+body#compare .compare-iphones tbody .color .iphone-5c li.blue { background-position:0 0; }
+body#compare .compare-iphones tbody .color .iphone-5c li.green { background-position:0 -30px; }
+body#compare .compare-iphones tbody .color .iphone-5c li.yellow { background-position:0 -60px; }
+body#compare .compare-iphones tbody .color .iphone-5c li.pink { background-position:0 -90px; }
+body#compare .compare-iphones tbody .color .iphone-5c li.white { background-position:0 -120px; }
+
+body#compare .compare-iphones tbody .color .iphone-4s li { background:url(../images/compare_iphone_4s_colors.jpg) no-repeat; }
+body#compare .compare-iphones tbody .color .iphone-4s li.black { background-position:0 0; }
+body#compare .compare-iphones tbody .color .iphone-4s li.white { background-position:0 -30px; }
+
+body#compare .compare-iphones tbody .weight td span { color:#666; }
+
+body#compare .compare-iphones tbody .chips td div { clear:both; }
+body#compare .compare-iphones tbody .chips td img { margin:0 16px 15px 0; }
+body#compare .compare-iphones tbody .chips td img.last { margin-bottom:7px; }
+body#compare .compare-iphones tbody .chips td h4 { padding-top:3px; }
+
+body#compare .compare-iphones tbody .carriers td.last { padding-top:19px; padding-bottom:0; }
+body#compare .compare-iphones tbody .carriers td img { margin:0 0 -1px 102px; }
+
+body#compare .compare-iphones tbody .cellular td h4 { margin-top:39px; }
+
+body#compare .compare-iphones tbody .headphones td img { margin:10px -12px 0 0; }
+body#compare .compare-iphones tbody .headphones td ul,
+body#compare .compare-iphones tbody .headphones td.last p { width:158px; }
+body#compare .compare-iphones tbody .headphones td.last img { margin-top:40px; }
+
+body#compare .compare-iphones tbody .connector td img { margin:12px -12px 0 0; }
+body#compare .compare-iphones tbody .connector td.last img { margin-top:-29px; }
+
+body#compare .compare-iphones tbody .buy th { border-top:none; }
+
+/* buy now buttons */
+body#compare .compare-iphones tbody .buy .buynows { width:95px; background-repeat:no-repeat; }
+body#compare .compare-iphones tbody .buy .buynows:hover { background-position:0 -25px; }
+body#compare .compare-iphones tbody .buy .buynows:active { background-position:0 -50px; }

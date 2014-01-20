@@ -1,0 +1,244 @@
+/* Overview
+------------------------------ */
+
+html { background:#000 url(../images/background_glow.jpg) 50% 150px no-repeat; }
+body { background:transparent; }
+
+@media only screen and (max-width:1119px) {
+	html { background-image:none; }
+	body { background:url(../images/background_glow.jpg) 50% 150px no-repeat; }
+}
+
+
+/* dark productheader */
+body#overview.logic-pro #productheader,
+body#overview.logic-pro #productheader:after { background:none; }
+body#overview.logic-pro #productheader a { color:#fff; }
+body#overview.logic-pro #productheader a:hover { color:#09c; }
+body#overview.logic-pro #productheader li a { text-shadow:none; -webkit-font-smoothing:initial; }
+body#overview.logic-pro #productheader { border-bottom:1px solid #676767; }
+
+/* dark footer */
+body#overview.logic-pro #globalfooter { -webkit-font-smoothing:initial; }
+body#overview.logic-pro #globalfooter a:hover { color:#fff !important; }
+body#overview.logic-pro #globalfooter #breadory,
+body#overview.logic-pro #globalfooter #directorynav,
+body#overview.logic-pro #globalfooter .gf-sosumi { border-color:#444; }
+
+body#overview.logic-pro #breadory ol#breadcrumbs { text-shadow:none; }
+body#overview.logic-pro #breadory ol#breadcrumbs li a { background-image:url(../images/breadcrumb_separator.png);}
+body#overview.logic-pro #breadory ol#breadcrumbs li.home a { background-image:url(../images/breadcrumb_home.png); }
+
+@media only screen {
+	body#overview.logic-pro #breadory ol#breadcrumbs li a { background-image:url(http://images.apple.com/v/logic-pro/a/images/breadcrumb_separator.svg); }
+	body#overview.logic-pro #breadory ol#breadcrumbs li.home a { background-image:url(http://images.apple.com/v/logic-pro/a/images/breadcrumb_home.svg); }
+}
+
+body#overview.logic-pro .main .divider { width:984px; margin-left:auto; margin-right:auto; text-align:center; }
+body#overview.logic-pro .main .overview-content { width:980px; margin-left:auto; margin-right:auto; line-height:1.5; border-top:1px solid #676767; }
+body#overview.logic-pro .main .more { color:#6cf; }
+
+/* Gallery Styles
+------------------------*/
+body#overview.logic-pro .slide-gallery { overflow:hidden; }
+body#overview.logic-pro .slide-gallery .gallery-view { width:6000px; }
+body#overview.logic-pro .slide-gallery .gallery-content { float:left; width:980px; background:transparent; text-align:center; }
+
+body#overview.logic-pro .content .gallery { *position:static; }
+body#overview.logic-pro .gallery:after,
+body#overview.logic-pro .gallery-view:after { display:none; }
+
+body#overview.logic-pro .gallery { position:relative; z-index:1; }
+body#overview.logic-pro .gallery .gallery-content { display:none; }
+body#overview.logic-pro .gallery .gallery-view .gallery-content { display:block; }
+
+body#overview.logic-pro .paddle-nav li .arrow b { margin-top:-195px; }
+body#overview.logic-pro .paddle-nav li .arrow.next b { right:10px; }
+body#overview.logic-pro .paddle-nav li .arrow.prev b { left:10px; }
+
+/* Gallery Content */
+body#overview.logic-pro .main #hero .gallery { height:730px; margin:0 auto 50px auto; text-align:center; position:relative; z-index:1001; }
+
+body#overview.logic-pro .main #hero .video .gallery { margin-top:0; margin-bottom:0; width:848px; height:500px; }
+body#overview.logic-pro .main #hero .video .gallery .gallery-view,
+body#overview.logic-pro .main #hero .video .gallery .gallery-content { width:848px; height:500px; }
+
+body#overview.logic-pro .main #hero .video .gallery .gallery-view { *position:relative; *z-index:1; }
+body#overview.logic-pro .main #hero .video .gallery .gallery-view .gallery-content { *position:absolute; *left:0; *top:0; }
+body#overview.logic-pro .main #hero .video .gallery .gallery-view .gallery-content object,
+body#overview.logic-pro .main #hero .video .gallery .gallery-view .gallery-content .ACMediaControls { *margin-top:-240px; }
+
+body#overview.logic-pro .main #hero .gallery-content { position:relative; text-align:center; z-index:1001; width:980px; height:735px; }
+body#overview.logic-pro .main #hero .gallery .gallery-content h1 { color:#fff; font-weight:normal; padding:0; margin:-30px 0 0 0; }
+
+/* Gallery Hardware */
+body#overview.logic-pro .main #hero .hardware { opacity:1; position:absolute; z-index:1000; left:0; top:0; -webkit-transform:translateZ(0);
+-webkit-transition:opacity 0.5s ease-out;
+   -moz-transition:opacity 0.5s ease-out;
+	    transition:opacity 0.5s ease-out;
+}
+body#overview.logic-pro .main #hero .hardware.fadein { opacity:1;
+-webkit-transition:opacity 0.525s 0.25s ease-out;
+   -moz-transition:opacity 0.525s 0.25s ease-out;
+	    transition:opacity 0.525s 0.25s ease-out;
+}
+
+body#overview.logic-pro .main #hero .video-hardware { position:absolute; z-index:1001; top:0; left:0; opacity:1; -webkit-transform:translateZ(0);
+	-webkit-transition:opacity 0.45s ease-out;
+	   -moz-transition:opacity 0.45s ease-out;
+	        transition:opacity 0.45s ease-out;
+}
+
+body#overview.logic-pro .main #hero .video-hardware.fadeout { opacity:0.01; *display:none;
+	-webkit-transition:opacity 0.80s ease-out;
+	   -moz-transition:opacity 0.80s ease-out;
+	        transition:opacity 0.80s ease-out;
+}
+
+/* Gallery Captions */
+body#overview.logic-pro .main #hero .caption { position:absolute; left:0; bottom:45px; -webkit-transform:translateZ(0); z-index:1002; }
+body#overview.logic-pro .main #hero .caption .block { margin-bottom:5px; }
+body#overview.logic-pro .main #hero .caption a { display:inline-block; font-size:1.15em; }
+body#overview.logic-pro .main #hero .caption a.play-hero-video { margin-right:30px; color:#6cf; }
+body#overview.logic-pro .main #hero .caption a.play-hero-video .icon { display:inline-block; margin:0 0 -5px 5px; }
+body#overview.logic-pro .main #hero .caption a.play-hero-video span.icon { background:url(../images/icon_play_stop_sprite.png) 0 -23px no-repeat; width:22px; height:22px; }
+body#overview.logic-pro .main #hero .caption a.play-hero-video.active { opacity:0.5; cursor:default; text-decoration:none; }
+
+/* Video Gallery Content */
+body#overview.logic-pro .main #hero .stage { position:absolute; top:0; top:50px\9; left:0; width:980px; height:640px; margin: 0 auto; z-index:2000;
+	-webkit-perspective:800;
+	   -moz-perspective:800;
+	        perspective:800;
+	-webkit-perspective-origin:center bottom;
+	   -moz-perspective-origin:center bottom;
+	        perspective-origin:center bottom;
+	-webkit-transform:translateZ(0);
+}
+
+body#overview.logic-pro .main #hero .stage .video-wrapper { opacity:0; height:480px; padding-top:10px; position:relative; z-index:1020;
+	-webkit-transform:scale(0.92) rotateX(10deg) translate3d(0,0,0);
+	   -moz-transform:scale(0.92) rotateX(10deg) translate3d(0,0,0);
+	        transform:scale(0.92) rotateX(10deg) translate3d(0,0,0);
+	-webkit-transform-style:preserve-3d;
+	   -moz-transform-style:preserve-3d;
+	        transform-style:preserve-3d;
+}
+body#overview.logic-pro .main #hero .stage .video-wrapper.tiltup { opacity:1;
+	-webkit-transform:scale(1) rotateX(0deg) translate3d(0,50px,0);
+	   -moz-transform:scale(1) rotateX(0deg) translate3d(0,50px,0);
+	        transform:scale(1) rotateX(0deg) translate3d(0,50px,0);
+}
+
+body#overview.logic-pro .main #hero .stage .video-wrapper.appear {
+	-webkit-transition:-webkit-transform 0.85s cubic-bezier(0.230, 1.000, 0.320, 1.000), opacity 0.45s ease-out;
+	   -moz-transition:   -moz-transform 0.85s cubic-bezier(0.230, 1.000, 0.320, 1.000), opacity 0.45s ease-out;
+	        transition:        transform 0.85s cubic-bezier(0.230, 1.000, 0.320, 1.000), opacity 0.45s ease-out;
+}
+
+body#overview.logic-pro .main #hero .stage .video-wrapper .moviePanel,
+body#overview.logic-pro .main #hero .stage .video-wrapper .moviePanel .video,
+body#overview.logic-pro .main #hero .stage .video-wrapper .moviePanel embed { background-color:#000; }
+
+body#overview.logic-pro .main #hero .stage .video-wrapper .moviePanel,
+body#overview.logic-pro .main #hero .stage .video-wrapper .controllerPanel { width:848px; height:480px; }
+
+body#overview.logic-pro .main #hero .stage .video-wrapper .moviePanel .play { margin-top:0; }
+
+body#overview.logic-pro .main #hero .video-close { position:absolute; z-index:2010; top:-40px; left:-40px; width:27px; height:27px; color:transparent; overflow:hidden; background:url(../images/close_button.png) no-repeat 0 0; _behavior:url(/global/scripts/lib/iepngfix.htc); -webkit-transform:translateZ(0); *text-indent:-9999px; }
+
+body#overview.logic-pro .main #hero .moviePanel .controllerPanel { opacity:1;
+	-webkit-transition:opacity 0.35s ease-out;
+	   -moz-transition:opacity 0.35s ease-out;
+	        transition:opacity 0.35s ease-out;
+ }
+
+body#overview.logic-pro .main #hero .moviePanel.movie-loading-panel_848x480 { background:none; border:0; }
+
+body#overview.logic-pro .main #hero .moviePanel.movie-loading-panel_848x480 .controllerPanel { opacity:0; }
+
+body#overview.logic-pro .main #hero .moviePanel #spinner { opacity:0;
+	-webkit-transition:opacity 0.35s ease-out;
+	   -moz-transition:opacity 0.35s ease-out;
+	        transition:opacity 0.35s ease-out;
+}
+
+body#overview.logic-pro .main #hero .moviePanel.movie-loading-panel_848x480 #spinner { display:block; opacity:1; width:38px; height:38px; position:absolute; z-index:4000; background-image:url(../images/blue_loader.png); background-repeat:no-repeat; background-size:38px 38px; top:50%; left:50%; margin-left:-19px; margin-top:-19px;
+	-webkit-animation-name:movieSpinnerAnimation;
+	   -moz-animation-name:movieSpinnerAnimation;
+	        animation-name:movieSpinnerAnimation;
+    -webkit-animation-duration:0.85s;
+       -moz-animation-duration:0.85s;
+            animation-duration:0.85s;
+    -webkit-animation-iteration-count:infinite;
+       -moz-animation-iteration-count:infinite;
+            animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+       -moz-animation-timing-function:linear;
+            animation-timing-function:linear;
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+       only screen and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+       body#overview.logic-pro .main #hero .moviePanel.movie-loading-panel_848x480 #spinner { background-image:url(../images/blue_loader_2x.png); }
+}
+@-webkit-keyframes movieSpinnerAnimation {
+	100%{
+		-webkit-transform:rotate(360deg)
+	}
+}
+@-moz-keyframes movieSpinnerAnimation {
+	100%{
+		-moz-transform:rotate(360deg)
+	}
+}
+@-keyframes movieSpinnerAnimation {
+	100%{
+		transform:rotate(360deg)
+	}
+}
+
+/* Video Posters */
+body#overview.logic-pro .main #hero .stage .video-wrapper .poster { position:absolute; z-index:1000; width:848px; height:480px; background-repeat:no-repeat; background-position:0 0; left:66px; -webkit-tranform:translateZ(0); *display:none; }
+
+@media only screen and (max-device-width:768px) {
+	body#overview.logic-pro .main #hero .stage .video-wrapper .poster { background-position:0 1px; }
+}
+
+/* Hero */
+body#overview.logic-pro .main #hero h1,
+body#overview.logic-pro .main #hero h2 { display:block; margin:30px auto auto; position:relative; z-index:1003; }
+body#overview.logic-pro .main #hero h2 { margin-top:0; }
+
+/* content */
+body#overview.logic-pro .overview-content .column { color:#afafaf; }
+body#overview.logic-pro #whats-new .row,
+body#overview.logic-pro #what-is .row,
+body#overview.logic-pro #plugins .row,
+body#overview.logic-pro #indepth .row { padding:0; }
+
+body#overview.logic-pro .overview-content .grid2col img.left,
+body#overview.logic-pro .overview-content .grid2col img.right { margin:0; }
+
+/* Whats New */
+body#overview.logic-pro #whats-new { *position:relative; *z-index:5; margin-top:21px; }
+body#overview.logic-pro #whats-new .grid2col .first { position:relative; z-index:101; margin-top:126px; padding:0 20px 0 32px; width:391px; }
+body#overview.logic-pro #whats-new .grid2col .right { position:relative; z-index:100; margin:0 -25px -120px 0; }
+
+/* What Is */
+body#overview.logic-pro #what-is .grid2col .left { margin:0 -32px -120px -86px; }
+body#overview.logic-pro #what-is .grid2col .last { margin-top:171px; width:399px; }
+
+/* Plugins and Sounds */
+body#overview.logic-pro #plugins{ *position:relative; *z-index:3; }
+body#overview.logic-pro #plugins .grid2col .first { position:relative; z-index:101; width:383px; margin-top:120px; padding:0 0 0 20px; }
+body#overview.logic-pro #plugins .grid2col .right { position:relative; z-index:100; margin:0 -110px 0 0; }
+
+/* Indepth */
+body#overview.logic-pro #indepth { padding-bottom:15px; border-bottom:1px solid #676767; }
+body#overview.logic-pro #indepth .grid2col .left { margin:-152px 0 0 -59px; }
+body#overview.logic-pro #indepth .grid2col .last { width:399px; margin-top:60px; }
+
+/* Mainstage */
+body#overview.logic-pro #mainstage { margin:0 -256px 40px; padding-top:40px; padding-bottom:354px; background-position:0 100%; background-repeat:no-repeat; text-align:center; }
+body#overview.logic-pro #mainstage .padded { padding:0 404px; margin-bottom:8px; color:#333; font-size:1.2em; line-height:1.6em; }
+body#overview.logic-pro #mainstage .more { display:inline-block; *display:inline; *zoom:1; color:#09c; }
+body#overview.logic-pro #mainstage .more:first-child { margin-right:35px; }

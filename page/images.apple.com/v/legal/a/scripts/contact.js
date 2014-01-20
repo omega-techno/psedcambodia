@@ -1,0 +1,46 @@
+function display_init(){var c=document.URL;var d=c.split("#")[1];if(d=="copyright-infringement"){$("legal_type").selectedIndex=2;
+$("legal-questions-form").setAttribute("name","copyright-infringement-questions")
+}else{if(d=="copyright"){$("legal-questions-form").setAttribute("name","copyright-questions");
+$("legal_type").selectedIndex=3}else{if(d=="counterfeit"){$("legal-questions-form").setAttribute("name","counterfeit-questions");
+$("legal_type").selectedIndex=4}else{if(d=="patent"){$("legal-questions-form").setAttribute("name","patent-questions");
+$("legal_type").selectedIndex=7}else{if(d=="apple-trademark"){$("legal-questions-form").setAttribute("name","apple-trademark-questions");
+$("legal_type").selectedIndex=10}else{if(d=="piracy"){$("legal-questions-form").setAttribute("name","piracy-questions");
+$("legal_type").selectedIndex=9}else{if(d=="idea-submissions"){$("legal-questions-form").setAttribute("name","idea-submissions-questions");
+$("legal_type").selectedIndex=5}else{$("legal_type").selectedIndex=0}}}}}}}display($("legal_type"))
+}function display(g){var h=g.options[g.selectedIndex],e=$("show-content"),f=[{div:$("copyright-infringement"),val:"Copyright Infringement",height:2650},{div:$("copyright"),val:"Copyright",height:900},{div:$("counterfeit"),val:"Counterfeit Prevention Hardware",height:1680},{div:$("patent"),val:"Patent",height:1450},{div:$("phishingandspam"),val:"Phishing and Spam",height:420},{div:$("piracy"),val:"Piracy",height:580},{div:$("apple-trademark"),val:"Apple Trademark",height:750},{div:$("idea-submissions"),val:"Idea Submissions",height:1180},{div:$("itunes-infringement"),val:"iTunes Store Claims of Infringement",height:40},{div:$("appstore-infringement"),val:"App Store Claims of Infringement",height:40},{div:$("other"),val:"Other",height:40}];
+f.each(function(a){a.div.style.display="none";a.div.style.height=0;if(a.val===h.value){e.morph("height: "+(a.height+100)+"px;",{duration:0.8}).setStyle({visibility:"visible",display:""});
+a.div.morph("height: "+a.height+"px;",{duration:0.8}).setStyle({visibility:"visible",display:""})
+}})}function displayPiracy(g){var h=g.options[g.selectedIndex];var f=0;var e=[$("show-content"),$("piracy"),$("show-piracy"),$("end-user"),$("distributor"),$("internet")];
+e.each(function(a){a.style.display=""});value=$("piracy_type").value;if(h.value==""){e[0].morph("height: 535px;",{duration:0.8}).style.visibility="visible";
+e[1].morph("height: 450px;",{duration:0.8}).style.visibility="visible";e[2].morph("height: 0px;",{duration:0.8}).style.display="none";
+e[3].morph("height: 0px;",{duration:0.8}).style.display="none";e[4].morph("height: 0px;",{duration:0.8}).style.display="none";
+e[5].morph("height: 0px;",{duration:0.8}).style.display="none"}else{if(h.value=="End User"){e[0].morph("height: 1780px;",{duration:0.8}).style.visibility="visible";
+e[1].morph("height: 1755px;",{duration:0.8}).style.visibility="visible";e[2].morph("height: 1130px;",{duration:0.8}).style.visibility="visible";
+e[3].morph("height: 1120px;",{duration:0.8}).style.visibility="visible";e[4].morph("height: 0px;",{duration:0.8}).style.display="none";
+e[5].morph("height: 0px;",{duration:0.8}).style.display="none"}else{if(h.value=="Distributor"){e[0].morph("height: 1850px;",{duration:0.8}).style.visibility="visible";
+e[1].morph("height: 1830px;",{duration:0.8}).style.visibility="visible";e[2].morph("height: 1200px;",{duration:0.8}).style.visibility="visible";
+e[3].morph("height: 0px;",{duration:0.8}).style.display="none";e[4].morph("height: 1250px;",{duration:0.8}).style.visibility="visible";
+e[5].morph("height: 0px;",{duration:0.8}).style.display="none"}else{if(h.value=="Internet"){e[0].morph("height: 1580px;",{duration:0.8}).style.visibility="visible";
+e[1].morph("height: 1560px;",{duration:0.8}).style.visibility="visible";e[2].morph("height: 930px;",{duration:0.8}).style.visibility="visible";
+e[3].morph("height: 0px;",{duration:0.8}).style.display="none";e[4].morph("height: 0px;",{duration:0.8}).style.display="none";
+e[5].morph("height: 1000px;",{duration:0.8}).style.visibility="visible"}else{e[0].morph("height: 535px;",{duration:0.8}).style.visibility="visible";
+e[1].morph("height: 450px;",{duration:0.8}).style.visibility="visible";e[2].morph("height: 0px;",{duration:0.8}).style.display="none";
+e[3].morph("height: 0px;",{duration:0.8}).style.display="none";e[4].morph("height: 0px;",{duration:0.8}).style.display="none";
+e[5].morph("height: 0px;",{duration:0.8}).style.display="none"}}}}}function displayCounterfeit(g){var h=g.options[g.selectedIndex];
+var f=0;var e=[$("show-content"),$("counterfeit"),$("show-counterfeit"),$("online_counterfeit"),$("store_counterfeit"),$("other_counterfeit")];
+e.each(function(a){a.style.display=""});value=$("counterfeit_type").value;if(h.value==""){e[0].morph("height: 905px;",{duration:0.8}).style.visibility="visible";
+e[1].morph("height: 770px;",{duration:0.8}).style.visibility="visible";e[2].morph("height: 0px;",{duration:0.8}).style.display="none";
+e[3].morph("height: 0px;",{duration:0.8}).style.display="none";e[4].morph("height: 0px;",{duration:0.8}).style.display="none";
+e[5].morph("height: 0px;",{duration:0.8}).style.display="none"}else{if(h.value=="Online_counterfeit"){e[0].morph("height: 1150px;",{duration:0.8}).style.visibility="visible";
+e[1].morph("height: 840px;",{duration:0.8}).style.visibility="visible";e[2].morph("height: 60px;",{duration:0.8}).style.visibility="visible";
+e[3].morph("height: 20px;",{duration:0.8}).style.visibility="visible";e[4].morph("height: 0px;",{duration:0.8}).style.display="none";
+e[5].morph("height: 0px;",{duration:0.8}).style.display="none"}else{if(h.value=="Store_counterfeit"){e[0].morph("height: 1150px;",{duration:0.8}).style.visibility="visible";
+e[1].morph("height: 990px;",{duration:0.8}).style.visibility="visible";e[2].morph("height: 175px;",{duration:0.8}).style.visibility="visible";
+e[3].morph("height: 0px;",{duration:0.8}).style.display="none";e[4].morph("height: 135px;",{duration:0.8}).style.visibility="visible";
+e[5].morph("height: 0px;",{duration:0.8}).style.display="none"}else{if(h.value=="Other_counterfeit"){e[0].morph("height: 1150px;",{duration:0.8}).style.visibility="visible";
+e[1].morph("height: 990px;",{duration:0.8}).style.visibility="visible";e[2].morph("height: 200px;",{duration:0.8}).style.visibility="visible";
+e[3].morph("height: 0px;",{duration:0.8}).style.display="none";e[4].morph("height: 0px;",{duration:0.8}).style.display="none";
+e[5].morph("height: 160px;",{duration:0.8}).style.visibility="visible"}else{e[0].morph("height: 880px;",{duration:0.8}).style.visibility="visible";
+e[1].morph("height: 700px;",{duration:0.8}).style.visibility="visible";e[2].morph("height: 0px;",{duration:0.8}).style.display="none";
+e[3].morph("height: 0px;",{duration:0.8}).style.display="none";e[4].morph("height: 0px;",{duration:0.8}).style.display="none";
+e[5].morph("height: 0px;",{duration:0.8}).style.display="none"}}}}};

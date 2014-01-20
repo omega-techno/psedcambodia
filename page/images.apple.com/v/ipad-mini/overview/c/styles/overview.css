@@ -1,0 +1,93 @@
+/* overview */
+
+#main .row { padding-top:70px; }
+#main .row h1 img,
+#main .row h2 img { display:block; margin:0 auto; }
+#main .row p.intro { text-align:center; margin:0 auto 45px; }
+
+#main .row.gray { width:100%; max-width:2100px; padding-left:0; padding-right:0; background-color:#f6f6f6; }
+#main .row.gray .bg { position:absolute; left:0; top:0; z-index:1; width:100%; height:100%; }
+#main .row.gray .container { width:880px; margin:0 auto; padding:0 50px; }
+
+#main .row ul.data li { float:left; margin:0 15px; }
+
+/* sections */
+
+#main #hero { padding-top:68px; }
+#main #hero h1 { margin-bottom:19px; }
+#main #hero h2 { margin-bottom:30px; }
+#main #hero .coming-soon { margin-bottom:10px; }
+#main #hero .hero-image { display:block; margin-left:-78px; }
+
+#main #display { padding-bottom:100px  }
+#main #display p.intro { width:720px; }
+#main #display .image { margin-left:-609px; }
+#main #display .data { width:516px; margin:0 auto 4px; }
+
+#main #performance { position:relative; z-index:1; width:980px; padding-left:0; padding-right:0; padding-bottom:120px; }
+#main #performance p.intro { width:790px; }
+#main #performance .hero-image { margin-left:-18px; }
+#main #performance .data { position:absolute; z-index:2; bottom:42px; right:10px; }
+#main #performance .data li { margin:0 10px; }
+
+#main #apps p.intro { width:810px; margin-bottom:15px; }
+#main #apps .links { margin:0 auto 45px; font-size:1.15em; }
+#main #apps .links .column { width:410px; }
+#main #apps .links li.first { float:left; padding-right:15px; text-align:right; }
+#main #apps .links li.last { float:right; padding-left:15px; text-align:left; }
+#main #apps .image { display:block; margin-left:-425px; }
+
+#main #wireless { padding-bottom:70px; }
+#main #wireless p.intro { width:740px; }
+#main #wireless .image { display:block; margin-left:-213px }
+
+#main #ios p.intro { width:712px; }
+#main #ios .image { display:block; margin-left:-506px }
+
+#main #smartcover { width:980px; padding-left:0; padding-right:0; }
+#main #smartcover p.intro { width:700px; }
+#main #smartcover #smartcover-peek { margin:0 -110px; width:1200px; height:890px; }
+#main #smartcover #smartcover-peek .image { margin:0 auto; }
+#main #smartcover #smartcover-peek .image,
+#main #smartcover #smartcover-peek .canvas { display:block; }
+#main #smartcover #smartcover-peek.ac-ambient-canplay .image { display:none; }
+
+@media only screen and (max-device-width:768px) {
+	#main #smartcover #smartcover-peek canvas { display:none; }
+}
+
+#main #air a.block { padding-top:50px; border-top:1px solid #ddd; }
+#main #air h1 img { margin:-5px 0 16px 0; }
+#main #air p.intro { text-align:left; }
+#main #air .column.first { width:415px; }
+#main #air .column.first img { margin:-10px 0 0 -13px; }
+#main #air .column.last { margin-right:-15px; padding-bottom:20px; width:440px; }
+
+#main #promos .row { padding:85px 0 60px; width:980px; border-top:1px solid #ddd; }
+#main #promos .column { width:430px; text-align:center; }
+#main #promos .column p { margin-bottom:0; }
+#main #promos .column.first { padding-left:10px; padding-right:49px; border-right:1px solid #ddd; }
+#main #promos .column.first h1 { padding-top:6px; }
+#main #promos .column.first h1 + img { margin-top:40px; }
+#main #promos .column.first p { margin-top:35px; }
+#main #promos .column.last { padding-right:16px; }
+#main #promos .column.last h1 + img { margin-top:20px; }
+#main #promos .column.last p { margin-top:32px; }
+
+/* background images for iOS */
+@media only screen and (max-device-width: 1024px) {
+	#main #display .container img.image,
+	#main #apps .container img.image,
+	#main #ios .container img.image { display:none; }
+
+	#main #display .container .display-hero { margin:0 -72px; width:1024px; height:478px; }
+	#main #apps .container .apps-hero { margin:0 -72px; width:1024px; height:752px; }
+	#main #ios .container .ios-hero { margin:0 -72px; width:1024px; height:782px; }
+}
+
+/* background images for iOS Retina */
+@media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-device-pixel-ratio:1.5) {
+	#main #display .container .display-hero { background-size:1024px 478px; }
+	#main #apps .container .apps-hero { background-size:1024px 752px; }
+	#main #ios .container .ios-hero { background-size:1024px 782px; }
+}

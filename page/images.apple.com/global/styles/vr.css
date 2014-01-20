@@ -1,0 +1,15 @@
+.vrcontainer { position:relative; }
+.vrcontainer .vr { width:100%; height:100%; cursor:move; cursor:-webkit-grab; cursor:-moz-grab; cursor:grab; }
+.vrcontainer .vr.loading { background:url(../elements/quicktime/loading.gif) no-repeat 50% 50%; }
+body.grabbing, body.grabbing .vrcontainer .vr, body.grabbing .vrcontainer .spinner { cursor:move; cursor:-webkit-grabbing; cursor:-moz-grabbing; cursor:grabbing; }
+.vrcontainer .vr.clickfocus { outline:none; }
+
+.vrcontainer .spinner { position:absolute; *background:url(../elements/blank.gif); }
+.vrcontainer .spinLeft { top:0; left:0; width:35px; }
+.vrcontainer .spinRight { top:0; right:0; width:35px; }
+.vrcontainer .spinUp { top:0; left:0; width:100%; height:35px; }
+.vrcontainer .spinDown { bottom:0; left:0; width:100%; height:35px; }
+.vrcontainer .spinLeft,  body.spinningLeft,  body.spinningLeft  .vrcontainer .vr { cursor:w-resize; }
+.vrcontainer .spinRight, body.spinningRight, body.spinningRight .vrcontainer .vr { cursor:e-resize; }
+.vrcontainer .spinUp,    body.spinningUp,    body.spinningUp    .vrcontainer .vr { cursor:n-resize; }
+.vrcontainer .spinDown,  body.spinningDown,  body.spinningDown  .vrcontainer .vr { cursor:s-resize; }

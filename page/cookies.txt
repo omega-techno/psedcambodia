@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.apple.com	TRUE	/	FALSE	1999999999	ccl	e3ySAyc9HIzceVvVDWZ+vA==
+.apple.com	TRUE	/	FALSE	1999999999	geo	KH
+

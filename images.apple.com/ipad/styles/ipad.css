@@ -1,0 +1,67 @@
+#productheader a.shop.buynows,
+#productheader span.shop.buynows,
+#compare a.shop.buynows { width:78px; background-image:url(../images/shop_ipad.png); }
+
+
+/* iPad Mini Index */
+/* background images for iOS */
+@media only screen and (max-device-width:768px) {
+	#overview.ipad-mini #main #display .container .display-hero { background-image:url(../../ipad-mini/overview/images/display_hero_bg.jpg); }
+	#overview.ipad-mini #main #apps .container .apps-hero { background-image:url(../../ipad-mini/overview/images/apps_hero_bg.jpg); }
+	#overview.ipad-mini #main #ios .container .ios-hero { background-image:url(../../ipad-mini/overview/images/ios_hero_bg.jpg) ; }
+}
+
+/* background images for iOS Retina */
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:481px)
+and (max-device-width:768px), only screen and (min-device-pixel-ratio:1.5) and
+(min-device-width:481px) and (max-device-width:768px) {
+	#overview.ipad-mini #main #display .container .display-hero { background-image:url(../../ipad-mini/overview/images/display_hero_bg_2x.jpg); }
+	#overview.ipad-mini #main #apps .container .apps-hero { background-image:url(../../ipad-mini/overview/images/apps_hero_bg_2x.jpg); }
+	#overview.ipad-mini #main #ios .container .ios-hero { background-image:url(../../ipad-mini/overview/images/ios_hero_bg_2x.jpg); }
+}
+
+
+/* iPad Mini Features */
+/* static background images for parallax on iOS */
+@media only screen and (max-device-width:768px) {
+	body#features.ipad-mini #main #display .parallax { background-image:url(../../ipad-mini/features/images/display_hero_bg.jpg); }
+	body#features.ipad-mini #main #design .parallax { background-image:url(../../ipad-mini/features/images/design_hero_bg.jpg); }
+	body#features.ipad-mini #main #performance .parallax { background-image:url(../../ipad-mini/features/images/performance_hero_bg.jpg); }
+	body#features.ipad-mini #main #wireless .parallax { background-image:url(../../ipad-mini/features/images/wireless_hero_bg.jpg); }
+	body#features.ipad-mini #main #builtin .parallax { background-image:url(../../ipad-mini/features/images/builtin_hero_bg.jpg); }
+	body#features.ipad-mini #main #facetime .parallax { background-image:url(../../ipad-mini/features/images/facetime_hero_bg.jpg); }
+}
+/* static background images for parallax on iOS Retina */
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:481px)
+and (max-device-width:768px), only screen and (min-device-pixel-ratio:1.5) and
+(min-device-width:481px) and (max-device-width:768px) {
+	body#features.ipad-mini #main #display .parallax { background-image:url(../../ipad-mini/features/images/display_hero_bg_2x.jpg); }
+	body#features.ipad-mini #main #design .parallax { background-image:url(../../ipad-mini/features/images/design_hero_bg_2x.jpg); }
+	body#features.ipad-mini #main #performance .parallax { background-image:url(../../ipad-mini/features/images/performance_hero_bg_2x.jpg); }
+	body#features.ipad-mini #main #wireless .parallax { background-image:url(../../ipad-mini/features/images/wireless_hero_bg_2x.jpg); }
+	body#features.ipad-mini #main #builtin .parallax { background-image:url(../../ipad-mini/features/images/builtin_hero_bg_2x.jpg); }
+	body#features.ipad-mini #main #facetime .parallax { background-image:url(../../ipad-mini/features/images/facetime_hero_bg_2x.jpg); }
+}
+
+
+/* iPad Air Features */
+/* static background images for parallax on iOS */
+@media only screen and (max-device-width:768px) {
+	body#features.ipad-air #main #display .parallax { background-image:url(../../ipad-air/features/images/display_hero_bg.jpg); }
+	body#features.ipad-air #main #design .parallax { background-image:url(../../ipad-air/features/images/design_hero_bg.jpg); }
+	body#features.ipad-air #main #performance .parallax { background-image:url(../../ipad-air/features/images/performance_hero_bg.jpg); }
+	body#features.ipad-air #main #wireless .parallax { background-image:url(../../ipad-air/features/images/wireless_hero_bg.jpg); }
+	body#features.ipad-air #main #builtin .parallax { background-image:url(../../ipad-air/features/images/builtin_hero_bg.jpg); }
+	body#features.ipad-air #main #facetime .parallax { background-image:url(../../ipad-air/features/images/facetime_hero_bg.jpg); }
+}
+/* static background images for parallax on iOS Retina */
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:481px)
+and (max-device-width:768px), only screen and (min-device-pixel-ratio:1.5) and
+(min-device-width:481px) and (max-device-width:768px) {
+	body#features.ipad-air #main #display .parallax { background-image:url(../../ipad-air/features/images/display_hero_bg_2x.jpg); }
+	body#features.ipad-air #main #design .parallax { background-image:url(../../ipad-air/features/images/design_hero_bg_2x.jpg); }
+	body#features.ipad-air #main #performance .parallax { background-image:url(../../ipad-air/features/images/performance_hero_bg_2x.jpg); }
+	body#features.ipad-air #main #wireless .parallax { background-image:url(../../ipad-air/features/images/wireless_hero_bg_2x.jpg); }
+	body#features.ipad-air #main #builtin .parallax { background-image:url(../../ipad-air/features/images/builtin_hero_bg_2x.jpg); }
+	body#features.ipad-air #main #facetime .parallax { background-image:url(../../ipad-air/features/images/facetime_hero_bg_2x.jpg); }
+}

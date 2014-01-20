@@ -1,0 +1,148 @@
+.sosumi { margin-top:0; padding-top:24px; }
+
+#main p + .more,
+#main p + .more + .more,
+#main p + .button,
+#main p + .wrap { display:inline-block; position:relative; z-index:10; top:-1.3em; text-align:left; }
+
+/* general */
+body#accessories .row { width:980px; padding:85px 0 30px; }
+body#accessories .intro-copy { border:none; }
+body#accessories .main h1 { margin-bottom:12px; }
+body#accessories .main h3 { margin-bottom:1px; }
+
+body#accessories .positioned { position:absolute; bottom:0; z-index:1; }
+
+body#accessories .intro-copy.row p { position:relative; z-index:10; padding:0 100px; margin-bottom:0.8em }
+
+body#accessories .alternate { background:#f7f7f7; }
+
+
+/* Navigation
+------------------------*/
+
+/* scroll-tiles */
+body#accessories .scroll-tiles { margin-bottom:70px; width:980px; padding-top:65px; text-align:center; font-size:.75em; word-spacing:-1px; }
+body#accessories .scroll-tiles li,
+body#accessories .scroll-tiles li a { display:-moz-table-cell; display:inline-block; *display:inline; *zoom:1; }
+body#accessories .scroll-tiles li { margin-right:27px; vertical-align:top; }
+body#accessories .scroll-tiles li.last { margin:0; }
+body#accessories .scroll-tiles li a { width:170px; height:152px; border:1px solid #ddd; color:#333; text-decoration:none; background:#f7f7f7;
+	-webkit-border-radius:4px;
+	   -moz-border-radius:4px;
+	        border-radius:4px;
+}
+body#accessories .scroll-tiles li a:hover { background:#f0f0f0; }
+body#accessories .scroll-tiles li a img { display:block; margin-top:18px; margin-bottom:-35px; pointer-events:none; }
+body#accessories .scroll-tiles li a span { display:block; width:100%; margin:0 auto; }
+
+
+/* Section specific
+------------------------*/
+
+/* hero */
+body#accessories .hero { border-bottom:1px solid #ddd; }
+body#accessories .hero h1 { margin-bottom:7px; }
+body#accessories .hero p { padding:0 95px; margin-bottom:0.8em }
+
+/* smart case & cover */
+body#accessories #smartcase .intro .mini,
+body#accessories #smartcover .intro .mini { margin-right:50px; }
+
+/* apple tv */
+body#accessories #apple-tv { *zoom:1; }
+body#accessories #apple-tv .intro-copy h1 { margin-bottom:22px; }
+body#accessories #apple-tv .intro-copy.row p { padding:0 133px; }
+body#accessories #apple-tv .row { padding-bottom:0; }
+body#accessories #apple-tv .row div { position:relative; margin-left:60px; padding-top:24px; height:646px; }
+body#accessories #apple-tv .row img.center { position:absolute; bottom:0; left:0; }
+
+/* camera adapters */
+body#accessories #camera-adapters { padding-top:10px; }
+body#accessories #camera-adapters .row { width:870px; padding:40px 0; }
+body#accessories #camera-adapters .first { width:475px; }
+body#accessories #camera-adapters .first p { word-spacing:-1px; }
+body#accessories #camera-adapters .first h1 { padding-top:46px; }
+body#accessories #camera-adapters .first .adapter-hardware { margin:55px 165px 0 0; font-size:.875em; }
+body#accessories #camera-adapters .first .adapter-hardware img.block { margin-bottom:8px; }
+body#accessories #camera-adapters .first .adapter-hardware .divider { display:block; margin:16px 0 23px; border-top:1px solid #d7d7d7; width:auto; }
+body#accessories #camera-adapters img.right { position:relative; z-index:1; margin:-508px -23px 26px 0; }
+
+/* keyboard */
+body#accessories #keyboard { padding-bottom:107px; padding-top:15px; }
+body#accessories #keyboard .row { padding-left:105px; padding-bottom:58px; }
+body#accessories #keyboard p { width:580px; }
+
+/* headphones */
+body#accessories .headphones { position:relative; padding-bottom:0; padding-top:65px; word-spacing:-1px; }
+body#accessories .headphones .column { margin-left:344px; width:318px; min-height:561px; }
+body#accessories .headphones .column p { padding-right:18px; }
+body#accessories .headphones .first { left:25px; }
+body#accessories .headphones .last { right:16px; }
+body#accessories .headphones .earpods { margin:25px 0 6px; }
+body#accessories .headphones .in-ear { margin:19px 0 8px; }
+
+/* cables and adapters */
+body#accessories .cables-adapters { padding-bottom:85px; padding-top:100px; font-size:.785em; }
+body#accessories .cables-adapters .grid4col.first-row { padding-top:66px; }
+body#accessories .cables-adapters .grid4col .column { margin-left:40px; width:215px; }
+body#accessories .cables-adapters .grid4col.second-row { padding-top:20px; }
+body#accessories .cables-adapters .grid4col img { margin-bottom:15px; }
+body#accessories .cables-adapters .keyline { border-bottom:1px solid #d7d7d7; }
+
+/* more accessories */
+body#accessories .more-accessories { font-size:.875em; }
+body#accessories .more-accessories .row { padding:53px 0 35px; border-bottom:none; }
+body#accessories .more-accessories .grid { width:980px; text-align:center; border:1px solid #d7d7d7;
+	-webkit-border-radius:4px;
+	   -moz-border-radius:4px;
+	        border-radius:4px;
+	background:#fff;
+}
+body#accessories .more-accessories .grid a { padding:35px 0 25px; }
+body#accessories .more-accessories .grid .grid4col.last a { padding:25px 0 20px; }
+body#accessories .more-accessories .grid a img { margin-bottom:11px; pointer-events:none; }
+body#accessories .more-accessories .grid .grid4col.last a img { margin-bottom:21px; }
+body#accessories .more-accessories .grid a:hover,
+body#accessories .more-accessories .grid a:active { background:#f7f7f7; }
+body#accessories .more-accessories .grid .column { margin:0; width:254px; border-right:1px solid #d7d7d7; }
+body#accessories .more-accessories .grid .column.first { width:236px; }
+body#accessories .more-accessories .grid .column.last { width:233px; border:none; }
+body#accessories .more-accessories .grid .grid4col:first-child { border-bottom:1px solid #d7d7d7; }
+
+/* more accessories link */
+body#accessories .row.more-accessories-link { padding:29px 0; }
+body#accessories .row.more-accessories-link h3 { font-weight:normal; }
+
+/* Smart Cover VR
+----------------------------------*/
+body#accessories #main .vr-wrapper { position:relative; z-index:1000; }
+body#accessories #main .vr-wrapper .vr { -webkit-transform:translateZ(0); background-position:55% 50%; }
+body#accessories #main .vr-wrapper,
+body#accessories #main .vr-wrapper .vr,
+body#accessories #main .vr-wrapper .vr img { height:585px; width:1000px; }
+
+body#accessories #main .vr-wrapper .color-nav { position:absolute; z-index:1005; bottom:-130px; left:385px; }
+body#accessories #main .vr-wrapper .color-nav-devices { margin-left:-120px; }
+
+body#accessories #main .vr-wrapper .cover-content { display:none; }
+body#accessories #main .vr-wrapper .cover .cover-content { display:block; height:494px; }
+
+body#accessories #main .vr-wrapper .swipe { position:absolute; z-index:1004; top:36px; left:284px; }
+body#accessories #main .vr-wrapper .swipe.text-label { display:none; height:16px; background:url(../images/smartcover_swipe_command_arrows.png) no-repeat 0 0; font-size:10px; line-height:1.2; color:#999; }
+body#accessories #main .vr-wrapper .swipe.text-label span { display:inline-block; _display:inline; padding:0 20px; background:url(../images/smartcover_swipe_command_arrows.png) no-repeat right bottom; }
+
+/* Smart Cover VR iPad
+----------------------------------*/
+body#accessories #main #smartcover { padding-bottom:200px; *zoom:1; }
+body#accessories #main #smartcover #vr-smartcover { margin-top:-60px; }
+body#accessories #main #smartcover #vr-smartcover .cover-content { margin-left:-70px; }
+body#accessories #main #smartcover .relative { position:relative; z-index:1003; }
+
+/* Smart Cover VR iPad Mini
+----------------------------------*/
+body#accessories #main #smartcase { padding-bottom:200px; border-bottom:1px solid #ddd; *zoom:1; }
+body#accessories #main #smartcase #vr-smartcase { margin-top:-40px; }
+body#accessories #main #smartcase #vr-smartcase .cover-content { margin-left:-50px; }
+body#accessories #main #smartcase .color-nav .color-nav-cases .cases ul { border-left-style:solid; }
+body#accessories #main #smartcase .relative { position:relative; z-index:1003; }

@@ -1,0 +1,162 @@
+/* Tech Specs
+---------------------------------------*/
+body.techspecs .content { font-size:1em; line-height:1.5; }
+body.techspecs .content .center { display:block; margin-right:auto; margin-left:auto; text-align:center; }
+body.techspecs h1 img { margin:0; }
+body.techspecs h2 { margin-bottom:0; font-size:1em; }
+body.techspecs h3 { margin-bottom:2px; font-size:1em; }
+body.techspecs h3,
+body.techspecs p { font-size:1em; }
+
+body.techspecs a.more,
+body.techspecs em.more,
+body.techspecs span.more { background-image:url(../images/more_14.png); background-size:5px 9px; background-position:100% 70%; }
+@media only screen {
+	body.techspecs a.more,
+	body.techspecs em.more,
+	body.techspecs span.more { background-image:url(http://images.apple.com/v/macbook-pro/e/images/more.svg); }
+}
+
+body.techspecs .caption { font-size:0.9167em; line-height:1.3636; color:#888; }
+body.techspecs .narrow { width:280px; }
+body.techspecs .border-dark { border-right:1px solid #bbb; }
+
+body.techspecs table { margin:30px 0 44px; *margin-top:30px; border-collapse:separate; }
+body.techspecs th h1 { margin-left:20px; }
+body.techspecs th.title { vertical-align:top; width:199px; padding:15px 8px 0; border-top:1px solid #e7e7e7; }
+body.techspecs th.title h2 { position:relative; z-index:1; }
+body.techspecs th.title sup { position:absolute; z-index:1; }
+
+body.techspecs td { vertical-align:top; width:114px; padding:15px 10px 0 20px; border-right:1px solid #e5e5e5; border-top:1px solid #e7e7e7; }
+body.techspecs .last-column { border-right:1px solid transparent; }
+body.techspecs .full-span { width:684px; border-right:1px solid transparent; }
+body.techspecs .row-divider { height:25px; border:none; }
+body.techspecs .column-divider { width:40px; padding:0; border:none; }
+
+body.techspecs table ul { margin-bottom:15px; }
+body.techspecs table ul li { margin-bottom:10px; }
+body.techspecs table ul.nospace li { margin-bottom:2px; }
+body.techspecs table ul.disc { margin-top:5px; margin-left:18px; list-style-type:disc; }
+
+body.techspecs table .hdsize { display:inline-block; margin:4px 0 17px; padding:10px 13px; font-size:1.3333em; color:#252525; border:2px solid #7f7f7f; border-radius:8px; }
+
+body.techspecs .display .column-divider { border-top:1px solid #e7e7e7; }
+body.techspecs .price p { margin-bottom:0; font-size:1.6667em; }
+body.techspecs .size td ul li { margin-bottom:0; }
+body.techspecs .models { font-size:1.1667em; }
+body.techspecs .models a.block { margin-top:21px; width:300px; }
+body.techspecs .models img.left { margin:-15px 14px 16px -15px; }
+
+
+/*----- Included software -----*/
+body.techspecs .included-software-osx .block h3 { margin-bottom:20px; }
+body.techspecs .included-software-osx .block img { margin:0 28px 27px 0; }
+body.techspecs .included-software-osx .block .description { width:540px; }
+body.techspecs .included-software-osx .grid3col h3 { margin-bottom:8px; }
+body.techspecs .included-software-osx .grid3col ul { margin-bottom:40px; }
+
+body.techspecs .included-software-grid { margin:0 -20px 15px; width:730px; padding-top:10px; }
+body.techspecs .included-software-grid .column { margin:0 0 28px 14px; width:110px; }
+body.techspecs .included-software-grid p { margin:0; text-align:center; }
+
+
+/*----- Environment -----*/
+body.techspecs .environment .column { width:46%; }
+body.techspecs .environment h1 { margin-bottom:4px; }
+body.techspecs .environment h2 { margin:16px 0 13px; line-height:1.5714; color:#666; }
+body.techspecs .environment p,
+body.techspecs .environment ul { color:#999; }
+body.techspecs .environment p.intro { width:480px; line-height:1.5714; }
+body.techspecs .environment img.icon { position:absolute; z-index:1; top:25px; right:30px; }
+body.techspecs .environment ul { margin-left:16px; list-style:disc; }
+body.techspecs .environment ul li { margin-bottom:9px; }
+
+body.techspecs .environment-shadow { width:980px; margin:0 auto 46px; position:relative; z-index:1; box-shadow:rgba(0,0,0,0.5) 0 14px 10px -11px; }
+body.techspecs .environment-shadow:after {
+	content:""; display:block; position:absolute; z-index:1; left:0; bottom:-12px; width:100%; height:10px; background-color:#fff;
+	border-radius:350% 350% 0% 0% / 670% 670% 0% 0%; box-shadow:#fff 0 -2px 5px;
+}
+
+body.techspecs .environment-container { position:relative; z-index:1; width:900px; margin:0 auto; padding:38px 40px 48px; background-color:#f8f8f8; }
+body.techspecs .environment-container sup { color:#999; }
+
+
+/*----- Accessories -----*/
+body.techspecs .accessories { padding:26px 8px; border-top:1px solid #e7e7e7; *zoom:1; }
+body.techspecs .accessories h2 { margin-bottom:10px; font-size:1.25em; font-weight:normal; }
+body.techspecs .accessories img { margin-bottom:12px; }
+body.techspecs .accessories .grid4col { width:auto; padding-top:10px; padding-left:35px; }
+body.techspecs .accessories .grid4col ul li { margin-bottom:10px; }
+
+
+/* Retina Display Styles
+---------------------------------------*/
+body#techspecs-retina td.span2col { *width:259px; }
+body#techspecs-retina td.span3col { *width:404px; }
+
+body#techspecs-retina .display td img { margin:26px 0 28px; }
+body#techspecs-retina .display td.last-column img { margin-right:-10px; }
+
+body#techspecs-retina .size td img { margin:0 -12px 18px 0; }
+
+body#techspecs-retina .graphics.bottom-section td { border-top:1px solid transparent; }
+body#techspecs-retina .graphics.bottom-section h4 { padding-top:20px; }
+
+body#techspecs-retina .ports td img { position:relative; z-index:1; margin:26px -10px 30px 0; }
+body#techspecs-retina .ports td .column { width:260px; }
+
+body#techspecs-retina .wireless td img { margin:6px 46px 0 0; }
+body#techspecs-retina .wireless p { margin-bottom:25px; }
+
+body#techspecs-retina .keyboard img.right { margin:7px 5px 50px 125px; }
+
+body#techspecs-retina .battery td img { margin:4px -12px 7px 38px; *text-align:left; }
+
+body#techspecs-retina .warranty img.right { margin:3px 23px 30px 73px; }
+
+body#techspecs-retina .inthebox img.right { margin:5px 34px 35px 20px; }
+
+body#techspecs-retina .configure .grid2col .column { width:220px; }
+body#techspecs-retina .configure .grid2col .column.last { padding-right:112px; padding-left:20px; border-left:1px solid #bbb; }
+
+@media only screen and (max-device-width:768px) {
+	body#techspecs-retina .environment .intro { width:430px; }
+}
+
+/* Non-Retina Display Styles
+---------------------------------------*/
+body#techspecs-non-retina .content { font-size:1.1667em; }
+body#techspecs-non-retina th h1 { margin-bottom:19px; }
+body#techspecs-non-retina .last-column { width:694px; padding-bottom:20px; }
+
+body#techspecs-non-retina .display td img { margin:22px 0 20px; }
+
+body#techspecs-non-retina .price td p { font-size:1.4286em; }
+
+body#techspecs-non-retina .storage td .hdsize { font-size:1.1429em; }
+
+body#techspecs-non-retina .size td img { margin:19px 109px 0 0; }
+
+body#techspecs-non-retina .graphics td h3 { margin-top:40px; }
+
+body#techspecs-non-retina .ports td img { margin:30px 0 20px; }
+
+body#techspecs-non-retina .wireless td img { margin:6px 49px 0 0; }
+body#techspecs-non-retina .wireless p { margin-bottom:25px; }
+
+body#techspecs-non-retina .keyboard img.right { margin:4px 27px 0 45px; }
+
+body#techspecs-non-retina .battery td img { margin:20px 10px 0 0; }
+
+body#techspecs-non-retina .included-software-osx p,
+body#techspecs-non-retina .included-software-grid p { font-size:inherit; }
+body#techspecs-non-retina .included-software-osx ul li { font-size:0.875em; }
+
+body#techspecs-non-retina .warranty img.right { margin:5px 25px 40px 75px; }
+
+body#techspecs-non-retina .inthebox img.right { margin-left:100px; }
+
+body#techspecs-non-retina .models { font-size:1em; }
+body#techspecs-non-retina .models a.block { width:450px; }
+
+body#techspecs-non-retina .accessories .grid4col .last{ margin-top:118px; }

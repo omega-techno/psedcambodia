@@ -1,0 +1,40 @@
+/* ipad-air */
+body#ultrafast-wireless #main .row { padding-top:45px; padding-bottom:45px; font-size:.875em; }
+body#ultrafast-wireless #main .row.gray { width:100%; padding-left:0; padding-right:0; background-color:#f6f6f6; }
+body#ultrafast-wireless #main .grid2col .column { width:400px; }
+
+/* hero */
+body#ultrafast-wireless #main .hero { padding:45px 0 20px 20px; width:860px; font-size:1em; }
+body#ultrafast-wireless #main .hero .column.first { padding-top:120px; }
+
+/* connect */
+body#ultrafast-wireless #main #connect.grid2col { padding:0 0 35px 0; width:980px; position:relative; z-index:1; }
+body#ultrafast-wireless #main #connect.grid2col .column.first img { position:absolute; bottom:0; left:-15px; }
+body#ultrafast-wireless #main #connect.grid2col .column.last { padding:34px 68px 0 0; }
+
+/* carrier */
+body#ultrafast-wireless #main #carrier h1 { margin-bottom:40px; }
+body#ultrafast-wireless #main #carrier .grid3col { width:840px; margin:0 auto; }
+body#ultrafast-wireless #main #carrier .grid3col .column { width:250px; padding-bottom:20px; margin-left:45px; }
+body#ultrafast-wireless #main #carrier .grid3col img.center { clear:both; }
+
+/* data */
+body#ultrafast-wireless #main #data  h1 { margin-bottom:35px; }
+body#ultrafast-wireless #main #data .grid2col { width:840px; margin:0 auto; }
+body#ultrafast-wireless #main #data .grid2col .column.first { width:340px; padding-top:130px;  }
+
+
+/* ipad-mini overrides*/
+
+/* hero */
+body#ultrafast-wireless.ipad-mini #main .hero .column.first { width:467px; padding-top:50px; }
+body#ultrafast-wireless.ipad-mini #main .hero .column.first p { width:400px; }
+body#ultrafast-wireless.ipad-mini #main .hero .column.last { width:360px; }
+
+/* connect */
+body#ultrafast-wireless.ipad-mini #main #connect .column.first img { left:-100px; }
+body#ultrafast-wireless.ipad-mini #main #connect .column.last { width:440px; }
+
+/* data */
+body#ultrafast-wireless.ipad-mini #main #data .grid2col .column.first { padding-top:100px; padding-left:75px; }
+body#ultrafast-wireless.ipad-mini #main #data .grid2col .column.last { width:370px; }

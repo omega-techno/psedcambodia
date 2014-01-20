@@ -1,0 +1,136 @@
+.productbrowser { border-bottom:none; }
+
+/* dot nav */
+#main .dot-nav { position:absolute; z-index:1002; bottom:16px; width:70px; left:50%; margin-left:-35px; }
+#main .dot-nav li a { background:#111; }
+#main .dot-nav li a:hover { background:#111; }
+#main .dot-nav li a.active { border:1px solid #111; background:transparent; }
+
+.gallery .paddle-nav ul,
+.gallery .paddle-nav li { *height:0; }
+.gallery:hover .paddle-nav li .arrow { opacity:1; filter: alpha(opacity=100); }
+
+.paddle-nav li .arrow { margin-top:-36px; }
+.paddle-nav li .arrow b { width:36px; height:71px; }
+.paddle-nav li .arrow.next b { background-image:url(../images/paddle_next.png); background-size:36px 71px; }
+.paddle-nav li .arrow.previous b { background-image:url(../images/paddle_prev.png); background-size:36px 71px; }
+
+/* Showcase
+------------------------*/
+#showcase { -webkit-box-shadow:none; -moz-box-shadow:none; box-shadow:none; border-bottom:none; *width:100%; }
+#showcase .promo-lead { position:relative; z-index:1; margin:0 auto;  width:100%; height:653px; color:#000; font-size:16px; line-height:1.5; }
+
+/* hero gallery */
+#showcase .promo-lead.gallery { z-index:1001; overflow:hidden; width:100%; }
+#showcase .promo-lead.gallery .gallery-view { z-index:1001; margin-left:0%; min-width:2560px; width:400%; -webkit-transform:translateZ(0); transform:translateZ(1px); }
+#showcase .promo-lead.gallery .gallery-view.touch { margin-left:-50%; }
+#showcase .promo-lead.gallery .gallery-content { z-index:1001; float:left; position:relative; overflow:hidden; min-width:1280px; width:50%; height:653px; -webkit-transform:translateZ(0); }
+
+#showcase .promo-lead.gallery .gallery-content .full-span { text-indent:-9999px; display:block; position:absolute; z-index:2; top:0; bottom:0; left:0; right:0; }
+
+#showcase .promo-lead.gallery.continuous .gallery-view { width:400%; min-width:5120px; }
+#showcase .promo-lead.gallery.continuous .gallery-content { width:25%; min-width:1280px; }
+
+#showcase .promo-lead.gallery .gallery-content img { -webkit-transform:translateZ(0); }
+#showcase .promo-lead.gallery .gallery-content .grid2col { margin:0 auto; height:653px; width:980px; }
+
+#main #showcase .promo-lead.gallery.crossfade .gallery-view { z-index:1; width:100%; -webkit-transform:none; }
+#main #showcase .promo-lead.gallery.crossfade .gallery-content { display:none; width:100%; float:none; position:absolute; }
+#main #showcase .promo-lead.gallery.crossfade .gallery-content.active { display:block; }
+
+@media only screen and (max-device-width:768px) {
+	#showcase .promo-lead.gallery.ios .gallery-view { width:2048px; }
+	#showcase .promo-lead.gallery.ios .gallery-content { width:1024px; overflow:hidden; }
+}
+
+#showcase .promo-lead.gallery .gallery-5s { background:url(../images/background_texture_gold.png); }
+#showcase .promo-lead.gallery .gallery-5s .grid2col .column.first { width:445px; padding:261px 0 230px 44px; }
+#showcase .promo-lead.gallery .gallery-5s .grid2col .column.first h1 { margin-bottom:8px; }
+#showcase .promo-lead.gallery .gallery-5s .grid2col img.right { margin:21px -216px 0 -20px; }
+
+#showcase .promo-lead.gallery .column { position:relative; }
+#showcase .promo-lead.gallery .column .clickbooster { display:block; position:absolute; top:0; bottom:0; right:0; left:0; background:url(../../../../../global/elements/blank.gif); }
+
+#showcase .promo-lead.gallery .gallery-5c.blue { background:#5ac6ff; }
+#showcase .promo-lead.gallery .gallery-5c.pink { background:#ff8282; }
+#showcase .promo-lead.gallery .gallery-5c.green { background:#a0ec6f; }
+#showcase .promo-lead.gallery .gallery-5c.yellow { background:#fdeb75; }
+#showcase .promo-lead.gallery .gallery-5c.white { background:#f1f1f2; }
+
+#showcase .promo-lead.gallery .gallery-5c .grid2col { position:relative; z-index:1; }
+#showcase .promo-lead.gallery .gallery-5c .grid2col .column.last { width:445px; padding:262px 70px 230px 0; }
+#showcase .promo-lead.gallery .gallery-5c .grid2col .column.last h1 { margin-bottom:8px; }
+#showcase .promo-lead.gallery .gallery-5c .grid2col img.left { position:absolute; z-index:1; display:none; margin:21px -75px 0 14px; }
+
+#showcase .promo-lead.gallery .gallery-5c.blue   .grid2col img.blue,
+#showcase .promo-lead.gallery .gallery-5c.pink   .grid2col img.pink,
+#showcase .promo-lead.gallery .gallery-5c.green  .grid2col img.green,
+#showcase .promo-lead.gallery .gallery-5c.white  .grid2col img.white,
+#showcase .promo-lead.gallery .gallery-5c.yellow .grid2col img.yellow { display:block; }
+
+@media only screen {
+	#showcase .promo-lead.gallery .gallery-5s { background:url(../images/background_texture_50.png), url(http://images.apple.com/v/iphone/home/f/images/gradient_gold.svg); }
+}
+
+/* promo row */
+#showcase .promos { position:relative; z-index:2; margin:0 auto; width:980px; height:260px; border-bottom:1px solid #dbdbdb; }
+
+#showcase .promos .videothumb { margin:0 auto; width:258px; }
+
+#showcase .promos a { display:block; width:298px; height:260px; padding:0 20px; cursor:pointer; }
+#showcase .promos a h2 { margin-top:27px; margin-bottom:17px; }
+#showcase .promos a img.center { margin-left:auto; margin-right:auto; }
+
+#showcase .promos a.video h2 { margin-bottom:30px; }
+
+#showcase .promos a.first { padding-left:0; }
+#showcase .promos a.second { width:300px;  border-right:1px solid #dbdbdb; border-left:1px solid #dbdbdb; }
+#showcase .promos a.third { padding-right:0; }
+
+
+/* After showcase
+------------------------*/
+
+/* Black Friday
+------------------------*/
+#black_friday { width:980px; position: relative; margin:0 auto; background: #a0ec6e; }
+#black_friday .column a { width:980px; height: 171px; }
+#black_friday .column img.bottom { position: absolute; bottom: 0; left: 54px; }
+#black_friday .column h1 { padding:54px 0 0 198px; margin-bottom: -7px; *margin-bottom: 0; }
+#black_friday .column p { padding-left:198px; font-size: 17px; color: #37632f; }
+#black_friday .column .more { line-height: 23px; }
+
+@media only screen and (max-device-width:768px) {
+	#black_friday .column .more { line-height: 29px; }
+}
+
+#promos { width:980px; margin:0 auto; padding:16px 0 0;
+	background:-webkit-linear-gradient(left, rgba(190,190,190,0) 491px, rgba(190,190,190,1) 491px, rgba(190,190,190,0) 492px);
+	background:   -moz-linear-gradient(left, rgba(190,190,190,0) 491px, rgba(190,190,190,1) 491px, rgba(190,190,190,0) 492px);
+	background:        linear-gradient(left, rgba(190,190,190,0) 491px, rgba(190,190,190,1) 491px, rgba(190,190,190,0) 492px);
+}
+
+#promos h1 { margin-top:10px; margin-bottom:4px; font-size:1.5em; line-height:1; font-weight:normal; }
+#promos p { font-size:1.167em; line-height:1.714; } /* 14px/24px */
+
+#promos .column { margin:0; width:360px; padding:0 65px; }
+#promos .column img { display:block; margin-right:-39px; margin-left:-39px; *position:relative; *zoom:1; }
+#promos .column img.bottom { margin-bottom:0; }
+
+/* ilife */
+#ilife { width:980px; margin:0 auto; padding:43px 0; border-top:1px solid #e2e2e2; font-size:1.25em; }
+#ilife h1 { margin-bottom:13px; }
+#ilife p { margin-top:28px; margin-bottom:8px; font-size:0.933em; line-height:1.764; }
+
+/*Holiday Tiles*/
+#holiday { margin: 0 auto; width: 980px; border-top: 1px solid #e2e2e2; }
+#holiday section { padding-top: 25px; min-height: 176px; } 
+#holiday .last { border-left:1px solid #cfcfcf; }
+#holiday .column { position: relative; }
+#holiday h1, #holiday p, #holiday a.more { padding-left: 25px; }
+#holiday h1 { position: relative; margin-bottom: -6px; *margin-bottom: 3px; z-index: 10; }
+#holiday p { position: relative; z-index: 10; color: #666; font-size: 14px; line-height: 20px; margin-bottom: 4px; }
+#holiday .first p { margin-bottom: 15px; }
+#holiday .screen { bottom: 38px; right: 6px; position: absolute; z-index: 1; }
+#holiday .last .screen { right: 7px; bottom: 28px; }
+#holiday .more { font-size: 14px; *line-height: 22px; }

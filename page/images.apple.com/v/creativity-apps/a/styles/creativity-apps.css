@@ -1,0 +1,56 @@
+body#creativity-apps .flushrow { padding-top:0; }
+body#creativity-apps .divider { padding-top:60px; }
+body#creativity-apps .icon { margin-bottom:10px; }
+body#creativity-apps .screen { margin-top:8px; }
+body#creativity-apps .screen.landscape { margin-right:-72px; margin-left:-72px; }
+
+body#creativity-apps .hero { position:relative; z-index:1; padding:26px 0 0; overflow:visible; border-bottom:none; }
+body#creativity-apps .hero p.intro { padding-bottom:40px; }
+
+body#creativity-apps .tabs { height:80px; text-align:center; }
+body#creativity-apps .tabs ul { position:absolute; right:0; left:0; z-index:1; border-bottom:1px solid #ccc; }
+body#creativity-apps .tabs li,
+body#creativity-apps .tabs li a { display:-moz-table-cell; display:inline-block; *display:inline; *zoom:1;
+	-webkit-border-radius:4px 4px 0 0;
+	   -moz-border-radius:4px 4px 0 0;
+	        border-radius:4px 4px 0 0;
+}
+
+body#creativity-apps .tabs li { position:relative; margin:5px 0 0; *margin-right:5px; height:73px; vertical-align:top; border:1px solid #ccc; border-bottom-width:0; }
+body#creativity-apps .tabs li a { width:210px; padding:19px 0; color:#000; font-weight:bold; text-decoration:none; background:#f6f6f6; }
+body#creativity-apps .tabs li a img { display:block; margin:0 auto; pointer-events:none; }
+
+body#creativity-apps .tabs li a.active { position:relative; border-bottom:2px solid #fff; }
+body#creativity-apps .tabs li a.active,
+body#creativity-apps .tabs li a.active:hover { background:#fff; cursor:default; }
+
+body#creativity-apps .tabs li a:hover { background:#fff; }
+
+body#creativity-apps .iphoto { padding-top:60px; }
+body#creativity-apps .imovie .intro { width:690px; }
+
+body#creativity-apps.ios .iphoto .intro { width:790px; }
+body#creativity-apps.ios .garageband .intro { width:750px; }
+body#creativity-apps.ios .pages .intro { width:800px; }
+body#creativity-apps.ios .numbers .intro { width:720px; }
+body#creativity-apps.ios .keynote .intro { width:850px; }
+
+body#creativity-apps.mac .iphoto .intro { width:800px; }
+body#creativity-apps.mac .garageband .intro { width:720px; }
+body#creativity-apps.mac .pages .intro { width:690px; }
+body#creativity-apps.mac .numbers .intro { width:680px; }
+body#creativity-apps.mac .keynote .intro { width:720px; }
+
+body #main .up-to-date { padding-bottom:0; }
+body #main .up-to-date .row { width:1024px; padding:20px 0 0; }
+body #main .up-to-date .first { width:322px; padding-left:25px; }
+body #main .up-to-date .first .icon { display:inline; margin:25px 25px 0 0; }
+body #main .up-to-date .last { width:642px; padding-right:10px; }
+
+body#creativity-apps .icloud .intro { width:730px; }
+body#creativity-apps .icloud .gallery { margin-top:32px; }
+body#creativity-apps .icloud .gallery-wrapper { margin:0 auto; width:1024px; }
+body#creativity-apps .icloud .gallery-view { margin:0 -68px; width:1160px; }
+body#creativity-apps .icloud .gallery-content .caption { margin-top:30px; width:880px; }
+body#creativity-apps .icloud .gallery-icloud-sync .caption { width:640px; }
+body#creativity-apps .icloud .gallery-icloud-share .caption { width:650px; }

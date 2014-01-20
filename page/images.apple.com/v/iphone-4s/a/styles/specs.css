@@ -1,0 +1,80 @@
+/* Page Specific */
+body.specs #productheader h2 a:hover { cursor:default; }
+
+body.specs .tech-specs .color .grid2col { width:704px; }
+body.specs .tech-specs .color .grid2col .column { float:left; width:206px; padding-right:60px; }
+body.specs .tech-specs .color .grid2col .column img { margin-bottom:7px; }
+body.specs .tech-specs .color .grid2col .column span { display:block; color:#000; text-align:center; }
+
+body.specs .tech-specs .capacity .grid2col .column p { margin-bottom:20px; }
+
+body.specs .tech-specs .dimensions td.last { padding-bottom:50px; }
+
+body.specs .tech-specs .dimensions .last .positioned .depth { top:43px; left:1px; width:15px; height:3px; border:1px solid #a7a7a7; border-bottom:none; }
+body.specs .tech-specs .dimensions .last .positioned .depth span { top:-40px; left:-24px; width:60px; }
+
+body.specs .tech-specs .dimensions .last .positioned .width { top:43px; right:4px; width:94px; height:3px; border:1px solid #a7a7a7; border-bottom:none; }
+body.specs .tech-specs .dimensions .last .positioned .width span { top:-40px; right:-1px; width:98px; }
+
+body.specs .tech-specs .dimensions .last .positioned .height { bottom:22px; left:50px; margin-bottom:0; width:7px; height:188px; border-top:1px solid #a7a7a7; border-bottom:1px solid #a7a7a7; }
+body.specs .tech-specs .dimensions .last .positioned .height span { top:64px; left:-29px; z-index:2; width:70px; padding:8px 0; background:#fff; }
+body.specs .tech-specs .dimensions .last .positioned .height .pipe { top:0; left:2px; z-index:1; width:1px; height:172px; border-right:1px solid #a7a7a7; }
+
+body.specs .tech-specs .processors p.left { margin-bottom:0; padding-bottom:25px; }
+body.specs .tech-specs .wireless ul.cell.left { width:310px; }
+
+body.specs .tech-specs .tv-video ul li p { margin-top:0.5em; }
+
+body.specs .tech-specs .buttons-controls td.last { padding-top:20px; padding-bottom:29px; }
+body.specs .tech-specs .buttons-controls .column h4 { font-weight:normal; }
+body.specs .tech-specs .buttons-controls .small { line-height:1.3333em; }
+body.specs .tech-specs .buttons-controls .positioned { margin-top:19px; }
+body.specs .tech-specs .buttons-controls .positioned img { margin-top:40px; }
+body.specs .tech-specs .buttons-controls .positioned ul { position:absolute; top:0; z-index:2; width:100%; height:100%; }
+body.specs .tech-specs .buttons-controls .positioned li { position:absolute; z-index:1; width:1px; border-right:1px solid #a7a7a7; }
+body.specs .tech-specs .buttons-controls .positioned span { position:absolute; z-index:1; display:block; width:100px; }
+
+body.specs .tech-specs .buttons-controls .column.first .wake { top:34px; left:95px; height:14px; }
+body.specs .tech-specs .buttons-controls .column.first .wake span { top:-38px; left:-34px; }
+
+body.specs .tech-specs .buttons-controls .column.first .ring span,
+body.specs .tech-specs .buttons-controls .column.first .volume span,
+body.specs .tech-specs .buttons-controls .column.first .home span { bottom:-21px; }
+
+body.specs .tech-specs .buttons-controls .column.first .ring { top:114px; left:48px; height:104px; }
+body.specs .tech-specs .buttons-controls .column.first .ring span { left:-11px; }
+
+body.specs .tech-specs .buttons-controls .column.first .volume { top:127px; left:68px; height:70px; }
+body.specs .tech-specs .buttons-controls .column.first .volume span { left:-11px; }
+
+body.specs .tech-specs .buttons-controls .column.first .home { top:162px; right:109px; height:58px; }
+body.specs .tech-specs .buttons-controls .column.first .home span { left:-11px; }
+
+body.specs .tech-specs .buttons-controls .column.last { margin-right:8px; }
+body.specs .tech-specs .buttons-controls .column.last h4 { margin-left:24px; }
+body.specs .tech-specs .buttons-controls .column.last .positioned img { margin-left:25px; }
+body.specs .tech-specs .buttons-controls .column.last .pindock { top:86px; left:86px; height:18px; }
+body.specs .tech-specs .buttons-controls .column.last .pindock span { top:-20px; left:-64px; width:160px; }
+
+body.specs .tech-specs .buttons-controls .column.last .microphone { top:134px; left:47px; height:18px; }
+body.specs .tech-specs .buttons-controls .column.last .microphone span { bottom:-21px; left:-20px; width:160px; }
+
+body.specs .tech-specs .buttons-controls .column.last .speaker { top:134px; left:126px; height:18px; }
+body.specs .tech-specs .buttons-controls .column.last .speaker span { bottom:-21px; left:-10px; width:100px; }
+
+body.specs .tech-specs .buttons-controls .column.last .phonejack { top:86px; left:186px; height:18px; }
+body.specs .tech-specs .buttons-controls .column.last .phonejack span { top:-34px; left:-18px; width:160px; }
+
+body.specs .tech-specs .headphones td.last { padding-bottom:18px; }
+body.specs .tech-specs .headphones img.right,
+body.specs .tech-specs .connector img.right { margin:-1px 0 0 0; }
+body.specs .tech-specs .connector td.last { padding-bottom:9px; }
+
+body.specs .tech-specs .hearing-aids td.last .column { width:330px; }
+
+body.specs .tech-specs .in-the-box img.right { margin:0 241px 18px 0; }
+
+body.specs .tech-specs .os ul { margin-top:5px; padding-left:18px; width:215px; }
+body.specs .tech-specs .os h4 { margin:9px 0 1px; }
+body.specs .tech-specs .os .grid3col { padding-left:94px; }
+body.specs .tech-specs .os .grid3col .column { margin-left:0; }

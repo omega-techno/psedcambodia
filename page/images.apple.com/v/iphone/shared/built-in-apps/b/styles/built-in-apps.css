@@ -1,0 +1,58 @@
+.borderbottom { border-bottom:1px solid #e5e5e5; }
+
+.main .hardware { position:relative; z-index:1; margin:0; width:312px; min-height:630px; }
+.main .hardware img { position:absolute; z-index:1; top:97px; left:35px; display:block; }
+
+.main .iphone-5s .hardware,
+.main .hardware.silver { background:url(../images/hardware_5s_silver.jpg) no-repeat 0 0; background-size:312px 630px; }
+.main .iphone-5c .hardware,
+.main .hardware.white { background:url(../images/hardware_5c_white.jpg) no-repeat 0 0; background-size:312px 630px; }
+
+.main .intro { width:716px; color:#404040; font-size:1.1428em; line-height:1.6875; }
+.main h1 img,
+.main h2 img { margin:0; }
+
+.main .flushrow { padding:0; border:none; }
+.main .flushrow .row { width:980px; padding:70px 0 52px; }
+.main .padtop { padding-top:70px; }
+.main .padbottom { padding-bottom:28px; }
+
+.main .row h1 { margin-bottom:23px; }
+.main .row.grid3col,
+.main .row.grid2col { margin:0 auto; width:930px; padding:0 10px 0px 43px; }
+.main .row.grid3col img.hero { margin:40px -219px 18px; }
+
+.main .row.first { padding-top:70px; }
+.main .row.last { padding-bottom:38px; }
+
+.main .row .column { margin-left:44px; width:281px; }
+.main .row .column .hardware,
+.main .row .column .hardware { margin-left:-33px; margin-bottom:8px; }
+.main .row .column .icon { float:left; margin:0 19px 0 0; }
+.main .row .column h2 { float:left; margin-bottom:5px; }
+.main .row .column h2.overflow { margin-right:-2px; }
+.main .row .column p { clear:both; }
+.main .row .column p.overflow { margin-right:-4px; }
+
+.main .row.grid2col img.hero { margin-left:-204px; margin-bottom:14px; }
+.main .row.grid2col .column { padding-bottom:30px; width:430px; }
+.main .row.grid2col .column h2 { float:left; margin-bottom:14px; }
+
+.main .divider { display:block; margin:45px auto 70px; width:980px; border-top:1px solid #e2e2e2; }
+.main .row.condensed .column { margin-bottom:6em; }
+
+.main .hero .row { padding-top:63px; padding-bottom:0; }
+.main .hero .row img.hero { margin-top:51px; }
+.main .hero h1 { margin-bottom:-9px; }
+.main .hero .intro { width:790px; font-size:1.286em; line-height:1.778em; }
+
+.main .bia .padtop { padding-top:50px; }
+.main .bia .grid3col.first { padding-top:4px; }
+
+/* page specific */
+.five-c .apps-from-apple .borderbottom { border-bottom:none; }
+
+/* without section header */
+section.flushrow.bia > div.grid3col:first-child { margin-top:60px; }
+
+

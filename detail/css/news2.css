@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+h1, p, body, html {
+	margin:0;
+	padding:0;
+	}
+#head{
+	background-image:url(image/PSED%20head.jpg);
+	width:1024px;
+	height:143px;
+	margin:auto;
+	/*border:1px solid #00F;*/
+	}
+#logo{
+	width:130px;
+	height:40px;
+	}
+.logo{
+	float:left;
+	font-family:Norma;
+	font-size:40pt;
+	color:#fff;
+	/*padding-top:30px;*/
+	padding-top:60px;
+	padding-left:90px;
+	letter-spacing:15px;	
+	font-family: 'Conv_ufonts.com_norma';
+	}
+#logonext{
+	width:130px;
+	height:40px;
+	position:absolute;
+	margin-left:175px;
+	margin-top:-40px;
+	font-family: 'Conv_ufonts.com_norma';
+	}
+.logonext{
+	font-family:Norma;
+	font-size:23pt;
+	color:#fff;
+	letter-spacing:1px;	
+	}
+#menu{
+	width:350px;
+	height:25px;
+	position:absolute;
+	margin-left:550px;
+	/*margin-top:52px;*/
+	margin-top:82px;
+	}
+#menu ul li{
+	display:inline;
+	color:#fff;
+	font-size:16px;
+	}
+#menu ul li a{
+	font-family:Myriad Pro;
+	text-decoration:none;
+	color:#fff;
+	font-size:12px;
+	}
+#menu ul li a:hover{
+	color:#3189AD;
+	}
+ 
+#placedropdown{
+	width:1120px;
+	margin:auto;
+	}
+#body{
+	width:1024;
+	margin:auto;
+	}
+#dropdown{
+	visibility:hidden;
+ 	position:absolute;
+	margin-top:-30px;
+	margin-left:250px;
+	width:900px;
+	height:630px;
+	}
+
+#linkin a {
+    color: #0F92CA;
+    padding-left: 65px;
+    text-decoration: none;
+}
+
+.Partners {
+    color: #0F92CA;
+    font-size: 23px;
+}
+
+.Partners2 {
+    color: #0F92CA;
+    font-size: 23px;
+    padding-left: 80px;
+}
+
+.letterin {
+    color: #0F92CA;
+    font-size: 19px;
+}
+#underline2 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #000000;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px;
+    color: #94A0A5;
+    margin-left: 575px;
+    margin-top: 220px;
+    position: absolute;
+    width: 67px;
+}
+
+#underline {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #000000;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px;
+    color: #94A0A5;
+    margin-left: 785px;
+    margin-top: 220px;
+    position: absolute;
+    width: 65px;
+}
+.psed{
+	background-color:#EEEEEE;
+}
+.service{
+	background-color:#FFF;
+}
+#linkin {
+    margin-top: 20px;
+}
+#linkin a:hover{
+	text-decoration:underline;
+}

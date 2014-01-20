@@ -1,0 +1,22 @@
+body#numbers .hero .hero-img { margin-left:-51px; margin-right:-51px; }
+
+body#numbers .spreadsheets .intro { width:680px; }
+body#numbers .spreadsheets .caption { width:710px; }
+body#numbers .spreadsheets .gallery-spreadsheets-templates .caption p,
+body#numbers .spreadsheets .gallery-spreadsheets-style .caption p { width:520px; }
+
+body#numbers .simple .intro { width:770px; }
+
+body#numbers .tools .intro { width:770px; }
+body#numbers .tools .gallery-tools-formula .caption p { width:630px; }
+
+body#numbers .visualized .intro { width:670px; }
+
+body#numbers .icloud .intro { width:840px; }
+body#numbers .icloud .hero-img { margin:40px -140px 32px; }
+
+body#numbers .share .intro { width:680px; }
+
+body#numbers .web .intro { width:870px; }
+body#numbers .web .flushleft { margin-left:-60px; }
+body#numbers .web .flushright { margin-right:-60px; }

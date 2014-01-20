@@ -1,0 +1,322 @@
+#overview   #productheader li#pn-overview   a,
+#teaching   #productheader li#pn-teaching   a,
+#apps       #productheader li#pn-apps       a,
+.stories    #productheader li#pn-stories    a,
+#resources  #productheader li#pn-resources  a { color:#999 !important; cursor:default; }
+
+/* iPad
+------------------------*/
+#ipad .luminary h1 { left:50px; bottom:18px; }
+#ipad .luminary h1 .title { width:740px; 
+    -webkit-text-shadow:0px 0px 10px #999; 
+       -moz-text-shadow:0px 0px 10px #999; 
+            text-shadow:0px 0px 10px #999; 
+}
+#ipad .teaching .inline-header { padding-top:80px; }
+#ipad .teaching .column.last img { margin:18px 12px; }
+#ipad .apps-books-more .column.first img { margin-top:15px; }
+#ipad .apps-books-more .inline-header { padding-top:15px; }
+#ipad .apps-books-more p { margin-right:15px; }
+#ipad .stories .inline-header { padding-top:60px; }
+#ipad .stories .column.first { width:45%; }
+#ipad .college .inline-header { padding-top:125px; margin-bottom:8px; }
+#ipad .college.reminder .inline-header { padding-top:106px; }
+#ipad .college .flush-left img { margin:15px 0 15px 60px; }
+
+#ipad .college.reminder .grid2colb .column.last { width:46.8163265%; }
+
+/* Apps Books and More
+------------------------*/
+#apps .luminary h1 { left:45px; bottom:22px; }
+#apps .luminary h1 img { margin-left:-24px; }
+#apps .luminary h1 .title { margin-top:-20px; width:475px; font-size:20px; line-height:24px; }
+#apps a.link-block p { color:#333; }
+#apps header.title p { margin-bottom:0; }
+#apps .app-store header p { padding:0 30px; }
+#apps .app-store .appstore-carousel { position:relative; }
+#apps .app-store .appstore-carousel .page-border { height:90%; }
+
+#apps .app-store .slide-gallery { margin:0 auto 35px; }
+#apps .app-store .slide-gallery { width:980px; }
+#apps .app-store .slide-gallery .gallery-content { margin-left:0;  padding:0; width:980px; height:735px; }
+#apps .app-store .gallery figure.gallery-content h4 { margin:35px 0 10px; }
+#apps .app-store .gallery figure.gallery-content h4 img.title { margin:0 0 17px 15px; }
+#apps .app-store .gallery figure.gallery-content .gallery-text { padding:0; }
+#apps .app-store .gallery figure.gallery-content p { margin:0 auto 8px; width:460px; color:#333; }
+
+#apps .app-store .grid2col { margin-bottom:65px; }
+#apps .app-store .grid2col h3 { margin-bottom:15px; }
+#apps .app-store .grid2col p { margin-bottom:10px; }
+#apps .ibooks header p { padding:0 40px; }
+#apps .ibooks .grid2col.top { position:relative; }
+#apps .ibooks .grid2col.top .flush-left.relative { position:relative; }
+#apps .ibooks .grid2col section { margin-bottom:15px; }
+#apps .ibooks .grid2col section a { position:relative; z-index:1; }
+#apps .ibooks .grid2col h3 { margin-bottom:6px; }
+#apps .ibooks .grid2col p { margin-bottom:6px; }
+#apps .ibooks .grid2col a { display:inline-block; margin-bottom:6px; }
+#apps .ibooks .grid2col.bottom { margin-bottom:75px; }
+#apps .ibooks .grid2col.bottom .column.first { margin-top:80px; }
+#apps .ibooks .grid2col.bottom .column.first p { width:430px; }
+#apps .ibooks .grid2col.bottom .flush-right.relative { position:relative; }
+#apps .ibooks .grid2col.bottom .flush-right.relative .page-border.right { top:-80px; height:70%; }
+#apps .ibooks .grid2col.bottom .flush-right img { margin-top:-75px; }
+#apps .ibooks .vpp.grid2cola { margin-bottom:70px; width:600px; }
+#apps .ibooks .vpp.grid2cola .first { width:200px; }
+#apps .ibooks .vpp.grid2cola .last { width:390px; }
+#apps .itunesu header p { margin:auto; width:650px; }
+#apps .itunesu .hero header img { margin-bottom:0; }
+#apps .itunesu .hero img { margin-bottom:30px; }
+#apps .itunesu .grid2col { margin-bottom:40px; }
+#apps .itunesu .grid2col h3 { margin-bottom:12px; }
+#apps .itunesu .grid2col .column.first p { margin-bottom:10px; }
+#apps .itunesu .grid2col .column.last p { margin-bottom:0; }
+#apps .itunesu .grid2col .column.last a { display:inline-block; margin-top:5px; }
+#apps .itunesu .grid2col .column.last { width:41.4%; }
+
+/* How to Buy
+------------------------*/
+#how-to-buy .luminary h1 { left:42px; bottom:21px; }
+#how-to-buy .luminary h1 img { margin-left:-24px; }
+#how-to-buy .luminary h1 .title { margin-top:-15px; width:490px; font-size:18px; line-height:24px;
+	-webkit-text-shadow:0px 0px 10px #969696;
+	   -moz-text-shadow:0px 0px 10px #969696;
+	        text-shadow:0px 0px 10px #969696; }
+#how-to-buy .row .column { padding:70px 0 50px; }
+#how-to-buy .row .column p { line-height:1.6em; }
+#how-to-buy .row .column h3 { margin-bottom:6px; }
+#how-to-buy .row.buy .column { border-bottom:2px solid #ddd; min-height:174px; }
+#how-to-buy .row.buy .column.first p { width:355px; margin-bottom:40px; }
+#how-to-buy .row.buy .column.first .button { width:288px; }
+#how-to-buy .row.buy .column.last p { width:390px; }
+#how-to-buy .row.buy .column.last .button { width:320px; }
+#how-to-buy .row.other .column img { margin-bottom:15px; }
+#how-to-buy .sosumi { margin:20px 0 0 5px; }
+#how-to-buy .sosumi sup { color:#888; }
+
+/* Teacher Stories
+------------------------*/
+#stories .luminary h1 { left:55px; bottom:25px; }
+#stories .luminary h1 img { margin-left:-28px; }
+#stories .luminary h1 .title { margin:-7px 0 0 -2px; width:500px; line-height:22px; font-size:18px; }
+#stories .teacher.row { margin-top:70px; }
+#stories .teacher.row h1 { margin-bottom:7px; }
+#stories .teacher.row h2,
+#stories .teacher.row h3 { margin:8px auto 8px; font-weight:normal; font-style:normal; line-height:1.25; }
+#stories .teacher.row h2 { font-size:22px; }
+#stories .teacher.row h3 { font-size:16px; }
+#stories .teacher.row .grid2col { margin-bottom:40px; }
+
+/* Teaching with iPad
+------------------------*/
+#teaching a.link-block p { color:#333; }
+#teaching .row { padding-bottom:60px; }
+#teaching .relative { position:relative; }
+#teaching .title p { margin:0 auto; line-height:1.4em; }
+#teaching .grid2col .column img { margin-bottom:5px; }
+#teaching .grid2col .column.last .profile { margin-bottom:7px; } 
+#teaching .luminary h1 { left:25px; bottom:20px; }
+#teaching .luminary h1 .title { width:520px; margin:-20px auto auto 20px; font-size:18px; line-height:24px; }
+#teaching .world .hero .title { padding-bottom:15px; }
+#teaching .world .hero .title p { width:800px; }
+#teaching .world .slide-gallery { margin:0 auto 10px; *height:640px; }
+#teaching .world .slide-gallery .gallery-view { width:3480px } 
+#teaching .world .slide-gallery .gallery-content { margin-left:0; padding-bottom:10px; }
+#teaching .world .slide-gallery .gallery-content .fixed-height { height:450px; }
+#teaching .world .slide-gallery .gallery-content .gallery-text { padding:0; }
+#teaching .world .slide-gallery .gallery-content p { padding:0 155px; }
+#teaching .world .learn-more a { margin:0 390px; font-size:17px; }
+#teaching .world .grid2col { margin-top:45px; }
+#teaching .world .grid2col .column.first { padding-top:52px; }
+#teaching .world .grid2col .column.first p { width:430px; }
+#teaching .world .grid2col .column.last p { margin-bottom:5px; }
+#teaching .ilife .hero .title { padding-bottom:30px; }
+#teaching .ilife .hero .title p { width:740px; }
+#teaching .ilife .grid2col { position:relative; margin-top:-15px; }
+#teaching .ilife .grid2col .column.first { padding-top:72px; }
+#teaching .ilife .grid2col .column.first p { width:420px; }
+#teaching .ilife .grid2col .column.last p { margin-bottom:5px; }
+#teaching .ilife .grid2cola { margin-top:55px; }
+#teaching .ilife .grid2cola .page-border.left { top:35px; }
+#teaching .ilife .grid2cola .column.last { margin-top:80px; width:35.3%; }
+#teaching .ibooks .hero { margin-bottom:43px; }
+#teaching .ibooks .hero .title { padding-bottom:45px; }
+#teaching .ibooks .hero .title p { width:810px; }
+#teaching .ibooks .grid2col .column.first p { width:455px; }
+#teaching .ibooks .grid2col .column.first p.last { margin-bottom:5px; }
+#teaching .ibooks .grid2col .column.last p { margin-bottom:5px; }
+#teaching .itunesu .hero { margin-bottom:37px; }
+#teaching .itunesu .hero .title { padding-bottom:45px; }
+#teaching .itunesu .hero .title p { width:740px; }
+#teaching .itunesu .grid2col .column p { margin-bottom:10px; }
+#teaching .itunesu .grid2col .column.first p { width:425px; }
+#teaching .itunesu .grid2col .column.last p { width:415px; }
+#teaching .appletv { background-color:#f9f9f9; }
+#teaching .appletv.grid2col .column.first { padding:120px 0 0 90px; width:32%; }
+#teaching .appletv.grid2col .column.first img { margin-bottom:15px; }
+#teaching .appletv.grid2col .column.last { padding-top:70px; width:52.6%; }
+#teaching .specialed { padding-bottom:0; }
+#teaching .specialed.grid2colb .column.last { margin-top:85px; width:47%; }
+#teaching .specialed.grid2colb .column.last img { margin-bottom:13px; }
+#teaching .specialed.grid2colb .column.last p { margin-bottom:5px; }
+
+/* Amy Heimerl Story
+------------------------*/
+#amy-heimerl header { margin-bottom:72px; }
+#amy-heimerl h1 { margin:0; }
+#amy-heimerl .luminary h1 { left:430px; bottom:200px; }
+#amy-heimerl .how-to h3 { margin-top:32px; }
+#amy-heimerl .ipad-quote { position:relative; margin-top:90px; }
+#amy-heimerl .ipad-quote .page-border.left { top:50px; }
+#amy-heimerl .quote.row { margin-top:50px; }
+#amy-heimerl .center { text-align:center; margin:15px 0 65px; }
+#amy-heimerl .tips h3 { margin:25px 0 4px 0;  }
+#amy-heimerl .apps-full { margin-top:50px;  }
+#amy-heimerl .apps-full .copy { position:absolute; left:83px; top:92px; }
+#amy-heimerl .recommended-apps { margin-top:55px; }
+#amy-heimerl .recommended-apps ul { *display:block; margin:-28px 0 50px; *margin-bottom:275px; }
+#amy-heimerl .recommended-apps ul li { display:inline-block; *float:left; position:relative; vertical-align:top; width:297px; margin-top:50px; padding-right:24px; *min-height:210px; }
+#amy-heimerl .recommended-apps ul li img { position:absolute; }
+#amy-heimerl .recommended-apps ul li div { padding-left: 82px; }
+#amy-heimerl .recommended-apps ul li p { margin-bottom: 10px; }
+
+/* Brandi McWilliams Story
+------------------------*/
+#brandi-mcwilliams header { margin-bottom:72px; }
+#brandi-mcwilliams h1 { margin:0; }
+#brandi-mcwilliams .luminary h1 { left:475px; bottom:245px; }
+#brandi-mcwilliams .how-to h3 { margin-top:32px; }
+#brandi-mcwilliams .ipad-quote { margin:18px 0 60px -90px; }
+#brandi-mcwilliams .ipad-quote .flush-left { position:relative; }
+#brandi-mcwilliams .ipad-quote .flush-left .page-border.left { top:255px; height:60%; }
+#brandi-mcwilliams .ipad-quote .column.last { margin:130px -40px 0 0; }
+#brandi-mcwilliams .quote.row.center { margin-top:50px; }
+#brandi-mcwilliams .center { text-align:center; margin:15px 0 65px; }
+#brandi-mcwilliams .tips h3 { margin:25px 0 4px 0;  }
+#brandi-mcwilliams .apps-full { margin-top:50px;  }
+#brandi-mcwilliams .apps-full .copy { position:absolute; left:770px; top:115px; }
+#brandi-mcwilliams .recommended-apps { margin-top:55px; }
+#brandi-mcwilliams .recommended-apps ul { *display:block; margin:-28px 0 50px; *margin-bottom:275px; }
+#brandi-mcwilliams .recommended-apps ul li { display:inline-block; *float:left; position:relative; vertical-align:top; width:297px; margin-top:50px; padding-right:24px;}
+#brandi-mcwilliams .recommended-apps ul li img { position:absolute; }
+#brandi-mcwilliams .recommended-apps ul li div { padding-left: 82px; }
+#brandi-mcwilliams .recommended-apps ul li p { margin-bottom: 10px; }
+
+/* Chris Bruce Story
+------------------------*/
+#chris-bruce header { margin-bottom:72px; }
+#chris-bruce h1 { margin:0; }
+#chris-bruce .luminary h1 { left:400px; bottom:227px; }
+#chris-bruce .how-to h3 { margin-top:32px; }
+#chris-bruce .ipad-quote { margin-top:18px; }
+#chris-bruce .quote.row.center { margin-top:50px; }
+#chris-bruce .center { text-align:center; margin:15px 0 65px; }
+#chris-bruce .tips h3 { margin:25px 0 4px 0;  }
+#chris-bruce .apps-full { margin-top:50px;  }
+#chris-bruce .apps-full .copy { position:absolute; left:83px; top:92px; }
+#chris-bruce .recommended-apps { margin:55px 0; }
+#chris-bruce .recommended-apps ul { *display:block; margin:0 0 50px; *margin-bottom:275px; }
+#chris-bruce .recommended-apps ul li { display:inline-block; *float:left; position:relative; margin-top:25px; padding-right:24px; vertical-align:top; width:297px; }
+#chris-bruce .recommended-apps ul li img { position:absolute; }
+#chris-bruce .recommended-apps ul li div { padding-left: 82px; }
+#chris-bruce .recommended-apps ul li p { margin-bottom: 10px; }
+
+/* Kristi Meeuwse Story
+------------------------*/
+#kristi-meeuwse header { margin-bottom:72px; }
+#kristi-meeuwse h1 { left:50px; bottom:260px; margin:0; }
+#kristi-meeuwse .how-to h3 { margin-top:32px; }
+#kristi-meeuwse .ipad-quote { position:relative; margin-top:125px; }
+#kristi-meeuwse .ipad-quote .page-border.left { height:70%; }
+#kristi-meeuwse .quote.center { text-align:center; margin:40px 0 65px; }
+#kristi-meeuwse .tips h3 { margin:25px 0 4px 0;  }
+#kristi-meeuwse .tips .column.first { width:48.2%; }
+#kristi-meeuwse .apps-full { margin-top:50px;  }
+#kristi-meeuwse .apps-full .copy { position:absolute; left:83px; top:92px; }
+#kristi-meeuwse .recommended-apps { margin-top:55px; }
+#kristi-meeuwse .recommended-apps ul { display:block; margin:-28px 0 50px; *margin-bottom:325px; }
+#kristi-meeuwse .recommended-apps ul li { display:inline-block; *float:left; position:relative; vertical-align:top; width:297px; margin-top:50px; padding-right:24px;}
+#kristi-meeuwse .recommended-apps ul li img { position:absolute; }
+#kristi-meeuwse .recommended-apps ul li div { padding-left: 82px; }
+#kristi-meeuwse .recommended-apps ul li p { margin-bottom: 10px; }
+
+/* Resources
+------------------------*/
+#resources .luminary h1 { left:47px; bottom:31px; }
+#resources .luminary h1 img { margin-left:-24px; }
+#resources .luminary h1 .title { margin:-12px 0 0 -2px; width:370px; font-size:0.65em; line-height:1.3em; }
+
+#resources .tabContent { margin:-1px auto 30px; padding:24px 0 45px; width:auto; border-top:none; }
+#resources .tabContent .grid2col { margin-left:-2px; }
+#resources .tabContent h2 { margin-bottom:2px; }
+#resources .tabContent .grid2col .column.last { padding-right:6px; }
+
+#resources .ios-for-it .row { padding:60px 2px 55px 0; }
+#resources .ios-for-it .column.last { padding:49px 5px 0 0;}
+#resources .ios-for-it h2 { margin-bottom:8px; }
+#resources .ios-for-it p { width:430px; font-size:1.15em; line-height:1.5em; }
+
+#resources .inspired-wrapper { background:#eee; 
+    background-image:-webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#e9e9e9)); 
+    background-image:-webkit-linear-gradient(top, #f8f8f8, #e9e9e9); 
+    background-image:  -moz-linear-gradient(top, #f8f8f8, #e9e9e9); 
+    background-image:    -o-linear-gradient(top, #f8f8f8, #e9e9e9); 
+    background-image: linear-gradient(to bottom, #f8f8f8, #e9e9e9); }
+
+/* How to Buy
+------------------------*/
+@media only screen and (max-device-width:768px) {
+    #how-to-buy .sosumi { margin-left:25px; }
+}
+
+/* iBooks Textbooks
+------------------------*/
+#ibooks-textbooks #main #content { width:980px; }
+#ibooks-textbooks .content .center { margin:auto; text-align:center; }
+#ibooks-textbooks .content .row { padding:0 0 32px; }
+#ibooks-textbooks .luminary h1 { left:50px; bottom:29px; }
+#ibooks-textbooks .luminary h1 img { margin-left:-24px; }
+#ibooks-textbooks .luminary h1 .title { margin-top:-10px; width:615px; font-size:18px;  }
+#ibooks-textbooks .relative { position:relative; }
+#ibooks-textbooks .textbook-transformation .hero .title { padding-bottom:10px; }
+#ibooks-textbooks .textbook-transformation .hero .title p { width:850px; line-height:22px; }
+#ibooks-textbooks .textbook-transformation .slide-gallery { margin:0 auto 23px; }
+#ibooks-textbooks .textbook-transformation .slide-gallery .gallery-view { width:3480px } 
+#ibooks-textbooks .textbook-transformation .slide-gallery .gallery-content { margin-left:0; padding-bottom:10px; }
+#ibooks-textbooks .textbook-transformation .slide-gallery .gallery-content.textbooks-hero-ecosystems img { margin-left:-50px; }
+#ibooks-textbooks .textbook-transformation .slide-gallery .gallery-content.textbooks-hero-bird img { margin-left:-85px; }
+#ibooks-textbooks .textbook-transformation .slide-gallery .gallery-content.textbooks-hero-trees img { margin-left:-85px; }
+#ibooks-textbooks .textbook-transformation .slide-gallery .outer-dot-nav { *position:relative; bottom:40px; *margin-top:-20px;}
+#ibooks-textbooks .textbook-transformation .top .publishers { padding:15px; width:424px; border:2px solid #cbcbcb; border-radius:4px; }
+#ibooks-textbooks .textbook-transformation .top .publishers .column.first { margin-right:44px; }
+#ibooks-textbooks .textbook-transformation .top .publishers .column.last { width:25%; }
+#ibooks-textbooks .textbook-transformation .bottom { margin-top:35px; }
+#ibooks-textbooks .textbook-transformation .bottom .page-border.left { top:100px; height:100%; }
+#ibooks-textbooks .textbook-transformation .bottom .column.last { margin-top:160px; width:465px; }
+#ibooks-textbooks .words-spring .hero .title p { width:850px; line-height:22px; }
+#ibooks-textbooks .words-spring .top .column.first { position:relative; margin-top:50px; width:36%; }
+#ibooks-textbooks .words-spring .top .flush-right { margin-top:-270px; }
+#ibooks-textbooks .words-spring .middle { margin-top:70px; }
+#ibooks-textbooks .words-spring .middle .column.last { margin:-390px 15px 0 0; width:34%; }
+#ibooks-textbooks .words-spring .bottom { margin-top:90px; }
+#ibooks-textbooks .words-spring .bottom .column.first { margin-top:85px; width:37%; }
+#ibooks-textbooks .words-spring .interactive-magic { margin-top:27px; width:590px; }
+#ibooks-textbooks .words-spring .interactive-magic .column.first { width:70px; }
+#ibooks-textbooks .words-spring .interactive-magic .column.last { margin-top:20px; width:520px; }
+#ibooks-textbooks .study-partner .hero .title { padding-bottom:30px; }
+#ibooks-textbooks .study-partner .hero .title p { width:735px; line-height:22px; }
+#ibooks-textbooks .study-partner .highlighting .page-border.left { top:270px; height:70%; }
+#ibooks-textbooks .study-partner .highlighting .column.last { position:relative; margin:-418px 20px 0 0; width:33%; }
+#ibooks-textbooks .study-partner .study-cards { margin-top:70px; }
+#ibooks-textbooks .study-partner .study-cards .column.first { margin-top:118px; width:40%; }
+#ibooks-textbooks .study-partner .study-cards .column.last { width:55%; }
+#ibooks-textbooks .study-partner .sharing { margin-top:50px; }
+#ibooks-textbooks .study-partner .sharing .column.last { margin:100px 24px 0 0; width:33%; }
+#ibooks-textbooks .study-partner .textbooks-itunesu { margin-top:45px; }
+#ibooks-textbooks .study-partner .textbooks-itunesu .column.first { margin-top:130px; width:31%; }
+#ibooks-textbooks .study-partner .itunesu { margin-top:65px; width:552px; }
+#ibooks-textbooks .study-partner .itunesu .column.first { width:70px; }
+#ibooks-textbooks .study-partner .itunesu .column.last { margin-top:20px; width:478px; font-size:16px; }
+#ibooks-textbooks .ibook-author .hero .title { padding-bottom:25px; }
+#ibooks-textbooks .ibook-author .grid2col .flush-left .page-border.left { height:100%; }
+#ibooks-textbooks .ibook-author .grid2col .column.last { position:absolute; top:125px; left:635px; width:30.5%; }

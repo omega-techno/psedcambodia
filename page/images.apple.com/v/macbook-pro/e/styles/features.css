@@ -1,0 +1,151 @@
+/* Features
+------------------------*/
+/* shared styles */
+body#features .row p { text-align:center; max-width:835px; margin-left:auto; margin-right:auto; }
+body#features .row .icon { margin-bottom:20px; }
+body#features .row .column p,
+body#features .row .details p { text-align:left; }
+body#features .row .hero { margin:20px 0 10px; }
+body#features .row .details { margin:20px auto 0; }
+
+/* Section Specifics
+------------------------*/
+body#features #hero { padding-top:60px; border-top:none; }
+body#features #hero h1 { margin-bottom:0; }
+body#features #hero img.hero { margin-left:-59px; margin-top:45px; }
+
+body#features .retina .details { max-width:850px; }
+body#features .retina .details figure {margin-top:5px; margin-left:20px; }
+body#features .retina .details figcaption p { margin:10px 0; font-size:0.8571em; line-height:1.4em; text-align:left; color:#666; }
+body#features .retina .details figcaption img { margin:0 4px -3px 0px; position:relative; z-index:1; }
+body#features .retina .loupe-gallery { width:1120px;height:735px; margin:20px -70px 100px; background-repeat:no-repeat; background-position:0 10px; background-size:1100px 622px; }
+body#features .retina .loupe-container { width:1120px; height:772px; }
+
+body#features #processor .icon { margin-bottom:10px; }
+body#features #processor .hero { margin:20px 0 35px -302px; }
+body#features #processor .details { max-width:650px; }
+
+body#features #graphics .hero { margin-left:-316px; margin-bottom:20px; }
+body#features #graphics .details { max-width:650px; }
+
+body#features #battery .details { margin-top:40px; }
+body#features #battery .details .first p { padding-left:45px; }
+
+/* clocks */
+body#features #battery .clock { margin-bottom:20px; }
+body#features #battery .clock-wrapper { position:relative; z-index:1; width:100px; height:100px; float:left; margin-left:100px; }
+body#features #battery .clock-wrapper img,
+body#features #battery .clock-wrapper canvas { display:block; width:100px; height:100px; position:absolute; -webkit-transform:translateZ(0); }
+body#features #battery .clock-wrapper img { z-index:1101; }
+body#features #battery .clock-wrapper canvas { z-index:1100; }
+body#features #battery .clock-wrapper .degradation { display:block; }
+body#features #battery .clock-wrapper.enhanced .degradation { display:none; }
+body#features #battery .clock-detail img { margin-left:20px; }
+
+body#features #flash .hero-container { margin-bottom:30px; }
+body#features #flash .hero-container .hero { display:block; margin-left:-56px; }
+body#features #flash .hero-container.enhanced .hero { display:none; }
+body#features #flash .hero-container .flow { margin-left:-58px; }
+body#features #flash .hero-container .flow canvas { width:1096px; height:184px;}
+
+body#features #flash .details .first p { padding-left:45px; }
+body#features #flash .details .chart { margin-right:-50px; }
+
+/* flash - bar chart gallery */
+body#features #flash .gallery .nav { width:370px; padding-top:7px; }
+body#features #flash .gallery .nav li { display:block; float:left; line-height:1.2em; text-align:center; }
+body#features #flash .gallery .nav li.first-child { width:49%; border-right:1px solid #bbb; }
+body#features #flash .gallery .nav li.last-child { width:49%; }
+body#features #flash .gallery .nav a.active { color:#666; }
+body#features #flash .gallery .nav a.active:hover { text-decoration:none; cursor:default; }
+body#features #flash-chart { position:relative; z-index:2; min-height:268px; }
+
+body#features #flash-chart .bar-one .bar,
+body#features #flash-chart.animate .bar-one .bar { width:100%; }
+
+body#features #flash-chart .bar-two .bar,
+body#features #flash-chart.animate .bar-two .bar { width:62%; }
+
+body#features #flash-chart.can-animate .bar { width:0; }
+
+body#features #wifi .details { margin-top:30px; }
+body#features #wifi .details .first p { padding-left:45px; }
+body#features #wifi .details .chart { margin-right:-50px; }
+
+body#features #wifi-chart .bar-one .bar,
+body#features #wifi-chart.animate .bar-one .bar { width:100%; }
+
+body#features #wifi-chart .bar-two .bar,
+body#features #wifi-chart.animate .bar-two .bar { width:34.6%; }
+
+body#features #wifi-chart .bar-three .bar,
+body#features #wifi-chart.animate .bar-three .bar { width:4.15%; }
+
+body#features #wifi-chart.can-animate .bar { width:0; }
+
+
+body#features #ports .hero { margin-left:-744px; margin-bottom:0; }
+body#features #ports .details { margin-top:40px; max-width:650px; }
+body#features #ports figcaption ul li { float:left; display:inline; text-align:center; font-size:13px; }
+body#features #ports .first figcaption { margin-left:72px; }
+body#features #ports .first figcaption ul li.first { width:130px; }
+body#features #ports .first figcaption ul li.second { width:138px; }
+body#features #ports .first figcaption ul li.last { width:60px; }
+body#features #ports .last figcaption { margin-left:95px; width:480px; }
+body#features #ports .last figcaption ul li.first { width:74px; }
+body#features #ports .last figcaption ul li.second { width:176px; }
+body#features #ports .last figcaption ul li.third { width:70px; }
+body#features #ports .last figcaption ul li.last { width:80px; }
+
+body#features .av { padding-bottom:70px; }
+body#features .av .hero { margin:40px 0 60px -70px; }
+body#features .av .details .first p { padding-left:45px; }
+body#features .av .callout { padding:21px 26px 4px; text-align:left; width:240px; margin:0 0 0 80px; background:#f7f7f7; border:1px solid #e0e0e0; }
+body#features .av .callout figure {text-align:center; width:200px; margin:0 auto 18px; border-bottom:1px solid #d8d8d8; }
+body#features .av .callout figure figcaption {  padding-bottom:10px; font-size:1.1667em; line-height:0.9em; color:#333; }
+body#features .av .gallery { width:1120px; height:700px; background:no-repeat 50% 0; background-size:854px 626px; }
+body#features .av .gallery .gallery-view figure { height:672px; }
+body#features .av .gallery .speakers img { margin:170px 0 130px 20px; _margin-bottom:145px; }
+body#features .av .gallery .mics img { margin:187px 0 0 128px; }
+body#features .av .gallery .caption { position:absolute; bottom:36px; left:240px; z-index:1; font-size:0.7857em; color:#999; }
+body#features .av .gallery .toggle-nav { position:relative; z-index:1001; margin:0 auto; }
+body#features .av .gallery .toggle-nav li a.last-child  { border-right:1px solid #cfcfcf; }
+
+body#features #keyboard { border:none; background:#000; margin-left:-1000px; margin-right:-1000px; }
+body#features #keyboard p { color:#fff; }
+body#features #keyboard .details { width:890px; }
+body#features #keyboard .keyboard-image-container { position:relative; margin:0 auto; width:759px; }
+body#features #keyboard .keyboard-image-container .replaced-img { width:759px; height:550px; background-size:759px 550px; }
+body#features #keyboard .keyboard-image-container #ambient-backlit-keyboard { position:absolute; top:0; display:none; }
+body#features #keyboard #ambient-backlit-keyboard.ambient-backlit-keyboard-prepped { opacity:1; display:inline; }
+body#features #keyboard #ambient-backlit-keyboard.ambient-backlit-keyboard-complete { opacity:0;
+	-webkit-transition:all 1500ms cubic-bezier(0.445, 0.050, 0.550, 0.950);
+	   -moz-transition:all 1500ms cubic-bezier(0.445, 0.050, 0.550, 0.950);
+	   	 -o-transition:all 1500ms cubic-bezier(0.445, 0.050, 0.550, 0.950);
+	        transition:all 1500ms cubic-bezier(0.445, 0.050, 0.550, 0.950);
+}
+
+body#features #icloud { border-top:none; }
+body#features #icloud .hero { margin-left:-48px; margin-top:30px; }
+body#features #icloud .details { max-width:650px; }
+
+body#features #software { padding-top:65px }
+body#features #software .hero { margin-left:-71px; }
+body#features #software .details { max-width:650px; }
+
+body#features #support { padding-top:60px; padding-bottom:0; }
+body#features #support h1,
+body#features #support h1 img { margin:0; }
+body#features #support h3 { margin-bottom:10px; font-size:1em; }
+body#features #support p { margin:0; text-align:left; }
+body#features #support .column p { font-size:0.9em; line-height:1.4286; }
+body#features #support .hero { float:right; margin:-314px 0 0; }
+body#features #support .details { margin:39px 0 0; width:600px; }
+
+/* retina example screenshot */
+body.retina-example { font-size:0; line-height:0; }
+/* reduce size in half for high-dpi devices */
+@media only screen and (min-device-pixel-ratio:1.5) and (min-device-width:321px),
+	only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+		body.retina-example img { width:1440px; height:900px; }
+}

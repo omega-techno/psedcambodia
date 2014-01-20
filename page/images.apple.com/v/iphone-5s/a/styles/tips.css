@@ -1,0 +1,46 @@
+body#tips .row { width:980px; margin:0 auto 45px; }
+body#tips .row h1 { position:relative; z-index:2; margin-bottom:-7px; }
+body#tips .row h3 { position:relative; z-index:2; margin-right:-10px; font-size:1em; color:#404040; }
+
+body#tips .hero-img { position:relative; z-index:1; margin-bottom:-4px; }
+
+body#tips .row.grid2col .column { width:490px; }
+body#tips .row.grid2col .column.first p { margin-left:30px; margin-right:15px; }
+body#tips .row.grid2col .column.last p { margin-left:15px; margin-right:30px; }
+
+body#tips .row .grid2cola { padding-top:30px; }
+body#tips .row .grid2cola .column.no-header { padding-top:41px; }
+body#tips .row .grid2cola .column.last { width:332px; }
+body#tips .row .grid2cola .column.last h3,
+body#tips .row .grid2cola .column.last p { margin-left:17px; margin-right:30px; }
+body#tips .row .grid2cola .grid2col { width:604px; margin-left:30px; }
+body#tips .row .grid2cola .grid2col .column { width:288px; }
+body#tips .row .grid2cola .grid2col .column.last h3,
+body#tips .row .grid2cola .grid2col .column.last p { margin-left:0; margin-right:0; }
+
+body#tips .row .grid2col .column { width:445px; }
+body#tips .row .grid2col .grid2col { margin-left:5px; }
+body#tips .row .grid2col .grid2col .column { width:208px; }
+body#tips .row .grid3col .column { width:288px; margin-left:28px; }
+body#tips .row .grid3col .column.last { width:286px; }
+body#tips .row .grid3col .column.span2col { width:602px; }
+body#tips .row .grid4col .column { width:209px; margin-left:29px; }
+
+body#tips .number-key { display:inline-block; margin-bottom:-3px; line-height:1em; }
+
+body#tips .grid { width:920px; margin:0 auto; }
+
+body#tips .hero { margin:82px auto; }
+body#tips .hero h1 { margin-bottom:6px; }
+body#tips .hero .intro { width:720px; }
+
+body#tips .calendar h1 { margin-bottom:7px; }
+
+body#tips .music .grid4col { padding-bottom:30px; }
+
+body#tips .settings ol { margin-left:18px; *margin-left:25px; }
+
+body#tips .userguide h1 { margin-bottom:6px; }
+body#tips .userguide .intro { width:640px; margin-bottom:26px; }
+body#tips .userguide .left { display:block; margin:0 0 0 193px; }
+body#tips .userguide .grid2col .column.last { width:260px; margin:61px 180px 0 0; }

@@ -1,0 +1,18 @@
+body#garageband .hero .intro { width:810px; }
+body#garageband .hero .hero-img { margin-left:-51px; margin-right:-51px; }
+
+body#garageband .play .caption { width:730px; }
+
+body#garageband .record .intro { width:870px; }
+
+body#garageband .share .intro { width:770px; }
+body#garageband .share .caption { width:730px; }
+body#garageband .share .gallery-share-ringtone .caption p,
+body#garageband .share .gallery-share-airdrop .caption p { width:530px; }
+
+body#garageband .icloud .intro { width:700px; }
+body#garageband .icloud .hero { margin:0 -85px; }
+
+body#garageband .platforms p { margin-right:-24px; }
+
+body#garageband .icloud .section-graphic { margin-left:-83px; }

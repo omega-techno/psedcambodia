@@ -1,0 +1,5 @@
+/*A5 Chip Image Alignment Override*/
+body#overview #chip img.icon { margin-top:35px; }
+
+/*Buystrip Apple Store Alignment Override */
+#buystrip .bottomstrip li.appts img { float:none; margin:0 6px -7px 0;  }

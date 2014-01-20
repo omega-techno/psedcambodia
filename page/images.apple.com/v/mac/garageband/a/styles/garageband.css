@@ -1,0 +1,75 @@
+body#garageband .hero .intro { width:840px; }
+body#garageband .hero .hardware { margin-top:40px; }
+
+body#garageband .play .intro { width:630px; }
+
+body#garageband .icloud .hero { margin:31px -94px 0; }
+
+body#garageband .make #gallery-make .gallery-content { margin-top:9px; }
+
+body#garageband .make .caption { width:740px; }
+body#garageband .make .gallery-make-guitar .caption p { width:570px; }
+
+body#garageband .make .session-drummer { margin:75px auto 0; width:904px; padding:25px 32px 19px; border:1px solid #e2e2e2; background:#fff;
+	-webkit-border-radius:4px;
+	   -moz-border-radius:4px;
+	        border-radius:4px;
+}
+body#garageband .make .session-drummer .column.first { width:314px; }
+body#garageband .make .session-drummer .column.last { width:560px; padding-top:10px; }
+
+body#garageband .make .session-drummer p { font-size:0.875em; }
+body#garageband .make .session-drummer ul { margin-top:25px; text-align:center; }
+@-moz-document url-prefix() {
+  body#garageband .make .session-drummer ul { margin-top:55px; }
+}
+
+body#garageband .make .session-drummer li { display:inline-block; *display:inline; margin:0 12px; font-size:1em; *zoom:1; }
+body#garageband .make .session-drummer .avatar { color:#252525; text-decoration:none; }
+body#garageband .make .session-drummer .avatar.active,
+body#garageband .make .session-drummer .avatar:hover { color:#08c; }
+
+body#garageband .make .session-drummer .avatar img { padding:4px; border:1px solid #999; }
+body#garageband .make .session-drummer .avatar.active img,
+body#garageband .make .session-drummer .avatar:hover img { padding:0; border:5px solid #08c; }
+
+body#garageband .make .session-drummer .gallery-content { position:relative; z-index:1; }
+body#garageband .make .session-drummer .gallery-content.gallery-video { display:block; width:558px; height:347px; }
+
+body#garageband .make .session-drummer .slim .slim-right-cap { z-index:9; }
+
+body#garageband .make .session-drummer .gallery-content .caption p { margin-bottom:0; width:558px; padding-top:10px; font-size:0.7143em; text-align:center; }
+body#garageband .make .session-drummer .gallery-content .play-icon { position:absolute; top:123px; left:229px; display:block; overflow:hidden; width:100px; height:100px; text-indent:-9999px; }
+body#garageband .make .session-drummer .gallery-content .play-icon-background { position:absolute; top:0; left:0; display:block; width:100px; height:200px; background:url(../images/gallery_video_drummer_play.png) no-repeat 0 0; }
+body#garageband .make .session-drummer .gallery-content a:hover .play-icon-background { top:-100px; *zoom:1; }
+
+body#garageband .make .session-drummer a.avatar span { position:relative; z-index:1; display:block; overflow:hidden; margin:5px -4px 0; width:80px; height:40px; }
+body#garageband .make .session-drummer a.avatar span img,
+body#garageband .make .session-drummer a.avatar.active span img,
+body#garageband .make .session-drummer a.avatar:hover span img { position:absolute; z-index:1; top:0; left:0; margin:0 auto; padding:0; border:none; }
+body#garageband .make .session-drummer a.avatar.active span img,
+body#garageband .make .session-drummer a.avatar:hover span img { top:-40px; }
+
+body#garageband .make .session-drummer a.gavin span { left:13px; }
+body#garageband .make .session-drummer a.nikki span { left:19px; }
+body#garageband .make .session-drummer a.jesse span { left:9px; }
+body#garageband .make .session-drummer a.rose span { left:16px; }
+body#garageband .make .session-drummer a.kyle span { left:20px; }
+
+@media only screen {
+	body#garageband .make .session-drummer .gallery-content .play-icon-background { background-image:url(http://images.apple.com/v/mac/garageband/a/images/gallery_video_drummer_play.svg); }
+}
+
+body#garageband .make .gallery-make-wireless img { margin:0 auto 46px; }
+
+body#garageband .studio .intro { width:780px; }
+body#garageband .studio .caption { width:960px; }
+body#garageband .studio .gallery-studio-take .caption p,
+body#garageband .studio .gallery-studio-flextime .caption p { width:700px; }
+
+body#garageband .share .intro { width:730px; }
+
+body#garageband .icloud .intro { width:730px; }
+
+body#garageband .platforms p { margin-right:-24px; }
+

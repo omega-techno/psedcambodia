@@ -1,0 +1,13 @@
+/* itunes download promo */
+.itunes-promo-download a { width:940px; padding:0 0 0 40px; margin:18px auto 0; min-height:243px; *height:243px; background:url(../images/bg.jpg) no-repeat; position: relative;}
+.itunes-promo-download a img.right { margin:20px 37px 0 0; }
+.itunes-promo-download a img.left { margin:26px 19px 11px 0; }
+.itunes-promo-download a h1 { margin-bottom:20px; padding:46px 0 0 75px; height: 63px; }
+.itunes-promo-download a p { width:425px; margin-bottom:0; font-size:14px; line-height:20px; color:#666; clear:left; }
+.itunes-promo-download a em.more { color:#08c; font-style:normal; padding-right:7px; background-position:100% 58%; }
+.itunes-promo-download a img.violator { position: absolute; right:0; top:0; }
+
+/* individual page adjustments */
+#overview.ipodnano .itunes-promo-download p.sosumi { width: 940px; margin-bottom: 0; }
+#overview.ipodclassic .itunes-promo-download p.sosumi { margin-bottom: 0 !important; }
+#ping .itunes-promo-download a { margin-bottom: 18px; }

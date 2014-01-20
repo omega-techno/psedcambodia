@@ -1,0 +1,24 @@
+body#iphoto .hero .intro { width:790px; }
+body#iphoto .hero .hero-img { margin-left:-51px; margin-right:-51px; }
+
+body#iphoto .organize .gallery-organize-favorites .caption p { width:450px; }
+
+body#iphoto .edit .intro { width:830px; }
+
+body#iphoto .share .intro { width:720px; }
+body#iphoto .share .hardware { margin-top:0; }
+body#iphoto .share .gallery-view { width:962px; }
+body#iphoto .share .gallery-content { padding-top:31px; }
+body#iphoto .share .grid3col { padding:0; }
+body#iphoto .share .grid3col .column { margin-left:20px; }
+body#iphoto .share .grid3col .caption { padding-top:20px; }
+body#iphoto .share .grid3col .caption p { width:620px; }
+body#iphoto .share .hardware.ipadmini { margin-left:-9px; margin-right:-9px; }
+
+body#iphoto .print .intro { width:770px; }
+body#iphoto .print .gallery-view { width:990px; }
+body#iphoto .print .caption { width:780px; }
+body#iphoto .print .gallery-print-photobooks .caption p { width:490px; }
+
+body#iphoto .icloud img.hero { margin:31px -82px 0; }
+

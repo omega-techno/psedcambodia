@@ -1,0 +1,176 @@
+html, body { background:#f2f2f2; }
+
+#main { width:100%; min-width:982px; margin:0 auto; position:static; }
+#main .content { width:880px; margin:0 auto 18px; padding:60px 50px 32px; zoom:1; }
+#main .content .content { width:auto; padding:0; }
+.content:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+
+/* fonts */
+.content { font-size:1.167em; line-height:1.4285em; word-spacing:-1px; } /* 14px/20px */
+.content h1 { font-size:1.7142em; line-height:1.1666em; margin-bottom:10px; font-weight:normal; } /* 24px/28px */
+.content h1.headline { font-size:2em; line-height:1.2142em; letter-spacing:-1px; }/* 28px/34px */
+.content h1.headline i { display:block; color:#898989; font-style:normal; }
+.content h1.headline i.inline { display:inline; }
+
+.content h2 { font-size:1.1428em; line-height:1.25em; margin-bottom:7px; }/* 16px/20px */
+.content h3,
+.content h4 { font-size:1em; margin-bottom:0; } /* 14px/20px */
+
+.content .small { font-size:.8571em; line-height:1.5em; } /* 12px/18px */
+
+.content p.intro { font-size:1.2857em; line-height:1.3888em; } /* 18px/24px */
+
+.content figcaption { color:#666; }
+
+.content .hero h1 { margin-bottom:2px; }
+
+/* layout */
+.content .column { display:inline; }
+
+.content .left { float:left; }
+.content .right { float:right; }
+.content .center { margin-right:auto; margin-left:auto; text-align:center; }
+
+.content .padtop { padding-top:60px; }
+.content .flushtop { margin-top:-60px; _position:relative; }
+
+.content .padbottom { padding-bottom:32px; }
+
+.content .flushpad,
+.content .padright { padding-right:50px; }
+
+.content .flushpad,
+.content .padleft { padding-left:50px; }
+
+.content .flushpad,
+.content .flushright { margin-right:-50px; _position:relative; }
+
+.content .flushpad,
+.content .flushleft { margin-left:-50px; _position:relative; }
+
+.content .row { padding-top:50px; padding-bottom:32px; }
+.content .row.last-child { padding-bottom:0; }
+
+/* images */
+.content img.flushtop,
+.content img.flushbottom,
+.content img.flushright,
+.content img.flushleft { _position:relative; _zoom:1; }
+
+.content img.flushtop { margin-top:-50px; }
+.content img.flushbottom { margin-bottom:0; }
+.content img.flushright { margin-right:-50px; }
+.content img.flushleft { margin-left:-50px; }
+
+.content img.center { display:block; margin-left:auto; margin-right:auto; }
+.content img.relative { _position:relative; }
+
+.content h1 img,
+.content h2 img { display:block; margin:0; }
+
+.content a { cursor:pointer; }
+.content a.block { color:#333; }
+.content a.learn { display:block; float:left; margin:-28px 0 42px; text-align:left; }
+.content a.learn:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+.content a.wrap { text-decoration:none; }
+.content a.wrap:hover span { text-decoration:underline; cursor:pointer; }
+
+
+/* aesthetic */
+.content .shadow { border:1px solid #ccc; -webkit-box-shadow:0 1px 4px rgba(0,0,0,.4); -moz-box-shadow:0 1px 4px rgba(0,0,0,.4); box-shadow:0 1px 4px rgba(0,0,0,.4); }
+.content .inset { border:1px solid #ccc; -webkit-box-shadow:inset 0 1px 4px rgba(0,0,0,.4); -moz-box-shadow:inset 0 1px 4px rgba(0,0,0,.4); box-shadow:inset 0 1px 4px rgba(0,0,0,.4); }
+
+.content .shadow:nth-child(1n),
+.content .inset:nth-child(1n) { border:none; }
+
+.content .gradient {
+	background:#f2f2f2;
+	background:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#f2f2f2));
+	background:-moz-linear-gradient(top, #fff, #f2f2f2);
+}
+
+/* Footers
+------------------------*/
+
+/* sosumi */
+.sosumi { width:940px; margin:18px auto; padding:0 20px; }
+.sosumi a { color:#333; }
+.sosumi ol { margin:0; padding-right:21px; padding-left:21px; }
+.sosumi ul { margin:0; }
+.sosumi li { padding-bottom:5px; }
+.sosumi p { margin:0; padding-bottom:5px; }
+ol.sosumi { width:911px; margin:18px auto; }
+
+
+/* Page Specific
+------------------------*/
+#itunes-u #main #content { padding-top:30px; }
+#itunes-u.apps #main #content { padding-top:50px; }
+#itunes-u #content .first .icon { margin-top:40px; }
+#itunes-u.apps #content .first .icon { margin-top:0; }
+#itunes-u #content .first h1 { margin-top:22px; }
+
+#itunes-u .hero .column.first { width:350px; }
+#itunes-u .hero .icon { margin-bottom:16px; }
+#itunes-u .hero img.right { margin-right:18px; }
+#itunes-u .hero img.flushright { margin-right:-50px; margin-left:0; }
+
+#itunes-u .education { margin-top:30px; }
+#itunes-u.apps .education { margin-top:0; }
+#itunes-u .education .column.last { width:349px; padding:107px 27px 0 0; }
+#itunes-u .education img.left { margin-left:43px; }
+
+#itunes-u .courses { padding-bottom:17px; padding-top:20px; }
+#itunes-u .courses img.right { margin-right:0; }
+#itunes-u .courses .column.first { width:297px; padding:29px 0 0 50px; }
+
+#itunes-u .notes { padding-top:0; padding-bottom:3px; }
+#itunes-u .notes .last { width:270px; margin-top:65px; margin-right:5px; }
+#itunes-u .notes img { margin-left:45px; }
+
+#itunes-u .print { padding-top:0; padding-bottom:23px; }
+#itunes-u.apps .print { padding-top:10px; padding-bottom:19px; }
+#itunes-u .print img.right { margin-right:0; }
+#itunes-u .print .first { width:259px; padding:128px 0 0 50px; }
+
+#itunes-u .assignments { padding-bottom:15px; padding-top:0; }
+#itunes-u .assignments img { margin-left:47px; }
+#itunes-u .assignments .column.last { width:273px; padding:43px 0 0 0; }
+
+#itunes-u .together { padding:0 94px 32px; }
+#itunes-u .together p { margin-bottom:52px; }
+#itunes-u .together p.center { color:#666; margin-bottom:0;  }
+#itunes-u .together img.flushleft { margin:0 -112px 27px -84px; *margin:0 -112px 23px -84px; }
+#itunes-u.apps .together img.flushleft { margin:0 -112px -23px -100px; }
+#itunes-u .together .center { text-align:center; *position:relative; *z-index:2; }
+
+#itunes-u.iphone .together { padding:0 94px 32px 83px; }
+#itunes-u.apps .together { padding: 7px 50px 30px; }
+#itunes-u.apps .together p.center { margin:0 auto; }
+
+#itunes-u aside.twitter { padding-top:40px; border-top:1px solid #d9d9d9; text-align:center; }
+#itunes-u aside.twitter span { font-weight:bold; color:#000; }
+#itunes-u aside.twitter img { display:-moz-inline-stack; display:inline-block; *display:inline; zoom:1; margin-right:5px; }
+#itunes-u aside.twitter p { position:relative; z-index:1; bottom:12px; display:-moz-inline-stack; display:inline-block; *display:inline; zoom:1; margin-bottom:4px; vertical-align:baseline; color:#999; }
+
+@media only screen and (max-device-width:768px) {
+	#itunes-u.ipad .courses .column.last { margin-top:-8px; padding-top:0; }
+	#itunes-u .hero .column.first { width:325px; }
+	#itunes-u .education .column.last { width:325px; }
+	#itunes-u .courses .column.first { width:296px; }
+	#itunes-u .print .first { width:263px; }
+	#itunes-u .assignments .column.last { width:270px; }
+	#itunes-u aside.twitter div { width:800px; }
+}
+
+#itunes-u.ipodtouch #main #content { padding-top:0; }
+#itunes-u.ipodtouch #main #content header { margin-top:31px; }
+#itunes-u.ipodtouch #content #backtoapps { margin-left:-50px; margin-right:-50px; padding-left:50px; padding-right:50px; border:1px solid #e5e5e5; padding:12px 0 12px 18px;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#f5f5f5));
+	background-image: -webkit-linear-gradient(top, #ffffff, #f5f5f5);
+	background-image:    -moz-linear-gradient(top, #ffffff, #f5f5f5);
+	background-image:     -ms-linear-gradient(top, #ffffff, #f5f5f5);
+	background-image:      -o-linear-gradient(top, #ffffff, #f5f5f5);
+	background-color: #f5f5f5;
+}
+#itunes-u.ipodtouch #content #backtoapps .arrow { padding-left:10px; background:url(../images/left_arrow.jpg) no-repeat 0 50%; }

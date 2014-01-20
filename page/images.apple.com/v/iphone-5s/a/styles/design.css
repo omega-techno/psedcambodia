@@ -1,0 +1,161 @@
+/* Design Page
+------------------------*/
+body#design .main h1 { margin-bottom:30px; }
+body#design .grid2col .column { width:390px; }
+
+body#design .flushrow.fixed-height { position:relative; z-index:1; min-height:1400px; }
+body#design .flushrow.fixed-height .row { padding:73px 92px; }
+
+body#design .infographic-box { display:inline-block; width:140px; min-height:140px; margin-right:36px; border:1px solid #ddd; font-size:.875em; text-align:center; vertical-align:top;
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+	        border-radius:3px;
+}
+body#design .infographic-box .caption { width:125px; margin:0 auto; font-size:1em; line-height:1.3em; color:#ddd; }
+body#design .infographic-box img { margin:28px 0 -2px; }
+
+
+
+/* Section Specific
+------------------------*/
+
+/* hero */
+body#design .hero .row { width:auto; padding:70px 0 40px; }
+body#design .hero h1 { margin-bottom:50px; }
+body#design .hero figure.hero { position:relative; z-index:1; width:984px; height:280px; margin-bottom:47px; }
+body#design .hero figure.hero .media { width:984px; }
+
+
+/* craftsmanship */
+body#design .craft h1 { margin-top:265px; }
+body#design .craft .grid2col { width:810px; padding:330px 92px; }
+body#design .craft .grid2col .column { width:375px; }
+body#design .craft figure.hero { position:absolute; right:50%; bottom:-9px; z-index:1; margin-right:-30px; }
+
+
+/* touchid */
+body#design .touchid.flushrow.fixed-height .row { padding:0 92px 73px; }
+body#design .touchid .row { width:840px; }
+body#design .touchid figure.hero { position:absolute; top:0; left:50%; z-index:1; margin-left:-680px; }
+body#design .touchid h1 { margin:633px -204px 30px; }
+body#design .touchid .column.first { width:398px; }
+body#design .touchid .column.last { width:408px; margin-right:-23px; }
+body#design .touchid h3 { margin-bottom:5px; }
+body#design .touchid .infograph { margin-top:28px; }
+body#design .touchid .infograph figure { height:38px; padding:0 48px; line-height:33px; opacity:0; }
+body#design .touchid .infograph figure * { float:right; }
+body#design .touchid .caption { font-size:0.875em; color:#222; opacity:0; -webkit-transform:translateZ(0);
+	-webkit-transition:all .4s ease-in-out 0.3s;
+	   -moz-transition:all .4s ease-in-out 0.3s;
+	        transition:all .4s ease-in-out 0.3s;
+}
+body#design .touchid .caption p { margin-bottom:0; }
+body#design .touchid .pin { width:150px; height:0; margin:16px 6px 0 15px; border-top:1px solid #a09688; border-top:1px solid rgba(109,102,92,.5);
+	-webkit-transition:all .4s ease-in-out;
+	   -moz-transition:all .4s ease-in-out;
+	        transition:all .4s ease-in-out;
+	-webkit-transform-origin:100% 0;
+	   -moz-transform-origin:100% 0;
+	        transform-origin:100% 0;
+	-webkit-transform:scaleX(0);
+	   -moz-transform:scaleX(0);
+	        transform:scaleX(0);
+}
+body#design .touchid .device { margin-top:16px; }
+body#design .touchid .infograph.ac-ambient-play.play-end .pin {
+	-webkit-transform:scaleX(1);
+	   -moz-transform:scaleX(1);
+	        transform:scaleX(1);
+}
+body#design .touchid .infograph.ac-ambient-play.play-end .caption { opacity:1; }
+body#design .touchid .infograph figure.tactile {
+	-webkit-transform:translateY(80px) translateZ(0);
+	   -moz-transform:translateY(80px);
+	        transform:translateY(80px);
+}
+body#design .touchid .infograph figure.capacitive {
+	-webkit-transform:translateY(110px) translateZ(0);
+	   -moz-transform:translateY(110px);
+	        transform:translateY(110px);
+}
+body#design .touchid .infograph figure.steel {
+	-webkit-transform:translateY(140px) translateZ(0);
+	   -moz-transform:translateY(140px);
+	        transform:translateY(140px);
+}
+body#design .touchid .infograph figure.laser {
+	-webkit-transform:translateY(170px) translateZ(0);
+	   -moz-transform:translateY(170px);
+	        transform:translateY(170px);
+}
+body#design .touchid .infograph.ac-ambient-play figure.tactile,
+body#design .touchid .infograph.ac-ambient-play figure.capacitive,
+body#design .touchid .infograph.ac-ambient-play figure.steel,
+body#design .touchid .infograph.ac-ambient-play figure.laser { opacity:1;
+	-webkit-transform:translateY(0);
+	   -moz-transform:translateY(0);
+	        transform:translateY(0);
+	-webkit-transition:all .6s ease-in-out .75s;
+	   -moz-transition:all .6s ease-in-out .75s;
+	        transition:all .6s ease-in-out .75s;
+}
+
+
+/* performance */
+body#design .performance.flushrow.fixed-height .row { width:840px; padding:63px 92px 115px; }
+body#design .performance .hero { position:absolute; bottom:0; z-index:1; margin-left:30px; }
+body#design .performance .grid2col .column { width:430px; }
+body#design .performance .grid2col .column.first { margin-top:42px; }
+body#design .performance .infographic-box { margin-top:6px; border:1px solid #444;  }
+body#design .performance .infographic-box .caption { width:128px; color:#444; }
+body#design .performance .infographic-box img { margin:-1px 0 -2px; }
+body#design .performance .infographic-box span { display:block; margin-top:9px; color:#444; }
+
+
+/* camera */
+body#design .camera h1 { margin:650px -150px 30px; }
+body#design .camera .row { width:840px; padding:95px 0; }
+body#design .camera.flushrow.fixed-height .row { padding:0 92px; }
+body#design .camera .column.first { width:395px; }
+body#design .camera .column.last { width:425px; margin-right:-35px; }
+body#design .camera .infographic-box { margin:0 18px; }
+body#design .camera .infographic-box img { margin-top:20px; }
+body#design .camera .infographic-box.aperture .caption { width:105px; }
+body#design .camera .callout { display:inline-block; width:205px; margin:10px 0; font-size:0.75em; line-height:1.8em; }
+body#design .camera .callout p { width:auto; padding:0 10px; }
+body#design .camera .callout h3 { margin-bottom:4px; }
+body#design .camera .infograph { margin-top:11px; padding-bottom:50px; border-bottom:1px solid #666; }
+
+body#design .camera .isight-cta { width:584px; min-height:83px; margin:46px auto 73px; background:url(../images/isight_icon.png) no-repeat; background-size:102px 83px; }
+body#design .camera .isight-cta .column.last { width:458px; }
+body#design .camera .isight-cta .column.last h4 { margin-bottom:5px; }
+body#design .camera .isight-cta.link { width:422px; padding-left:161px; }
+body#design .camera .isight-cta.link h4 { margin-bottom:5px; }
+
+body#design .camera figure.hero { position:absolute; top:0; left:50%; z-index:1; width:2700px; height:925px; margin-left:-1020px; }
+@media only screen and (max-width: 1024px) {
+	body#design .camera figure.hero { width:1024px; margin-left:-512px; }
+}
+
+
+/* ios */
+body#design .ios figure.hero { position:absolute; bottom:0; left:50%; z-index:1; height:934px; margin-left:-522px; }
+body#design .ios figure.hero img { position:absolute; bottom:-1px; left:0; z-index:1; }
+body#design .ios figure.hero img.start { z-index:2;
+	-webkit-transition:opacity .5s ease-in 1s;
+	   -moz-transition:opacity .5s ease-in 1s;
+	        transition:opacity .5s ease-in 1s;
+}
+body#design .ios figure.hero.ac-ambient-play img.start { opacity:0; }
+body#design .ios .row h1 { margin:0 -180px 30px; }
+body#design .ios .grid2col { width:840px; margin:0 auto; }
+
+
+/* cases */
+body#design .cases .row { width:840px; }
+body#design .cases .row h1 { margin:0 -180px 30px; }
+
+body#design .cases figure.hero { position:absolute; bottom:-70px; left:50%; z-index:1; width:2850px; height:992px; margin-left:-1607px; }
+@media only screen and (max-width: 1024px) {
+	body#design .cases figure.hero { width:1024px; margin-left:-512px; }
+}

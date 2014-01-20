@@ -1,0 +1,224 @@
+#what-is #content { padding-top:0; }
+
+
+/* header */
+#what-is header { margin: 0 -50px; padding-bottom: 0; border-bottom: 1px solid #e4e4e4; text-align: center; }
+#what-is header p.intro { color: #7b7b7b; font-size: 20px; line-height: 26px; }
+#what-is header p.intro img { margin: 3px 5px -3px 0; }
+#what-is header .grid3col { width: 840px; _width: 880px; margin: 0 auto 15px; padding-bottom: 10px; text-align: left; }
+#what-is header .grid3col h2 { padding-left: 10px; margin-bottom: 5px; font-size: 16px; font-weight: bold; *margin-right: -15px; *padding-left: 5px; *word-spacing: -1px; *position: relative; z-index: 1; zoom: 1; }
+#what-is header .grid3col p { padding-left: 10px; word-spacing: -1px; margin-right: -10px; position: relative; z-index: 1; zoom: 1; *padding-left: 5px; }
+#what-is header .grid3col img { margin-bottom: 8px; }
+#what-is header .grid3col .column { margin-left: 31px; width: 259px; }
+#what-is header .grid3col a { color: #333; cursor: pointer; }
+#what-is header .grid3col a:hover { text-decoration: none; }
+#what-is header .grid3col a:hover span { text-decoration: underline; }
+
+#what-is header .hero-video-nav { min-height: 76px; *height: 76px; padding-top: 20px; background: url(../images/header_video_nav_subtle_background.jpg) no-repeat 50% 0; }
+#what-is header .hero-video-nav li,
+#what-is header .hero-video-nav li a { display: inline-block; *display: inline; *zoom: 1; }
+#what-is header .hero-video-nav li a { width: 210px; padding-top: 12px; text-align: left; }
+#what-is.update-1003 header .hero-video-nav li a { width: 222px; }
+#what-is header .hero-video-nav li a.wrap span { display: block; line-height: 1.2em; }
+#what-is header .hero-video-nav li a.wrap span.more { display: inline; }
+#what-is header .hero-video-nav li a.wrap span.image { width: 98px; height: 64px; margin: -12px 8px 0 0; _position: relative; float: left; background: no-repeat -4px -3px; }
+#what-is header .hero-video-nav li a.wrap:hover span.image { background-position: -4px -68px; }
+
+
+/* section styles */
+#what-is section { position: relative; clear: both; margin: 0 -50px; padding: 50px 50px 80px; border-bottom: 1px solid #e4e4e4; background: url(../top-features/images/section_top_bg.png) repeat-x; }
+#what-is section h1 { margin-bottom: 0; margin-left: 52px; }
+#what-is section h2 { font-size: 24px; line-height: 28px; margin-bottom: 8px; }
+#what-is section h2 span { color: #999; }
+#what-is section p.intro { padding: 0 0 0 51px; font-size: 18px; line-height: 24px; }
+#what-is section .subsection { clear: both; padding-top: 50px; margin-top: 50px; border-top: 1px solid #e4e4e4; }
+#what-is section .subsection img.right,
+#what-is section .subsection img.left { margin: 0; }
+#what-is section .bttContainer  { display:block; text-align:right; padding-bottom:20px; clear:both; }
+#what-is section .btt { padding-right:12px; background:url(../../../../global/elements/arrows/uparrow_08c.gif) no-repeat 100% 50%; }
+#what-is section .subsection a.block span { display:block; }
+#what-is section .subsection a.block span.more { display: inline; }
+
+#what-is section .video-trigger { cursor:pointer; display:inline-block; width:282px; padding:25px 12px 5px; background:url(../images/video_thumb_bg.jpg) 0 0 no-repeat; }
+#what-is section .video-trigger .image { width: 114px; height: 82px; float: left; margin: -19px 12px -2px -6px; background: no-repeat; }
+#what-is section .video-trigger .image .play { width: 100%; height: 100%; position: absolute; left: 0px; top: -5px; background: url(../images/button_watch.png) no-repeat 50% 50%; _behavior:url(/global/scripts/lib/iepngfix.htc); _height:66px; _margin-top:29px; _margin-left:60px; }
+#what-is section .video-trigger:hover .image { background-position: 50% 100%; }
+#what-is section .video-trigger:hover .image .play { opacity: .5; }
+
+#what-is section .video-trigger.square { width:174px; padding:6px 6px 5px; background:url(../images/video_thumb_square_bg.jpg) 0 0 no-repeat; }
+#what-is section .video-trigger.square .image { width:163px; height:115px; float:none; margin:0 0 5px 0; }
+#what-is section .video-trigger.square span { text-align:center; }
+
+#what-is section .zoom-trigger { cursor: pointer; }
+#what-is section .subsection a.zoom-trigger .zoom { left: 272px; }
+
+#what-is section .subsection.right img.right { margin-left: 35px; margin-bottom: 50px; *margin-bottom: 25px; }
+#what-is section .subsection.right a.zoom-trigger { float: right; width: 525px; }
+#what-is section .subsection.right a.zoom-trigger .zoom { left: 197px; top: 134px; }
+#what-is section .subsection.left img.left { margin-right: 35px; margin-bottom: 50px; *margin-bottom: 25px; }
+#what-is section .subsection.left a.zoom-trigger .zoom { left: 162px; top: 134px; }
+#what-is section #multicam.subsection.left a.zoom-trigger .zoom { left: 108px; }
+
+#what-is section .close { left: 16px; top: -27px; }
+
+
+
+/* finalcutpro top features */
+#what-is.finalcutpro header { overflow: hidden; _zoom: 1; }
+#what-is.finalcutpro header h1 img { padding-left: 5px; }
+#what-is.finalcutpro header p.intro { padding: 0 140px; }
+#what-is.finalcutpro header .grid3col { padding-bottom: 25px; margin-bottom: 0; border: none; _zoom: 1; }
+#what-is.finalcutpro header .grid3col .column { _zoom: 1; }
+#what-is.finalcutpro header .grid3col .column.last p { width:270px; }
+#what-is.finalcutpro header .grid3col .more { background:url(../../../../global/elements/arrows/downarrow_08c.gif) no-repeat right center; }
+#what-is.finalcutpro header p.intro a:hover { text-decoration: none; }
+#what-is.finalcutpro header p.intro a:hover span { text-decoration: underline; }
+#what-is.finalcutpro header .video-swap { width: 980px; left: 0; top: 0px; padding: 50px 0 15px; }
+#what-is.finalcutpro header .video-swap .close { left: 67px; top: 27px; }
+#what-is.finalcutpro header .video-swap.video-overview,
+#what-is.finalcutpro header .video-swap.video-demo { padding-bottom: 50px; *padding-bottom: 130px; }
+
+#what-is.finalcutpro section { padding-bottom: 0; }
+#what-is.finalcutpro section .subsection { margin-top: 30px; padding-top: 20px; }
+
+#what-is.finalcutpro #revolutionary p.intro { width:790px; margin-bottom:0px; }
+#what-is #revolutionary .subsection.left img.left { margin-right: 26px; }
+
+#what-is.finalcutpro #magnetic { margin-top:10px; padding:0px 85px; border-top:none; }
+#what-is.finalcutpro #magnetic .hero { margin: 0 -110px;  *position: relative; }
+#what-is.finalcutpro #magnetic p { padding-right: 220px; }
+#what-is.finalcutpro #magnetic .video-trigger { float: right; margin: 0 0 20px 20px; }
+#what-is.finalcutpro #magnetic .magnetic-video-swap { width: 710px; padding: 30px 0 20px; position: relative; z-index: 1; }
+#what-is.finalcutpro #magnetic .close { left: -69px; top: 7px; }
+
+#what-is.finalcutpro #magnetic .moviePanel { margin: 0px -70px; }
+#what-is.finalcutpro #magnetic a.zoom-trigger .zoom { top: 160px; }
+
+#what-is.finalcutpro #connections { margin-top:0; padding-top:50px; }
+#what-is.finalcutpro #connections h2 { padding-top:25px; }
+#what-is.finalcutpro #connections.subsection.left img.left { margin-right:35px; }
+
+#what-is.finalcutpro #multichannel { padding-top:50px; }
+#what-is.finalcutpro #multichannel p { width:350px; }
+#what-is.finalcutpro #multichannel a.zoom-trigger .zoom { top:74px; left:194px; }
+
+#what-is.finalcutpro #clips { padding: 50px 85px 20px; position: relative; *width: 710px; *margin-top: 25px; }
+#what-is.finalcutpro #clips p { margin-right: 15px; }
+#what-is.finalcutpro #clips figure { display: none; }
+#what-is.finalcutpro #clips #clips-gallery { position: relative; z-index: 1; height: 324px; margin: 0 -90px; }
+#what-is.finalcutpro #clips #clips-gallery figure { display: block; position: absolute; z-index: 1; left: 0; top: 0px; }
+#what-is.finalcutpro #clips a.zoom-trigger .zoom { top: 78px; left: 364px; }
+#what-is.finalcutpro #clips .toggle-nav { width:274px; }
+
+#what-is.finalcutpro #multicam .multicam-video-swap { padding:0 0 60px; *padding-bottom:20px; position:relative; }
+#what-is.finalcutpro #multicam .moviePanel { *margin-top: -15px; margin-bottom: -40px; }
+#what-is.finalcutpro #multicam .close { *top: -37px; }
+
+#what-is.finalcutpro #inline-editor h2 { padding-top: 25px; }
+#what-is.finalcutpro #inline-editor .close { top: 0; *top: -10px;}
+#what-is.finalcutpro #inline-editor .editor-video-swap { padding: 30px 0 60px; *padding-bottom: 20px; position: relative; }
+#what-is.finalcutpro #inline-editor a.video-trigger { width: 290px; }
+#what-is.finalcutpro #inline-editor .moviePanel { *margin-top: -15px; margin-bottom: -40px; }
+
+#what-is.finalcutpro #audition .close { top: 0; }
+#what-is.finalcutpro #audition .audition-video-swap { padding: 30px 0 60px; position: relative; }
+
+#what-is.finalcutpro #powerful { padding-top: 20px; }
+#what-is.finalcutpro #powerful-video-container a.video-trigger { float:right; width:101px; margin-left:20px; margin-right:20px; *margin-right:30px; background:url(../images/video_thumb_long_bg.png) 0 0 no-repeat; }
+#what-is.finalcutpro #powerful-video-container a.video-trigger .image { float: none; }
+#what-is.finalcutpro #powerful-video-container a.video-trigger span { margin-right: -5px; }
+
+#what-is.finalcutpro.update-1003 #powerful-video-container a.video-trigger { float: right; margin: 45px auto 0; *margin-top: 35px; width: 300px; *margin-right: auto; }
+#what-is.finalcutpro.update-1003 #powerful-video-container a.video-trigger .image { float: left; }
+#what-is.finalcutpro.update-1003 #powerful-video-container a.video-trigger span { margin-right: auto; }
+#what-is.finalcutpro.update-1003 #powerful-video-container p { margin-right: 330px; }
+
+#what-is.finalcutpro #powerful-video-container .close { top: 7px; }
+#what-is.finalcutpro #powerful-video-container .powerful-video-swap { padding: 30px 0 20px; }
+
+#what-is.finalcutpro #powerful #direct-access h2 { padding-top: 30px; }
+#what-is.finalcutpro #powerful #direct-access.subsection.right a.zoom-trigger { float: right; width: 428px; }
+#what-is.finalcutpro #powerful #direct-access.subsection.right a.zoom-trigger .zoom { left: 159px; top: 134px; }
+
+#what-is.finalcutpro #unified-import { margin-top:0px; border-top:none; *margin-left:-50px; *position:relative; }
+#what-is.finalcutpro #unified-import .left .hero { margin-left:-50px; position:relative; z-index:1; }
+#what-is.finalcutpro #unified-import .right .hero { margin-right:-50px; position:relative; z-index:1; }
+#what-is.finalcutpro #unified-import .column.first { margin-top:22px; *padding-left:50px; }
+#what-is.finalcutpro #unified-import p { width:565px; margin-bottom:60px; }
+#what-is.finalcutpro #unified-import img.right { margin:0; }
+#what-is.finalcutpro #unified-import a.zoom-trigger .zoom { top:100px; }
+#what-is.finalcutpro #unified-import a.zoom-trigger.left .zoom { left:85px; *left:135px; }
+#what-is.finalcutpro #unified-import a.zoom-trigger.right .zoom { left:auto; top:125px; right:95px; }
+#what-is.finalcutpro #unified-import a.zoom-trigger.small { width:280px; float:right; position:relative; }
+#what-is.finalcutpro #unified-import a.zoom-trigger.small .zoom { top:33px; left:60px; }
+
+#what-is.finalcutpro #content-analysis { padding-top:45px; padding-bottom:20px; *padding-top:25px; }
+
+#what-is.finalcutpro #keywords .close { top:20px; }
+#what-is.finalcutpro #keywords .keywords-video-swap { padding-bottom:30px; }
+
+#what-is.finalcutpro #multicam,
+#what-is.finalcutpro #keywords,
+#what-is.finalcutpro #smart-collections,
+#what-is.finalcutpro #direct-access { margin-top: 10px; padding-top: 50px; }
+
+#what-is.finalcutpro #keywords h2 { padding-top:20px; }
+#what-is.finalcutpro #smart-collections h2 { padding-top: 25px; }
+#what-is.finalcutpro #direct-access { *padding-top:25px; }
+#what-is.finalcutpro #direct-access h2 { padding-top:15px; }
+
+#what-is.finalcutpro #incredible { border-bottom: none; padding-bottom: 0; }
+#what-is.finalcutpro #incredible p.intro { width:780px; }
+#what-is.finalcutpro #incredible .grid2col.subsection { border-top: none; }
+#what-is.finalcutpro #incredible .grid2col { clear: both; width: 792px; margin-bottom: 35px; padding: 0 44px; }
+#what-is.finalcutpro #incredible .grid2col p { padding-left: 109px; margin-bottom: 0; }
+#what-is.finalcutpro #incredible .grid2col h3 { font-size: 18px; font-weight: normal; margin-right: -10px; }
+#what-is.finalcutpro #incredible .grid2col img.left { margin-right: 8px; }
+#what-is.finalcutpro #incredible .grid2col .column { width: 374px; }
+#what-is.finalcutpro #incredible .grid2col .up img.left { margin-top:-6px; position:relative; z-index:1; }
+
+/* motion */
+#what-is.motion header .gallery-trigger div { width: 250px; }
+#what-is.motion .hero-video-nav { background:url(../images/header_video_nav_background.jpg) no-repeat 50% 0; }
+
+#what-is.motion #video-swap { padding-top: 27px; }
+#what-is.motion #video-swap p.intro { margin: 0 50px 15px; padding-bottom: 15px; }
+#what-is.motion #video-swap p.intro a.more { background-image: url(../../../../global/elements/arrows/morearrow_big_08c.gif); }
+@media only screen {
+	#what-is.motion #video-swap p.intro a.more.morelarge { background-image:url(http://images.apple.com/global/elements/arrows/morearrow_big_08c.svg); }
+}
+
+#what-is.motion #video-swap .video-swap .close { left: 65px; }
+#what-is.motion #video-swap .video-swap .moviePanel { margin-top: 20px; margin-bottom: 20px; }
+
+#what-is.motion section { clear: both; border-bottom: 0; padding-bottom: 0px; }
+
+#what-is.motion #interface { padding: 0 50px; }
+#what-is.motion #interface p { width: 740px; }
+#what-is.motion #interface img.across { margin: 0 -50px 10px; *position: relative; }
+#what-is.motion #interface a.zoom-trigger .zoom { left: 307px; top: 140px; }
+
+#what-is.motion #smart-templates h2 { padding-top:20px; }
+
+#what-is.motion #parameter { padding-top: 20px; }
+#what-is.motion #parameter .moviePanel { margin-bottom: -23px; }
+#what-is.motion #parameter .parameter-video-swap { padding: 30px 0 23px; *padding-bottom: 0; }
+#what-is.motion #parameter .parameter-video-swap .close { top: 23px !important; }
+
+#what-is.motion #editable-templates h2 { padding-top: 70px; }
+
+#what-is.motion #chroma { *padding-top: 25px; }
+#what-is.motion #chroma h2 { padding-top: 55px; }
+
+#what-is.motion #breakthrough { padding: 50px 50px 0; *padding-left: 25px; *padding-top: 25px; }
+#what-is.motion #breakthrough p { width: 680px; margin-bottom: 30px; }
+#what-is.motion #breakthrough h3 { margin-bottom: 2px; font-size: 16px; font-weight: normal; }
+#what-is.motion #breakthrough .grid2col { width: 790px; margin:0 -5px; }
+#what-is.motion #breakthrough .grid2col p { width: auto; padding-left: 111px; }
+#what-is.motion #breakthrough .grid2col img.left { margin-right: 10px; margin-top: 0; }
+#what-is.motion #breakthrough .grid2col .column { width:376px; }
+#what-is.motion #breakthrough .grid2col .column.last p { padding-right: 5px; }
+
+#what-is.motion #new-features { background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#9b9b9b), to(#dbdbdb)); background-image: -moz-linear-gradient(center top, #9b9b9b 0%, #dbdbdb 100%); background-color: #bebebe; }
+#what-is.motion #new-features img.right { margin: -32px 0 0 -120px; }
+#what-is.motion #new-features p { color: #333; }

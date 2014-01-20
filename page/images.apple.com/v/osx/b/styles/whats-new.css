@@ -1,0 +1,198 @@
+#main .content,
+#main #content { padding-top:40px; }
+
+/* font overrides
+-----------------------------*/
+.content h1 { margin-bottom:0; }
+.content h2 { margin-bottom:21px; }
+.content h3 { font-weight:normal; font-size:1.35em; margin-bottom:5px; }
+
+/* gallery
+-----------------------------*/
+#whats-new .sections-nav { margin:0 auto; width:980px; }
+#whats-new .sections-nav li.scrolltile-advanced-technologies a img { margin-top:8px; margin-bottom:-10px; }
+#whats-new .content .toggle-nav li { width:180px; }
+#whats-new .content .row .gallery-default .gallery-view .gallery-content img { display:block; margin:0 auto; }
+
+/* row
+-----------------------------*/
+#whats-new .row { margin:0 auto; padding:70px 0; height:auto; border-bottom:1px solid #ccc; }
+#whats-new .row h1 { margin:0px 0 2px; }
+#whats-new .row .description { width:800px; margin:0 auto; text-align:left; line-height:1.6; color:#444; }
+#whats-new .row .headline-icon { display:block; margin:0 auto; }
+#whats-new .callout { width:860px; padding:48px 58px; border:2px solid #e9e9e9; background-color:#f8f8f8; text-align:left; }
+
+/* section-specific */
+#whats-new #hero { padding-bottom:65px; border-bottom:1px solid #ccc; }
+#whats-new #hero h1 { margin-bottom:15px; }
+#whats-new #hero p.intro { margin:0 90px 50px; color:#404040; font-size:1.2em; line-height:1.6; }
+
+#whats-new .ibooks .gallery-ibooks-studying .pin.one { top:148px; padding-right:29px; }
+#whats-new .ibooks .gallery-ibooks-studying .pin.two { top:361px; padding-left:18px; }
+#whats-new .ibooks .gallery-ibooks-studying .pin.two p { margin-right:-2px; }
+@media only screen and (max-device-width:768px) {
+	#whats-new .ibooks .gallery-ibooks-studying .pin.right { right:80px; width:70px; }
+}
+
+#whats-new .content .maps .gallery-default .gallery-view .gallery-maps-flyover img { padding-left:1px; text-align:left; }
+#whats-new .content .maps .gallery-default .gallery-view .gallery-maps-send img { padding-left:1px; text-align:left; }
+#whats-new .maps .gallery-maps-features .pin.one { top:60px; padding-right:412px; }
+#whats-new .maps .gallery-maps-features .pin.two { top:283px; padding-left:253px; }
+#whats-new .maps .gallery-maps-features .pin.three { top:60px; padding-left:174px; }
+#whats-new .calendar .gallery-calendar-week .pin.one { top:390px; padding-right:42px; }
+#whats-new .calendar .gallery-calendar-week .pin.two { top:125px; padding-left:490px; }
+#whats-new .calendar .gallery-calendar-inspector .pin.one { top:390px; padding-right:420px; }
+#whats-new .calendar .gallery-calendar-inspector .pin.two { top:155px; padding-right:330px; }
+#whats-new .calendar .gallery-calendar-inspector .pin.three { top:259px; padding-left:358px; }
+#whats-new .calendar .gallery-calendar-inspector .pin.four { top:431px; padding-left:320px; }
+#whats-new .calendar .gallery-calendar-month .pin.one { top:258px; padding-right:17px; }
+#whats-new .calendar .gallery-calendar-month .pin.two { top:63px; padding-left:19px; }
+#whats-new .safari .gallery-safari-sidebar .pin.one { top:70px; padding-right:19px; }
+#whats-new .safari .gallery-safari-sidebar .pin.two { top:318px; padding-right:19px; }
+#whats-new .safari .gallery-safari-sharedlinks .pin.one { top:139px; padding-right:21px; }
+#whats-new .safari .gallery-safari-sharedlinks .pin.two { top:60px; padding-left:357px; }
+#whats-new .icloud-keychain .gallery-icloud-keychain-creditcard .pin.one { top:362px; padding-right:175px; }
+#whats-new .icloud-keychain .gallery-icloud-keychain-creditcard .pin.two { top:385px; padding-left:419px; }
+#whats-new .content .multiple-displays .gallery-default .gallery-view .gallery-multiple-displays-airplay img { padding-left:1px; }
+#whats-new .finder-tabs img.center { margin-top:30px; }
+#whats-new #main .tags .toggle-nav { margin-bottom:0; }
+#whats-new .tags .gallery-content { padding-top:30px; }
+#whats-new .tags .gallery-tags-finder .pin.one { top:25px; padding-right:265px; }
+#whats-new .tags .gallery-tags-finder .pin.one .vert { height:19px; }
+#whats-new .tags .gallery-tags-finder .pin.two { top:270px; padding-right:18px; }
+#whats-new .tags .gallery-tags-finder .pin.three { top:25px; padding-left:150px; }
+#whats-new .tags .gallery-tags-finder .pin.three .vert { height:19px; }
+
+#whats-new #safari .row-hero img { width:875px; margin:0 -82px; _position:relative; _z-index:1; }
+#whats-new #safari figure { width:100%; }
+
+#whats-new #safari .optimization { margin:58px auto 0; width:684px; padding:40px 55px 30px; text-align:center; }
+#whats-new #safari .optimization h3 { margin:0; }
+#whats-new #safari .optimization p { color:#666; }
+#whats-new #safari .optimization .column.first { width:282px; padding-left:19px; }
+#whats-new #safari .optimization .column.first .caption { padding:3px 50px 0; font-size:0.9166em; line-height:1.3636; color:#999; }
+#whats-new #safari .optimization .column.last { margin:0; width:305px; }
+#whats-new #safari .optimization .performance-javascript { width:332px; padding-left:8px; }
+
+#whats-new .advanced-tech h1 { margin-bottom:10px; }
+#whats-new .advanced-tech .description { margin-bottom:0; text-align:center; }
+
+#whats-new .row.buckets { text-align:left; padding:60px 60px 40px; width:auto; }
+#whats-new .row.buckets .column { width:240px; background:url(../images/whatsnew_buckets_bg.png) 100% 0 no-repeat; }
+#whats-new .row.buckets .column.first { padding-right:35px; margin-right:0; }
+#whats-new .row.buckets .column.middle { padding:0 35px; margin-right:0; margin-left:0; }
+#whats-new .row.buckets .column.last { padding-left:35px; background:none; }
+#whats-new .row.buckets .headline-icon { margin-bottom:14px; }
+#whats-new .row.buckets h2 { margin-bottom:2px; }
+#whats-new .row.buckets p { font-size:1.15em; color:#404040; line-height:1.45; }
+
+#whats-new #content .row.developer-tools { width:760px; padding:42px 110px 15px; text-align:left; }
+#whats-new #content .developer-tools .left { margin-top:-7px; }
+#whats-new #content .developer-tools h1,
+#whats-new #content .developer-tools p { margin-left:153px; }
+#whats-new #content .developer-tools h1 { margin-bottom:0; }
+#whats-new #content .developer-tools p { margin-right:10px; font-size:1em; line-height:1.5em; color:#333; line-height:1.45; }
+
+
+/* Bar Charts (Safari section)
+-----------------------------*/
+/* bar charts shared */
+.performance-energy { margin-top:40px; }
+.performance-energy .chart-title { margin-bottom:20px; }
+.performance-energy .bars { width:332px; margin-bottom:2px; padding-bottom:3px; background:url(../images/performance_gallery_chart_line.png) repeat; background-size:83px 157px; }
+
+.performance-energy .bars li { width:100%; margin-bottom:10px; }
+.performance-energy .bars .bar { width:0; height:20px; position:relative; z-index:1; }
+.performance-energy .bars .bar-one   .bar { background:#59b1f6; }
+.performance-energy .bars .bar-two   .bar { background:#bebfbf; }
+.performance-energy .bars .bar-three .bar { background:#909191; }
+
+.performance-energy .bars .text-value { position:absolute; right:6px; font-size:0.9em; color:#fff; line-height:20px; }
+.performance-energy .bars .caption { margin-bottom:2px; font-size:11px; }
+
+.performance-energy .key { margin:4px 0 8px -42px; }
+.performance-energy .key li { float:left; width:83px; color:#666; font-size:11px; line-height:8px; text-align:center; }
+
+.performance-energy .sosumi { display:block; width:95%; margin:18px 0; padding:0; color:#666; }
+
+.performance-energy .gallery-view { position:relative; z-index:2; }
+.performance-energy .gallery-content { position:absolute; top:0; left:0; -webkit-transform:translateZ(0); }
+.performance-energy .gallery .nav { width:390px; padding-top:7px; margin-bottom:15px; }
+.performance-energy .gallery .nav li { display:block; float:left; line-height:1.2em; }
+.performance-energy .gallery .nav li.first-child { float:left; margin-right:15px; padding-right:15px; border-right:1px solid #333; text-align:left; }
+.performance-energy .gallery .nav a.active { color:#333; }
+.performance-energy .gallery .nav a.active:hover { text-decoration:none; cursor:default; }
+
+.content .performance-energy.grid2col .column { width:430px; }
+.content .performance-energy.grid2col .column.first { border-right:1px solid #e4e4e4; }
+.content .performance-energy.grid2col .column.last { margin-right:-59px; }
+
+/* efficiency-energy */
+.performance-energy .efficiency-energy .key { margin-left:-30px; }
+.performance-energy .efficiency-energy .key li { width:60px; }
+.performance-energy .efficiency-energy .bars { width:360px; background:url(../images/energy_gallery_chart_line.png); background-size:60px 157px; }
+.performance-energy .efficiency-energy .bar-one .bar { width:33.3%; }
+.performance-energy .efficiency-energy .bar-two .bar { width:53.3%; }
+.performance-energy .efficiency-energy .bar-three .bar { width:96.7%; }
+
+/* efficiency-memory */
+.performance-energy .efficiency-memory .bar-one .bar { width:50%; }
+.performance-energy .efficiency-memory .bar-two .bar { width:64.5%; }
+.performance-energy .efficiency-memory .bar-three .bar { width:67.5%; }
+
+/* performance-jsbench */
+.performance-energy .performance-jsbench .bars { width:364px; background:url(../images/jsbench_gallery_chart_line.png); background-size:52px 157px; }
+.performance-energy .performance-jsbench .key { margin-left:-26px; }
+.performance-energy .performance-jsbench .key li { width:52px; }
+.performance-energy .performance-jsbench .bar-one .bar { width:91.4%; }
+.performance-energy .performance-jsbench .bar-two .bar { width:15.7%; }
+.performance-energy .performance-jsbench .bar-three .bar { width:14.3%; }
+
+/* performance-sunspider */
+.performance-energy .performance-sunspider .bar-one .bar { width:56%; }
+.performance-energy .performance-sunspider .bar-two .bar { width:50.5%; }
+.performance-energy .performance-sunspider .bar-three .bar { width:50%; }
+
+/* optimization performance */
+.performance-energy .performance-javascript .caption { text-align:left; }
+.performance-energy .performance-javascript .bars { font-size:0.8333em; text-align:left; background-size:44px 157px; }
+.performance-energy .performance-javascript .bars li { margin-left:-6px; }
+.performance-energy .performance-javascript .key { margin-left:-22px; }
+.performance-energy .performance-javascript .key li { width:44px; font-size:.6667em; }
+.performance-energy .performance-javascript .bar-one .bar { width:90%; }
+.performance-energy .performance-javascript .bar-two .bar { width:16.3%; }
+.performance-energy .performance-javascript .bar-three .bar { width:15.2%; }
+
+
+
+/* 200+ Features
+-------------------------*/
+#features .content { padding-top:34px; padding-bottom:0; }
+#features .content h1,
+#features .content h2 { color:#333; }
+#features .content p { color:#404040; }
+#features a.back-to-top { position:absolute; right:0; top:14px; padding-right:12px; font-size:0.8571em; color:#08c; background:url(../images/top_14.png) no-repeat 100% 43%; background-size:9px 5px; }
+@media only screen {
+	#features a.back-to-top { background-image:url(http://images.apple.com/v/osx/b/images/top.svg); }
+}
+#features .hero { margin-bottom:38px; }
+#features .hero h1 { margin-bottom:35px; }
+#features .hero .intro { padding:0 78px; font-size:1.1429em; line-height:1.6875; }
+
+#features nav.box { margin:0 50px 42px; width:auto; padding:27px 10px 20px 60px; font-size:0.8571em; border:1px solid #cfcfcf; background-color:#f6f6f6; }
+#features nav.box ul li { margin-bottom:5px; }
+#features nav.box ul li a { color:#333; }
+#features nav.box ul li a:hover { color:#08c; text-decoration:none; }
+#features nav.box .column { width:150px; margin:0 0 0 25px; padding:0; }
+#features nav.box .column.last { width:130px; }
+
+#features .row { position:relative; z-index:1; margin:27px 50px 17px; width:auto; border-bottom:1px solid #ced0d5; }
+#features .row.noborder { border:none; }
+#features .row h2 { margin-bottom:2px; font-size:1em; line-height:1.2857; }
+#features .row p { font-size:0.8571em; line-height:1.5; }
+#features .grid3col .column { margin-left:50px; width:255px; }
+
+#features .row .headline-icon { margin-bottom:25px; overflow:hidden; display:table; }
+#features .row .headline-icon img { display:block; float:left; margin-right:10px; }
+#features .row .headline-icon span { display:table-cell; vertical-align:middle; *margin-top:15px; *display:block; }
+#features .row .headline-icon.short span { *margin-top:2px; }

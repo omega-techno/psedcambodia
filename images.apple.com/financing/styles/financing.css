@@ -1,0 +1,104 @@
+html { background: #f2f2f2; }
+#productheader h2 a { text-indent:0; width:214px; margin-top:3px; }
+#main .content { width:880px; zoom:1; margin:0 auto 18px; padding:4em 50px 0; }
+#main p, #main ul { font-size:14px; line-height:20px; }
+#main h3 { font-size:16px; line-height:24px; }
+.sosumi { width:880px; margin:0 auto; padding-top:10px; font-size:12px; }
+
+.grid2col.gradient, .grid3col.gradient { 
+	background:#fff;
+    background: -moz-linear-gradient(top, #fff 0%, #f2f2f2 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(100%,#ffffff));
+    background: -webkit-linear-gradient(top, #fff 0%,#f2f2f2 100%);
+    background: -o-linear-gradient(top, #fff 0%,#f2f2f2 100%);
+    background: -ms-linear-gradient(top, #fff 0%,#f2f2f2 100%);
+    background: linear-gradient(top, #fff 0%,#f2f2f2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 );
+    width:854px; margin:40px 0 65px 10px; padding:6px; border-top:1px solid #F2F2F2\9; border-left:1px solid #F2F2F2\9; *border-right:1px solid #F2F2F2; *border-bottom:1px solid #F2F2F2; }
+#main .grid2col.gradient h2, #main .grid3col.gradient h2 { font-size:28px !important; font-weight:normal; font-style:normal; padding:24px 0 20px 23px; }
+.grid2col.gradient .column { background:url(../images/gradient_separator.jpg) no-repeat 0 bottom; }
+.grid2col.gradient .column.first { background:none; }
+.grid2col.gradient .column p { padding:0 22px; padding-bottom:24px; margin-bottom:3px; font-size:14px; line-height:20px;}
+
+/* home */
+
+#home #hero { height:390px; padding-left:10px; }
+#home #hero img.hero { position:absolute; right:0px; top:51px; }
+#home #hero h1 { padding-top:53px; margin:0 0 -8px -3px; *margin-bottom:0; }
+#home #hero p { width:330px; font-size:18px; line-height:24px; }
+
+#home .grid2col .column { background:url(../images/home_gradient_seperator.jpg) no-repeat; }
+#home .grid2col a { color:#000; }
+#home .grid2col a:hover { text-decoration:none; }
+#home .grid2col a:hover span.more { text-decoration:underline; }
+#home .grid2col .column.first { background:none; }
+#home .grid2col .column h3 { margin-bottom:5px; margin-left:22px; }
+
+#home .grid3col .column { background:url(../images/home_gradient_seperator.jpg) no-repeat; height:370px; }
+#home .grid3col a { color:#000; }
+#home .grid3col a:hover { text-decoration:none; }
+#home .grid3col a:hover span.more { text-decoration:underline; }
+#home .grid3col .column.first { background:none; width:257px; }
+#home .grid3col .column h3 { margin-bottom:5px; }
+#home #consumers.column img { margin:0 0 21px 56px; }
+#home #consumers.column p, #home #consumers.column h3 { margin:0 10px; }
+#home #business.column { width:285px; }
+#home #business.column img { margin:0 0 21px 120px; }
+#home #business.column p, #home #business.column h3 { margin-left:33px; }
+#home #education.column { width:280px; }
+#home #education.column img { margin:0 0 21px 105px; }
+#home #education.column p, #home #education.column h3 { margin:0 5px 0 37px; }
+
+/* consumer */
+
+#home .content .column.first h2 { font-weight:normal; margin-bottom:5px; }
+#home .content .grid2cola .column.first { padding-left:9px; width:55%; }
+#home .content .grid2cola ul.square { list-style-position:inside; margin-left:0; }
+#home .content #hero h1 { margin:0 0 10px 0; }
+#home .content .grid2cola .sidebar { background:url(../images/business_recycling-bg.jpg); position:relative; height:188px; width:274px; }
+
+/* business */
+#business #hero { height:375px; padding-left:10px; }
+#business #hero img.hero { position:absolute; right:0px; top:70px; }
+#business #hero h1 { margin:0 0 -8px -3px; padding:73px 0 5px 2px; *margin-bottom:0; }
+#business #hero p { width:400px; font-size:18px; line-height:24px; }
+
+#business .grid2cola .column.first { padding-left:9px; }
+#business #main h2 { font:18px; font-weight:normal; margin-bottom:5px; clear:both; }
+#business .grid2cola ul.square { margin-left:0px; list-style-position:inside; line-height:23px; }
+#business ul.newcolumn { float:left; padding-right:63px; margin-bottom:25px; }
+#business .sidebar { background:url(../images/business_recycling-bg.jpg); position:relative; width:274px; }
+#business .sidebar h3,
+#home .content .grid2cola .sidebar h3 { line-height:20px; padding:15px 0 8px 15px; }
+#business .sidebar p,
+#home .content .grid2cola .sidebar p { font-size:12px; padding:0 15px; }
+#business .sidebar img { position:absolute; bottom:0; left:0; }
+
+#business .grid3col { padding-bottom:0px; }
+#business .grid3col.gradient .column { background:url(../images/gradient_separator.jpg) no-repeat 0 0; min-height:320px; width:270px; margin-left:0px; padding-left:12px; }
+#business .grid3col.gradient .column.first { background:none;}
+#business .grid3col.gradient h3 { margin-bottom:5px; }
+#business .grid3col.gradient h3, #business .grid3col.gradient p { margin:5px 10px; }
+
+/* education */
+#education #hero { height:390px; padding-left:10px; }
+#education #hero img.hero { position:absolute; right:0px; top:43px; }
+#education #hero h1 { margin:0 0 -8px -3px; padding:70px 0 2px 2px; *margin-bottom:0; }
+#education #hero p { width:390px; font-size:18px; line-height:24px; }
+#education #main .grid2cola .column.first { width:470px; padding-left:9px; }
+#education #main .grid2cola .column.last { padding-right:16px; }
+#education #main ul li { margin-bottom:6px; }
+#education #main .grid2cola .column.last h3 { font-size:12px; padding-top:14px; }
+#education p.legend { font-size:9px; line-height:13px; color:#666666; padding:10px 0 0 5px; }
+
+#education .grid3col { width:860px; margin-left:10px; padding-bottom:0px; }
+#education .grid3col.gradient .column { background:url(../images/education_gradient_separator.jpg) no-repeat 0 0; min-height:400px; width:265px; margin-left:15px; padding-left:10px; }
+#education .grid3col.gradient .column.first { background:none; }
+#education .grid3col.gradient h3 { margin-bottom:5px; }
+#education .grid3col.gradient h3, #education .grid3col.gradient p { margin:5px 10px; }
+#education .grid3col ul, #education .grid3col a { font-size:14px; margin-left:25px; }
+
+a.download { white-space: nowrap; padding:0 10px 0 5px; background: url(../../global/elements/arrows/morearrow_08c.gif) no-repeat 100% 50%; cursor: pointer; zoom: 1; }
+@media only screen {
+	a.download { background-image:url(http://images.apple.com/global/elements/arrows/morearrow_08c.svg); }
+}

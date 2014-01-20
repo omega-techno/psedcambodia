@@ -1,0 +1,140 @@
+.content { width:910px; padding:32px 38px .1em 32px; }
+
+.grid2cola .column.first { width:58%; }
+.grid2cola .column.last { width:36%; }
+
+.grid2cold .column.first { width:237px; }
+.grid2cold .column.last { width:614px; _margin-right:-36px; }
+
+.grid2cold .grid3col .column { width:30%; margin-left:5%; }
+.grid2cold .grid2cola .column.first { width:54%; }
+.grid2cold .grid2cola .column.last { width:40%; }
+.grid2cold .grid2cola .grid3col .column { width:29%; }
+
+/* content */
+#main iframe { width:100%; height:42em; }
+#main iframe { margin-bottom: 25px; }
+
+#main img.violator { position:absolute; top:0; right:2px; *right:1px; }
+
+#main h3 { font-size:13px; }
+#main h4 { font-size:1em; }
+#main h2 a,
+#main h3 a { color:#000; }
+
+#main p.intro { font-size:17px; line-height:1.4em; color:#666; font-weight:normal; }
+
+#main img.flushright { position:relative; margin-right:-40px; }
+
+#main .sosumi { margin-top:3em; line-height:15px; font-size:11px !important; }
+#main .sosumi li { margin-bottom:1.35em; }
+
+/* download pages */
+#main .content { width:980px; }
+#main .download h2 { width:240px; height:17px; margin-bottom:.3em; }
+#main .download .metalinks { position:relative; left:0px; bottom:10em; *bottom:6em; font-size:11px; *font-size:10px; }
+@-moz-document url-prefix(){
+#main .download .metalinks { bottom:10em; }
+}
+
+.column.last.hero { _padding-right: 17px; }
+
+#main .hero h1 { margin:9px 1px 0 0; }
+#main .hero img.hero { position:relative; margin-bottom: 35px; _margin-right: -35px; margin-top:90px; }
+#main .hero p { font-size:14px; color:#676767; padding-bottom:10px; }
+#main .hero h2 { margin-bottom:.3em; }
+#main .hero a.more { width:5.6em; text-align:left; }
+#main .hero .whatis img.center { margin-left:40px; }
+#main .hero .whatson img.center { margin-left:40px; }
+
+#main .sosumi a { color: #08c; }
+
+/* affiliates */
+#affiliates .content { width:900px; padding:4em 40px 1em; margin-bottom:3px; }
+#affiliates #hero { margin:-4em -40px 0; padding:40px 40px 0; text-align:center; margin-bottom:30px; background:#fff url(../../a/images/content_bg.png) 0 100% no-repeat; }
+#affiliates #hero h1,
+#affiliates #hero h1 img { display:block; margin:0 auto; }
+#affiliates #hero p.intro { padding:5px 135px 0; width:470px; margin:0 auto 33px; }
+#affiliates #hero img.flushright { margin-bottom:0; }
+
+#affiliates #lookingfor { position:relative; padding-bottom:28px; text-align:left; }
+#affiliates #looking { width:250px; display:table; position:relative; *margin:0 0 30px; font-size:14px; }
+#affiliates #looking div { display:table-cell; vertical-align:middle; *position:absolute; *top:50%; left:0; }
+#affiliates #looking div div { *position:relative; *top:-50%; }
+#affiliates #looking img { float:left; max-height:100px; margin:0 10px 0 0; border:1px solid #dadada; -ms-interpolation-mode:bicubic; }
+#affiliates #looking img.app { margin-left:3px; border:none; }
+#affiliates #looking div.app-100x100 { position:absolute; left:0; top:-2px; width:106px; height:108px; }
+#affiliates #looking div.app-57x57 { position:absolute; left:-1px; top:-3px; width:65px; height:66px; }
+#affiliates #looking div.app-100x100,
+#affiliates #looking div.app-57x57 { behavior:url(http://images.apple.com/global/scripts/lib/iepngfix.htc); }
+
+#affiliates #main .callout { padding:0; border:1px solid #dbdbdb; }
+#affiliates #main .callout:nth-child(1n) { border:none; }
+#affiliates #main .callout a { padding:19px; width:212px; *width:210px; height:243px; display:block;
+	background:#fff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(20%,#fff), color-stop(75%,#e8e8e8));
+	background:-moz-linear-gradient(top, #fff 20%, #e8e8e8 75%);
+}
+#affiliates #main .callout a:hover {
+	background:#e8e8e8;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(20%,#fff), color-stop(75%,#d2d2d2));
+	background:-moz-linear-gradient(top, #fff 20%, #d2d2d2 75%);
+}
+
+#affiliates #main .grid2colc .column.first { width:250px; }
+#affiliates #main .grid2colc .column.last { width:624px; }
+
+#affiliates #main ul.piped { margin-bottom:8px; }
+#affiliates #main ul.piped a.first { padding-right: 0.75em; }
+#affiliates #main ul.piped a.last { margin-left: 0; float:none !important; }
+
+#affiliates #main .sosumi { clear:both; margin-top:0; padding-top:19px; }
+#affiliates #main .sosumi li { margin-bottom:0; }
+
+#affiliates #main p.learn { float:right; width:468px; text-align:center; }
+
+#affiliates #main .masked { display:none; }
+#affiliates #main .systemrequirements img.overlayPanelShadowImage { top:-8.6%; left:-4.7%; width:109.4%; height:117.3%; }
+#affiliates .systemrequirements .overlayPanelContent .masked { display:block; width:500px; padding:43px 40px 44px; }
+
+/* ipad version of download page */
+#isiPhone,
+#isiPad { clear: both; margin: 0 auto 18px; padding: 0; position: relative; width: 870px; padding: 32px 55px 36px; }
+#isiPhone:after,
+#isiPad:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+#isiPhone img,
+#isiPad img { margin: 0 -15px 0 -18px ; position: relative; }
+#isiPhone h1,
+#isiPad h1 { font-size: 25px; line-height: 33px; font-weight:normal; }
+#isiPhone p,
+#isiPad p { font-size: 14px; line-height: 22px; }
+#isiPhone .grid2col,
+#isiPad .grid2col { background: url(../../a/images/div.gif) repeat-y 435px 0; }
+#isiPhone .column,
+#isiPad .column { width: 385px; }
+
+/* thankyou pages */
+#thankyou #main .content { padding-bottom:1.5em; }
+#thankyou #main p.intro { width:660px; margin-bottom: 30px; }
+#thankyou.latino #main p.intro { width:700px; }
+#thankyou #main img.hero { margin-bottom: 8px; }
+
+#thankyou #main .started { margin:-4px 0 0 546px; }
+#thankyou #main .started ul li { padding-right:12px; }
+#thankyou #main .started ul li img.left { margin-left:-94px; position:relative; }
+
+#thankyou #main .sosumi { clear:both; margin-top:0; }
+
+#facebook { clear:both; width:980px; height:63px; margin:0 auto; padding:0; border:1px solid #ddd; background:#f4f6f7; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px; -o-border-radius:4px; -khtml-border-radius:4px; }
+#facebook .fbfan { background:url(../../a/images/border_fbfan.gif) no-repeat 100% 10px; float:left; margin-right:5px; width:195px; height:100%; }
+#facebook .fbfan.last { width:217px; margin-right:20px; float:left !important; }
+#facebook p { color:#76797C; margin-top:14px; margin-bottom:0; }
+
+/* itunes download */
+#download .header { padding:47px 0 28px; }
+#download .header h1 img { margin:0 auto; }
+
+#download .grid2cold { padding-left:8px; }
+#download .grid2cold .column.first { width:237px; }
+#download .grid2cold .column.last { margin-right:-62px; width:737px; }
+#download .grid2cold .column.last .sosumi { margin:18px 68px 0 auto; width:648px; padding:0; }

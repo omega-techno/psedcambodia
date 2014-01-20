@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+h1, p, body, html {
+	margin:0;
+	padding:0;
+	}
+#store{
+	background-color:#C9C7C8;
+	margin-top:-100px;
+	width:100%;
+	height:226px;
+	}
+#storein{
+	background-image:url(image/head2.png);
+	margin:auto;
+	margin-top:113px;
+	width:1024px;
+	height:226px;
+	}
+#logostore{
+	width:500px;
+	height:50px;
+	}
+.logostore{
+	font-size:34px;
+	padding-top:65px;
+	padding-left:15px;
+	}
+#logonextstore{
+	width:800px;
+	}
+.logonextstore{
+	font-size:18px;
+	padding-top:7px;
+	}
+#heigth{
+	margin:auto;
+	width:1024px;
+	height:1700px;
+	}
+#slide{
+	margin:auto;
+	margin-top:250px;
+	width:auto;
+	height:300px;
+	}
+#pagemiddle{
+	width:1026px;
+	height:600px;
+	margin:auto;
+	margin-top:20px;
+	}
+#weedingdress{
+	float:left;
+	width:498px;
+	height:458px;
+	}
+#business_profile{
+	float:right;
+	width:498px;
+	height:560px;
+	border:2px solid #DCDCDC;
+	}
+#weeding_plase{
+	margin-left:1px;
+	margin-top:2px;
+	}
+#business_profile_text{
+	width:170px;
+	height:20px;
+	margin-left:30px;
+	margin-top:10px;
+	}
+.business_profile_text{
+	font-size:20px;
+	}
+#line_profile{
+	color:#F5F5F5;
+	width:450px;
+	margin-left:30px;
+	}
+#texts{
+	width:460px;
+	margin-left:30px;
+	margin-top:120px;
+	}
+#line_phone{
+	color:#F5F5F5;
+	width:450px;
+	margin-left:30px;
+	margin-top:185px;
+	}
+#boxadvertising{
+	padding-left:1px;
+	position:absolute;
+	margin-top:470px;
+	width:501px;
+	height:90px;
+	}
+#box1{
+	float:left;
+	border:2px solid #DCDCDC;
+	width:119px;
+	height:90px;
+	}
+#box2{
+	float:left;
+	margin-left:3px;
+	border:2px solid #DCDCDC;
+	width:119px;
+	height:90px;
+	}
+#box3{
+	float:right;
+	margin-left:3px;
+	border:2px solid #DCDCDC;
+	width:119px;
+	height:90px;
+	}
+#box4{
+	float:right;
+	margin-left:3px;
+	border:2px solid #DCDCDC;
+	width:119px;
+	height:90px;
+	}
+#pageunder{
+	width:1026px;
+	height:350px;
+	margin:auto;
+	}
+#product{
+	width:1024px;
+	border:2px solid #DCDCDC;
+	}
+#product_text{
+	width:200px;
+	height:25px;
+	margin-left:60px;
+	margin-top:20px;
+	}
+#line_product{
+	color:#F5F5F5;
+	width:920px;
+	margin-left:50px;
+	}
+#text_product{
+	width:975px;
+	height:350px;
+	}
+.text_product{
+	text-align:justify;
+	padding-top:100px;
+	padding-left:60px;
+	font-size:18px;
+	}
+#our_partner{
+	margin-top:20px;
+	width:1024px;
+	border:2px solid #DCDCDC;
+	}
+#our_partner_text{
+	width:200px;
+	height:25px;
+	margin-left:50px;
+	margin-top:20px;
+	}
+.our_partner_text{
+	font-size:20px;
+	}
+#line_partner{
+	color:#F5F5F5;
+	width:920px;
+	margin-left:50px;
+	}
+#logos{
+	width:1024px;
+	margin-bottom:35px;
+	margin-top:20px;
+	margin-left:60px;
+	}
+#logo2, #logo3, #logo4{
+	padding-left:100px;
+	}
+#linelogo1{
+	position:absolute;
+	border:1px solid #000;
+	border-right-style:none;
+	border-top-style:none;
+	border-bottom-style:none;
+	height:120px;
+	margin-left:180px;
+	margin-top:20px;
+	}
+#linelogo2{
+	position:absolute;
+	border:1px solid #000;
+	border-right-style:none;
+	border-top-style:none;
+	border-bottom-style:none;
+	height:120px;
+	margin-left:420px;
+	margin-top:20px;
+	}
+#linelogo3{
+	position:absolute;
+	border:1px solid #000;
+	border-right-style:none;
+	border-top-style:none;
+	border-bottom-style:none;
+	height:120px;
+	margin-left:660px;
+	margin-top:20px;
+	}
+#backcolorwhite{
+	widows:100%;
+	height:200px;
+	background-color:#E5E5E5;
+	}
+#backcolorblack{
+	width:100%;
+	height:100px;
+	background-color:#414141;
+	}

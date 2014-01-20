@@ -1,0 +1,6 @@
+#store-page #productheader { display:none; }
+#store-page .nav.hero-nav { display:none; }
+#store-page .nav.hero-search { display:none; }
+#store-page .promo.static .promo-container { display:none; }
+#store-page  .OverlayPanel { display:none; }
+#store-page  .content.hero { padding-top:0; }

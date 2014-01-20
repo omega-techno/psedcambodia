@@ -1,0 +1,54 @@
+/* header */
+body#built-in #main header.row { padding-top:52px; }
+body#built-in #main header h1 { padding-bottom:10px; }
+body#built-in #main header h1 img { margin:0 -50px; }
+body#built-in.ipadmini #main header img.hero { margin:0 -230px; }
+body#built-in.ipadair #main header img.hero { margin:0 -180px; padding-bottom:70px; }
+
+
+/* section styles */
+body#built-in #main .row { padding-top:40px; }
+
+body#built-in #main .divider.line { margin-top:40px; margin-bottom:32px; width:1024px; }
+body#built-in #main .divider.line.top { margin-top:0; width:1255px; }
+
+body#built-in #main .grid2col { padding-left:99px; }
+body#built-in #main .grid2col .column { width:343px; }
+body#built-in #main .grid2col .screen { padding-bottom:44px; }
+body#built-in #main .grid2col .column h1,
+body#built-in #main .grid2col .column p { padding-left:18px; }
+body#built-in #main .grid2col .column img.icon { margin:-18px 16px 0 0; float:left; }
+
+body#built-in #main .grid2col .column.last { padding-right:62px; }
+
+body#built-in #main .grid3col { width:800px; }
+body#built-in #main .grid3col .column { width:245px; margin-left:30px; }
+body#built-in #main .grid3col .column img.icon { margin:-15px 16px 0 0; float:left; }
+body#built-in #main .grid3col .column img.title { margin-top:15px; }
+body#built-in #main .grid3col .column img.icon.two-lines { margin-top:-4px; }
+body#built-in #main .grid3col .column img.title.two-lines { margin-top:5px; }
+body#built-in #main .grid3col.bottom { padding-bottom:40px; }
+
+/* ipad-air */
+body#built-in.ipadair #main .grid2col .portrait .screen { width:351px; height:496px; background:url(../images/ipadair_white_portrait.jpg) no-repeat 0 0; }
+body#built-in.ipadair #main .grid2col .black.portrait .screen { background-image:url(../images/ipadair_black_portrait.jpg); }
+body#built-in.ipadair #main .grid2col .portrait .screen img { margin-top:45px; margin-left:23px; }
+
+body#built-in.ipadair #main .grid2col .landscape .screen { margin-left:-22px; width:496px; height:496px; background:url(../images/ipadair_white_left_landscape.jpg) no-repeat 0 145px; }
+body#built-in.ipadair #main .grid2col .landscape.first .screen { margin-left:-122px; }
+body#built-in.ipadair #main .grid2col .black.landscape .screen { background-image:url(../images/ipadair_black_left_landscape.jpg); }
+body#built-in.ipadair #main .grid2col .right.landscape .screen { background-image:url(../images/ipadair_white_right_landscape.jpg); }
+body#built-in.ipadair #main .grid2col .black.right.landscape .screen { background-image:url(../images/ipadair_black_right_landscape.jpg); }
+body#built-in.ipadair #main .grid2col .landscape .screen img { margin-top:168px; margin-left:45px; }
+
+/* ipad-mini */
+body#built-in.ipadmini #main .grid2col .portrait .screen { width:350px; height:518px; background:url(../images/ipadmini_white_portrait.jpg) no-repeat 0 0; }
+body#built-in.ipadmini #main .grid2col .black.portrait .screen { background-image:url(../images/ipadmini_black_portrait.jpg); }
+body#built-in.ipadmini #main .grid2col .portrait .screen img { margin-top:52px; margin-left:20px; }
+
+body#built-in.ipadmini #main .grid2col .landscape .screen { margin-left:-38px; width:518px; height:518px; background:url(../images/ipadmini_white_left_landscape.jpg) no-repeat 0 169px; }
+body#built-in.ipadmini #main .grid2col .landscape.first .screen { margin-left:-129px; }
+body#built-in.ipadmini #main .grid2col .black.landscape .screen { background-image:url(../images/ipadmini_black_left_landscape.jpg); }
+body#built-in.ipadmini #main .grid2col .right.landscape .screen { background-image:url(../images/ipadmini_white_right_landscape.jpg); }
+body#built-in.ipadmini #main .grid2col .black.right.landscape .screen { background-image:url(../images/ipadmini_black_right_landscape.jpg); }
+body#built-in.ipadmini #main .grid2col .landscape .screen img { margin-top:188px; margin-left:52px; }

@@ -1,0 +1,29 @@
+[10-Jan-2014 04:20:34 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/omega/public_html/psed/detail/signup.php on line 4
+[10-Jan-2014 04:21:10 CST6CDT] PHP Warning:  include(mysql_transaction.ph) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/omega/public_html/psed/detail/signup.php on line 4
+[10-Jan-2014 04:21:10 CST6CDT] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'mysql_transaction.ph' for inclusion (include_path='.:/usr/local/php53/pear') in /home/omega/public_html/psed/detail/signup.php on line 4
+[10-Jan-2014 04:21:10 CST6CDT] PHP Fatal error:  Class 'Mysql_Transac' not found in /home/omega/public_html/psed/detail/signup.php on line 7
+[10-Jan-2014 04:22:55 CST6CDT] PHP Warning:  include(mysql_transaction.ph) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/omega/public_html/psed/detail/signup.php on line 4
+[10-Jan-2014 04:22:55 CST6CDT] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'mysql_transaction.ph' for inclusion (include_path='.:/usr/local/php53/pear') in /home/omega/public_html/psed/detail/signup.php on line 4
+[10-Jan-2014 04:22:55 CST6CDT] PHP Fatal error:  Class 'Mysql_Transac' not found in /home/omega/public_html/psed/detail/signup.php on line 7
+[10-Jan-2014 04:23:18 CST6CDT] PHP Warning:  include(mysql_transaction.ph) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/omega/public_html/psed/detail/signup.php on line 4
+[10-Jan-2014 04:23:18 CST6CDT] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'mysql_transaction.ph' for inclusion (include_path='.:/usr/local/php53/pear') in /home/omega/public_html/psed/detail/signup.php on line 4
+[10-Jan-2014 04:23:18 CST6CDT] PHP Fatal error:  Class 'Mysql_Transac' not found in /home/omega/public_html/psed/detail/signup.php on line 7
+[10-Jan-2014 04:29:11 CST6CDT] PHP Warning:  include(mysql_transaction.ph) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/omega/public_html/psed/detail/signup.php on line 4
+[10-Jan-2014 04:29:11 CST6CDT] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'mysql_transaction.ph' for inclusion (include_path='.:/usr/local/php53/pear') in /home/omega/public_html/psed/detail/signup.php on line 4
+[10-Jan-2014 04:29:11 CST6CDT] PHP Fatal error:  Class 'Mysql_Transac' not found in /home/omega/public_html/psed/detail/signup.php on line 7
+[12-Jan-2014 19:20:07 CST6CDT] PHP Notice:  Undefined index: December11972 in /home/omega/public_html/psed/detail/signup.php on line 13
+[12-Jan-2014 19:20:07 CST6CDT] PHP Notice:  Undefined index: birthday in /home/omega/public_html/psed/detail/mysql_transaction.php on line 45
+[12-Jan-2014 19:20:07 CST6CDT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/omega/public_html/psed/detail/mysql_transaction.php:177) in /home/omega/public_html/psed/detail/signup.php on line 17
+[12-Jan-2014 19:22:18 CST6CDT] PHP Notice:  Undefined index: December11972 in /home/omega/public_html/psed/detail/signup.php on line 13
+[12-Jan-2014 19:22:18 CST6CDT] PHP Notice:  Undefined index: birthday in /home/omega/public_html/psed/detail/mysql_transaction.php on line 45
+[12-Jan-2014 19:22:18 CST6CDT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/omega/public_html/psed/detail/mysql_transaction.php:177) in /home/omega/public_html/psed/detail/signup.php on line 17
+[12-Jan-2014 19:28:08 CST6CDT] PHP Notice:  Undefined index: day in /home/omega/public_html/psed/detail/signup.php on line 12
+[12-Jan-2014 19:31:50 CST6CDT] PHP Notice:  Undefined index: day in /home/omega/public_html/psed/detail/signup.php on line 12
+[12-Jan-2014 20:07:46 CST6CDT] PHP Notice:  Undefined variable: username in /home/omega/public_html/psed/detail/signup.php on line 12
+[12-Jan-2014 20:07:46 CST6CDT] PHP Notice:  Undefined index:  in /home/omega/public_html/psed/detail/signup.php on line 12
+[12-Jan-2014 20:11:33 CST6CDT] PHP Notice:  Undefined variable: username in /home/omega/public_html/psed/detail/signup.php on line 12
+[12-Jan-2014 20:11:33 CST6CDT] PHP Notice:  Undefined index:  in /home/omega/public_html/psed/detail/signup.php on line 12
+[14-Jan-2014 03:10:19 CST6CDT] PHP Notice:  Undefined variable: username in /home/omega/public_html/psed/detail/signup.php on line 11
+[14-Jan-2014 03:11:32 CST6CDT] PHP Notice:  Undefined variable: password in /home/omega/public_html/psed/detail/signup.php on line 11
+[17-Jan-2014 21:56:41 CST6CDT] PHP Fatal error:  Access denied for user 'omega_psed'@'localhost' (using password: YES) in /home/psedcam/public_html/conf/conf.php on line 10
+[17-Jan-2014 21:57:20 CST6CDT] PHP Fatal error:  Access denied for user 'omega_psed'@'localhost' (using password: YES) in /home/psedcam/public_html/conf/conf.php on line 10

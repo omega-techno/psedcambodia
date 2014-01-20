@@ -1,0 +1,39 @@
+.header_p{
+	font-family: 'Conv_ufonts.com_norma',Sans-Serif;
+	font-size:30px;
+}
+.noma_font{
+	font-family: 'Conv_ufonts.com_norma',Sans-Serif;
+}
+.slogan{
+	background-color: #FFFFFF;
+    margin-left: 450px;
+    position: absolute;
+    width: 150px;
+} 
+.paragraph_p{
+	width:660px;
+	color:#292929;
+}
+#slide_restuarant{
+	width:1220px;
+	height:200px;
+	margin-left:-60px;;
+	margin-right:auto;
+	margin-top:-140px;
+ 
+}
+#line_menu{
+	margin-left:198px;
+	border-top:1px solid #292929;
+	width:650px;
+}
+.flowslider_box{
+	margin-top:30px;
+}
+.www_FlowSlider_com-wrap-2{
+	background-color:#F0F0F0;
+}
+.slider{
+	background-color:#F0F0F0;
+}

@@ -1,0 +1,113 @@
+html, body { background:#F5F6F7 url(../images/gradient_texture.jpg) repeat-x 0 0; }
+
+#main { width:100%; min-width:982px; margin:0 auto; overflow:hidden; }
+#main .callout { font-size:12px; }
+#main .sosumi { width:auto; padding-right:0; padding-left:0; }
+
+#content,
+.content{ font-size:14px; line-height:21px; width:880px; margin:0 auto 18px; padding:4em 50px 2em; zoom:1; }
+.content h2 { font-size:1.7em; }
+.content h3 { font-size:1.1429em; }
+.content .flushleft { margin-left:-50px; }
+.content .flushright { margin-right:-50px; }
+.content .flushtop { margin-top:-4em; }
+.content img.center { display:block; margin-right:auto; margin-left:auto; }
+.content::after, .selfclear::after { content:'.'; display:inline-block; height:0; clear:both; visibility:hidden;}
+.content hr { margin:4em -12px 3em; height:1.5em; border:none; }
+.content hr.plain { display:block; margin:3em 0 2em; height:0; background:none; border-bottom:1px solid #D9D9D9; }
+
+h1 { margin-bottom:.3em; font-size:3em; line-height:1.4; font-weight:normal; }
+h1 img, h2 img { display:block; }
+h3 { margin-bottom:.3em; font-size:1.3em; line-height:1.4; }
+h2 { margin-bottom:.3em; font-size:2em; line-height:1.4em; font-weight:normal; }
+h4 { font-size:1em; line-height:1.5em; }
+
+a.block { display:block; color:#333; cursor:pointer; }
+a.wrap:hover, a.block:hover, a.block:hover .wrap { text-decoration:none; }
+a.backtotop { float:right; margin-top:1em; padding-right:10px; font-size:12px; text-align:right; background:url(../../../../../global/elements/arrows/uparrow_08c.gif) no-repeat 100% 50%; }
+img.shadow { padding:5px; background:white; margin-bottom:2px; _position:relative; }
+
+.selfclear { zoom:1; }
+.selfclear:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+
+.grid2col .column { width:47%; }
+.column { display:inline; }
+.center { text-align:center; }
+.shadow { -webkit-box-shadow:rgba(0, 0, 0, 0.35) 0 1px 3px; -moz-box-shadow:rgba(0, 0, 0, 0.35) 0 1px 3px; }
+.learn { display:block; float:left; margin:-.95em 0 1.5em; text-align:left; }
+.learn::after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+
+.flushleft { float:left; margin-left:-50px; }
+.flushright { float:right; margin-right:-50px; }
+.flushboth { margin-left:-50px; margin-right:-50px; }
+
+img.new { position:absolute; top:0; left:0; }
+
+p.intro a.more { background-image:url(../../../../../global/elements/arrows/morearrow_med_08c.gif); }
+
+
+/* galleries */
+.gallery::after, .gallery-view::after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+.gallery .swap { height:400px; position:relative; }
+.gallery .swap div { display:block; position:absolute; top:0px; left:0px; }
+.gallery .slide { display:none; }
+.gallery .swap .slide { display:block; position:absolute; top:0px; left:0px; }
+.gallery ul li { margin:0 5px; }
+.gallery ul.image-nav { position:relative; margin:0 auto; }
+
+
+/* gallery image-nav */
+.gallery .image-nav { text-align:center; }
+.gallery .image-nav li { display:-moz-inline-stack; display:inline-block; *display:inline; zoom:1;width:96px; margin:0 8px; vertical-align:top; }
+.gallery .image-nav li a { font-size:.7857em; color:#000; text-decoration:none; display:block; *display:inline; zoom:1; outline:none; }
+.gallery .image-nav li a.active { color:#666; cursor:default; }
+.gallery .image-nav li a span.image { display:block; *display:inline; zoom:1; padding:8px; *padding-bottom:5px; background:url(../images/swap_thumb_bg.png) no-repeat; cursor:pointer; }
+.gallery .image-nav li a:hover span.image { background-position:0 -66px; }
+.gallery .image-nav li a.active span.image { background-position:0 -132px; cursor:default; }
+.gallery .image-nav li a.active:hover span.image { background-position:0 -132px; }
+.gallery .image-nav li a span.image img { display:block; *display:inline; zoom:1; }
+.gallery .image-nav li a span.caption { display:block; padding-top:6px; *display:inline; }
+
+
+/* simple dot navs */
+.gallery .simple-nav { margin-bottom:1em; height:13px; text-align:center; }
+.gallery .simple-nav li,
+.gallery .simple-nav li a { display:-moz-inline-stack; display:inline-block; *display:inline; zoom:1; }
+.gallery .simple-nav li { position:relative; margin-right:8px; width:13px; height:13px; *height:12px; overflow:hidden; }
+.gallery .simple-nav li.last-dot { margin-right:0; }
+.gallery .simple-nav li a { position:absolute; width:13px; height:38px; top:0; left:0; outline:none; cursor:pointer; text-indent:-9999px; line-height:0; background:url(../images/gallerynav_simple.png) no-repeat 0 0; }
+.gallery .simple-nav li a:hover { top:-13px; }
+.gallery .simple-nav li a.active { cursor:default; top:-26px; opacity:1; -moz-opacity:1; }
+
+
+/* hero nav */
+.hero-nav li { width: 100%; position: absolute; top: 0; left: 0; z-index: 10; }
+.hero-nav li .arrow { position: absolute; display: block; height: 560px; width: 107px; -moz-opacity:0; opacity:0; -webkit-transition: .25s opacity ease-out; float: none; padding: 0 20px; outline: none; z-index: 100; top:0; }
+.hero-nav li .arrow:hover { -moz-opacity:1; opacity:1; }
+.hero-nav li .arrow.disabled { display: none; }
+.hero-nav li .arrow img,
+.hero-nav li .arrow span { display: block; margin-top: 255px; *margin-top: 120px; text-indent: -1000em; }
+.hero-nav li .arrow:hover span,
+.hero-nav li .arrow.left { left: 0; }
+.hero-nav li .arrow.left img,
+.hero-nav li .arrow.left span { float: left; }
+.hero-nav li .arrow.right { right: 0; }
+.hero-nav li .arrow.right img,
+.hero-nav li .arrow.right img { float: right; }
+/* iPad Styles */
+@media only screen and (device-width: 768px) {
+	.hero-nav li .arrow { opacity: 1; -webkit-transition: none; }
+}
+
+/* footers */
+#promofooter { margin-top:0; -webkit-font-smoothing:antialiased; }
+
+/* sosumi */
+.sosumi, ol.sosumi { width:940px; margin:18px auto 10px; padding:0 20px; }
+.sosumi a { color:#333; }
+.sosumi li { line-height:14px; padding-bottom:5px; margin-bottom:0; }
+ol.sosumi li { margin-left:15px; }
+.sosumi strong em,
+.sosumi strong { font-weight:bold; color: #888; }
+.sosumi em strong,
+.sosumi em { font-style:italic; }

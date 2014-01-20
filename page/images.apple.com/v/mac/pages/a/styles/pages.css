@@ -1,0 +1,17 @@
+body#pages .hero { padding-bottom:0; }
+body#pages .hero .intro { width:710px; }
+
+body#pages .beautiful .caption { width:740px; }
+
+body#pages .simple .intro { width:760px; }
+body#pages .simple .caption { width:790px; }
+body#pages .simple .gallery-simple-coach .caption p { width:580px; }
+
+body#pages .tools .intro { width:730px; }
+
+body#pages .icloud { padding-bottom:37px; }
+body#pages .icloud .intro { width:860px; }
+body#pages .icloud .hero-img { position:relative; z-index:1; margin:23px -140px 27px; }
+
+body#pages .online { padding-bottom:40px; }
+body#pages .online h1 { margin-left:-53px; margin-right:-53px; }

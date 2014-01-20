@@ -1,0 +1,26 @@
+body#numbers .hero .intro { width:840px; }
+
+body#numbers .spreadsheets .gallery-spreadsheets-templates .caption p { width:600px; }
+
+body#numbers .simple .intro { width:840px; }
+body#numbers .simple .grid3col { width:980px; }
+body#numbers .simple .grid3col .column { margin-left:30px; text-align:left; }
+body#numbers .simple .grid3col .column p { width:295px; }
+body#numbers .simple .caption { width:780px; }
+body#numbers .simple .gallery-simple-select .caption p,
+body#numbers .simple .gallery-simple-coach .caption p { width:590px; }
+
+body#numbers .tools .intro { width:790px; }
+body#numbers .tools .caption { width:660px; }
+
+body#numbers .visualized .intro { width:670px; }
+
+body#numbers .icloud .intro { width:850px; }
+body#numbers .icloud .hero-img { margin:20px -140px; }
+
+body#numbers .share .intro { width:770px; }
+
+body#numbers .web .flushleft { margin-left:-60px; }
+body#numbers .web .flushright { margin-right:-60px; }
+
+body#numbers .up-to-date .divider { border-top:none; }

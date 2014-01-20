@@ -1,0 +1,127 @@
+.iphone #content { padding:0 40px 30px; }
+
+.iphone h1,
+.iphone h2,
+.iphone h3 { font-weight:normal; }
+.iphone h3 { margin-bottom:8px; font-weight:normal; }
+
+.iphone .hero { padding:48px 35px 40px; text-align:center; }
+.iphone .hero h1 {margin-bottom:5px; }
+.iphone .hero ul { font-size:1.28em; }
+.iphone .hero ul a { line-height:1.32em; }
+.iphone .hero p.intro { margin:0 auto 5px; width:100%; padding:0; text-align:center; font-size:1.46em; line-height:1.4em; }
+.iphone .hero .eligibility { padding-top:10px; font-size:1.2em; text-align:center; }
+.iphone .hero .eligibility ul li { display:-moz-inline-stack; display:inline-block; *display:inline; *zoom:1; margin-right:6px; padding:0 6px 0 0; border-right:1px solid #999; }
+.iphone .hero .eligibility ul li.last { border-right:0; }
+
+.iphone .hero.announce,
+.iphone .hero.availability,
+.iphone .hero.evergreen { padding:48px 20px 40px; }
+
+.iphone .hero.availability.b { padding:48px 0px 40px; }
+@-moz-document url-prefix() {
+	.iphone .hero.availability.b { padding:48px 20px 40px; }
+}
+.iphone .hero.announce.c p.intro { width:75%; }
+.iphone .hero.availability.a p.intro { width:85%; }
+@-moz-document url-prefix() {
+	.iphone .hero.availability.a p.intro { width:82%; }
+}
+.iphone .hero.availability.b p.intro { width:100%; }
+@-moz-document url-prefix() {
+	.iphone .hero.availability.b p.intro { width:98%; }
+}
+.iphone .hero.availability.c p.intro { width:90%; }
+@-moz-document url-prefix() {
+	.iphone .hero.availability.c p.intro { width:86%; }
+}
+.iphone .hero.availability.d p.intro,
+.iphone .hero.availability.e p.intro { width:77%; }
+@-moz-document url-prefix() {
+	.iphone .hero.availability.d p.intro,
+	.iphone .hero.availability.e p.intro { width:74%; }
+}
+.iphone .retail-locator-container { margin:0 auto 48px; }
+.iphone .nav.hero-search { width:auto; margin:0 auto; padding:18px 30px 40px; *padding:25px 20px 45px 30px; border-radius:5px; overflow:visible; font-size:1.4em; *position:relative; *z-index:1011; }
+.iphone .retail-locator-container.toggled .nav.hero-search { border-radius:4px 4px 0 0; }
+@-moz-document url-prefix() {
+	.retail span.reset.active { top:9px; right:5px; left:auto; }
+}
+.iphone .nav.hero-search .search { font-size:1em; }
+.iphone .nav.hero-search .column.last a { font-size: 1em; }
+.iphone .nav.hero-search .store-list { font-size:0.85em; }
+.iphone .global-retail-search { width:310px; margin-left:15px; font-size:16px; }
+.iphone .retail-locator-container { border-width: 0; *width: 900px; }
+.iphone .retailLocatorView { width:900px; }
+.iphone .retailLocatorView h1 { font-weight: bold; }
+.iphone .retailLocatorView .mapView { *width:602px; *border-bottom:1px solid #ccc; *border-right:1px solid #ccc;}
+.iphone .retailLocatorView .listViewContainer .listView { *border-left:1px solid #ccc; *border-right:1px solid #ccc; }
+
+.iphone .row { margin-bottom:48px; }
+.iphone .row .column { width:404px; }
+.iphone .row h2 { margin:36px 0 6px; font-size:1.833em; line-height:1.2em; }
+.iphone .row p { padding-right:0; font-size:1.15em; line-height:20px; color:#333; }
+
+.iphone .row.choose p { margin-right:6px; }
+.iphone .row.setup .column.first { padding-left:11px; }
+.iphone .row.setup h2 { margin-top:72px; }
+.iphone .row.setup p { margin-right:54px; }
+.iphone .row.workshops { margin-bottom:40px; padding-bottom:48px; border-bottom:1px solid #e4e4e8; }
+.iphone .row.workshops h2 { margin-top:72px; }
+.iphone .row.workshops p { margin-right:54px; }
+
+.iphone.retail .curved-shadow-small { display:inline-block; width:auto; margin:0; padding:6px; }
+
+/* what to bring */
+.iphone .what-to-bring { margin-bottom:24px; }
+.iphone .what-to-bring h2 { font-size: 2em; margin-bottom:36px; }
+.iphone .what-to-bring ol { margin:0; list-style:none; }
+.iphone .what-to-bring ol li { width:245px; margin:0 23px 0 0; padding-right:45px; font-size:1.2em; border-right:1px solid #e4e4e8; }
+.iphone .what-to-bring ol li.two {  }
+.iphone .what-to-bring ol li.three { width:270px; margin-right:0; padding-right:0; border:none; }
+
+.iphone .what-to-bring ol li h3 { font-weight:bold; }
+.iphone .what-to-bring ol li h3,
+.iphone .what-to-bring ol li p { margin-left:55px; line-height:1.36em; }
+.iphone .what-to-bring ol li.one h3,
+.iphone .what-to-bring ol li.one p { margin-left:44px; }
+
+.iphone .what-to-bring ol li em { width:36px; height:62px; float:left; background:url(../images/what_to_bring_numbers.png) no-repeat; background-size:36px 186px; text-indent:-36px; overflow:hidden; }
+.iphone .what-to-bring ol li.one em {  }
+.iphone .what-to-bring ol li.two em { background-position:0 -62px; }
+.iphone .what-to-bring ol li.three em { background-position:0 -124px; }
+
+/* FAQs */
+.iphone .faq { position:relative; width:860px; margin:15px auto 20px; padding:0 20px; overflow:hidden; border:1px solid #ccc; z-index:1; }
+.iphone .faq h2 { font-size:2em; }
+.iphone .faq dd { margin-bottom:18px; }
+.iphone .faq dt { padding-top:0; }
+.iphone .faq dd p { margin-top:20px; }
+
+.iphone .faq { position:relative; width:860px; margin:15px auto 20px; padding:0 20px; overflow:hidden; border:1px solid #ccc; border-top:none; *border-top:1px solid #ccc; z-index:1; }
+.iphone .faq .indent { margin-left:35px; }
+.iphone .faq .indent-list { margin-left:88px; }
+.iphone .faq .disc li { list-style-type:disc; }
+
+.iphone .sosumi { width:960px; list-style-position:inside; padding:5px 0 0; }
+.iphone .sosumi li { margin-bottom:12px; }
+
+.iphone #globalfooter { margin-top:30px; }
+
+/* acceptable forms of ID */
+.retail.forms-of-id { padding-top:30px; background-color:#fff; }
+.retail.forms-of-id #main { width:870px; margin:0 auto; }
+.forms-of-id h2 { margin-bottom:27px; font-size:2.4em; }
+.forms-of-id h3,
+.forms-of-id p { display:inline; }
+.forms-of-id h3 { font-weight:bold; font-size:1.25em; color:#000; }
+.forms-of-id p { font-size:1.15em; color:#666; }
+
+.forms-of-id .scenario { margin-top:14px; background:url(../images/forms-of-id-table-bg.png) 50% 0 repeat-y; }
+.forms-of-id .scenario h3 { display:block; padding:16px 0; text-align:center; background-color:#e6e6e6; border-bottom:1px solid #ccc; }
+.forms-of-id .scenario .last h3 { margin-left:1px; }
+.forms-of-id .scenario .column { width:50%; }
+.forms-of-id .identifications .chart-content { padding:20px 36px; color:#333; font-size:1.2em; }
+.forms-of-id .identifications ul li { margin-bottom:5px; list-style-type:disc; }
+.forms-of-id .identifications .grid2col { margin-bottom:22px; border:1px solid #ccc; }
+

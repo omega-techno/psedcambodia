@@ -1,0 +1,261 @@
+HTTrack3.47-27+htsswf+htsjava launched on Wed, 04 Dec 2013 21:43:22 at http://www.apple.com +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC1%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2013], %s -->" -%l "en, *" http://www.apple.com -O1 D:\apple\apple +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:43:41	Warning: 	Moved Permanently for www.apple.com/investor/
+21:43:41	Warning: 	File has moved from www.apple.com/investor/ to http://investor.apple.com/
+21:43:42	Warning: 	Moved Permanently for www.apple.com/smallbusiness/store/
+21:43:42	Warning: 	File has moved from www.apple.com/smallbusiness/store/ to http://store.apple.com/us_smb_78313
+21:43:42	Warning: 	Moved Permanently for www.apple.com/buy/locator/
+21:43:42	Warning: 	File has moved from www.apple.com/buy/locator/ to http://locate.apple.com/
+21:43:56	Warning: 	Moved Permanently for www.apple.com/developer/
+21:43:56	Warning: 	File has moved from www.apple.com/developer/ to http://developer.apple.com/
+21:43:59	Warning: 	Moved Permanently for www.apple.com/retail/workshops/
+21:43:59	Warning: 	File has moved from www.apple.com/retail/workshops/ to http://www.apple.com/retail/learn/
+21:44:04	Warning: 	Moved Permanently for www.apple.com/accessibility/itunes/vision.html
+21:44:04	Warning: 	File has moved from www.apple.com/accessibility/itunes/vision.html to http://www.apple.com/accessibility/other-products/
+21:44:20	Warning: 	Moved Permanently for www.apple.com/itunes/what-is/
+21:44:20	Warning: 	File has moved from www.apple.com/itunes/what-is/ to http://www.apple.com/itunes/features/
+21:44:20	Warning: 	Moved Permanently for www.apple.com/itunes/whats-on/
+21:44:20	Warning: 	File has moved from www.apple.com/itunes/whats-on/ to http://www.apple.com/itunes/features/
+21:44:20	Warning: 	Moved Permanently for www.apple.com/itunes/how-to/
+21:44:20	Warning: 	File has moved from www.apple.com/itunes/how-to/ to http://www.apple.com/itunes/
+21:44:21	Warning: 	Moved Permanently for www.apple.com/education/itunes-u/
+21:44:21	Warning: 	File has moved from www.apple.com/education/itunes-u/ to http://www.apple.com/education/ipad/itunes-u/
+21:44:22	Warning: 	Moved Permanently for www.apple.com/education/volume-purchase-program/
+21:44:22	Warning: 	File has moved from www.apple.com/education/volume-purchase-program/ to http://www.apple.com/education/ipad/volume-purchase-program/
+21:44:24	Warning: 	Moved Permanently for www.apple.com/support/downloads/
+21:44:24	Warning: 	File has moved from www.apple.com/support/downloads/ to http://www.info.apple.com/downloadsredir.html/support/downloads/
+21:44:24	Warning: 	Moved Permanently for www.apple.com/support/manuals/
+21:44:24	Warning: 	File has moved from www.apple.com/support/manuals/ to http://www.info.apple.com/manualsredir.html/support/manuals/
+21:44:25	Warning: 	Moved Permanently for www.apple.com/training/
+21:44:25	Warning: 	File has moved from www.apple.com/training/ to http://training.apple.com/
+21:44:25	Warning: 	Moved Temporarily for www.apple.com/consultants/
+21:44:25	Warning: 	File has moved from www.apple.com/consultants/ to http://consultants.apple.com/
+21:44:25	Error: 	"Not Found" (404) at link www.apple.com/AppleWebKit/ (from images.apple.com/global/scripts/lib/prototype.js)
+21:44:25	Error: 	"Not Found" (404) at link www.apple.com/GET (from images.apple.com/global/scripts/feedstatistics.js)
+21:44:25	Error: 	"Not Found" (404) at link www.apple.com/HEAD (from images.apple.com/global/ac_base/ac_base.js)
+21:44:25	Error: 	"Not Found" (404) at link www.apple.com/navigation.css (from images.apple.com/global/nav/scripts/globalnav.js)
+21:44:25	Error: 	"Not Found" (404) at link www.apple.com/enhanced.css (from images.apple.com/global/nav/scripts/globalnav.js)
+21:44:35	Warning: 	Moved Permanently for www.apple.com/legal/terms/site.html
+21:44:35	Warning: 	File has moved from www.apple.com/legal/terms/site.html to http://www.apple.com/legal/internet-services/terms/site.html
+21:44:35	Error: 	"Not Found" (404) at link www.apple.com/apple.com/startpage/ (from images.apple.com/metrics/scripts/s_code_h.js)
+21:44:35	Error: 	"Not Found" (404) at link www.apple.com/welcomescreen/ (from images.apple.com/metrics/scripts/s_code_h.js)
+21:44:35	Error: 	"Not Found" (404) at link www.apple.com/Netscape6/ (from images.apple.com/metrics/scripts/s_code_h.js)
+21:44:35	Error: 	"Not Found" (404) at link www.apple.com/105/media/us/ipad-air/2013/0be12b9f-265c-474c-a0cc-d3c4c304c031/overview/desktop/ (from www.apple.com/ipad-air/)
+21:46:20	Warning: 	Moved Permanently for www.apple.com/retail/jointventure/
+21:46:20	Warning: 	File has moved from www.apple.com/retail/jointventure/ to http://www.apple.com/retail/business/
+21:46:20	Warning: 	Moved Permanently for www.apple.com/education/store/
+21:46:20	Warning: 	File has moved from www.apple.com/education/store/ to http://store.apple.com/us/browse/home/education_routing
+21:46:20	Warning: 	Moved Permanently for www.apple.com/buy/locator/service/
+21:46:20	Warning: 	File has moved from www.apple.com/buy/locator/service/ to http://locate.apple.com/
+21:46:20	Warning: 	Moved Permanently for www.apple.com/trailers/
+21:46:20	Warning: 	File has moved from www.apple.com/trailers/ to http://trailers.apple.com/trailers/
+21:46:20	Warning: 	Moved Permanently for www.apple.com/trailers/app/
+21:46:20	Warning: 	File has moved from www.apple.com/trailers/app/ to http://trailers.apple.com/trailers/app/
+21:46:20	Warning: 	Moved Permanently for www.apple.com/find/sitemap.html
+21:46:20	Warning: 	File has moved from www.apple.com/find/sitemap.html to http://www.apple.com/sitemap/
+21:46:21	Warning: 	Moved Permanently for www.apple.com/contact
+21:46:21	Warning: 	File has moved from www.apple.com/contact to http://www.apple.com/contact/
+21:46:32	Warning: 	Moved Permanently for www.apple.com/ug/iphone
+21:46:32	Warning: 	File has moved from www.apple.com/ug/iphone to http://www.apple.com/ug/iphone/
+21:47:08	Warning: 	Moved Permanently for www.apple.com/legal/sales-support/applecare/
+21:47:08	Warning: 	File has moved from www.apple.com/legal/sales-support/applecare/ to http://www.apple.com/legal/sales-support/
+21:47:09	Warning: 	Moved Permanently for www.apple.com/legal/sales-support/sales-policies/
+21:47:09	Warning: 	File has moved from www.apple.com/legal/sales-support/sales-policies/ to http://www.apple.com/legal/sales-support/
+21:47:10	Warning: 	Moved Permanently for www.apple.com/legal/intellectual-property/trademark/
+21:47:10	Warning: 	File has moved from www.apple.com/legal/intellectual-property/trademark/ to http://www.apple.com/legal/intellectual-property/
+21:47:11	Warning: 	Moved Permanently for www.apple.com/orderstatus/
+21:47:11	Warning: 	File has moved from www.apple.com/orderstatus/ to http://store.apple.com/orderstatus
+21:47:13	Warning: 	Moved Permanently for www.apple.com/legal/itunes/ww/
+21:47:13	Warning: 	File has moved from www.apple.com/legal/itunes/ww/ to http://www.apple.com/legal/internet-services/itunes/ww/
+21:47:13	Warning: 	Moved Permanently for www.apple.com/legal/sales_policies/
+21:47:13	Warning: 	File has moved from www.apple.com/legal/sales_policies/ to http://www.apple.com/legal/sales-support/
+21:47:13	Warning: 	Moved Permanently for www.apple.com/legal/applecare/
+21:47:13	Warning: 	File has moved from www.apple.com/legal/applecare/ to http://www.apple.com/legal/sales-support/applecare/
+21:47:14	Warning: 	Moved Permanently for www.apple.com/legal/terms/
+21:47:14	Warning: 	File has moved from www.apple.com/legal/terms/ to http://www.apple.com/legal/
+21:47:14	Warning: 	Moved Permanently for www.apple.com/legal/policies/
+21:47:14	Warning: 	File has moved from www.apple.com/legal/policies/ to http://www.apple.com/legal/
+21:47:14	Warning: 	Moved Permanently for www.apple.com/legal/trademark/
+21:47:14	Warning: 	File has moved from www.apple.com/legal/trademark/ to http://www.apple.com/legal/intellectual-property/
+21:47:14	Warning: 	Moved Permanently for www.apple.com/legal/export.html
+21:47:14	Warning: 	File has moved from www.apple.com/legal/export.html to http://www.apple.com/legal/gtc.html
+21:47:14	Warning: 	Link www.apple.com/apple-events/october-2012/ not scanned (follow robots meta tag)
+21:47:14	Warning: 	Link www.apple.com/apple-events/september-2012/ not scanned (follow robots meta tag)
+21:47:22	Warning: 	Moved Permanently for www.apple.com/legal/policies/ideas.html
+21:47:22	Warning: 	File has moved from www.apple.com/legal/policies/ideas.html to http://www.apple.com/legal/intellectual-property/policies/ideas.html
+21:47:27	Warning: 	Moved Permanently for www.apple.com/itunes/musicmarketing/
+21:47:27	Warning: 	File has moved from www.apple.com/itunes/musicmarketing/ to http://www.apple.com/itunes/
+21:47:27	Warning: 	Moved Permanently for www.apple.com/business/macatwork/
+21:47:27	Warning: 	File has moved from www.apple.com/business/macatwork/ to http://www.apple.com/business/mac/
+21:47:27	Warning: 	Moved Permanently for www.apple.com/supplierresponsibility/code-of-conduct/
+21:47:27	Warning: 	File has moved from www.apple.com/supplierresponsibility/code-of-conduct/ to http://www.apple.com/supplierresponsibility/accountability.html
+21:48:05	Warning: 	Moved Permanently for www.apple.com/aperture/specs
+21:48:05	Warning: 	File has moved from www.apple.com/aperture/specs to http://www.apple.com/aperture/specs/
+21:48:17	Warning: 	Moved Permanently for www.apple.com/itunes/sellcontent/
+21:48:17	Warning: 	File has moved from www.apple.com/itunes/sellcontent/ to http://www.apple.com/itunes/working-itunes/sell-content/
+21:48:17	Warning: 	Moved Permanently for www.apple.com/education/ibooks-textbooks/
+21:48:17	Warning: 	File has moved from www.apple.com/education/ibooks-textbooks/ to http://www.apple.com/education/ipad/ibooks-textbooks/
+21:48:21	Warning: 	Moved Permanently for www.apple.com/why-mac/compare/
+21:48:21	Warning: 	File has moved from www.apple.com/why-mac/compare/ to http://www.apple.com/mac/compare/
+21:48:21	Warning: 	Moved Permanently for www.apple.com/mac/volume-licensing/
+21:48:21	Warning: 	File has moved from www.apple.com/mac/volume-licensing/ to http://www.apple.com/mac/
+21:48:26	Warning: 	Moved Permanently for www.apple.com/education/mac/volume-licensing/
+21:48:26	Warning: 	File has moved from www.apple.com/education/mac/volume-licensing/ to http://www.apple.com/education/it/vpp/
+21:48:26	Warning: 	Moved Permanently for www.apple.com/education/mac/licensing-program/
+21:48:26	Warning: 	File has moved from www.apple.com/education/mac/licensing-program/ to http://www.apple.com/education/it/vpp/
+21:55:23	Warning: 	Moved Permanently for www.apple.com/support/applecare/welcome/
+21:55:23	Warning: 	File has moved from www.apple.com/support/applecare/welcome/ to http://www.apple.com/support/applecare/
+22:15:15	Warning: 	Moved Permanently for www.apple.com/retail/storelist
+22:15:15	Warning: 	File has moved from www.apple.com/retail/storelist to http://www.apple.com/retail/storelist/
+22:15:16	Warning: 	Moved Permanently for www.apple.com/buy/locator
+22:15:16	Warning: 	File has moved from www.apple.com/buy/locator to http://www.apple.com/buy/locator/
+22:17:02	Error: 	"Not Found" (404) at link images.apple.com/ipod-nano/images/fluidgallery/imagepath.jpg (from www.apple.com/ipod-nano/)
+22:22:55	Warning: 	Moved Permanently for www.apple.com/itunes/whats-new/
+22:22:55	Warning: 	File has moved from www.apple.com/itunes/whats-new/ to http://www.apple.com/itunes/features/
+22:24:25	Warning: 	Moved Permanently for www.apple.com/ipad/built-in-apps/
+22:24:25	Warning: 	File has moved from www.apple.com/ipad/built-in-apps/ to http://www.apple.com/ipad/
+22:24:25	Warning: 	Moved Permanently for www.apple.com/iphone/from-the-app-store/
+22:24:25	Warning: 	File has moved from www.apple.com/iphone/from-the-app-store/ to http://www.apple.com/iphone/
+22:24:25	Warning: 	Moved Permanently for www.apple.com/iphone/features/
+22:24:25	Warning: 	File has moved from www.apple.com/iphone/features/ to http://www.apple.com/iphone/
+22:25:29	Warning: 	Moved Permanently for www.apple.com/legal/warranty/iphone
+22:25:29	Warning: 	File has moved from www.apple.com/legal/warranty/iphone to http://www.apple.com/legal/warranty/iphone/
+22:25:38	Warning: 	Moved Permanently for www.apple.com/education/ipad/volume-purchase-program/
+22:25:38	Warning: 	File has moved from www.apple.com/education/ipad/volume-purchase-program/ to http://www.apple.com/education/it/vpp/
+22:25:38	Warning: 	Moved Permanently for www.apple.com/itunes/subscribe/
+22:25:38	Warning: 	File has moved from www.apple.com/itunes/subscribe/ to http://mynews.apple.com/cgi-bin/WebObjects/Subscriptions.woa?locale=en_US&pagename=subscribe&subcode=all
+22:31:00	Warning: 	Moved Permanently for www.apple.com/education/resources/
+22:31:00	Warning: 	File has moved from www.apple.com/education/resources/ to http://www.apple.com/education/
+22:31:06	Error: 	"Not Found" (404) at link www.apple.com/support/HEAD (from images.apple.com/support/assets/scripts/global/support.js)
+22:31:06	Error: 	"Not Found" (404) at link www.apple.com/support/image.jsp (from images.apple.com/support/assets/scripts/global/support.js)
+22:31:06	Error: 	"Not Found" (404) at link www.apple.com/support/securedImage.jsp (from images.apple.com/support/assets/scripts/global/support.js)
+22:33:33	Warning: 	Moved Permanently for www.apple.com/support/ibooksauthor/
+22:33:33	Warning: 	File has moved from www.apple.com/support/ibooksauthor/ to http://www.apple.com/support/mac-apps/ibooksauthor/
+22:33:33	Warning: 	Moved Permanently for www.apple.com/support/mail/
+22:33:33	Warning: 	File has moved from www.apple.com/support/mail/ to http://www.apple.com/support/mac-apps/mail/
+22:33:33	Warning: 	Moved Permanently for www.apple.com/support/safari/
+22:33:33	Warning: 	File has moved from www.apple.com/support/safari/ to http://www.apple.com/support/mac-apps/safari/
+22:33:37	Warning: 	Moved Permanently for www.apple.com/support/isync/
+22:33:37	Warning: 	File has moved from www.apple.com/support/isync/ to http://www.apple.com/support/leopard/
+22:33:37	Warning: 	Moved Permanently for www.apple.com/support/quicktime/
+22:33:37	Warning: 	File has moved from www.apple.com/support/quicktime/ to http://www.apple.com/support/mac-apps/quicktime/
+22:33:37	Warning: 	Moved Permanently for www.apple.com/support/ical/
+22:33:37	Warning: 	File has moved from www.apple.com/support/ical/ to http://www.apple.com/support/lion/applications/
+22:33:37	Warning: 	Moved Permanently for www.apple.com/support/ichat/
+22:33:37	Warning: 	File has moved from www.apple.com/support/ichat/ to http://www.apple.com/support/lion/applications/
+22:35:09	Warning: 	Moved Permanently for www.apple.com/support/mac/facetime/
+22:35:09	Warning: 	File has moved from www.apple.com/support/mac/facetime/ to http://www.apple.com/support/mac-apps/facetime/
+22:36:16	Warning: 	Moved Permanently for www.apple.com/support/iphoto/
+22:36:16	Warning: 	File has moved from www.apple.com/support/iphoto/ to http://www.apple.com/support/mac-apps/iphoto/
+22:36:16	Warning: 	Moved Permanently for www.apple.com/support/garageband/
+22:36:16	Warning: 	File has moved from www.apple.com/support/garageband/ to http://www.apple.com/support/mac-apps/garageband/
+22:36:17	Warning: 	Moved Permanently for www.apple.com/support/imovie/
+22:36:17	Warning: 	File has moved from www.apple.com/support/imovie/ to http://www.apple.com/support/mac-apps/imovie/
+22:36:19	Warning: 	Moved Permanently for www.apple.com/support/pages/
+22:36:19	Warning: 	File has moved from www.apple.com/support/pages/ to http://www.apple.com/support/mac-apps/pages/
+22:36:19	Warning: 	Moved Permanently for www.apple.com/support/numbers/
+22:36:19	Warning: 	File has moved from www.apple.com/support/numbers/ to http://www.apple.com/support/mac-apps/numbers/
+22:36:19	Warning: 	Moved Permanently for www.apple.com/support/keynote/
+22:36:19	Warning: 	File has moved from www.apple.com/support/keynote/ to http://www.apple.com/support/mac-apps/keynote/
+22:38:37	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 111): images.apple.com/support/ibook/elements/topicarrow.gif
+22:39:15	Warning: 	Moved Permanently for www.apple.com/support/products/helpdesk.html
+22:39:15	Warning: 	File has moved from www.apple.com/support/products/helpdesk.html to http://www.apple.com/support/products/enterprise/help.html
+22:40:33	Error: 	"Not Found" (404) at link www.apple.com/ipad/LTE/includes/ (from www.apple.com/ipad/LTE/)
+22:40:33	Error: 	"Not Found" (404) at link images.apple.com/global/ac_media_player/elements/quicktime/download_quicktime_background_848x528.jpg (from images.apple.com/global/ac_media_player/styles/ac_media.css)
+22:40:33	Error: 	"Not Found" (404) at link images.apple.com/global/ac_media_player/elements/quicktime/ie6/downloadhd-selected.png (from images.apple.com/global/ac_media_player/styles/ac_media.css)
+22:40:33	Error: 	"Not Found" (404) at link images.apple.com/quicktime/qtv/specialevent0909/images/share/video_icon20090909.png (from images.apple.com/v/apple-events/c/styles/apple-events-cc-mov.css)
+22:40:33	Error: 	"Not Found" (404) at link www.apple.com/apple-events/october-2013/safari/ (from images.apple.com/apple-events/scripts/cc_enabled_mov/ac_media.js)
+22:40:33	Error: 	"Not Found" (404) at link www.apple.com/apple-events/october-2013/AppleWebKit/ (from images.apple.com/apple-events/scripts/cc_enabled_mov/ac_media.js)
+22:40:33	Error: 	"Not Found" (404) at link www.apple.com/apple-events/october-2013/HEAD (from images.apple.com/apple-events/scripts/cc_enabled_mov/ac_media.js)
+22:40:34	Error: 	"Not Found" (404) at link www.apple.com/ipad-air/videos/safari/ (from images.apple.com/global/ac_media_player/scripts/ac_media.js)
+22:40:34	Error: 	"Not Found" (404) at link www.apple.com/ipad-air/videos/AppleWebKit/ (from images.apple.com/global/ac_media_player/scripts/ac_media.js)
+22:40:34	Error: 	"Not Found" (404) at link www.apple.com/ipad-air/videos/HEAD (from images.apple.com/global/ac_media_player/scripts/ac_media.js)
+22:40:34	Error: 	"Not Found" (404) at link www.apple.com/ipad-air/videos/GET (from images.apple.com/global/ac_media_player/scripts/ac_media.js)
+22:40:34	Error: 	"Not Found" (404) at link images.apple.com/v/iphone-5c/b/images/more_16.png (from images.apple.com/v/iphone-5c/home/b/styles/overview.css)
+22:40:34	Error: 	"Not Found" (404) at link images.apple.com/v/iphone-5c/b/images/more_14.png (from images.apple.com/v/iphone-5c/home/b/styles/overview.css)
+22:40:34	Error: 	"Not Found" (404) at link images.apple.com/v/iphone-5c/b/images/more_18.png (from images.apple.com/v/iphone-5c/home/b/styles/overview.css)
+22:40:34	Error: 	"Not Found" (404) at link images.apple.com/v/iphone-5c/b/images/more_32.png (from images.apple.com/v/iphone-5c/home/b/styles/overview.css)
+22:40:35	Error: 	"Not Found" (404) at link www.apple.com/macbook-pro/safari/ (from images.apple.com/global/scripts/ac_media.js)
+22:40:35	Error: 	"Not Found" (404) at link www.apple.com/macbook-pro/AppleWebKit/ (from images.apple.com/global/scripts/ac_media.js)
+22:40:35	Error: 	"Not Found" (404) at link www.apple.com/macbook-pro/HEAD (from images.apple.com/global/scripts/ac_media.js)
+22:40:35	Error: 	"Not Found" (404) at link www.apple.com/macbook-pro/GET (from images.apple.com/global/scripts/ac_media.js)
+22:45:07	Error: 	"Not Found" (404) at link images.apple.com/retail/grandcentral/images/scrim_icon.png (from images.apple.com/v/retail/d/styles/retail.css)
+22:45:07	Error: 	"Not Found" (404) at link images.apple.com/retail/home/images/gallery_macbookair.jpg (from images.apple.com/retail/styles/retail.css)
+22:45:07	Error: 	"Not Found" (404) at link images.apple.com/retail/home/images/gallery_mothersday.jpg (from images.apple.com/retail/styles/retail.css)
+22:45:07	Error: 	"Not Found" (404) at link images.apple.com/retail/home/images/gallery_fathersday.jpg (from images.apple.com/retail/styles/retail.css)
+22:45:07	Error: 	"Not Found" (404) at link images.apple.com/retail/home/images/image1.jpg (from images.apple.com/retail/styles/retail.css)
+22:45:07	Error: 	"Not Found" (404) at link images.apple.com/retail/home/images/apple_employee.jpg (from images.apple.com/retail/styles/retail.css)
+22:45:07	Error: 	"Not Found" (404) at link images.apple.com/retail/home/images/morearrow_green.gif (from images.apple.com/retail/styles/retail.css)
+22:45:07	Error: 	"Not Found" (404) at link images.apple.com/retail/jointventure/images/mac.png (from images.apple.com/retail/styles/retail.css)
+22:45:07	Error: 	"Not Found" (404) at link images.apple.com/retail/personalsetup/gift/images/button_next.jpg (from images.apple.com/retail/styles/retail.css)
+22:45:07	Error: 	"Not Found" (404) at link www.apple.com/retail/GET (from images.apple.com/v/retail/d/scripts/util.js)
+23:30:16	Warning: 	Link www.apple.com/nl/retail/jointventure/ not scanned (follow robots meta tag)
+23:37:07	Warning: 	Moved Permanently for www.apple.com/hk/en/reseller/
+23:37:07	Warning: 	File has moved from www.apple.com/hk/en/reseller/ to http://locate.apple.com/hk/en/
+23:43:37	Warning: 	Moved Permanently for www.apple.com/cn/reseller/
+23:43:37	Warning: 	File has moved from www.apple.com/cn/reseller/ to http://locate.apple.com/cn/zh/
+23:55:36	Error: 	"Not Found" (404) at link www.apple.com/www.apple.com/fr/retail/personalsetup/ (from www.apple.com/fr/retail/opera/)
+23:55:49	Warning: 	Link www.apple.com/fr/retail/jointventure/ not scanned (follow robots meta tag)
+23:58:57	Warning: 	Moved Permanently for www.apple.com/pr/library/2010/11/17bod.html
+23:58:57	Warning: 	File has moved from www.apple.com/pr/library/2010/11/17bod.html to http://www.apple.com/pr/library/2010/11/17Ronald-D-Sugar-Joins-Apples-Board-of-Directors.html
+00:05:22	Warning: 	Moved Permanently for www.apple.com/quicktime/qtv/earningsq413
+00:05:22	Warning: 	File has moved from www.apple.com/quicktime/qtv/earningsq413 to http://www.apple.com/quicktime/qtv/earningsq413/
+00:05:22	Warning: 	Moved Permanently for www.apple.com/find/
+00:05:22	Warning: 	File has moved from www.apple.com/find/ to http://www.apple.com/sitemap/
+00:05:32	Error: 	"Not Found" (404) at link www.apple.com/legal/contact/phishingandspam.html (from www.apple.com/legal/contact/)
+00:05:39	Error: 	"Not Found" (404) at link www.apple.com/contact/contact/success.html (from www.apple.com/contact/searchfeedback.html)
+00:10:32	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 1074): images.apple.com/euro/cemea/sitemap/images/title_ios_and_icloud.gif
+00:29:26	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 60046): images.apple.com/eg/global/styles/productbrowser.css
+00:29:28	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 606): images.apple.com/eg/mac/home/styles/promos.css
+00:29:30	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 1766): images.apple.com/eg/ipod/home/styles/home.css
+00:32:05	Warning: 	Moved Permanently for www.apple.com/gw/ios/ios7/
+00:32:05	Warning: 	File has moved from www.apple.com/gw/ios/ios7/ to http://www.apple.com/gw/ios/
+00:32:05	Warning: 	Moved Permanently for www.apple.com/gw/osx/preview/
+00:32:05	Warning: 	File has moved from www.apple.com/gw/osx/preview/ to http://www.apple.com/gw/osx/
+00:34:55	Warning: 	Moved Permanently for www.apple.com/gq/ios/ios7/
+00:34:55	Warning: 	File has moved from www.apple.com/gq/ios/ios7/ to http://www.apple.com/gq/ios/
+00:34:56	Warning: 	Moved Permanently for www.apple.com/gq/osx/preview/
+00:34:56	Warning: 	File has moved from www.apple.com/gq/osx/preview/ to http://www.apple.com/gq/osx/
+00:36:16	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 1993): images.apple.com/in/global/elements/buttons/preorder_blue.png
+00:48:55	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 60046): images.apple.com/il/global/styles/productbrowser.css
+00:57:12	Warning: 	Moved Permanently for www.apple.com/ml/osx/preview/
+00:57:12	Warning: 	File has moved from www.apple.com/ml/osx/preview/ to http://www.apple.com/ml/osx/
+01:06:28	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 1619): images.apple.com/om/ipad/home/styles/promos.css
+01:07:40	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 60): images.apple.com/qa/iphone/home/styles/home.css
+01:07:45	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 786): images.apple.com/qa/itunes/home/styles/home.css
+01:20:33	Warning: 	Moved Permanently for www.apple.com/sn/osx/preview/
+01:20:33	Warning: 	File has moved from www.apple.com/sn/osx/preview/ to http://www.apple.com/sn/osx/
+01:23:17	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 872): images.apple.com/tn/mac/home/styles/promos.css
+02:15:50	Error: 	"Not Found" (404) at link www.apple.com/asia/rss/ (from www.apple.com/id/)
+02:33:20	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 900): images.apple.com/kr/global/elements/breadory/breadcrumb_bg.png
+02:53:32	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 113): images.apple.com/nz/mac/home/styles/mac.css
+02:56:10	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 514): images.apple.com/nz/ipad-air/overview/styles/overview-desktop.css
+03:15:25	Error: 	"Not Found" (404) at link www.apple.com/sg/rss/ (from www.apple.com/sg/)
+03:28:25	Error: 	"Not Found" (404) at link www.apple.com/th/main/rss/hotnews/hotnews.rss (from www.apple.com/th/)
+04:06:55	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 1000): www.apple.com/bg/iphone/iphone-4/specs.html
+04:08:48	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 61066): images.apple.com/cz/global/styles/productbrowser.css
+04:11:19	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 61056): images.apple.com/dk/global/styles/productbrowser.css
+04:50:08	Error: 	"Not Found" (404) at link www.apple.com/ie/ie.emap/ (from www.apple.com/ie/)
+04:50:25	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 2217): images.apple.com/ie/ipod/home/styles/home.css
+04:50:38	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 823): images.apple.com/ie/iphone/home/styles/promos.css
+05:01:53	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 1194): images.apple.com/lv/sitemap/images/title_downloads.gif
+05:09:59	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 60): images.apple.com/mt/iphone/home/styles/home.css
+05:10:34	Warning: 	Link www.apple.com/me/ not scanned (follow robots meta tag)
+05:15:39	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 17314): www.apple.com/nl/pr/library/2013/11/12iPad-mini-with-Retina-Display-Available-Starting-Today.html
+05:30:58	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 18855): www.apple.com/pt/batteries/ipad.html
+05:45:13	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 1000): www.apple.com/si/iphone/iphone-4s/specs.html
+05:45:25	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 606): images.apple.com/si/mac/home/styles/promos.css
+05:53:21	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 4318): images.apple.com/chfr/ipod/home/styles/home.css
+05:53:24	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 4168): images.apple.com/chfr/ipod/home/images/productbrowser/ipodclassic.jpg
+06:18:01	Error: 	Exit requested by shell or user
+06:18:01	Error: 	Exit requested by shell or user
+* * MIRROR ABORTED! * *
+The current temporary cache is required for any update operation and only contains data downloaded during the present aborted session.
+The former cache might contain more complete information; if you do not want to lose that information, you have to restore it and delete the current cache.
+This can easily be done here by erasing the hts-cache/new.* files]

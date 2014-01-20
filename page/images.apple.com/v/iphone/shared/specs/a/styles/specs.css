@@ -1,0 +1,191 @@
+/* General */
+body.specs #main { font-size:1.167em; line-height:1.7143em; }
+
+body.specs .lighter { color:#666; }
+
+body.specs .baseline { margin-top:-4px; }
+
+body.specs .positioned { position:relative; z-index:1; }
+body.specs .positioned img { z-index:1; }
+body.specs .positioned .pincushion { position:absolute; z-index:2; }
+
+body.specs .flushrow.table .row { width:980px; padding:45px 22px 0; }
+body.specs .tech-specs { width:980px; table-layout:fixed; }
+body.specs .tech-specs li { margin-bottom:3px; }
+
+body.specs .tech-specs tbody th,
+body.specs .tech-specs tbody td { vertical-align:top; border-bottom:1px solid #e6e6e6; }
+
+body.specs .tech-specs tbody th { width:228px; min-height:112px; }
+body.specs .tech-specs tbody th img { display:block; margin:12px 0 0 10px; }
+body.specs .tech-specs tbody th .positioned sup { position:absolute; z-index:2; }
+body.specs .tech-specs tbody td.last { width:705px; padding-top:16px; padding-bottom:18px; }
+body.specs .tech-specs tbody tr.last th,
+body.specs .tech-specs tbody tr.last td { border-bottom:none; }
+body.specs .tech-specs tbody td.last ul { padding-bottom:22px; }
+body.specs .tech-specs tbody td.last ul ul.disc { margin-bottom:0; *padding-left:15px; }
+body.specs .tech-specs tbody .divide { width:47px; border-bottom-color:transparent; }
+
+body.specs .tech-specs .capacity th sup { top:0; left:190px; }
+body.specs .tech-specs .capacity .grid2col { width:292px;  }
+body.specs .tech-specs .capacity .grid2col .column,
+body.specs .tech-specs .capacity .grid3col .column { margin-left:56px; width:60px; }
+body.specs .tech-specs .capacity .grid2col .column p,
+body.specs .tech-specs .capacity .grid3col .column p { margin-bottom:6px; line-height:0.9332em; }
+body.specs .tech-specs .capacity .grid2col .column span,
+body.specs .tech-specs .capacity .grid3col .column span { color:#666; font-size:12px; }
+body.specs .tech-specs .capacity .grid2col .column span.currency,
+body.specs .tech-specs .capacity .grid3col .column span.currency { margin-top:-2px; font-size:0.9144em; line-height:1em; color:#333; }
+body.specs .tech-specs .capacity .grid2col .column span.price,
+body.specs .tech-specs .capacity .grid3col .column span.price { font-size:1.2857em; color:#333;}
+
+body.specs .tech-specs .dimensions th sup { top:24px; left:127px; }
+body.specs .tech-specs .dimensions td.last { padding-bottom:51px; }
+body.specs .tech-specs .dimensions ul.left { margin-top:88px; }
+body.specs .tech-specs .dimensions.wider ul.left { width:300px; }
+body.specs .tech-specs .dimensions .last .positioned { margin-right:140px; padding-top:56px; }
+body.specs .tech-specs .dimensions .last .positioned ul,
+body.specs .tech-specs .dimensions .last .positioned li,
+body.specs .tech-specs .dimensions .last .positioned span { position:absolute; }
+body.specs .tech-specs .dimensions .last .positioned ul { top:0; z-index:2; width:100%; height:100%; }
+body.specs .tech-specs .dimensions .last .positioned li { z-index:1; text-align:center; }
+body.specs .tech-specs .dimensions .last .positioned span { z-index:1; display:block; }
+
+body.specs .tech-specs .processors h4.left,
+body.specs .tech-specs .processors p.left { width:315px; }
+body.specs .tech-specs .processors img.right { margin-right:253px; margin-bottom:32px; }
+body.specs .tech-specs .processors .bottom .right { margin-bottom:16px; }
+
+body.specs .tech-specs .carriers td.last { padding-top:19px; padding-bottom:27px; }
+body.specs .tech-specs .carriers ul { margin:0 auto; width:518px; }
+body.specs .tech-specs .carriers ul li { float:left; }
+body.specs .tech-specs .carriers ul li.att { margin-right:47px; }
+body.specs .tech-specs .carriers ul li.sprint { margin-right:47px; }
+body.specs .tech-specs .carriers ul li.tmobile { margin-right:42px; }
+
+body.specs .tech-specs .touchid p { padding-bottom:25px; margin-bottom:0; }
+
+body.specs .tech-specs .isight-camera ul,
+body.specs .tech-specs .wireless ul.cell,
+body.specs .tech-specs .wireless ul.wifi,
+body.specs .tech-specs .video-recording ul,
+body.specs .tech-specs .display ul,
+body.specs .tech-specs .power ul { width:280px; }
+body.specs .tech-specs .isight-camera ul.right,
+body.specs .tech-specs .wireless ul.right,
+body.specs .tech-specs .video-recording ul.right,
+body.specs .tech-specs .display ul.right,
+body.specs .tech-specs .power ul.right { margin-right:50px; }
+
+body.specs .tech-specs .video-calling th sup { top:0; left:140px; }
+body.specs .tech-specs .audio-calling th sup { top:0; left:142px; }
+
+body.specs .tech-specs .wireless ul,
+body.specs .tech-specs .audio-calling p,
+body.specs .tech-specs .audio-playback ul,
+body.specs .tech-specs .tv-video ul,
+body.specs .tech-specs .mail-support p { width:612px; }
+
+body.specs .tech-specs .environment-requirements.wider ul { width:612px; }
+
+body.specs .tech-specs .assistant th sup { top:24px; left:100px; }
+
+body.specs .tech-specs .power th sup { top:24px; left:123px; }
+
+body.specs .tech-specs .free-apps-from-apple th sup { top:25px; left:122px; }
+body.specs .tech-specs .built-in-apps th sup { top:24px; left:98px; }
+
+body.specs .tech-specs .built-in-apps td.last,
+body.specs .tech-specs .free-apps-from-apple td.last { padding-bottom:18px; *padding-bottom:25px; }
+body.specs .tech-specs .built-in-apps td.last ul,
+body.specs .tech-specs .free-apps-from-apple td.last ul { margin-bottom:22px; padding-bottom:0; }
+body.specs .tech-specs .built-in-apps ul,
+body.specs .tech-specs .free-apps-from-apple ul { margin-bottom:43px; margin-left:-14px; width:600px; }
+body.specs .tech-specs .built-in-apps ul li,
+body.specs .tech-specs .free-apps-from-apple ul li { float:left; margin-top:20px; margin-right:0; width:100px; text-align:center; }
+body.specs .tech-specs .built-in-apps ul li.first,
+body.specs .tech-specs .free-apps-from-apple ul li.first { margin-top:0; }
+body.specs .tech-specs .built-in-apps ul li img,
+body.specs .tech-specs .free-apps-from-apple ul li img { display:block; margin:0 auto 3px; }
+
+body.specs .tech-specs .free-apps-from-apple ul li img { margin-bottom:7px; }
+body.specs .tech-specs .free-apps-from-apple ul li { line-height:1.2em; }
+body.specs .tech-specs .free-apps-from-apple ul li.find-my-iphone { margin-right:-1px; *margin-right:-2px; width:101px; *width:102px; }
+body.specs .tech-specs .free-apps-from-apple ul li.find-my-iphone,
+body.specs .tech-specs .free-apps-from-apple ul li.find-my-friends { margin-bottom:-15px; }
+body.specs .tech-specs .free-apps-from-apple ul li.last { clear:left; }
+
+body.specs .tech-specs .headphones td.last { padding-bottom:47px; }
+body.specs .tech-specs .headphones img.right { margin:0 172px 0 0; }
+
+body.specs .tech-specs .lightning-connector td.last { padding-bottom:0; }
+body.specs .tech-specs .lightning-connector td.last .left { margin-right:42px; }
+body.specs .tech-specs .lightning-connector td.last img { display:block; }
+
+body.specs .tech-specs .hearing-aids ul.disc { padding-bottom:4px; }
+
+body.specs .tech-specs .system-requirements td.last ul ul { width:500px; padding-bottom:0; }
+
+body.specs .tech-specs .languages p { width:575px; }
+
+body.specs .tech-specs .in-the-box img.right { margin:0 248px 18px 0; }
+
+
+/* footers
+------------------------*/
+
+/* environment */
+body.specs .environment { padding-bottom:18px; }
+body.specs .environment .row { position:relative; z-index:1; margin-top:14px; width:978px; padding:0; color:#8a8d99; line-height:1.5714em; border:1px solid #e2e2e2; background:#f6f6f6; }
+body.specs .environment .row:nth-child(1n) { width:980px; border:none; }
+body.specs .environment .row:nth-child(1n):before { position:absolute; bottom:0; left:16px; z-index:1; display:block; overflow-x:hidden; width:948px; height:100%; content:"";
+	-webkit-box-shadow:rgba(0,0,0,.2) 0 4px 2px;
+	   -moz-box-shadow:rgba(0,0,0,.2) 0 4px 2px;
+	        box-shadow:rgba(0,0,0,.2) 0 4px 2px;
+}
+body.specs .environment .row:nth-child(1n):after { position:absolute; bottom:-8px; left:0; z-index:1; display:block; width:880px; height:5px; content:""; background:#fff;
+	-webkit-box-shadow:#fff 0 -1px 1px;
+	   -moz-box-shadow:#fff 0 -1px 1px;
+	        box-shadow:#fff 0 -1px 1px;
+	-webkit-border-radius:100% 100% 0% 0% / 200% 200% 0% 0%;
+	   -moz-border-radius:100% 100% 0% 0% / 200% 200% 0% 0%;
+            border-radius:100% 100% 0% 0% / 200% 200% 0% 0%;
+}
+body.specs .environment .row .wrapper { position:relative; z-index:2; width:894px; padding:42px; background:#f6f6f6; }
+body.specs .environment .row .wrapper:nth-child(1n) { width:896px; }
+body.specs .environment .wrapper h1 img { margin-bottom:0; }
+body.specs .environment .wrapper h4 { margin-bottom:14px; }
+body.specs .environment .wrapper p.left { width:447px; }
+body.specs .environment .wrapper img.right { margin:-13px -14px 0 0; }
+body.specs .environment .wrapper .grid2col { margin-top:11px; }
+body.specs .environment .wrapper .grid2col .column { width:410px; }
+body.specs .environment .wrapper .grid2col .column.first ul { padding-top:11px; color:#8a8d99; }
+body.specs .environment .wrapper .grid2col .column.first ul li { margin-bottom:5px; }
+
+/* vertically aligned middle */
+.middle { behavior:url(http://images.apple.com/v/iphone/shared/specs/a/scripts/middle.htc);
+	display:-webkit-box; display:-moz-box; display:-ms-flexbox; display:-webkit-flex; display:flex;
+	-webkit-box-align:center; -moz-box-align:center; -webkit-align-items:center; -ms-flex-align:center; align-items:center;
+}
+.middle:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+
+.middle > * { position:relative; z-index:1; -webkit-box-flex:0; -moz-box-flex:0; -webkit-flex:0 1 auto; -ms-flex:0 1 auto; flex:0 1 auto; }
+.middle > .middled { -webkit-box-flex:1; -moz-box-flex:1; -webkit-flex:1 1 auto; -ms-flex:1 1 auto; flex:1 1 auto; }
+
+@-moz-document url-prefix() {
+	.middle { width:100%; -moz-box-sizing:border-box; }
+}
+
+/* compare */
+.compare-pullout { margin:18px auto 30px; width:980px; }
+.compare-pullout .column { margin-left:13px; width:318px; }
+.compare-pullout .column a { display:block; min-height:116px; padding:17px 34px 4px; color:#000; font-weight:bold; text-decoration:none; border:1px solid #e2e2e2; background:#f6f6f6;
+	-webkit-border-radius:2px;
+	   -moz-border-radius:2px;
+	        border-radius:2px;
+}
+.compare-pullout .column .more { font-weight:normal; }
+.compare-pullout .column a:hover { background:#fafafa; }
+.compare-pullout .column a:hover .more { text-decoration:underline; }
+.compare-pullout .column a img { display:block; margin:0 24px 0 0; }
+.compare-pullout .column a p { margin:0; font-size:1.1666em; }

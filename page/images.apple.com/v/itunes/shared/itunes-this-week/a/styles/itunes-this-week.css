@@ -1,0 +1,136 @@
+#itunesmodule { position:relative; z-index:1; width:980px; margin:0 auto 18px; padding-top:40px; color:#333; font-size:12px; line-height:1.4em; text-shadow:rgba(255,255,255,.75) 0 1px 0; zoom:1; text-align:center; }
+#itunesmodule:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+
+#itunesmodule iframe { float:right; }
+
+/* title */
+#itunesmodule .title { margin-bottom:0; padding-bottom:0; line-height:1em; font-size:12px; }
+#itunesmodule .title img { margin:0 auto; }
+#itunesmodule .charts { font-size:1.1667em; line-height:23px; }
+
+/* gallery */
+#itunesmodule-gallery .gallery { overflow:hidden; -webkit-user-select:none; -webkit-transform:translateZ(1px); text-align:left; }
+#itunesmodule-gallery .gallery:after,
+#itunesmodule-gallery .gallery-view:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+
+#itunesmodule-gallery .gallery .gallery-view,
+#itunesmodule-gallery .gallery .gallery-content { width:100%; }
+#itunesmodule-gallery .gallery .gallery-content { display:none; }
+#itunesmodule-gallery .gallery .gallery-view .gallery-content { display:block; }
+#itunesmodule-gallery .gallery .gallery-content { float:left; display:inline; margin:0; -webkit-transform:translateZ(0); }
+
+#itunesmodule-gallery .gallery .gallery-view { position:relative; z-index:2; width:4000px; -webkit-transform:translateZ(0); }
+#itunesmodule-gallery .gallery .gallery-view .gallery-content { position:relative; z-index:2; width:762px; }
+#itunesmodule-gallery .gallery .gallery-view .gallery-content.active { z-index:3; }
+#itunesmodule-gallery .gallery .dot-nav { padding-top:28px; }
+
+#itunesmodule-gallery .promos .promo a { position:relative; z-index:1; }
+
+/* paddle arrow nav */
+#itunesmodule-gallery .paddle-nav { position:static; width:100%; }
+#itunesmodule-gallery .paddle-nav li { position:static; width:100%; _display:none; }
+#itunesmodule-gallery .paddle-nav li .arrow { position:absolute; z-index:1020; display:block; top:0; height:496px; width:160px; padding:0; margin:0; -moz-opacity:0; opacity:0; outline:none; cursor:pointer; *background-image:url(../../../../../../global/elements/blank.gif);
+	-webkit-transition:.25s opacity ease-out; -moz-transition:.25s opacity ease-out; transition:.25s opacity ease-out;
+	-webkit-transform:translateZ(10px); -moz-transform:translateZ(10px); transform:translateZ(10px);
+}
+#itunesmodule-gallery .paddle-nav li .arrow:hover { -moz-opacity:1; opacity:1; }
+#itunesmodule-gallery .paddle-nav li .arrow.disabled { display:none; }
+#itunesmodule-gallery .paddle-nav li .arrow b { display:block; width:68px; height:131px; margin-top:160px; text-indent:-9999px; overflow:hidden; behavior:url(http://images.apple.com/global/scripts/lib/ie7pngfix.htc); }
+
+#itunesmodule-gallery .paddle-nav li .arrow.prev { left:-85px; }
+#itunesmodule-gallery .paddle-nav li .arrow.prev b { float:left; margin-left:-15px; background-image:url(../images/paddle_prev.png); background-size:68px 131px; }
+
+#itunesmodule-gallery .paddle-nav li .arrow.next { right:-85px; }
+#itunesmodule-gallery .paddle-nav li .arrow.next b { float:right; margin-right:-15px; background-image:url(../images/paddle_next.png); background-size:68px 131px; }
+
+/* gallery borders */
+#itunesmodule-gallery .gallery-scrim { position:absolute; z-index:1001; top:0; width:106px; height:478px; background-size:106px 478px; background-repeat:no-repeat; background-position:0 0; }
+#itunesmodule-gallery .gallery-scrim.left { left:0px; background-image:url(../images/left_scrim.png); }
+#itunesmodule-gallery .gallery-scrim.right { right:0px; background-image:url(../images/right_scrim.png); }
+
+/* paddle nav adjustment for iPad and iPhone */
+@media only screen and (max-device-width:768px) {
+	#itunesmodule-gallery .paddle-nav { display:none; }
+}
+/* paddle nav adjustment for Small Desktop */
+@media only screen and (max-width:1170px) {
+	#itunesmodule-gallery .paddle-nav li .arrow { width:60px; }
+	#itunesmodule-gallery .paddle-nav li .arrow.prev { margin-left:175px; }
+	#itunesmodule-gallery .paddle-nav li .arrow.next { margin-right:175px; }
+}
+
+/* promos */
+#itunesmodule-gallery { position:relative; z-index:1; height:494px; font-size:12px; }
+#itunesmodule-gallery .shadow { position:absolute; z-index:1001; width:63px; height:494px; border:none; -webkit-transform:translateZ(1px);
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+}
+#itunesmodule-gallery .shadow.left { left:0; }
+#itunesmodule-gallery .shadow.right { right:0; }
+#itunesmodule-gallery:before,
+#itunesmodule-gallery:after { content:''; position:absolute; z-index:1001; display:block; width:980px; height:10px; }
+#itunesmodule-gallery:before { top:0; }
+#itunesmodule-gallery:after { bottom:0; }
+#itunesmodule-gallery .promos { position:relative; z-index:1; height:446px; padding:25px 0 50px; border:1px solid #ccc; *border:none; }
+#itunesmodule-gallery .promos:nth-child(1n) { border:none; }
+
+/* outer dot nav */
+#itunesmodule-gallery .gallery .outer-dot-nav { position:relative; z-index:1012; left:0; width:100%; margin:20px auto; padding:0; bottom:0; text-align:center; line-height:1px; }
+#itunesmodule-gallery .gallery .outer-dot-nav li,
+#itunesmodule-gallery .gallery .outer-dot-nav li a { display:-moz-inline-stack; display:inline-block; *display:inline; zoom:1; }
+#itunesmodule-gallery .gallery .outer-dot-nav li { position:relative; z-index:1; margin:0 8px; width:12px; height:24px; padding:0; line-height:0; }
+#itunesmodule-gallery .gallery .outer-dot-nav li a { position:absolute; z-index:1; top:10px; left:2px; width:8px; height:8px; background:#bebebe; outline:none; text-indent:-99999px; cursor:default;
+	-webkit-border-radius:50%;
+	   -moz-border-radius:50%;
+	        border-radius:50%;
+}
+#itunesmodule-gallery .gallery .outer-dot-nav li a:hover { cursor:pointer; background:#666; }
+#itunesmodule-gallery .gallery .outer-dot-nav li a.active { cursor:default; top:8px; left:0; width:10px; height:10px; border:1px solid #08c; background-color:transparent; }
+
+#itunesmodule-gallery .promos .promo { position:relative; z-index:1; _width:680px; margin-left:180px; _margin-right:-110px; -webkit-perspective:1000px; -moz-perspective:1000px; }
+#itunesmodule-gallery .promos .promo .divider { width:680px; padding:0 40px; }
+#itunesmodule-gallery .promos .promo .divider.first { border-left:1px solid transparent; }
+#itunesmodule-gallery .promos .promo .divider.last { border-right:none; }
+#itunesmodule-gallery .promos .promo .divider:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+#itunesmodule-gallery .promos .promo h4 { margin-bottom:8px; padding-left:40px; text-align:center; font-weight:normal; font-size:1.2em; color:#999; }
+#itunesmodule-gallery .promos .promo ul { width:680px; padding-top:20px; }
+#itunesmodule-gallery .promos .promo ul .column { display:inline; padding:0 19px; border-right:1px solid #d3d3d3; border-left:1px solid #f6f6f6; }
+#itunesmodule-gallery .promos .promo ul .column.first { padding-left:0; border-left:none; }
+#itunesmodule-gallery .promos .promo ul .last { padding-right:0; border-right:none; _float:right !important; }
+
+#itunesmodule-gallery .promos .promo h4,
+#itunesmodule-gallery .promos .promo img { -webkit-transition:all .4s 0s ease-in-out; -moz-transition:all .4s 0s ease-in-out; }
+
+#itunesmodule-gallery .promos .promo img { display:block;
+	-webkit-box-shadow:0 1px 6px 1px rgba(0, 0, 0, 0.0), 0 1px 2px 0 rgba(0, 0, 0, 0.0);
+	-moz-box-shadow:0 1px 6px 1px rgba(0, 0, 0, 0.0), 0 1px 2px 0 rgba(0, 0, 0, 0.0);
+	-webkit-transform:translateZ(-20px); -moz-transform:translateZ(-20px);
+}
+
+#itunesmodule-gallery .promos .active .promo a { position:relative; z-index:1; -webkit-perspective:1000px; -moz-perspective:1000px; }
+#itunesmodule-gallery .promos .active .promo img {
+	-webkit-box-shadow:0 1px 6px 1px rgba(0, 0, 0, 0.4), 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+	-moz-box-shadow:0 1px 6px 1px rgba(0, 0, 0, 0.4), 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+	-webkit-transform:translateZ(0); -moz-transform:translateZ(0);
+}
+
+@media only screen and (max-device-width:768px) {
+	#itunesmodule-gallery .promos .promo img { -webkit-transform:translateZ(0); }
+	#itunesmodule-gallery .promos .active .promo img { -webkit-box-shadow:none; }
+}
+
+/* social */
+#itunesmodule .social { text-align:left; padding:20px 0; }
+#itunesmodule .social h1 { margin-bottom:8px; }
+#itunesmodule .social .column { width:304px; min-height:100px; *height:100px; margin:20px auto; padding:10px 0 0 20px; border-left:1px solid #ececec; border-right:1px solid #ececec; }
+#itunesmodule .social .column.first { width:323px; border:none; }
+#itunesmodule .social .column.last { width:283px; border:none; }
+
+#itunesmodule .social .column img.left { margin:0; _position:relative; _z-index:1; }
+#itunesmodule .social .column p { padding-left:70px; margin-bottom:0; line-height:1.5em; }
+#itunesmodule .social .column p.nopad { margin-bottom:0; }
+#itunesmodule .social .column.last p { margin-right:10px; }
+#itunesmodule .social .column iframe { margin-top:1px; margin-left:25px; width:75px; }
+#itunesmodule .social .column.first iframe { margin-left:25px; width:55px; }
+

@@ -1,0 +1,25 @@
+/* features */
+body#features #gestures .container { background:url(../features/images/mouse_gestures_gallery_trackpad.png) no-repeat 0 0; _behavior:url(/global/scripts/lib/iepngfix.htc); }
+
+@media only screen and (min-device-pixel-ratio:1.5) and (min-device-width:321px),
+       only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+	body#features #gestures .container { background-image:url(../features/images/mouse_gestures_gallery_trackpad_2x.png); background-size:1960px 236px; _behavior:url(/global/scripts/lib/iepngfix.htc); }
+}
+
+body#design #hero .hero-image { background-image:url(../design/images/hero.jpg); }
+body#design #evolution .replaced-img { background-image:url(../design/images/evolution_hero.jpg); }
+body#design #display .grid2col .first .replaced-img { background-image:url(../design/images/display_hero.jpg); }
+body#design #color .replaced-img { background-image:url(../design/images/display_banner.jpg); }
+
+@media only screen and (min-device-pixel-ratio:1.5) and (min-device-width:321px),
+       only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+	body#design #hero .hero-image { background-image:url(../design/images/hero_2x.jpg); }
+	body#design #evolution .replaced-img { background-image:url(../design/images/evolution_hero_2x.jpg); }
+	body#design #display .grid2col .first .replaced-img { background-image:url(../design/images/display_hero_2x.jpg); }
+	body#design #color .replaced-img { background-image:url(../design/images/display_banner_2x.jpg); }
+}
+
+body#design #display .sequence-reflect .text-callout .image { background-image:url(../design/images/display_sequence_reflect_percent.png); }
+@media only screen {
+	body#design #display .sequence-reflect .text-callout .image { background-image:url(http://images.apple.com/imac/design/images/display_sequence_reflect_percent.svg); }
+}

@@ -1,0 +1,133 @@
+html, body { width:100%; background:#fff; }
+body { min-width:1024px; padding:0;
+	-webkit-box-shadow:none;
+	   -moz-box-shadow:none;
+	        box-shadow:none;
+}
+#main { position:static; margin:0 auto; width:100%; padding-top:20px; padding-bottom:0; }
+
+@media only screen and (max-device-width:768px) {
+	#main { padding:0; }
+}
+
+/* typography */
+.main { font-size:1.333em; line-height:1.6875; word-spacing:-1px; } /* 16px/27px */
+.main h1 { margin-bottom:3px; font-size:1.7142em; line-height:1.1666; font-weight:normal; } /* 24px/28px */
+.main h2 { margin-bottom:7px; font-size:1.2857em; line-height:1.3888; font-weight:normal; } /* 18px/25px */
+.main h3 { margin-bottom:7px; font-size:1.1428em; line-height:1.5000; } /* 16px/24px */
+.main h4 { margin-bottom:7px; font-size:1em; }
+.main .intro { color:#404040; font-size:1em; line-height:1.688em; }  /* 16px/27px */
+
+.main img { display:block; }
+.main h1 img,
+.main h2 img,
+.main h3 img,
+.main h4 img { display:block; margin:0; }
+
+.main sup { z-index:1; }
+.main .small { font-size:.875em; line-height:1.7143; } /* 14px/24px */
+.main .caption { color:#666; }
+
+/* layout */
+#productheader { margin-right:auto; margin-left:auto; padding-right:0; padding-left:0; }
+
+.main .column { *display:inline; }
+
+.main .block { display:block; }
+.main .inline { display:inline; }
+.main .left { float:left; }
+.main .right { float:right; }
+.main .center { display:block; margin-right:auto; margin-left:auto; text-align:center; }
+
+.flushrow { overflow:hidden; *position:relative; }
+.flushrow .divider { border-top:1px solid #e2e2e2; }
+
+.flushrow .row { margin:0 auto; width:880px; padding:70px 72px 52px; border-bottom:1px solid #ccc; }
+.flushrow .row.grid2col { padding-top:0; padding-bottom:20px; border-bottom:none; }
+
+.flushrow .flushpad,
+.flushrow .padright { padding-right:50px; }
+
+.flushrow .flushpad,
+.flushrow .padleft { padding-left:50px; }
+
+.flushrow .flushpad,
+.flushrow .flushright { margin-right:-50px; }
+
+.flushrow .flushpad,
+.flushrow .flushleft { margin-left:-50px; }
+
+.flushrow .flushtop,
+.flushrow .flushbottom,
+.flushrow .flushright,
+.flushrow .flushleft,
+.main .relative { *position:relative; *z-index:1; *zoom:1; }
+
+/* links */
+.chevron a.more,
+.chevron em.more,
+.chevron span.more { display:inline-block; padding-right:.7em; line-height:1.71; background-image:url(../images/more_16.png); background-position:100% 59%; background-size:6px 11px; }
+
+.chevron .small a.more,
+.chevron .small em.more,
+.chevron .small span.more { background-image:url(../images/more_14.png); background-size:5px 9px; }
+
+@media only screen {
+	.chevron a.more,
+	.chevron em.more,
+	.chevron span.more,
+	.chevron .small a.more,
+	.chevron .small em.more,
+	.chevron .small span.more { background-image:url(http://images.apple.com/v/mac/shared/built-in-apps/a/images/more.svg); }
+
+}
+
+.main a { cursor:pointer; }
+.main a.block { color:#000; }
+.main a.wrap { text-decoration:none; }
+.main a.wrap:hover span { text-decoration:underline; cursor:pointer; }
+
+.main p + .more,
+.main p + .wrap { display:inline-block; position:relative; z-index:1; top:-0.643em; text-align:left; }
+
+.main .gradient { border-bottom:1px solid #e2e2e2;
+	background:-webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(229,229,229,1) 100%);
+	background:   -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(229,229,229,1) 100%);
+	background:        linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(229,229,229,1) 100%);
+	}
+.main .gradient:nth-child(1n) { border-bottom:none; border-bottom:1px solid #e2e2e2\9; }
+
+/* Shared
+------------------------*/
+.main .flushrow .row .icon { display:inline-block; margin-bottom:5px; }
+.main .flushrow .row .intro { margin-bottom:29px; }
+.main .row .hero-screen { display:inline-block; }
+
+.main .hero .row { padding-top:21px; padding-bottom:70px; border-bottom:none; }
+.main .hero h1 { position:relative; z-index:1; margin-bottom:-1px; }
+.main .hero .intro { margin-bottom:33px; font-size:1em; line-height:1.688em; } /* 18px/33px */
+.main .hero .hero-img { margin-right:-72px; margin-left:-72px; }
+
+.main .flushrow .row.first { padding-top:71px; }
+.main .flushrow .row.last { padding-bottom:43px; }
+.main .flushrow .row.grid2col .column .hero-img { margin-bottom:28px; }
+.main .flushrow .row.grid2col .column .icon { float:left; margin:0 19px 0 0; }
+.main .flushrow .row.grid2col .column h1 { float:left; margin-bottom:12px; }
+.main .flushrow .row.grid2col .column p { font-size:0.875em; line-height:1.6em; }
+
+.main .up-to-date .row { padding-top:0; padding-bottom:9px; border-bottom:none; }
+
+/* Footers
+------------------------*/
+
+/* sosumi */
+.built-in-apps .sosumi { margin:24px auto 18px; width:940px; padding:0 20px; }
+.built-in-apps .sosumi ol { margin:0; padding-left:21px; padding-right:21px; }
+.built-in-apps .sosumi li { padding-bottom:5px; }
+.built-in-apps .sosumi small { font-size:1em; }
+
+.sosumi ul { margin:0; }
+.sosumi a { color:#333; }
+
+#buystrip { margin:0 auto; width:980px; padding-top:30px; border-top:1px solid #e1e1e1; background:none; }
+#buystrip .grid4col { padding-top:0; border-top:none; }

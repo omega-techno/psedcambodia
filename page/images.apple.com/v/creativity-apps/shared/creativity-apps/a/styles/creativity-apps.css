@@ -1,0 +1,283 @@
+html, body { background:#fff; }
+body { min-width:1024px; }
+#main { position:static; width:100%; margin:0 auto; padding-top:20px; padding-bottom:0; }
+
+/* typography */
+.main { font-size:1.333em; line-height:1.6875; word-spacing:-1px; } /* 16px/27px */
+.main h1 { margin-bottom:3px; font-size:1.7142em; line-height:1.1666; font-weight:normal; } /* 24px/28px */
+.main h2 { margin-bottom:7px; font-size:1.2857em; line-height:1.3888; font-weight:normal; } /* 18px/25px */
+.main h3 { margin-bottom:7px; font-size:1.1428em; line-height:1.5000; } /* 16px/24px */
+.main h4 { margin-bottom:7px; font-size:1em; }
+.main .intro { line-height:1.8; color:#404040; }  /* 16px/28px */
+
+.main .hero { padding-top:0; }
+.main .hero h1 { margin-bottom:2px; }
+.main .hero .icon { margin-bottom:13px; }
+.main .hero .download { margin-bottom:36px; }
+.main .hero .hero-img { margin-top:40px; }
+
+.main img { display:block; }
+.main h1 img,
+.main h2 img,
+.main h3 img,
+.main h4 img { display:block; margin:0; }
+
+.main sup { z-index:1; }
+.main .small { font-size:.875em; line-height:1.7143; } /* 14px/24px */
+
+.main .caption { line-height:1.5714; color:#666; }
+.main .caption h4 { margin-bottom:3px; color:#333; }
+
+/* layout */
+.main .column { *display:inline; }
+
+.main .block { display:block; }
+.main .inline { display:inline; }
+.main .left { float:left; }
+.main .right { float:right; }
+.main .center { display:block; margin-right:auto; margin-left:auto; text-align:center; }
+.main .center p,
+.main .center h1 img,
+.main .center h2 img,
+.main .center h3 img,
+.main .center h4 img,
+.main .center figcaption { margin-left:auto; margin-right:auto; }
+
+.flushrow { overflow:hidden; *position:relative; padding-top:60px; padding-bottom:70px; }
+.alternate { background:#f6f6f6; }
+.divider,
+.flushrow .divider { border-top:1px solid #e2e2e2; }
+
+.flushrow .row { margin:0 auto; width:880px; padding:0 72px; }
+
+.flushrow .flushpad,
+.flushrow .padright { padding-right:50px; }
+
+.flushrow .flushpad,
+.flushrow .padleft { padding-left:50px; }
+
+.flushrow .flushpad,
+.flushrow .flushright { margin-right:-50px; }
+
+.flushrow .flushpad,
+.flushrow .flushleft { margin-left:-50px; }
+
+.flushrow .flushtop,
+.flushrow .flushbottom,
+.flushrow .flushright,
+.flushrow .flushleft,
+.main .relative { *position:relative; *z-index:1; *zoom:1; }
+
+/* links */
+a.more,
+em.more,
+span.more { display:inline-block; padding-right:.7em; line-height:1.71; background-image:url(../images/more_16.png); background-position:100% 59%; background-size:6px 11px; }
+
+.small a.more,
+.small em.more,
+.small span.more { background-image:url(../images/more_14.png); background-size:5px 9px; }
+
+@media only screen {
+	a.more,
+	em.more,
+	span.more,
+	.small a.more,
+	.small em.more,
+	.small span.more { background-image:url(http://images.apple.com/v/creativity-apps/shared/creativity-apps/a/images/more.svg); }
+
+}
+
+.main a { cursor:pointer; }
+.main a.block { color:#333; background:url(../../../../../../global/elements/blank.gif) repeat; }
+.main a.wrap { text-decoration:none; }
+.main a.wrap:hover span { text-decoration:underline; cursor:pointer; }
+
+.main p + .more,
+.main p + .wrap { display:inline-block; position:relative; z-index:1; top:-1em; text-align:left; }
+
+a.download { padding:5px 40px; background:url(../images/download.png) 0 50% no-repeat; background-size:28px 28px; }
+@media only screen {
+	a.download { background-image:url(http://images.apple.com/v/creativity-apps/shared/creativity-apps/a/images/download.svg); }
+}
+*
+a.grid { padding:5px 40px; background:url(../images/grid.png) 0 50% no-repeat; background-size:28px 28px; }
+@media only screen {
+	a.grid { background-image:url(http://images.apple.com/v/creativity-apps/shared/creativity-apps/a/images/grid.svg); }
+}
+
+/* aesthetic */
+.main .gradient { border-bottom:1px solid #e2e2e2;
+	background:-webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(229,229,229,1) 100%);
+	background:   -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(229,229,229,1) 100%);
+	background:        linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(229,229,229,1) 100%);
+}
+.main .gradient:nth-child(1n) { border-bottom:none; border-bottom:1px solid #e2e2e2\9; }
+
+
+/* Shared
+------------------------*/
+
+/* galleries */
+.gallery { position:relative; z-index:1; margin-top:30px; }
+.gallery,
+.gallery .gallery-view { position:relative; z-index:1; }
+.gallery .gallery-view { margin:0 auto; width:980px; }
+
+.gallery .swapView .gallery-content { position:absolute; z-index:1; }
+.gallery .gallery-content { width:100%; overflow:hidden; background-color:#fff; outline:2px solid #fff; }
+.alternate .gallery .gallery-content { background-color:#f6f6f6; outline:2px solid #f6f6f6; }
+
+.gallery .caption { margin-left:auto; margin-right:auto; text-align:center; zoom:1; }
+.gallery .caption p { margin-left:auto; margin-right:auto; }
+
+/* hardware + screen lockups */
+.main .hardware { position:relative; z-index:1; margin:40px auto 0; width:980px; background-position:50% 0; background-repeat:no-repeat; }
+.main .row .hardware { margin-left:-50px; margin-right:-50px; }
+.main .gallery-view.hardware { padding-top:0 !important; }
+
+.main .hardware .screen { position:absolute; z-index:1; }
+.main .hardware .gallery-content { top:0; left:0; }
+
+.main .hardware.macbookair { padding:557px 0 0; background-image:url(../images/hardware_macbookair.png); }
+.main .hardware.macbookair .gallery-content { padding-top:557px; }
+.main .hardware.macbookair .screen { top:40px; left:136px; }
+.main .hardware.macbookair .caption { width:700px; }
+
+.main .hardware.macbookpro { width:982px; padding:575px 0 0; background-image:url(../images/hardware_macbookpro.png); }
+.main .hardware.macbookpro .gallery-content { padding-top:575px; }
+.main .hardware.macbookpro .screen { top:34px; left:118px; }
+.main .hardware.macbookpro .caption { width:740px; }
+
+.main .hardware.imac { padding:615px 0 0; background-image:url(../images/hardware_imac.png); }
+.main .hardware.imac .gallery-content { padding-top:615px; }
+.main .hardware.imac .screen { top:35px; left:109px; }
+.main .hardware.imac .caption { width:760px; }
+
+.main .hardware.imac-thin { padding:609px 0 0; background-image:url(../images/hardware_imac_thin.png); }
+.main .hardware.imac-thin .gallery-content { padding-top:609px; }
+.main .hardware.imac-thin .screen { top:34px; left:115px; }
+.main .hardware.imac-thin .caption { width:770px; }
+
+.main .hardware.ipadmini { padding:610px 0 0; background-image:url(../images/hardware_ipadmini.png); background-size:884px 600px; }
+.main .hardware.ipadmini .gallery-content { padding-top:610px; }
+.main .hardware.ipadmini .screen { top:32px; left:137px; }
+.main .hardware.ipadmini .caption { width:700px; }
+
+.main .hardware.iphone-l { margin-top:-18px; padding:382px 0 0; background-image:url(../images/hardware_iphone_l.png); background-size:980px 389px; }
+.main .hardware.iphone-l .gallery-content { padding-top:382px; }
+.main .hardware.iphone-l .screen { top:45px; left:216px; }
+.main .hardware.iphone-l .caption { width:530px; }
+
+.main .hardware.iphone5s-p { margin-right:0; margin-left:0; width:307px; padding:641px 0 0; }
+.main .hardware.iphone5s-p.silver { background-image:url(../images/hardware_iphone5s_p_silver.png); background-size:307px 641px; }
+.main .hardware.iphone5s-p .screen { top:94px; left:27px; }
+
+.main .hardware.mba-pc { margin:18px -114px -10px; width:1108px; padding-top:367px; background-image:url(../images/hardware_mba_pc.png); background-size:1108px 367px; }
+.main .hardware.mba-pc .screen.mba { top:29px; left:137px; }
+.main .hardware.mba-pc .screen.pc { top:40px; left:570px; }
+
+.hardware .caption { padding-top:20px; }
+.gallery .hardware .gallery-content,
+.alternate .gallery .hardware .gallery-content { background:none; }
+.gallery .hardware .caption { background:#fff; }
+.alternate .gallery .hardware .caption { background:#f6f6f6; }
+
+/* platforms cta */
+.platforms { padding-top:0; padding-bottom:0; }
+.platforms .row { width:980px; padding:25px 0 0; text-align:left; }
+.platforms .icon { float:left; margin-left:-64px; }
+.platforms .column { margin:0; width:372px; padding:0 30px 0 87px; }
+.platforms .column h4 { float:left; margin:0; }
+.platforms .column.last { border-left:1px solid #e2e2e2; }
+
+
+/* Holiday Shipping Tile
+------------------------*/
+.flushrow.holiday { padding:10px 0; }
+.flushrow.holiday .row { padding:0 155px; }
+.flushrow.holiday img.left { margin-right: 10px; }
+.flushrow.holiday .row h1 img { margin-left: 0; }
+
+
+
+/* Navigation
+------------------------*/
+
+/* paddles */
+.main .paddle-nav { position:absolute; z-index:1003; top:0; width:100%; height:0; }
+.main .paddle-nav li { *width:50%; }
+.main .paddle-nav li .arrow { display:block; position:absolute; top:0; z-index:1003; padding:0 25px; opacity:0; height:100%; filter:alpha(opacity=25); cursor:pointer; outline:none; background-image:url(../../../../../../global/elements/blank.gif);
+	-webkit-transition:.25s opacity linear;
+	   -moz-transition:.25s opacity linear;
+	        transition:.25s opacity linear;
+}
+
+.main .paddle-nav li .arrow:hover { opacity:.5; filter:alpha(opacity=50); }
+.main .paddle-nav li .arrow.disabled { display:none; }
+.main .paddle-nav li .arrow b { display:block; overflow:hidden; position:absolute; z-index:1; top:50%; width:67px; height:130px; margin-top:-65px; text-indent:-9999px; background:no-repeat 50% 50%; background-size:64px 128px; behavior:url(http://images.apple.com/global/scripts/lib/ie7pngfix.htc); }
+
+.main .paddle-nav li .arrow.previous { left:0; right:50%; margin-right:200px; }
+.main .paddle-nav li .arrow.previous b { left:5px; background-image:url(../images/paddle_previous.png); }
+
+.main .paddle-nav li .arrow.next { right:0; left:50%; margin-left:200px; }
+.main .paddle-nav li .arrow.next b { right:5px; background-image:url(../images/paddle_next.png); }
+
+@media only screen {
+	.main .paddle-nav li .arrow.previous b { background-image:url(http://images.apple.com/v/creativity-apps/shared/creativity-apps/a/images/paddle_previous.svg); }
+	.main .paddle-nav li .arrow.next b { background-image:url(http://images.apple.com/v/creativity-apps/shared/creativity-apps/a/images/paddle_next.svg); }
+}
+
+.main .paddle-nav.solid li .arrow {
+	-webkit-border-radius:8px;
+	   -moz-border-radius:8px;
+	        border-radius:8px;
+}
+
+.main .paddle-nav.macbookair  li .arrow { height:556px; }
+.main .paddle-nav.macbookpro  li .arrow { height:570px; }
+.main .paddle-nav.imac        li .arrow { height:618px; }
+.main .paddle-nav.imac-thin   li .arrow { height:610px; }
+.main .paddle-nav.ipadmini    li .arrow { height:594px; }
+.main .paddle-nav.iphone-l    li .arrow { height:358px; }
+.main .paddle-nav.iphone5s-p  li .arrow { height:724px; }
+.main .paddle-nav.print       li .arrow { height:334px; }
+.main .paddle-nav.print-large li .arrow { height:524px; }
+
+@media only screen and (max-device-width:768px) { /* on device */
+	.main .paddle-nav li .arrow,
+	.main .paddle-nav li .arrow:hover { opacity:.75; filter:alpha(opacity=75); }
+}
+
+/* dot nav */
+#main .dot-nav { margin:2px 0 0; }
+#main .dot-nav li { margin:0 7px; width:14px; height:14px; }
+#main .dot-nav li a { top:2px; left:2px; margin:1px; width:6px; height:6px; background:#949494; border:1px solid transparent; outline:none;
+	-webkit-box-shadow:none;
+	   -moz-box-shadow:none;
+	        box-shadow:none;
+	-webkit-border-radius:50%;
+	   -moz-border-radius:50%;
+	        border-radius:50%;
+}
+#main .dot-nav li a:hover { top:2px; background:#666; }
+#main .dot-nav li a.active { top:0; left:0; border:1px solid #08c; background:transparent; width:10px; height:10px;
+	-webkit-box-shadow:none;
+	   -moz-box-shadow:none;
+	        box-shadow:none;
+}
+
+@media only screen and (max-device-width:768px) { /* on device */
+	#main .dot-nav li a { -webkit-pointer-events:none; pointer-events:none; }
+}
+
+
+/* Footers
+------------------------*/
+
+/* sosumi */
+.sosumi { margin:24px auto 18px; width:940px; padding:0 20px; }
+.sosumi a { color:#333; }
+.sosumi ol { margin:0; padding-right:21px; padding-left:21px; }
+.sosumi ul { margin:0; }
+.sosumi li { padding-bottom:5px; }
+.sosumi small { font-size:1em; }

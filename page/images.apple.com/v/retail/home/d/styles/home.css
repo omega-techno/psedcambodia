@@ -1,0 +1,88 @@
+/* Page specific
+------------------------*/
+/* retail overview */
+#overview #main { *width:982px; }
+#overview #main .morelarge { background:url(../images/morelarge.png) no-repeat 100% 60%; *background-position: 100% 70%; background-size:7px 13px; display:inline-block; }
+#overview #main .morelarge-light { color:#5cc3f6; background-image:url(../images/morelarge_light.png); }
+
+@media only screen {
+  #overview #main .morelarge { background-image:url(http://images.apple.com/v/retail/home/d/images/morelarge.svg); }
+  #overview #main .morelarge-light { background-image:url(http://images.apple.com/v/retail/home/d/images/morelarge_light.svg); }
+}
+
+/* Outer Dot Nav */
+#overview .gallery .outer-dot-nav { position:absolute; z-index:1012; left:430px; bottom:14px; margin:0; width:120px; padding:0; text-align:center; line-height:1px; }
+#overview .gallery .outer-dot-nav li,
+#overview .gallery .outer-dot-nav li a { display:-moz-inline-stack; display:inline-block; *display:inline; zoom:1; }
+#overview .gallery .outer-dot-nav li { position:relative; z-index:1; margin:0 6px; width:12px; height:24px; padding:0; line-height:0; }
+#overview .gallery .outer-dot-nav li a { position:absolute; z-index:1; top:10px; left:2px; width:8px; height:8px; background:#bebebe; outline:none; text-indent:-99999px; cursor:default;
+	-webkit-border-radius:50%;
+	   -moz-border-radius:50%;
+	        border-radius:50%;
+}
+#overview .gallery .outer-dot-nav li a:hover { cursor:pointer; background:#666; }
+#overview .gallery .outer-dot-nav li a.active { cursor:default; top:8px; left:0; width:10px; height:10px; border:1px solid #08c; background-color:transparent; }
+#overview .gallery .outer-dot-nav li.light-blue a.active { border-color:#5cc3f6; }
+
+/* Hero Gallery */
+#overview .hero { position:relative; z-index:1; width:980px; height:402px; }
+#overview .hero a.block { padding:0; width:980px; height:402px; background-color:#fff; border-radius:4px; overflow:hidden; }
+#overview .hero h1 { margin-bottom:3px; }
+#overview .hero .intro { margin-bottom:2px; font-weight:normal; font-size:1.4em; line-height:1.45em; color:#888; text-align:center; }
+#overview .gallery .paddle-nav li .arrow b { margin:161px 0; }
+
+/* Holiday */
+#overview .hero-gallery-holiday img.right { margin:19px 0 0 0; }
+#overview .hero-gallery-holiday .column.first { padding:75px 0 0 87px; width:432px; }
+#overview .hero-gallery-holiday .intro { text-align:left; }
+
+/* Holiday Personal Setup */
+#overview .hero-gallery-holiday-personalsetup img.right { margin:8px 91px 0 0; }
+#overview .hero-gallery-holiday-personalsetup .column.first { padding:120px 0 0 90px; width:344px; }
+#overview .hero-gallery-holiday-personalsetup .intro { text-align:left; }
+
+/* iPad Air */
+#overview .hero-gallery-ipadair img.right { margin:62px 32px 0 0; }
+#overview .hero-gallery-ipadair .column.first { padding:91px 0 0 26px; width:400px; }
+
+/* iPad mini */
+#overview .hero-gallery-ipadmini img.right { margin:57px 4px 0 0; }
+#overview .hero-gallery-ipadmini .column.first { padding:76px 0 0 30px; width:372px; }
+
+/* iPhone */
+#overview .hero-gallery-iphone h1 { padding-top:34px; }
+#overview .hero-gallery-iphone .intro { padding:0 170px; }
+#overview .hero-gallery-iphone img.center { display:block; margin:17px auto 0; }
+
+/* MacBook Pro */
+#overview .hero-gallery-macbookpro img.right { margin:-194px 0 0; }
+#overview .hero-gallery-macbookpro .column.first { position:relative; z-index:2; padding:120px 0 0 10px; width:515px; }
+
+/* Mac Pro */
+#overview .hero-gallery-macpro { background-color:#000; }
+#overview .hero-gallery-macpro h1 { padding-top:27px; }
+#overview .hero-gallery-macpro img.center { display:block; margin:21px auto 0; }
+
+/* Featured Stores Gallery */
+#overview .retail-locator-container { box-shadow:rgba(0, 0, 0, 0.3) 0 1px 4px; border-radius:5px; *border:1px solid #6B6B6B; }
+#overview .featured-stores .paddle-nav li .arrow b { margin:205px 0; }
+#overview .featured-stores .simple-nav { bottom:15px; }
+#overview .featured-stores { position:relative; z-index:1005; }
+#overview .featured-stores .gallery-view { overflow:hidden; position:relative; width:980px; height:490px; z-index:1005; -webkit-transform:translateZ(0); _margin-bottom:-60px; }
+#overview .featured-stores .gallery-content { height:490px; }
+#overview .featured-stores .gallery-content img { border-radius:0 0 5px 5px; }
+#overview .featured-stores .gallery-content figcaption { position:absolute; width:980px; _top:415px; left:0; bottom:0; padding:21px 0 17px; zoom:1; color:#ccc; font-weight:bold; text-align:center; border-bottom-left-radius:5px; border-bottom-right-radius:5px; background:rgb(51,51,51); background:rgba(0,0,0,0.5); }
+#overview .featured-stores .gallery-content figcaption h1 { font-size:1.2em; color:#fff; line-height:1em; margin-bottom:5px; }
+#overview .featured-stores .gallery-content figcaption h1 a { color:#fff; }
+
+/* Black Friday - Teaser */
+#overview .hero-black-friday { width: 980px; height: 402px; background: #a0ec6e; }
+#overview .hero-black-friday img.right { margin:52px 54px 0 0; }
+#overview .hero-black-friday .column.first { width:400px; padding:106px 0 0 50px; }
+#overview .hero-black-friday .intro { color: #37632f; text-align: left; font-size: 20px; }
+#overview .hero .hero-black-friday h1 { margin-bottom: -3px !important; *margin-bottom: 3px; }
+#overview #main .hero-black-friday .morelarge { background:url(../images/morelarge_green.png) no-repeat 100% 64%; background-size:7px 13px; }
+
+/* Black Friday - Day Of */
+#overview .hero-black-friday.day-of .column.first { padding:136px 0 0 50px; }
+#overview .hero-black-friday.day-of .intro { font-size: 17px; }

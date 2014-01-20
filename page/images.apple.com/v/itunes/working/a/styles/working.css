@@ -1,0 +1,325 @@
+#productheader { border-bottom:1px solid #e5e5e5; }
+#productheader h2 { margin-left:13px; }
+#productheader h2 a { display:inline; text-indent:0; }
+#productheader ul li a { margin:1em 16px 0 -1px; }
+#enhance #productheader li#pn-create a,
+#extras #productheader li#pn-create a,
+#lps #productheader li#pn-create a,
+#sellcontent #productheader li#pn-sell a,
+#market-itunes #productheader li#pn-market a,
+#link #productheader li#pn-link a,
+body.faq #productheader li#pn-sell a { color:#999 !important; cursor:default; }
+
+a.more, span.more { display:inline-block; background:url(../images/more.png) no-repeat 100% 50%; *background:url(http://images.apple.com/v/itunes/working/a/images/more.png) no-repeat 100% 60%; }
+a.dl { background: url(../images/icon_video.png) 0 0.3em no-repeat; display: block; padding-left: 20px; }
+
+.blue-round-button { background:url(../images/white-carat.png) no-repeat 87% 43%; background-color:#59b1f6; border:1px #2284d1 solid; border-radius:5px; padding:7px 33px 7px 14px; font-size:1.1em; color:#FFF; }
+.blue-round-button:hover { cursor:pointer; text-decoration:none; }
+
+/* page specific
+------------------------*/
+
+/*WORKING WITH ITUNES*/
+#working .hero .header { margin:48px auto 33px; }
+#working .hero h1 { margin-bottom:-5px; text-align:center; }
+#working .hero p.intro { text-align:center; }
+#working .hero .hero-image { width:569px; margin:0 auto; }
+#working .learn-more-content { position:relative; margin:34px auto 67px; }
+#working .learn-more-content .column { width:21%; margin-left:-6px; padding-left:41px; }
+#working .learn-more-content .column.create { width:21%; }
+#working .learn-more-content .column.market { width:19%; }
+#working .learn-more-content .column.last { width:19%; padding:0 29px 0 20px; }
+#working .learn-more-content .sell img.hardware { margin:0 0 6px 2px; }
+#working .learn-more-content .create img.hardware { margin:0 0 6px -3px; }
+#working .learn-more-content .market img.hardware { margin:0 0 6px -18px; }
+#working .learn-more-content .link img.hardware { margin:0 0 6px -5px; }
+#working .learn-more-content h2 { margin:5px 0 2px; }
+#working .learn-more-content p { margin:-1px 0 0 2px; line-height:1.6em; color:#363636; }
+#working .learn-more-content .link p { margin-left:1px; }
+
+/*MARKET WITH ITUNES*/
+#market-itunes p { line-height:1.6em; }
+#market-itunes .header { padding:45px 0 16px; }
+#market-itunes .header h1,
+#market-itunes .header p.intro { text-align:center; }
+#market-itunes .header h1 { margin-bottom:11px; }
+#market-itunes .header p.intro { margin-top:19px; padding-right:4px; }
+#market-itunes .header .icons { margin:0 auto; width:441px; }
+#market-itunes .link-to-itunes h2 { text-align:center; }
+#market-itunes .link-to-itunes ul { text-align:center; }
+#market-itunes .link-to-itunes ul li { display:inline; margin-left:-5px; }
+#market-itunes .affiliate .grid2col { padding:33px 0 25px; }
+#market-itunes .affiliate .column.first { padding-left:66px; }
+#market-itunes .affiliate .column.last { padding:53px 82px 0 0; width:320px; }
+#market-itunes .affiliate .column.last h2 { margin:0 0 -1px -3px; }
+#market-itunes .link-to-itunes .row { padding:28px 0; }
+#market-itunes .link-to-itunes p { margin:0 auto 27px; width:675px; text-align:center; }
+#market-itunes .get-app .grid2col { padding:32px 0 18px;}
+#market-itunes .get-app .column.first { padding:37px 0 0 68px; width:450px; }
+#market-itunes .get-app .column.first h2 { margin-bottom:2px; }
+#market-itunes .get-app .column.last { width:366px; }
+#market-itunes .get-app .column.last img { margin-left:-64px; }
+#market-itunes .itunes-gifts .row { padding:31px 0 28px; }
+#market-itunes .itunes-gifts .column.first { padding-left:65px; }
+#market-itunes .itunes-gifts .column.last { margin-top:14px; padding-right:46px; width:360px; }
+#market-itunes .itunes-gifts h2 { margin-bottom:2px; }
+#market-itunes .itunes-gifts p { padding-left:2px; }
+#market-itunes .vpp .grid2col { padding:30px 0 25px; }
+#market-itunes .vpp .column.first { padding:71px 0 0 68px; width:460px; }
+#market-itunes .vpp h2 { margin:0 0 2px -4px; }
+#market-itunes .vpp .column.last { width:228px; padding:2px 125px 0 0;}
+#market-itunes .iad .grid2col { padding:34px 0 6px;}
+#market-itunes .iad .column.first { padding-left:67px; }
+#market-itunes .iad .column.last { padding-right:44px; width:360px; }
+#market-itunes .iad	.column.last img { margin-left:-6px; }
+#market-itunes .iad .column.last h2 { margin:7px 0 4px 6px; }
+
+/* ITUNES CONNECT */
+#itunes-connect .hero { padding:0 0 34px; text-align:center; }
+#itunes-connect .hero h1 { margin:42px 0 30px;}
+#itunes-connect .hero img.hero-image { margin:0 0 23px -54px; }
+#itunes-connect .hero p { padding:0 135px; line-height:22px; }
+#itunes-connect .blue-round-button { display:block; margin:0 auto 30px; width:85px; }
+@media only screen and (max-device-width:768px) {
+    #itunes-connect .blue-round-button { width:100px; }
+}
+
+/* LINK TO ITUNES */
+#link .hero { padding:45px 0 0; }
+#link .hero h1 { margin-bottom:28px; text-align:center; }
+#link .hero-image { width:851px; margin:0 auto; padding-right:16px; }
+#link .identity { margin:27px auto 30px; padding-right:2px; text-align:center; }
+#link .identity p { width:880px; margin:0 auto; padding-bottom:10px; line-height:22px; }
+#link .identity ul { margin-top:19px; }
+#link .identity ul li { display:inline; }
+#link .widgets { padding:34px 0 12px; }
+#link .widgets .column.first { margin-top:59px; padding-left:110px; width:38%; line-height:22px; }
+#link .widgets .column.first h2 { margin-bottom:3px; }
+#link .widgets .column.first p { margin-bottom:0; }
+#link .widgets .column.last { width:39.7%; }
+#link .create-links { padding:36px 0 27px; }
+#link .create-links .column.first { padding-left:73px; width:40%; }
+#link .create-links .column.last { margin-top:35px; padding-right:98px; width:38%; line-height:22px; }
+#link .create-links .column.last p { margin-left:8px; width:380px; }
+#link .feature-affiliate { padding:23px 0 19px; line-height:22px; }
+#link .feature-affiliate .column.first { margin-top:10px; padding-left:109px; width:37%; }
+#link .feature-affiliate .column.first h2 { margin:12px 0 3px; }
+#link .feature-affiliate .column.last { padding:8px 108px 0 0; width:37%; }
+#link .feature-affiliate .column.last img { margin-left:-2px; }
+#link .feature-affiliate .column.last h2 { margin:12px 0 3px; }
+#link .banner { padding:34px 0; }
+#link .banner .column.first { margin-top:64px; padding-left:109px; width:37%; line-height:22px; }
+#link .banner .column.last { width:33.2%; margin-bottom:-5px; }
+#link .banner .column.last img { margin-left:-4px; }
+#link .advanced { padding:65px 0 0; text-align:center; line-height:22px; }
+#link .advanced p { margin-bottom:48px; padding:0 86px; }
+@media only screen and (max-device-width:768px) {
+    #link .advanced p { padding:0 75px; }
+}
+
+/* FAQ */
+.faq .row .column { float:left; }
+.faq .hero { margin-top:52px; height:116px; }
+.faq .hero .row .column { margin-left:8px; }
+.faq .hero .row .column:first-child { margin-left:141px; }
+.faq.music .row .column:first-child, .faq.movie .row .column:first-child, .faq.tv .row .column:first-child { margin-left:263px; }
+.faq .questions-answers .inner-content { float:none; margin:0 auto 140px; width:714px; }
+.faq hr { border:none; }
+.faq hr.gradient { display:block; width:714px; height:31px; background:url(../images/gradient-down.png) no-repeat 0 0 transparent; }
+.faq .qa-wrap { margin-top:32px; border-top:1px solid #cecece; }
+.faq #main .qa-wrap h3 { margin-bottom:10px; font-size:20px; font-weight:normal; line-height:1.1; }
+.faq .qa-wrap h3 { padding-top:32px; }
+.faq .qa-wrap:first-child { margin-top:0; border:none; }
+.faq .qa-wrap:first-child h3 { padding-top:0; }
+.faq .qa-wrap p { font-size:15px; color:#666; line-height:1.3; }
+.faq .qa-wrap ul { margin:10px 0 0 15px; }
+.faq .qa-wrap li {  margin-bottom:10px; list-style:square; line-height:1.3; }
+.faq .qa-wrap li li { list-style:circle; }
+.faq .qa-wrap img, .faq .qa-wrap li img { padding-top: 30px; }
+.faq .table { margin-bottom:18px; width:100%; border:1px solid #d9d9d9; }
+.faq .table table { width:100%; color:#666; }
+.faq .table tr.dark { background-color:#f4f4f4; }
+.faq .table td { padding:10px 20px; }
+
+/* ENHANCE YOUR CONTENT */
+#enhance .hero { padding:46px 0 36px; text-align:center; }
+#enhance .hero h2 { margin-top:-5px; }
+#enhance .mastered { padding:44px 0 15px; line-height:22px; }
+#enhance .mastered .grid2col .column.first { width:48%; }
+#enhance .mastered .grid2col .column.last { margin-top:6px; width:43.6%; }
+#enhance .mastered .grid2col .grid2colc .column.first { padding:6px 0 0 29px; width:14%;  }
+#enhance .mastered .grid2col .grid2colc .column.last { margin-top:0; width:77.4%; }
+#enhance .developer-ibooks { padding:32px 0 10px; line-height:22px; }
+#enhance .developer-ibooks .grid2col .column.first { width:45%; }
+#enhance .developer-ibooks .grid2col .column.last {  width:50.5%; }
+#enhance .developer-ibooks .grid2col .column.first .grid2colc .column.first { padding:6px 0 0 26px; width:14%;  }
+#enhance .developer-ibooks .grid2col .column.first .grid2colc .column.last { margin-top:0; width:76%; }
+#enhance .developer-ibooks .grid2col .column.last .grid2colc .column.first { padding:4px 0 0 6px; width:11%; }
+#enhance .developer-ibooks .grid2col .column.last .grid2colc .column.last { padding-right:38px; width:78%; }
+#enhance .lp-extras { padding:30px 0 0; line-height:22px; }
+#enhance .lp-extras .grid2col .column.first { margin-top:5px; padding-left:28px; width:46%; }
+#enhance .lp-extras .grid2col .column.last { width:43.4%; }
+#enhance .producer { padding:28px 0 27px; line-height:22px; }
+#enhance .producer .grid2col .column.first { width:48%; }
+#enhance .producer .grid2col .column.last { margin-top:6px; width:43.1%; }
+#enhance .producer .grid2col .grid2colc .column.first { padding:36px 0 0 26px; width:14%;  }
+#enhance .producer .grid2col .grid2colc .column.last { margin-top:33px; width:79.4%; }
+#enhance .podcasts-itunesu { padding:32px 0 10px; line-height:22px; }
+#enhance .podcasts-itunesu .grid2col .column.first { width:45%; }
+#enhance .podcasts-itunesu .grid2col .column.last {  width:50.5%; }
+#enhance .podcasts-itunesu .grid2col .column.first .grid2colc .column.first { padding:0 0 0 29px; width:14%;  }
+#enhance .podcasts-itunesu .grid2col .column.first .grid2colc .column.last { margin-top:0; width:78.4%; }
+#enhance .podcasts-itunesu .grid2col .column.last .grid2colc .column.first { padding:2px 0 0 5px; width:11%; }
+#enhance .podcasts-itunesu .grid2col .column.last .grid2colc .column.last { padding-right:80px; width:70%; }
+
+/* SELL CONTENT */
+#sellcontent .hero .header { margin:48px auto 28px; }
+#sellcontent .hero h1 { margin:-4px 0 1px; text-align:center; }
+#sellcontent .hero p.intro { padding:0 110px; font-size:2em; text-align:center; }
+#sellcontent .hero p.intro img { margin:-3px 0 -8px -14px; }
+#sellcontent .hero span.more { margin-left:10px; }
+#sellcontent .hero a { text-indent:-9999px; display:block; margin:5px auto 0; width:131px; height:31px; background-image:url(../images/learn_more.png); background-size:131px 124px; background-position:0 -31px; }
+#sellcontent .hero a:hover { background-position:0 0; }
+#sellcontent .hero .hero-image { margin:17px 0 0 43px; }
+#sellcontent .features { position:relative; margin:69px auto 22px; }
+#sellcontent .features .column { width:32%; text-align:center; }
+#sellcontent .features .column img { padding-bottom:17px; }
+#sellcontent .features .column p { line-height:21px; }
+#sellcontent .features .column h2 img { padding-bottom:0; }
+#sellcontent .features .column.first { width:27%; padding-left:36px; }
+#sellcontent .features .column.first p { margin:0 auto 18px; width:230px; }
+#sellcontent .features .column.apps { width:30%; margin-left:43px; }
+#sellcontent .features .column.last { width:25%; padding:0 46px 0; }
+
+/* SELL YOUR BOOKS */
+#sellyourbooks h1 { line-height:0.2em; }
+#sellyourbooks h2 { margin-bottom:0; }
+#sellyourbooks h3 { margin-bottom:2px; line-height:13px; }
+#sellyourbooks .hero h1 img { padding:40px 0 4px; }
+#sellyourbooks .hero h2 img { padding:3px 0 33px; }
+#sellyourbooks .hero .column { width:980px; }
+#sellyourbooks .lockup img { display:block; margin:3px auto 11px; }
+#sellyourbooks hr { width:714px; border:none transparent; border-bottom:1px solid #cecece; height:1px; background: none transparent; }
+#sellyourbooks section { clear:both; }
+#sellyourbooks section .row { width:714px; }
+#sellyourbooks .column p { margin-bottom:18px; line-height:1.6; }
+#sellyourbooks .grid2col .row { position:relative; padding-top:17px; }
+#sellyourbooks .grid2col .column.first { margin-top:6px; width:50%; }
+#sellyourbooks .grid2col .column.last { width:41.8%; }
+#sellyourbooks .blue-round-button { display:inline-block; margin-top:5px; }
+#sellyourbooks .watch-video h3 img { position:relative; z-index:5; margin:-10px 0 0 9px; }
+#sellyourbooks .watch-video p { margin-left:10px; width:300px; }
+#sellyourbooks .video-thumb { position:relative; }
+#sellyourbooks .video-thumb .play { position:absolute; width:45px; height:45px; top:auto; bottom:74px; left:112px; background:url(../images/video_play.png) 0 0 no-repeat; z-index:1; _behavior:url(/global/scripts/lib/ie7pngfix.htc); }
+#sellyourbooks .video-thumb:hover .play, #sellyourbooks a:hover .video-thumb .play { background:url(../images/video_play.png) 0 -48px no-repeat; }
+#sellyourbooks .video-gallery .gallery-content .close { position:absolute; top:0; left:30px; width:29px; height:29px; text-indent: -9999px; overflow:hidden; z-index:1; background:url(../../../../../global/elements/buttons/close_touchable.png) no-repeat 0 0; cursor:pointer;
+    -webkit-transition-duration:.20s;
+       -moz-transition-duration:.20s;
+            transition-duration:.20s;
+}
+#sellyourbooks .video-gallery .gallery-content.gallery-movie:nth-child(1n) { border:none; }
+#sellyourbooks .content .video-gallery .gallery-view .gallery-movie { margin:0 -50px; }
+#sellyourbooks .video-gallery .gallery-content.gallery-movie { position:relative; width:880px; height:480px; padding:35px 50px 46px; background:#fff; z-index:1; left:50%; margin-left:-490px; }
+#sellyourbooks .video-gallery .gallery-view .gallery-content { display:block; }
+#sellyourbooks .video-gallery .gallery-content { top:0; left:0; display:none; }
+#sellyourbooks .video-gallery .gallery-view, #sellyourbooks .gallery .gallery-content { width:100%; position:relative; z-index:1000; }
+#sellyourbooks .section2 .row { padding:5px 0 13px; }
+#sellyourbooks .section2 .row:first-child { padding:50px 0 0; line-height:22px; }
+#sellyourbooks .section2 .faq p { text-align:center; color:#08c; }
+@media only screen and (max-device-width:768px) {
+    #sellyourbooks .video-gallery .gallery-content.gallery-movie { height:500px; }
+}
+
+
+/* MASTERED FOR ITUNES */
+#mastered #main { margin-left:-7px; }
+#mastered .row { width:714px; }
+#mastered .hero { padding-bottom:15px; text-align:center; }
+#mastered .hero .header { margin:44px auto 42px; }
+#mastered .hero h1 { margin-bottom:3px; }
+#mastered .hero p.intro img { margin:-4px 0 -6px 6px; }
+#mastered .divider { margin-bottom:30px; border-bottom: 1px solid #cdcdcd; }
+#mastered .features img { margin-left:-2px; }
+#mastered .creating { padding-bottom:15px; }
+#mastered .au { padding:3px 0 25px; }
+#mastered .au img { margin-top:-2px; }
+#mastered .au p.documents { padding-top:2px; }
+#mastered p.info { margin-top:-1px; line-height:22px; }
+#mastered p.documents { margin:-8px 0 5px; font-size:15px; }
+#mastered p.documents a { background-position:0 center; }
+
+/* ITUNES EXTRAS & LPS */
+#extras .hero, #lps .hero { width:980px; margin:41px auto 18px; }
+#extras .hero > img, #lps .hero > img { margin-top:30px; }
+#extras .features .row, #lps .features .row { width:730px; padding-left:12px; }
+#extras .more-info, #lps .more-info { margin-left:-1px; padding-bottom:11px; }
+#extras .more-info p, #lps .more-info p { margin:-1px 40px 0 2px; padding-bottom:3px; line-height:22px; }
+#extras .more-info ul, #lps .more-info ul { margin:4px;}
+#extras .more-info ul li, #lps .more-info ul li { margin-bottom:5px; line-height:24px; }
+
+/* SELLCONTENT APPS */
+#sellcontent-apps #main { margin-bottom:-14px; }
+#sellcontent-apps .row { width:735px; padding-left:13px; }
+#sellcontent-apps .divider { width:722px; margin:0 auto; padding-bottom:16px; border-bottom:1px solid #cdcdcd; }
+#sellcontent-apps .hero { padding-bottom:30px; }
+#sellcontent-apps .hero .header { margin:45px auto 21px; }
+#sellcontent-apps .hero h1 { margin:0 0 2px -15px; text-align:center; }
+#sellcontent-apps .hero p.intro { text-align:center; }
+#sellcontent-apps .hero p.intro img { margin:-4px 0 -3px -14px; }
+#sellcontent-apps .hero .hero-image { margin:18px 0 0 29px; }
+#sellcontent-apps .more-info { margin-left:-1px; padding-bottom:12px; }
+#sellcontent-apps .about { padding-bottom:55px; }
+#sellcontent-apps .more-info h2 { margin:0 0 8px 1px; }
+#sellcontent-apps .more-info h2 img { padding-bottom:2px; }
+#sellcontent-apps p.info { margin:-12px 18px 0 4px; padding-bottom:6px; line-height:22px; }
+#sellcontent-apps p.second { margin-top:7px; }
+#sellcontent-apps p.documents { margin:8px 0 0 5px; font-size:15px; }
+#sellcontent-apps p.documents img { margin:0 5px -3px 0; }
+#sellcontent-apps .getstarted { margin:13px 0 0 1px; }
+#sellcontent-apps .faqs { margin:8px auto; text-align:center; }
+#sellcontent-apps .rounded { width:781px; margin:32px auto 68px; background:#fff url(../images/gradient-up.png) repeat-x 0 100%; border:1px solid; border-color:#e5e5e5 #dbdbdb #d2d2d2;
+    -webkit-box-shadow:rgba(0,0,0,0.3) 0 1px 3px;
+       -moz-box-shadow:rgba(0,0,0,0.3) 0 1px 3px;
+            box-shadow:rgba(0,0,0,0.3) 0 1px 3px; }
+#sellcontent-apps .grid2cola .column { width:590px; }
+#sellcontent-apps .grid2cola .column img { margin:11px 0 0 5px }
+#sellcontent-apps .grid2cola .column p.info { margin:-1px 0 13px 8px; padding-bottom:3px; line-height:22px; }
+#sellcontent-apps .grid2cola .column.first { width:109px; }
+
+/* AFFILIATE PROGRAM */
+#affiliates p { color:#363636; }
+#affiliates .hero .row { text-align:center; }
+#affiliates .header{ margin:42px auto 29px; }
+#affiliates h1 img { margin-bottom:3px; }
+#affiliates p.intro { margin-top:-6px; }
+#affiliates .hero-image { padding:5px 48px 0 0; }
+#affiliates .apply-now { width:700px; margin:19px auto 0; padding-bottom:40px; text-align:center; }
+#affiliates .apply-now p { margin-bottom:28px; line-height:1.6em; }
+#affiliates .links-list { width:700px; margin:0 auto; padding:29px 19px 0 0; }
+#affiliates .links-list h2 { margin-bottom:2px; }
+#affiliates .links-list p { margin:-3px 0 24px; line-height:22px; }
+#affiliates .links-list .affiliate-resource-site h2 { margin-bottom:6px; }
+#affiliates .links-list .affiliate-resource-site p { margin-bottom:19px; }
+#affiliates .links-list .learn-more h2 { margin-bottom:6px; }
+#affiliates .links-list .learn-more p { margin-bottom:47px; }
+
+/* SELLCONTENT MEDIA */
+#sellcontent-media #main { margin-bottom:-14px; }
+#sellcontent-media .row { width:735px; padding-left:13px; }
+#sellcontent-media .divider { width:722px; margin:0 auto; padding-bottom:16px; border-bottom: 1px solid #cdcdcd; }
+#sellcontent-media .hero { padding-bottom:30px; }
+#sellcontent-media .hero .header { margin:48px auto 22px; }
+#sellcontent-media .hero h1 { margin:-6px 0 0 -33px; text-align:center; }
+#sellcontent-media .hero p.intro { text-align:center; }
+#sellcontent-media .hero p.intro img { margin:-4px 0 -6px -14px; }
+#sellcontent-media .hero .hero-image { margin:16px 0 0 60px; }
+#sellcontent-media .more-info { margin-left:-1px; padding-bottom:12px; }
+#sellcontent-media .about { padding-bottom:55px; }
+#sellcontent-media .more-info h2 { margin:0 0 10px 1px; }
+#sellcontent-media .more-info h2 img { padding-bottom:2px; }
+#sellcontent-media p.info { margin:-12px -6px 0 4px; padding-bottom:6px; line-height:22px; }
+#sellcontent-media p.documents { margin:8px 0 0 5px; font-size:15px; }
+#sellcontent-media p.documents img { margin:0 5px -3px 0; }
+#sellcontent-media .getstarted { margin:13px 0 0 1px; }
+#sellcontent-media .faqs { margin:11px auto 42px; text-align:center; }
+#sellcontent-media .faqs .space { color:#59b1f6; }

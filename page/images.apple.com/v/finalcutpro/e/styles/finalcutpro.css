@@ -1,0 +1,529 @@
+html, body { background:#f2f2f2 url(../images/bg_gradient.png) repeat-x 0 0; }
+
+#main { width:100%; min-width:982px; margin:0 auto; font-size:1.167em; line-height:1.5; }
+#main .content { width:880px; margin:0 auto; padding:56px 50px 24px; zoom:1; }
+.content:after,
+.selfclear:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+
+#main h1 { margin-bottom:.3em; line-height:1.3; }
+#main h2 { margin-bottom:.2em; font-size:1.6em; line-height:1.3; font-weight:normal; }
+#main h3 { margin-bottom:.3em; font-size:1.33em; line-height:1.3; }
+#main h4 { margin-bottom:.3em; font-size:1.2em; line-height:1.3; }
+#main h5 { margin-bottom:.3em; font-size:1em; line-height:1.3; font-weight:bold; }
+#main p.intro { margin-bottom:2.5em; }
+#main .sosumi { margin:0 auto; width:950px; margin-top:-14px; }
+
+#main hr { margin:0 -2px .3em; height:0; border:none; border-top:1px solid #e0e0e0; border-bottom:1px solid #fff; background:none; *height:2px; }
+
+#main #hero { text-align:center; }
+#main #hero p { margin-bottom:3em; }
+
+#main .gradient { background:#f2f2f2; background:-webkit-gradient(linear, left bottom, left top, color-stop(1, #fff), color-stop(0, #e6e6e6)); background:-moz-linear-gradient(top, #fff 0, #e6e6e6 100%); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFE6E6E6'); }
+#main .shadow { border:1px solid #dbdbdb; -webkit-box-shadow:rgba(0,0,0,0.3) 0 1px 3px; -moz-box-shadow:rgba(0,0,0,0.3) 0 1px 3px; box-shadow:rgba(0,0,0,0.3) 0 1px 3px;  }
+#main .shadow:nth-child(1n) { border:none; } /* reset border for smart browsers */
+#main .inset { -webkit-box-shadow:inset rgba(0,0,0,0.20) 0 2px 3px; -moz-box-shadow:inset rgba(0,0,0,0.20) 0 2px 3px; box-shadow:inset rgba(0,0,0,0.20) 0 2px 3px; background:#f6f6f6; background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#f0f0f0), to(#fcfcfc)); background:-moz-linear-gradient(100% 100% 90deg, #fcfcfc, #f0f0f0); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF0F0F0', endColorstr='#FFFCFCFC'); }
+
+#main .padtop { padding-top:4em; }
+#main .padright { padding-right:50px; }
+#main .padleft { padding-left:50px; }
+#main .padbottom { padding-bottom:2em; }
+
+#main img { _position:relative; }
+#main .flushright { margin-right:-50px; *position:relative; }
+#main .flushleft { margin-left:-50px; *position:relative; }
+#main img.inline { margin-top:1em; }
+#main img.center { display:block; margin-right:auto; margin-left:auto; }
+
+#main a.learn { display:block; float:left; margin:-2em 0 3em; text-align:left; }
+#main a.learn:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+#main a.wrap { text-decoration:none; }
+#main a.wrap:hover span { text-decoration:underline; cursor:pointer; }
+
+#main a.btn.download { width:174px; background:url(../../../../finalcutpro/images/download_free_trial.png) no-repeat 0 0; _background:url(http://images.apple.com/finalcutpro/images/download_free_trial.jpg) no-repeat 0 0; _clear:both; }
+#main a.btn.buynow { width:105px; background:url(../../../../finalcutpro/images/buynow_button.png) no-repeat 0 0; _background:url(http://images.apple.com/finalcutpro/images/buynow_button.jpg) no-repeat 0 0; _clear:both; }
+
+#main a.btn { height:29px; display:block;  float:left; margin-right:8px; overflow:hidden; text-indent:-9999px; }
+#main a.btn:hover { background-position:0 -30px; }
+#main a.btn:active { background-position:0 -60px; }
+
+#main span.orange-beta-tag {
+	position:relative; top:-3px; left:9px; padding:2px 7px; z-index:1; display:inline-block;
+	font-weight:bold; text-shadow:0 -1px 0 rgba(0, 0, 0, .25); color:white; font-size:13px; line-height:17px;
+	background:#ff9a13;
+	background:-webkit-radial-gradient(-7% -2%, ellipse farthest-corner, #FFBD58 0%,#FFBD58 40%,#FFA722 43%,#CE6700 96%);
+	background:-ms-radial-gradient(-7% -2%, ellipse farthest-corner, #FFBD58 0%,#FFBD58 40%,#FFA722 43%,#CE6700 96%);
+	background:-moz-radial-gradient(-7% -2%, ellipse farthest-corner, #FFBD58 0%,#FFBD58 40%,#FFA722 43%,#CE6700 96%);
+	background:radial-gradient(-7% -2%, ellipse farthest-corner, #FFBD58 0%,#FFBD58 40%,#FFA722 43%,#CE6700 96%);
+	border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;
+	background-size:171% 115%;
+	border-right:1px solid rgba(178, 93, 8, .5);
+	border-bottom:1px solid rgba(178, 93, 8, .5);
+	border-top:1px solid rgba(255, 214, 154, 1);
+	*padding-bottom:4px;
+	*top:0px;
+}
+
+/* product header
+------------------------*/
+#productheader h2 { margin-top:2px; }
+.finalcutpro #productheader h2 a,
+.motion #productheader h2 a,
+.compressor #productheader h2 a { text-indent:-9999px; overflow:hidden; background-repeat:no-repeat; }
+
+#productheader ul li a { text-shadow:#fff 0 1px 0;  }
+
+body#whats-new		#productheader li#pn-whats-new a,
+body#what-is		#productheader li#pn-what-is a,
+body#in-action 		#productheader li#pn-in-action a,
+body.profile 		#productheader li#pn-in-action a,
+body#resources 		#productheader li#pn-resources a,
+body#specs			#productheader li#pn-specs a { color:#8a8a8a !important; cursor:default; }
+
+/*#productheader ul li a.buynows { background-image:url(http://images.apple.com/global/elements/buttons/buynows_blk.png); _behavior:url(/global/scripts/lib/iepngfix.htc); }*/
+#productheader ul li a.freetrials { background-image:url(../../../../global/elements/buttons/freetrials_blk.png); _background-image:url(http://images.apple.com/finalcutpro/images/freetrials_blk.jpg); }
+
+/* Buy promo
+------------------------*/
+#promofooter #promos li.buy { padding-left:15px; width:229px; }
+#promofooter #promos li.buy p { padding-right:20px; font-size:11px; line-height:16px; }
+#promofooter #promos li.buy h4 { padding-top:16px; }
+#promofooter #promos li.buy img.right { margin:-2px 16px 0 0; }
+#promofooter #promos li.buy ul { margin-top:7px; margin-bottom:9px; padding:0; color:#000; }
+
+
+/* video swap
+------------------------*/
+.swapView { position:relative; z-index:1; }
+.swapView .close { position:absolute; top:0; left:0; height:16px; padding-left:18px; line-height:16px; font-size:12px; color:#656565; z-index:1; background:url(../../../../global/elements/buttons/close.png) no-repeat; _behavior:url(/global/scripts/lib/iepngfix.htc); }
+.swapView .close:hover { background-position:0 -50px; color:#08c !important; text-decoration:none; }
+.swapView .pillbutton { cursor:pointer; }
+.swapView .moviePanel,
+.swapView .endState { width:848px; height:480px; z-index:1; }
+.swapView .endState p { padding:27% 0 0 0 !important; }
+.swapView embed { background-color:#000; }
+
+
+/* simple dot navs
+---------------------------------*/
+.simple-nav { height:15px; text-align:center; width:100%; overflow:hidden; line-height:1em; }
+.simple-nav li,
+.simple-nav li a { display:-moz-inline-stack; display:inline-block; *display:inline; zoom:1; }
+.simple-nav li { position:relative; margin-right:3px; width:11px; height:11px; overflow:hidden; *margin-right:5px; }
+.simple-nav li.last-dot { margin-right:0; }
+.simple-nav li a { position:absolute; width:15px; height:45px; top:-2px; left:-2px; outline:none; cursor:pointer; text-indent:-9999px; line-height:0; background:url(../images/simplenav_dots.png) no-repeat 0 0; }
+.simple-nav li a:hover { top:-17px; }
+.simple-nav li a.active { cursor:default; top:-32px; opacity:1; -moz-opacity:1; }
+
+/* toggle navs
+---------------------------------*/
+.toggle-nav { margin:30px auto 40px; width:330px; font-size:12px; *margin-top:15px; _border-left:1px solid #b5b5b5; }
+.toggle-nav li { display:inline; margin:0 -2px; }
+.toggle-nav li a { display:inline; *display:inline-block; padding:12px 25px; *padding-top:10px; *padding-bottom:10px; border:1px solid #cfcfcf; text-align:center;
+	background-image:-webkit-gradient( linear, left bottom, left top, color-stop(0, #EBEBEB), color-stop(1, #FFFFFF) );
+	background-image: -moz-linear-gradient( center bottom, #EBEBEB 0%, #FFFFFF 100% );
+	*background: url(../top-features/images/revolution_clip.png) repeat-x left top; }
+.toggle-nav li a.active { color: #666; border-top-color: #6f6f6f; border-bottom-color: #e9e9e9; cursor: default;
+	-webkit-box-shadow: inset rgba(0,0,0,0.3) 0 1px 2px !important;
+	-moz-box-shadow: inset rgba(0,0,0,0.3) 0 1px 2px !important;
+	box-shadow: inset rgba(0,0,0,0.3) 0 1px 2px !important;
+	background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #FDFDFD), color-stop(0.5, #e3e3e3));
+	background-image: -moz-linear-gradient( center bottom, #FDFDFD 0%, #e3e3e3 50% );
+	*background-position: bottom left;
+}
+.toggle-nav li a.active:hover { text-decoration:none; }
+.toggle-nav li a.left { border-right:1px solid transparent;
+	border-radius: 6px 0 0 6px;
+	-webkit-border-top-left-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius: 6px 0 0 6px;
+	box-shadow: inset -1px 0 0 #fff;
+	-webkit-box-shadow: inset #fff -1px 0 0;
+	-moz-box-shadow: inset #fff -1px 0 0;
+}
+.toggle-nav li a.right { border-left:1px solid transparent;
+	border-radius: 0 6px 6px 0;
+	-webkit-border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius: 0 6px 6px 0;
+	box-shadow: inset 1px 0 0 #fff;
+	-webkit-box-shadow: inset #fff 1px 0 0;
+	-moz-box-shadow: inset #fff 1px 0 0;
+}
+.toggle-nav li a.active.left { border-right:1px solid #aeaeae; border-left-color:#b5b5b5; }
+.toggle-nav li a.active.right { border-left:1px solid #aeaeae; border-right-color:#b5b5b5; }
+
+/* zoom gallery
+---------------------------------*/
+#zoom-view,
+.zoom-view-nav { height:0; width:0; overflow:hidden; position:absolute; z-index:0; }
+.zoom-view-slide { cursor:pointer; }
+.ZoomViewDidShow,
+.ZoomViewDidShow body,
+.ZoomViewContainer,
+.ZoomViewContainer .ZoomViewSection { background-color:#dfdfdf !important; }
+.ZoomViewContainer .ZoomViewSection.loading { background-image:url(../../../../global/elements/quicktime/loading.png) !important; _background-image:url(http://images.apple.com/global/elements/quicktime/loading.gif) !important; }
+.ZoomViewContainer .ZoomViewSection .ZoomViewElement { margin-bottom:30px; font-size:14px; color:#666; text-align:center; }
+.ZoomViewContainer .ZoomViewSection .ZoomViewElement p { margin:-25px 0 0 0; position:relative; z-index:10010; }
+.ZoomViewContainer .ZoomViewSection .ZoomViewImage { margin-bottom:-28px !important; }
+.ZoomViewContainer .ZoomViewSection span { position:relative; }
+.ZoomViewContainer .simple-nav { margin-bottom:30px !important; }
+.ZoomViewContainer .simple-nav li a { height:44px; width:14px; background-image:url(../images/zoom_view_simplenav.png); }
+.ZoomViewContainer .simple-nav li a:hover { top:-15px; }
+.ZoomViewContainer .simple-nav li a.active { top:-30px; }
+
+.ZoomViewNav li .arrow span { width:74px; height:74px; }
+.ZoomViewNav li .arrow.left span { background-image:url(../images/zoom_view_arrow_left.png); }
+.ZoomViewNav li .arrow.right { right:10px; }
+.ZoomViewNav li .arrow.right span { background-image:url(../images/zoom_view_arrow_right.png); }
+.ZoomViewClose { background-image:url(../images/zoom_view_btn_close.png); }
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+	.ZoomViewClose { width:62px; height:62px; background-position:50% 0; }
+	.ZoomViewNav li .arrow.left,
+	.ZoomViewNav li .arrow.right { top:auto; bottom:50px; }
+}
+
+body.isiOS .ZoomViewNav li { bottom:36px; }
+body.isiOS .ZoomViewNav li .arrow.right { right:25px; }
+
+.content a.zoom-trigger.left { float:left; }
+.content a.zoom-trigger.right { float:right; }
+.content a.zoom-trigger { position:relative; display:block; text-decoration:none; font-size:16px; line-height:22px; color:#fff; font-weight:bold; }
+.content a.zoom-trigger span.zoom { display:none; position:absolute; left:0; top:0; width:167px; height:57px; padding-top:110px; text-align:center; background:url(../images/zoom_trigger_icon.png) center no-repeat; z-index:10; }
+.content a.zoom-trigger:hover span.zoom { display:block; }
+
+
+/* overview
+------------------------*/
+#overview { *background:#505050 url(../images/bg_noise.jpg); }
+#overview body { width:100%; min-height:1032px; padding-top:18px;
+	background:url(../images/bg_noise_top.jpg) repeat-x, url(http://images.apple.com/v/finalcutpro/e/images/bg_noise.jpg) repeat;
+	*background:transparent url(../images/bg_noise_top.jpg) repeat-x;
+}
+
+@media only screen and (min-device-pixel-ratio:1.5) and (min-device-width:321px),only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+	#overview body { background:url(../images/bg_noise_top_2x.jpg) repeat-x, url(http://images.apple.com/v/finalcutpro/e/images/bg_noise_2x.jpg) repeat; background-size:25% auto; }
+}
+
+#overview .mac-pro-footer { position:relative; width:900px; min-height:156px; margin:18px auto; *margin-top:8px; padding:32px 40px 10px; background-color:#000; font-size:1.2em; color:#fff; }
+#overview .mac-pro-footer .positioned { position:absolute; bottom:0; left:40px; }
+#overview .mac-pro-footer h3,
+#overview .mac-pro-footer p { margin-left:357px; }
+#overview .mac-pro-footer h3 { padding-top:7px; padding-bottom:7px; }
+#overview .mac-pro-footer p { margin-bottom:0; line-height:1.4em; }
+
+#overview a { color:#8ecaff; }
+#overview .ACMediaSettingsMenu-selected li a { color:rgba(255,255,255,0.5); }
+#overview .ACMediaSettingsMenu-selected li:hover a { color:#fff; }
+#overview a.more,
+#overview span.more,
+#overview #promo-footer a.more,
+#overview #promo-footer span.more { background-image:url(../../../../global/elements/arrows/morearrow_64b7ff.gif); color:#8ecaff; }
+@media only screen {
+	#overview a.more,
+	#overview span.more,
+	#overview #promo-footer a.more,
+	#overview #promo-footer span.more  { background-image:url(http://images.apple.com/v/finalcutpro/e/images/morearrow_64b7ff.svg); }
+}
+
+#overview #globalheader { margin-top:0; }
+#overview #productheader { background:transparent url(../images/productheader_bg.jpg) no-repeat 50% 100%; }
+#overview #productheader ul li a { color:#fefefe; text-shadow:none; }
+#overview #productheader ul li a:hover { color:#8ecaff; }
+
+#overview header { width:1058px; height:990px; margin:0 auto -175px; text-align:center; }
+#overview .playing-video header { margin-bottom:-142px; }
+#overview header h1 { margin-bottom:0px; }
+#overview header h1 img { margin:0 auto; }
+#overview header p.intro { margin-bottom:25px; font-size:17px; color:#c3c3c3; text-shadow:#111 1px 1px 2px; }
+#overview header p.intro:last-of-type { margin-bottom:10px; }
+#overview header p.intro:first-of-type a:hover { text-decoration:none; }
+#overview header p.intro a:hover span.link { text-decoration:underline; }
+#overview header p.intro a img { margin-bottom:-5px; _position:relative; _zoom:1; }
+#overview header img.hero { margin:20px -67px -46px; }
+#overview header .more { background-image:url(../../../../global/elements/arrows/morearrow_med_64b7ff.gif); }
+#overview .moviePanel.movie-loading-panel_848x480 { background-image:none\9; background:#000\9; }
+@media only screen and (max-device-width:768px) {
+	#overview header { width:1024px; overflow:hidden; }
+	#overview header img.hero { margin:0 auto -46px; }
+	#overview .moviePanel.movie-loading-panel_848x480 { background:none; }
+}
+@media only screen and (max-device-width:480px) {
+	#overview body { background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(20%,rgba(0,0,0,1)), color-stop(21%,rgba(0,0,0,0)), color-stop(99%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))), url(../images/bg_noise_top.jpg), url(http://images.apple.com/v/finalcutpro/e/images/bg_noise.jpg);
+		background-repeat:repeat-x, repeat-x, repeat;
+		background-position:0 0, 0 8px, 0 0;
+		background-size:0 50px, auto auto, auto auto;
+	}
+}
+
+#overview #video-swap .video-swap { position:absolute; width:1058px; padding:43px 0 142px; *left:0px; *padding-top:30px; _position:relative; _display:inline; z-index:-1; }
+#overview #video-swap .video-swap .close { top:40px; *top:10px; left:105px; color:#656565; }
+#overview #video-swap .video-swap .moviePanel { margin:20px auto 60px !important; }
+#overview #video-swap .video-swap .moviePanel .endState a { color:#e6e6e6; }
+#overview #video-swap .hero-video { padding-top:43px; background:url(../images/hero_highlight.png) 50% 50%; _behavior:url(/global/scripts/lib/iepngfix.htc); }
+
+#overview .playing-video #video-swap .video-swap { *background:none; }
+#overview .playing-video #video-swap .video-swap img { *visibility:hidden; }
+
+@media only screen and (max-device-width:768px) {
+	#overview #video-swap .video-swap { width:1024px; }
+	#overview #video-swap .video-swap .close { left:88px; }
+
+	#overview .playing-video #video-swap { margin-bottom:0px; }
+	#overview .playing-video #video-swap .video-swap { padding-bottom:0px; }
+	#overview .playing-video #buckets { margin-top:-25px; }
+	#overview .playing-video #buckets .column a h2,
+	#overview .playing-video #buckets .column a p { position:static; }
+}
+
+#overview #video-tray { margin:0 auto; margin-top:-28px; width:590px; height:148px; display:block; text-align:left; _z-index:100; _width:595px; }
+#overview #video-tray h2 { font-size:14px; color:#fff; margin-bottom:10px; text-shadow:#444 1px -1px 2px; }
+#overview #video-tray a.block { margin-left:7px; float:left; }
+#overview #video-tray a .image { margin-left:4px; float:left; display:block; position:relative; width:102px; height:72px; z-index:1; background:no-repeat 50% -2px; _margin-left:2px; _behavior:url(http://images.apple.com/global/scripts/lib/iepngfix.htc); }
+#overview #video-tray a span  { *position:relative; *z-index:2; }
+#overview #video-tray a.hover .image { background-position:bottom; }
+#overview #video-tray a .link { color:#8ecaff; font-size:14px; line-height:17px; text-shadow:#444 1px -1px 2px; display:block; width:100%; text-align:center; text-decoration:none; }
+#overview #video-tray a.hover .link { text-decoration:underline; }
+
+#overview #buckets { width:978px; padding:0px 2px; margin:0 auto 9px; background:url(../images/bucket_bg.jpg) no-repeat 0 0; _position:relative; }
+#overview #buckets .orangenew {
+	position:relative; top:-8px; left:9px;
+	padding:0 8px; *padding-bottom:1px; z-index:1; display:inline-block; *display:inline; *zoom:1; font-weight:normal; text-shadow:0 1px 0 rgba(0,0,0,.3); color:#fff; font-size:12px; line-height:18px; -webkit-font-smoothing:auto;
+    border:1px solid #f88c13; border-top-color:#cf7310; border-bottom-color:#ffa312;
+    background:#ff9a13;
+    background:-webkit-gradient(linear, left top, left bottom, from(#ff8e14), to(#ffa312));
+    background:-moz-linear-gradient(top, #ff8e14, #ffa312);
+    -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px;
+    -webkit-box-shadow:inset 0 1px 1px #cf7310; -moz-box-shadow:inset 0 1px 1px #cf7310; box-shadow:inset 0 1px 1px #cf7310;
+}
+
+#overview #buckets h2 { margin:80px 0 0 0; position:relative; z-index:2; padding-bottom:6px; }
+#overview #buckets p { margin-bottom:13px; padding-left:5px; line-height:20px; position:relative; z-index:2; }
+#overview #buckets .image { position:relative; margin-left:-3px; }
+#overview #buckets .column { width:324px; margin-left:1px; padding-bottom:2px; }
+#overview #buckets .column.first { width:325px; }
+#overview #buckets .column.middle { _position:absolute; _top:0; _left:325px; }
+#overview #buckets .column.middle a { padding:0 46px 0 21px; *padding:0 44px 0 21px; text-align:center; }
+#overview #buckets .column.middle h2, #overview #buckets .column.middle p { text-align:left; }
+#overview #buckets .column.last { width:327px; }
+#overview #buckets .column a { color:#ccc; display:block; padding:0 50px 0 18px; *padding:0 50px 37px 18px; }
+#overview #buckets .column.first a { padding:0 10px 6px 18px; }
+#overview #buckets .column a:hover { text-decoration:none; background:url(../images/bucket_bg_hover.jpg) no-repeat 0 bottom; }
+#overview #buckets .column a:hover span.more { text-decoration:underline; }
+@media only screen and (max-device-width:768px) {
+	#overview #buckets h2,
+	#overview #buckets p { position:static; }
+	#overview #buckets .column a { padding-right:35px; }
+	#overview #buckets .column.last a { padding-right:75px; }
+	#overview #buckets .column a:hover { background:none; }
+}
+#overview #buckets.spotlight { background:url(../images/bucket_bg_spotlight.jpg) no-repeat 0 bottom; }
+#overview #buckets.spotlight h2 { margin-top:70px; padding-left:7px; }
+#overview #buckets.spotlight p { margin-bottom:23px; *margin-bottom:14px; }
+#overview #buckets.spotlight .column.middle p { margin-bottom:0; }
+#overview #buckets.spotlight .column .image { margin-left:-8px; }
+#overview #buckets.spotlight .column.middle .image { margin:26px 0 3px -16px; }
+#overview #buckets.spotlight .column.first .image { margin:-28px 0 0 -18px; *margin:0 0 -5px -18px; }
+#overview #buckets.spotlight .column.last .image { margin:-3px 0 3px -18px; *margin:5px 0 -26px -18px; }
+
+#overview #buckets.inline-links .column { position:relative; height:414px; color:#ccc; }
+#overview #buckets.inline-links .column .image { position:absolute; bottom:0; }
+#overview #buckets.inline-links .column.first { width:297px; padding:0 10px 6px 18px; }
+#overview #buckets.inline-links .column.first .image { bottom:12px; }
+#overview #buckets.inline-links .column.middle { width:257px; padding:0 46px 0 21px; }
+#overview #buckets.inline-links .column.last { width:259px; padding:0 50px 0 18px; }
+#overview #buckets.inline-links .column.middle .image,
+#overview #buckets.inline-links .column.last .image { *margin-bottom:-3px; }
+#overview #buckets.inline-links .column a { display:inline; padding:0; width:auto; }
+#overview #buckets.inline-links .column a:hover { text-decoration:underline; background:none; }
+
+#overview #promo-footer { margin-top:0; background-image:url(../images/promofooter_bg.jpg); background-position:0 0; background-repeat:no-repeat; background-color:transparent; -webkit-box-shadow:none; -moz-box-shadow:none; box-shadow:none; *border:none; }
+#overview #promo-footer p { color:#b1b1b1; }
+#overview #promo-footer p.subtitle { color:#fff; }
+#overview #promo-footer li.finalcutpro-featured .inline-button .buynows { margin-left:0; }
+
+#overview #globalfooter { margin-top:9px; color:#999; }
+#overview #globalfooter #breadory { border:1px solid rgba(255,255,255,0.1); *border:1px solid #5c5c5c; background:url(../images/bg_noise_dark.png);
+	-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;
+	-webkit-box-shadow:inset 0 0 4px rgba(0,0,0,.4); -moz-box-shadow:inset 0 0 4px rgba(0,0,0,.4); box-shadow:inset 0 0 4px rgba(0,0,0,.4);
+}
+#overview #globalfooter #breadory ol#breadcrumbs { text-shadow:#444 0 1px 0; color:#ccc; border-bottom:1px solid rgba(0,0,0,0.1) }
+#overview #globalfooter #breadory ol#breadcrumbs li a { color:#ccc; background-image:url(../images/globalfooter_sep.png); }
+#overview #globalfooter #breadory ol#breadcrumbs li a:hover { color:#999; }
+#overview #globalfooter #breadory ol#breadcrumbs li.home a { background-image:url(../images/globalfooter_home.png); }
+#overview #globalfooter .gf-sosumi { border-top:1px solid #5b5b5b; }
+#overview #globalfooter ul.piped a { border-left:1px solid #6f6f6f; }
+#overview #globalfooter ul.piped a.contact_us { border-right:none; }
+
+#overview #directorynav { border:none; border-top:1px solid rgba(255,255,255,0.03); *border-top:1px solid #5c5c5c; padding-top:1px; }
+#overview #directorynav h3 { text-shadow:#444 0 1px 0; color:#ccc; }
+#overview #directorynav a { color:#999; }
+#overview #directorynav a:hover { color:#fff !important; }
+
+@media only screen {
+	#overview #globalfooter #breadory ol#breadcrumbs li a { background-image:url(http://images.apple.com/v/finalcutpro/e/images/globalfooter_sep.svg); }
+	#overview #globalfooter #breadory ol#breadcrumbs li.home a { background-image:url(http://images.apple.com/v/finalcutpro/e/images/globalfooter_home.svg) }
+}
+
+#overview .free-trial-promo { width:981px; height:42px; margin:0 auto 24px; border:0; font-size:16px; line-height:43px; color:#fff; text-shadow:#111 0 -1px 2px; background:url(../images/promo_trial_bg.html) no-repeat 0 0; }
+#overview .free-trial-promo p { padding:0; margin:0 auto; text-align:center; }
+#overview .free-trial-promo .badge { margin-right:24px; margin-top:-1px; _margin-top:0; vertical-align:text-top; }
+#overview .free-trial-promo .more { margin-left:24px; color:#8ecaff; }
+
+
+/* FAQ
+------------------------*/
+#faq .content { width:820px; padding:0 80px; }
+
+#faq .pro-features { margin:40px -80px 0; padding:32px 0 50px; background:url(../images/faq_divider.jpg) no-repeat 50% 0; }
+#faq .pro-features a { display:block; font-size:20px; line-height:26px; text-align:center; }
+#faq .pro-features a .more { padding-right:15px; background:url(../../../../global/elements/arrows/morearrow_big_08c.gif) 100% 60% no-repeat; }
+
+#faq header { margin:0 -80px 50px; padding:30px 95px 30px; _position:relative; _z-index:1; border-bottom:1px solid #ccc; background:#fcfcfc; background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0.75, rgb(255,255,255)),color-stop(1, rgb(239,239,239))); background-image:-moz-linear-gradient(center top,rgb(255,255,255) 75%,rgb(239,239,239) 100%); box-shadow:inset 0 -1px 0 #fff; -webkit-box-shadow:inset 0 -1px 0 #fff; -moz-box-shadow:inset 0 -1px 0 #fff; }
+#faq header img.icon { margin-bottom:12px; }
+
+#faq section p.intro { margin-bottom:.85em; font-size:16px; line-height:22px; color:#666; }
+
+#faq section { width:740px; padding-bottom:25px; }
+#faq section h1 { font-size:1.5em; margin-bottom:1em; }
+#faq section h2 { font-size:1em; font-weight:bold; }
+
+
+/* Built for Pros
+------------------------*/
+#pro-features #content { width:900px; padding:48px 40px 30px; }
+
+#pro-features header { text-align:center; padding-bottom:35px; }
+#pro-features header h1 { margin-bottom:9px; }
+#pro-features header p.intro { padding:0 140px; margin-bottom:27px; font-size:20px; line-height:26px; }
+
+#pro-features section { margin:0 -40px; padding:40px 40px 70px; border-top:1px solid #e5e5e5; background:url(../pro-features/images/divider_bg.png) repeat-x; }
+#pro-features section p { margin-bottom:22px; *margin-bottom:17px; }
+#pro-features section h1 { margin-bottom:35px; }
+#pro-features section h3 { font-size:14px; }
+
+#pro-features section .grid3col .column { width:280px; margin-left:30px; }
+
+#pro-features #media { padding-top:50px; border-top:none; background:url(../images/divider_gradient.png) no-repeat 0 0; }
+
+
+/* What's New
+----------------------*/
+#whats-new #content { width:720px; padding:50px 130px 32px; }
+
+#whats-new h1 { font-weight:normal; }
+#whats-new .gradient-divider { padding-top:44px; background:url(../images/divider_gradient.png) no-repeat 0 0; }
+#whats-new .row { padding-bottom:30px; }
+#whats-new .row.grid2col { width:auto; }
+
+#whats-new .flushpad,
+#whats-new .flushleft { margin-left:-130px; }
+#whats-new .flushpad,
+#whats-new .flushright { margin-right:-130px; }
+#whats-new .flushpad,
+#whats-new .padleft { padding-left:130px; }
+#whats-new .flushpad,
+#whats-new .padright { padding-right:130px; }
+
+#whats-new .hero { padding-bottom:30px; text-align:center; }
+#whats-new .hero h1 { margin:0 0 3px 0; line-height:0; }
+#whats-new .hero p.intro { width:730px; margin:0 auto; font-size:1.429em; line-height:1.3em; }
+#whats-new .hero a.more-spacing { display:inline-block; margin-top:8px; margin-bottom:16px; }
+
+#whats-new .sonyxavc .first { width:375px; }
+#whats-new .sonyxavc .last { margin-bottom:-171px; margin-right:-80px; width:auto; }
+
+#whats-new .prores { margin-bottom:30px; }
+#whats-new .prores .gallery { margin:35px auto 0; width:620px; }
+#whats-new .prores .gallery img { display:block; margin:0 auto; }
+#whats-new .prores figcaption {  margin:10px auto 0; width:620px; text-align:center; }
+#whats-new .prores .toggle-nav { margin-top:22px; width:300px; }
+#whats-new .prores .toggle-nav a { display:inline-block; min-width:92px; }
+
+#whats-new .multichannel img { padding-top:15px; }
+
+#whats-new .import { padding-bottom:78px; }
+#whats-new .import .column.last { width:270px; padding-top:90px; }
+
+#whats-new .share .column.first { width:268px; padding-top:4px; padding-bottom:8px; }
+
+#whats-new .dual-viewers { padding-bottom:65px; }
+#whats-new .dual-viewers img { position:relative; z-index:1; margin:15px -80px 0; }
+
+#whats-new .other { margin-left:-80px; margin-right:-80px; padding:70px 80px 0; border-top:1px solid #e4e4e4; }
+#whats-new .other .column { width:328px; }
+#whats-new .other .section { padding-bottom:23px; }
+
+/* Trial
+----------------------*/
+.trial #content { padding-bottom:50px; }
+.trial #main h1 { margin-bottom:.5em; }
+.trial img.violator { position:absolute; top:0; right:0; }
+
+#trial #content p { font-size:12px; }
+#trial #content p.intro { font-size:14px; line-height:20px; color:#000; }
+#trial #content .column.first { width:50%; }
+#trial #trial_form { background:#f5f5f5; padding:20px 40px 10px; width:300px; }
+
+#thank-you.trial iframe.iframeautodownload { width:100%; height:2em; margin-top:20px; }
+
+#thank-you.trial .intro-videos { margin-top:40px; padding-top:30px; border-top:1px solid #d8d8d8; }
+#thank-you.trial .intro-videos h3 { font-size:18px; }
+
+#thank-you.trial .grid3col { margin:30px 0 20px; font-size:11px; }
+#thank-you.trial .grid3col img.left { margin-left:-5px; position:relative; }
+#thank-you.trial .grid3col a.block { text-decoration:none; color:#000; }
+#thank-you.trial .grid3col a.block p { margin-bottom:0; }
+#thank-you.trial .grid3col .column.first p,
+#thank-you.trial .grid3col .column.last p { padding-right:25px; }
+
+#thank-you.trial .notes { margin-left:20px; width:550px; *padding-left:30px; *margin-left:-5px;}
+#thank-you.trial .notes li { margin-bottom:7px; }
+
+/* New features
+--------------------*/
+/* new features styles */
+#features #new-features.content,
+#new-features.content { padding-bottom:0; }
+#new-features { width: 980px; height: 186px; margin: 18px auto 0; padding: 0; background-repeat: no-repeat; }
+#new-features a { padding: 31px 0 11px 51px; *padding-bottom: 31px; }
+#new-features p { width: 510px; font-size: 16px; line-height: 22px; }
+#new-features h2 { margin-bottom: 5px; }
+.finalcutpro #new-features { background-image: url(../top-features/images/new_features_bg.jpg); }
+.finalcutpro #new-features p { color: #ccc; }
+.finalcutpro #new-features a span { color: #0cf; }
+
+/* promo-footer
+--------------------*/
+#promo-footer { width:980px; margin:18px auto 0; padding-top:16px;
+	background-color:#fff;
+	background-image:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#e5e5e5));
+	background-image:-moz-linear-gradient(top, #fff, #e5e5e5);
+}
+
+#promo-footer h4 a,
+#promo-footer p a,
+#promo-footer ul { display:block; text-align:left; z-index:101; *position:relative; }
+#promo-footer li { position:relative; z-index:1; float:left; width:206px; min-height:186px; _height:186px; margin-top:-16px; padding:15px 20px 0; background:transparent url(../images/divider.png) repeat-y 0 0; }
+#promo-footer li img { display:block; }
+#promo-footer li h4 { margin-bottom:4px; }
+#promo-footer li p { margin-bottom:0; color:#666; }
+#promo-footer li p.download { margin:20px 96px 15px 0; }
+#promo-footer li .image { position:absolute; z-index:1; bottom:0; }
+#promo-footer li.promo .image { right:0; }
+#promo-footer li .buynows { margin-top:15px; }
+#promo-footer li  a.more { display:inline; color:#08c; }
+#promo-footer li  a.more:hover { text-decoration:underline; }
+
+#promo-footer li.finalcutpro .trial { margin-left:18px; }
+
+#promo-footer li.featured { width:448px; background:none; }
+#promo-footer li.featured .image { left:0 !important; }
+#promo-footer li.featured h4 { margin-bottom:16px; }
+#promo-footer li.featured h4,
+#promo-footer li.featured p,
+#promo-footer li.featured .freetrials,
+#promo-footer li.featured .buynows { margin-left:182px; }
+#promo-footer li.featured .inline-button { display:-moz-inline-stack; display:inline-block; *display:inline; zoom:1; }
+#promo-footer li.featured .inline-button .buynows { margin-left:0; }
+

@@ -1,0 +1,320 @@
+/* Whats New
+------------------------*/
+body#whats-new #main { margin-top:25px; }
+
+body#whats-new #main .row { padding-top:100px; }
+body#whats-new #main .divider-up { padding-bottom:90px; }
+
+body#whats-new #main .title { font-size:1em; text-align:center; }
+body#whats-new #main .title .icon { display:block; margin:0 auto 15px; }
+body#whats-new #main .title h1 { margin-bottom:10px; }
+body#whats-new #main .title p { padding:0 115px;}
+body#whats-new #main p { line-height:1.68em; }
+body#whats-new #main h4 { color:#333; }
+
+body#whats-new #main .padded { padding:0 20px; }
+body#whats-new #main .padded-top { padding-top:35px; }
+body#whats-new #main .padded-bottom { padding-bottom:35px; }
+
+body#whats-new #main .grid2col { margin-top:50px; }
+body#whats-new #main .narrow { width:696px; margin-left:auto; margin-right:auto; }
+
+body#whats-new #main .device-set { width:700px; margin:50px -90px 0; padding:0 232px; }
+body#whats-new #main .grid3col.device-set { width:980px; padding:0 90px; }
+
+body#whats-new #main .ipad { width:1260px; margin:50px -140px 0; padding:0; }
+body#whats-new #main .ipadmini { width:980px; margin:50px -90px 0; padding:0 90px; }
+
+body#whats-new #main .narrow .column { width:340px; }
+
+body#whats-new #main .grid2col.device-set .column { width:340px; }
+body#whats-new #main .grid2col.narrow.single .last { padding-left:35px; margin-right:-35px; }
+
+body#whats-new #main .grid3col.device-set .column { width:326px; margin-left:0; }
+body#whats-new #main .grid3col.device-set .hardware.iphone { padding-right:36px; padding-left:36px; }
+
+body#whats-new #main .grid2col.ipadmini .column { width:485px; }
+body#whats-new #main .ipad .padded { padding:30px 300px 0; }
+body#whats-new #main .ipadmini .padded { padding:20px 100px 0; }
+
+/* Scroll Tiles */
+body#whats-new .main .scroll-tiles { width:1120px; margin:0 -70px; }
+body#whats-new .main .scroll-tiles li a { float:left; }
+body#whats-new .main .scroll-tiles li a img { margin-bottom:14px; }
+
+/* Icon Animation
+--------------------------- */
+body#whats-new #scroller-nav { position:relative; z-index:1; padding-bottom:94px; background:url(../../images/divider_down.png) no-repeat 50% 100%; }
+body#whats-new #scroller-nav.ac-ambient-canplay ul { opacity:0; position:relative; z-index:11000; }
+
+body#whats-new #scroller-nav.ac-ambient-canplay li { background:#fff; opacity:1; position:relative; z-index:11000; }
+
+body#whats-new #scroller-nav.ac-ambient-canplay li span { opacity:0; }
+
+/* From Center Slow */
+body#whats-new #scroller-nav.ac-ambient-canplay li.one   {
+	-webkit-transform:translate3d(440px, 0, 0);
+	   -moz-transform:translate3d(440px, 0, 0);
+	        transform:translate3d(440px, 0, 0);
+}
+body#whats-new #scroller-nav.ac-ambient-canplay li.two   {
+	-webkit-transform:translate3d(328px, 0, 0);
+	   -moz-transform:translate3d(328px, 0, 0);
+	        transform:translate3d(328px, 0, 0);
+}
+body#whats-new #scroller-nav.ac-ambient-canplay li.three {
+	-webkit-transform:translate3d(216px, 0, 0);
+	   -moz-transform:translate3d(216px, 0, 0);
+	        transform:translate3d(216px, 0, 0);
+}
+body#whats-new #scroller-nav.ac-ambient-canplay li.four  {
+	-webkit-transform:translate3d(104px, 0, 0);
+	   -moz-transform:translate3d(104px, 0, 0);
+	        transform:translate3d(104px, 0, 0);
+}
+body#whats-new #scroller-nav.ac-ambient-canplay li.five  {
+	-webkit-transform:translate3d(0, 0, 0);
+	   -moz-transform:translate3d(0, 0, 0);
+	        transform:translate3d(0, 0, 0);
+	        z-index:1029;
+}
+body#whats-new #scroller-nav.ac-ambient-canplay li.six   {
+	-webkit-transform:translate3d(-104px, 0, 0);
+	   -moz-transform:translate3d(-104px, 0, 0);
+	        transform:translate3d(-104px, 0, 0);
+}
+body#whats-new #scroller-nav.ac-ambient-canplay li.seven {
+	-webkit-transform:translate3d(-216px, 0, 0);
+	   -moz-transform:translate3d(-216px, 0, 0);
+	        transform:translate3d(-216px, 0, 0);
+}
+body#whats-new #scroller-nav.ac-ambient-canplay li.eight {
+	-webkit-transform:translate3d(-328px, 0, 0);
+	   -moz-transform:translate3d(-328px, 0, 0);
+	        transform:translate3d(-328px, 0, 0);
+}
+body#whats-new #scroller-nav.ac-ambient-canplay li.nine  {
+	-webkit-transform:translate3d(-440px, 0, 0);
+	   -moz-transform:translate3d(-440px, 0, 0);
+	        transform:translate3d(-440px, 0, 0);
+}
+
+body#whats-new #scroller-nav.ac-ambient-play ul { opacity:1;
+    -webkit-transition:opacity 0.3s ease-out;
+	   -moz-transition:opacity 0.3s ease-out;
+	        transition:opacity 0.3s ease-out;
+}
+
+body#whats-new #main #scroller-nav.ac-ambient-play li {
+	-webkit-transform:translate3d(0, 0, 0);
+	   -moz-transform:translate3d(0, 0, 0);
+	        transform:translate3d(0, 0, 0);
+
+	-webkit-transition:-webkit-transform 0.3s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+	   -moz-transition:-moz-transform 0.3s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+	        transition:transform 0.3s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+}
+
+body#whats-new #scroller-nav.ac-ambient-play li span { opacity:1;
+    -webkit-transition:opacity 0.3s 0.3s ease-out;
+	   -moz-transition:opacity 0.3s 0.3s ease-out;
+	        transition:opacity 0.3s 0.3s ease-out;
+}
+
+body#whats-new #main #scroller-nav.ac-ambient-didplay li {
+	-webkit-transform:none;
+	   -moz-transform:none;
+	        transform:none;
+}
+
+/* click to play buttons iOS non-retina */
+body#whats-new .screensequence-trigger.screensequence-clicktoplay { color:#666; margin-top:14px; }
+body#whats-new .screensequence-trigger.screensequence-clicktoplay .icon { margin:0 0 -8px 6px; width:22px; height:22px; background:url(../../images/icon_play_stop_sprite.png) no-repeat 0 0; }
+body#whats-new .screensequence-trigger.screensequence-clicktoplay { -webkit-transition:opacity 0.3s ease-in; }
+
+body#whats-new .screensequence-playing .screensequence-trigger.screensequence-clicktoplay,
+body#whats-new .screensequence-loading .screensequence-trigger.screensequence-clicktoplay { opacity:0; }
+body#whats-new .screensequence-enhanced .screensequence-trigger.screensequence-clicktoplay .icon { display:inline-block; }
+
+/* spinners */
+body#whats-new .screensequence-enhanced.screensequence-clicktoplay .screensequence-spinner { opacity:0; width:36px; height:36px; position:absolute; top:43%; left:43%; z-index:1003; background:url(../../../../../global/elements/quicktime/loading.png) 50% 50% no-repeat; -webkit-user-select:none;
+	-webkit-animation-name:loadingspinner;
+	   -moz-animation-name:loadingspinner;
+	        animation-name:loadingspinner;
+	-webkit-animation-duration:0.8s;
+	   -moz-animation-duration:0.8s;
+	        animation-duration:0.8s;
+	-webkit-animation-iteration-count:infinite;
+	   -moz-animation-iteration-count:infinite;
+	        animation-iteration-count:infinite;
+	-webkit-animation-timing-function:linear;
+	   -moz-animation-timing-function:linear;
+	        animation-timing-function:linear;
+	-webkit-transition:opacity 0.1s ease-out;
+	   -moz-transition:opacity 0.1s ease-out;
+	        transition:opacity 0.1s ease-out;
+}
+body#whats-new .screensequence-enhanced.screensequence-clicktoplay.loading-dark .screensequence-spinner { background-image:url(../../images/loading_dark.png); }
+
+body#whats-new .screensequence-enhanced.screensequence-clicktoplay.screensequence-loading .screensequence-spinner { opacity:1;
+	-webkit-transition-duration:0.5s;
+	   -moz-transition-duration:0.5s;
+	        transition-duration:0.5s;
+}
+
+
+/* Hero */
+body#whats-new #main #hero .grid2col { margin-top:0; }
+
+body#whats-new #main #hero {  margin-bottom:118px; padding-top:0; }
+body#whats-new #hero p { margin-bottom:45px; }
+
+body#whats-new #hero .gallery-view .gallery-video { top:430px; }
+
+.main .hero h1 { margin-bottom:5px; }
+
+body#whats-new #main #hero .first { padding-top:16px; width:430px; }
+body#whats-new #hero .intro { margin:0 0px 26px 0; font-size:1.125em; line-height:1.783em; }
+body#whats-new #hero .hero-nav li,
+body#whats-new #hero .hero-nav li a { display:inline-block; *display:inline; *zoom:1; }
+body#whats-new #hero .hero-nav li { margin-bottom:8px; }
+body#whats-new #hero .hero-nav li a { font-size:1.1em; padding-top:2px; padding-left:39px; }
+
+body#whats-new #hero .hero-image { position:absolute; right:-230px; z-index:100; margin-top:-70px; }
+
+/* Control Center */
+body#whats-new #control-center.row { margin-top:-90px; padding-top:95px; }
+body#whats-new #control-center .divider-down { padding-top:65px; }
+
+body#whats-new #control-center .grid2col .last p { padding-right:38px; }
+
+@media only screen and (max-device-width:768px) {
+	body#whats-new #main #control-center .grid2col .last { margin-right:0; }
+}
+
+/* Notification Center */
+body#whats-new #notification-center .screensequence-trigger.screensequence-clicktoplay { margin-top:0; }
+body#whats-new #notification-center .title p { padding-left:100px; padding-right:100px; }
+body#whats-new #notification-center .padded { padding:0 40px; }
+
+/* Camera */
+body#whats-new #main #camera .title p { margin-bottom:50px; padding:0 50px; }
+
+body#whats-new #camera .gallery .grid2col { margin-top:0px; }
+body#whats-new #camera .gallery .narrow { padding-bottom:0; }
+
+body#whats-new #camera #gallery-ios7-camera { height:675px; margin:15px auto 0; z-index:1010; }
+
+body#whats-new #camera .gallery-content { height:674px; background:#fff; position:absolute; z-index:1020; -webkit-transform:translateZ(0); }
+
+body#whats-new #camera .gallery-thumbs { display:block; width:797px; height:110px; margin:25px -50px 40px; position:relative; z-index:1; }
+body#whats-new #camera .gallery-thumbs li { display:block; float:left; width:85px; height:110px; margin-left:4px; z-index:1003; position:relative; -webkit-transform:translateZ(0); }
+body#whats-new #camera .gallery-thumbs li:first-child { margin-left:0; }
+body#whats-new #camera .gallery-thumbs li a.block { display:block; width:83px; height:93px; padding-top:15px; border:1px solid transparent; border-radius:14px; font-size:11px; text-decoration:none; }
+
+body#whats-new #camera .gallery-thumbs li a.block span { display:block; color:#333; *margin-top:6px; }
+
+body#whats-new #camera .gallery-thumbs li a.block:hover { border-color:#666; }
+body#whats-new #camera .gallery-thumbs li a.block:hover span { color:#666; text-decoration:none; }
+
+body#whats-new #camera .gallery-thumbs li a.block.active { border-color:#39f; }
+body#whats-new #camera .gallery-thumbs li a.block.active span { color:#39f; }
+
+body#whats-new #camera .gallery-thumbs.enhanced li a.block,
+body#whats-new #camera .gallery-thumbs.enhanced li a.block:hover,
+body#whats-new #camera .gallery-thumbs.enhanced li a.block.active {
+	-webkit-transition:border 0.2s;
+	   -moz-transition:border 0.2s;
+			transition:border 0.2s;
+}
+
+body#whats-new #camera .gallery-thumbs.enhanced li a.block span,
+body#whats-new #camera .gallery-thumbs.enhanced li a.block:hover span,
+body#whats-new #camera .gallery-thumbs.enhanced li a.block.active span {
+	-webkit-transition:color 0.2s;
+	   -moz-transition:color 0.2s;
+			transition:color 0.2s;
+}
+body#whats-new #camera .gallery-thumbs #highlighter { display:none; }
+
+body#whats-new #camera .gallery-thumbs.enhanced #highlighter { display:block; position:absolute !important; z-index:1001 !important; height:108px; border:1px solid #39f; border-radius:14px; background:#fff;
+	 -webkit-transform:translate3d(351px,0,0);
+		-moz-transform:translate3d(351px,0,0);
+			 transform:translate3d(351px,0,0);
+}
+
+body#whats-new #camera .gallery-thumbs li a.block.active:hover { border-color:#666; }
+body#whats-new #main #camera .gallery-thumbs li a.block.active { border-color:#39f; }
+body#whats-new #main #camera .gallery-thumbs.enhanced li a.block.active { border-color:transparent; }
+
+body#whats-new #main #camera .filters { width:auto; padding:0 98px; }
+
+@media only screen and (max-device-width:768px) {
+	body#whats-new #camera .gallery-thumbs li a.block:hover,
+	body#whats-new #camera .gallery-thumbs li a.block.active:hover { border-color:transparent; }
+}
+
+/* Airdrop */
+body#whats-new #airdrop .title .icon { margin-bottom:10px; }
+body#whats-new #airdrop .title p { padding:0 100px; }
+body#whats-new #airdrop .grid3col .column.first p { padding:0 5px; }
+
+/* Safari */
+body#whats-new #safari .grid2col.narrow.single .slim p { padding-right:44px; }
+body#whats-new #safari p.spaced { margin-right:50px; }
+
+/* iTunes Radio */
+body#whats-new #itunes-radio .title .icon { margin-bottom:8px; }
+body#whats-new #itunes-radio p.center { margin-top:4px; }
+body#whats-new #itunes-radio p.us-only { color:#999; }
+
+/* Siri */
+body#whats-new #siri .column .sample { padding-left:10px; padding-right:0; background-position:0% 50%; background-size:5px 11px; font-size:.85em; }
+
+/* App store */
+body#whats-new #app-store .device-set figcaption { position: relative; padding-top: 4px;}
+body#whats-new #app-store figcaption .absolute { position:absolute; text-align:center; width:300px; top:-26px; }
+body#whats-new #app-store .coming-soon { font-size:.8em; padding:4px; *zoom:1; }
+
+/* Car Integration */
+body#whats-new #carintegration .coming-soon { padding-top:4px; padding-bottom:4px; }
+body#whats-new #main #carintegration .title .icon { margin-top:26px; }
+
+body#whats-new #carintegration .gallery { width:980px; height:730px; margin-top:50px; }
+body#whats-new #carintegration .gallery .gallery-content { display:block; width:650px; height:589px; background-image:url(../../../../../ios/whats-new/images/carintegration_console.jpg); background-repeat:no-repeat; padding:74px 165px 0px 168px; }
+body#whats-new #carintegration .gallery .gallery-content .padded { padding-top:25px; margin-top:200px; min-height:80px; background:#fff; }
+
+body#whats-new #carintegration .gallery .outer-dot-nav { bottom:-20px; }
+
+body#whats-new #carintegration .gallery .paddle-nav li .arrow { padding:0; height:589px; }
+body#whats-new #carintegration .gallery .paddle-nav .arrow b { margin-top:242px; }
+
+/* Re display paddles for this gallery on iOS */
+@media only screen and (max-device-width:768px) {
+	body#whats-new #carintegration .gallery .paddle-nav li .arrow.disabled { display:none; }
+	body#whats-new #carintegration .gallery .paddle-nav li .arrow { display:block; opacity:1; }
+}
+
+/* iOS Enterprise-Developers */
+body#whats-new #enterprise-developers.grid2col { width:920px; margin-top:0; padding:100px 30px; border-bottom:1px solid #d0d0d0; }
+body#whats-new #enterprise-developers a.block .nowrap { color:#666; }
+body#whats-new #enterprise-developers a.block:hover .nowrap { text-decoration:none; }
+body#whats-new #enterprise-developers h1 { margin-bottom:0; }
+body#whats-new #enterprise-developers p { margin-bottom:5px; }
+
+/* Enterprise */
+body#whats-new #enterprise-developers #enterprise { width:400px; padding-right:60px; border-right:1px solid #d0d0d0; }
+body#whats-new #enterprise-developers #enterprise .icon { margin-bottom:10px; }
+
+/* Developers */
+body#whats-new #enterprise-developers #developers { margin-left:-10px; width:420px; }
+body#whats-new #enterprise-developers #developers .icon { margin-bottom:10px; }
+body#whats-new #enterprise-developers #developers p { margin-right:20px; padding-right:6px; }
+
+/* Device Overrides */
+body#whats-new .hardware.iphone { padding:100px 43px 0; background-image:url(../images/hardware_iphone.png); }
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+       only screen and (min--moz-device-pixel-ratio:1.5) and (min-device-width:321px),
+       only screen and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+	body#whats-new .main .hardware.iphone { background-image:url(../images/hardware_iphone_2x.png); }
+}

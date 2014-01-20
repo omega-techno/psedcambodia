@@ -1,0 +1,22 @@
+body#keynote .hero .intro { width:800px; }
+body#keynote .hero .hero-img { margin-left:-51px; margin-right:-51px; }
+
+body#keynote .slides .intro { width:720px; }
+body#keynote .slides .caption { width:820px; }
+body#keynote .slides .gallery-slides-effects .caption p { width:480px; }
+
+body#keynote .simple .caption { width:680px; }
+
+body#keynote .charts .intro { width:820px; }
+
+body#keynote .icloud { padding-bottom:37px; }
+body#keynote .icloud .intro { width:750px; }
+body#keynote .icloud .hero-img { position:relative; z-index:1; margin:40px -81px 26px; }
+
+body#keynote .share .intro { width:730px; }
+
+body#keynote .msoffice .intro { position:relative; z-index:1; width:950px; margin-left:-35px; margin-right:-35px; }
+
+body#keynote .online { padding-bottom:40px; }
+body#keynote .online h1 { margin-left:-53px; margin-right:-53px; }
+body#keynote .online .intro { width:710px; }

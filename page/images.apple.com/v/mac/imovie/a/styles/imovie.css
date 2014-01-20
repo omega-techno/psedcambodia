@@ -1,0 +1,16 @@
+body#imovie .hero { padding-bottom:55px; }
+
+body#imovie .make .intro { width:660px; }
+body#imovie .make .gallery-make-clip .caption p { width:640px; }
+body#imovie .make .gallery-make-enhance .caption p { width:600px; }
+
+body#imovie .trailers .intro { width:720px; }
+body#imovie .trailers .caption p { width:680px; }
+
+body#imovie .theater .intro { width:780px; }
+body#imovie .theater .gallery-view { width:1052px; }
+body#imovie .theater .gallery-view img { margin-bottom:21px; }
+body#imovie .theater .caption { width:740px; }
+body#imovie .theater .paddle-nav { height:496px; }
+
+body#imovie .share .intro { width:660px; }

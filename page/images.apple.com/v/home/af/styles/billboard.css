@@ -1,0 +1,26 @@
+#gallery-wrapper,
+#gallery-content-wrapper-billboard,
+#billboard,
+#billboard .gallery-view,
+#billboard .gallery-content,
+#billboard .background { height:940px; }
+
+#billboard a.full-span { display:block; position:absolute; z-index:3; top:60px; left:0; right:0; bottom:0; outline:none; overflow:hidden; text-indent:-9999px; background:url(../../../../global/elements/blank.gif); }
+
+#billboard .section { position:relative; }
+#billboard .text { width:980px; }
+#billboard .text h1 { margin-bottom:5px; }
+#billboard .text h2 { margin-bottom:53px; overflow:hidden; }
+
+/* iphone 5s */
+#iphone-5s .gold-texture,
+#iphone-5s .gold-texture-reverse { background:url(../images/texture_gold.png); }
+#iphone-5s .gold-texture { background:url(../images/texture_50.png), url(../images/gradient_gold.png); background-size:auto,20px 100%; }
+#iphone-5s .gold-texture-reverse { background:url(../images/texture_50.png), url(../images/gradient_gold_reverse.png); background-size:auto,20px 100%; }
+
+#iphone-5s .text { padding-top:272px; }
+
+/* iphone 5c */
+#iphone-5c.blue .background { background:rgb(90, 198, 255); }
+#iphone-5c .text { padding-top:272px; }
+#iphone-5c .text h2 { margin-bottom:55px; }

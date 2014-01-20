@@ -1,0 +1,31 @@
+/* layout */
+body#gifts #main .row { padding:30px 0; margin:0 auto; width:880px; }
+body#gifts #main .grid2col .column.first,
+body#gifts #main .grid2col .column.last { width:408px; }
+
+/* fonts */
+body#gifts h2 { font-weight:normal; font-size:1.5em; color:#333; }
+
+/* callout */
+body#gifts .main .callout { position:relative; float:right; font-size:14px; line-height:27px; margin-top:8px; padding:25px; width:278px; border:1px solid #d6d6d6; border-radius:5px;
+	background:#fafafa;
+	-webkit-border-radius:5px;
+	   -moz-border-radius:5px;
+	     	border-radius:5px;
+	zoom:1;
+}
+body#gifts .main .callout h3 { color:#666; margin-bottom:5px; }
+body#gifts .main .callout p { color:#666; margin-bottom:0; }
+body#gifts .main .callout a.block { margin:0px; padding:25px; color:#666; }
+
+/* header */
+body#gifts #main header { margin:0 auto; padding-top:50px; width:980px; }
+body#gifts #main header p.intro { padding:0 140px; }
+
+/* sections */
+body#gifts #main #cards.grid2col .column.first { width:480px; }
+body#gifts #main #cards.grid2col .column.last { width:360px; }
+body#gifts #main #certificates.grid2col .column.last { padding-top:36px; }
+body#gifts #main #give.grid2col { padding-top:0; }
+body#gifts #main #give.grid2col .column.last { padding-top:70px; }
+body#gifts #main #allowance.grid2col .column.first { padding-top:8px; }

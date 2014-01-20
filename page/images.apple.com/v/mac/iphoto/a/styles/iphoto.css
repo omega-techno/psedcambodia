@@ -1,0 +1,15 @@
+body#iphoto .hero { padding-bottom:0; }
+body#iphoto .hero .intro { width:790px; }
+
+body#iphoto .organize .caption p { min-height:3.1429em; }
+
+body#iphoto .edit .intro { width:830px; }
+body#iphoto .edit .caption { width:450px; }
+
+body#iphoto .share p { padding:0 50px; }
+
+body#iphoto .icloud img.hero { margin:31px -82px 0; }
+
+body#iphoto .print .intro { margin-right:-10px; margin-left:-10px; width:900px; }
+body#iphoto .print .gallery-view { width:990px; }
+body#iphoto .print .gallery-content .caption { width:780px; }

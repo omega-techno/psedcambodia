@@ -1,0 +1,80 @@
+/* Shared styles
+------------------------*/
+body#overview a.block span { color:#000; text-decoration:none; }
+body#overview a.block span.more { color:#08c; }
+body#overview a.block:hover span.more { text-decoration:underline; }
+
+body#overview #main img.right,
+body#overview #main img.left { margin-bottom:0; }
+
+body#overview .content p,
+body#overview .content span.nowrap { color:#666; }
+
+body#overview .divider-up { background:url(../../../a/images/section_divider_crease_up.jpg) no-repeat 50% 100%; *border-bottom:1px solid #ced0d5; }
+body#overview .divider-down { background:url(../../../a/images/overview_gradient_down.jpg) no-repeat 50% 0; *border-top:1px solid #ced0d5; }
+body#overview .divider-up.divider-down { background:url(../../../a/images/section_divider_crease_up.jpg) no-repeat 50% 100%, url(http://images.apple.com/v/ipod-touch/a/images/section_divider_crease_down.jpg) no-repeat 50% 0; background-size:1120px 90px, 1120px 92px; *background:none; }
+
+@media only screen and (min-device-pixel-ratio:1.5) and (min-device-width:321px),
+       only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+	body#overview .divider-up.divider-down { background-image:url(../../../a/images/section_divider_crease_up_2x.jpg), url(../../../a/images/section_divider_crease_down_2x.jpg); }
+}
+
+body#overview .row { position:relative; z-index:1; margin:0 -50px; min-height:320px; *height:320px; padding:50px; font-size:1.1429em; line-height:1.5em; }
+body#overview .row .column.first { width:395px; }
+body#overview .row .column.last { width:413px; }
+body#overview .row h1 { margin-bottom:7px; }
+body#overview .row img.hero-image { position:absolute; bottom:0; }
+body#overview .row img.hero-image.flushleft { left:50px; }
+
+/* Section specific
+------------------------*/
+body#overview #hero { padding-bottom:0; height:auto; }
+body#overview #hero h1 { margin-bottom:50px; position:relative; z-index:2; }
+
+body#overview #design .row { padding-top:75px; }
+body#overview #design h1 { margin-top:-5px; }
+
+body#overview #display .row { padding-top:32px; }
+body#overview #display h1 { padding-top:72px; }
+body#overview #display img.hero-image { right:42px; }
+body#overview #display .column.first { width:391px; }
+
+body#overview #camera .row { padding-top:66px; z-index:2; }
+body#overview #camera .column.last { width:426px; margin-right:-10px; position:relative; z-index:1; }
+body#overview #camera h1 { padding-top:16px; }
+
+body#overview #loop .row { padding-top:41px; }
+body#overview #loop img.flushleft { position:relative; z-index:1; }
+body#overview #loop .column.first { margin-top:-268px; position:relative; z-index:2; }
+
+body#overview #ios .row { padding-top:139px; }
+body#overview #ios img.hero-image { left:0; }
+body#overview #ios h1 { margin-top:-10px; }
+body#overview #ios .column.last { margin-right:20px; }
+
+body#overview .row.more-features { padding-top:38px; padding-bottom:0; }
+
+body#overview #earpods { width:360px; _width:370px; }
+body#overview #earpods img.left { margin-top:8px; _margin-left:-170px; }
+
+body#overview #chip { width:455px; }
+body#overview #chip a { margin-left:6px; }
+body#overview #chip img.icon { margin-top:21px; }
+
+/* ilife */
+body#overview .ilife { padding:65px 50px 50px; min-height:0; *height:auto; }
+body#overview .ilife h1 { margin-bottom:12px; }
+body#overview .ilife p { width:640px; margin:0 auto; }
+body#overview .ilife .hero { margin:0 -44px -6px; }
+
+/* Buy Now aside banner */
+body#overview .banner { width:980px; padding:0 70px; }
+body#overview .banner .block { padding:28px 0 30px; }
+body#overview .banner .hardware { display:block; float:left; margin:0 0 -30px 135px; }
+body#overview .banner .last { width:480px; padding-right:120px; }
+body#overview .banner .last h1 { margin-bottom:0; margin-top:50px; }
+body#overview .banner .last p { font-size:1.143em; line-height:1.5em; }
+
+/* Buystrip */
+body#overview #buystrip { background:url(../../../a/images/buystrip_gradient.png) no-repeat 50% 0; }
+body#overview #buystrip .hrbot { background-image:none; border-top:1px solid #c5c6c9; }

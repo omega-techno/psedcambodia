@@ -1,0 +1,24 @@
+
+#main { margin-bottom:105px; width:980px; }
+#main h1 { margin-bottom:76px; padding:48px 0 22px; border-bottom:1px solid #e7e7e7; }
+
+#main .publication { padding-top:50px; }
+#main .publication h2 { text-align:center; }
+
+#main .publication p { display:block; width:675px; margin:26px auto 0; text-align:center; font-size:1.4286em; line-height:1.45; }
+#main .publication p.attribution { margin:23px auto 38px; font-size:1em; }
+
+#main .publication .quote { font-size:1.45em; line-height:0.6666; vertical-align:-25%; }
+#main .publication .quote.open { padding-right:2px; }
+
+#main .thewallstreetjournal p { width:545px; }
+#main .thenewyorktimes p.second { width:625px; }
+#main .time p { width:665px; }
+#main .cnet p { width:625px; }
+#main .usatoday p { width:685px; }
+#main .usatoday p.second { width:645px; }
+#main .esquire p { width:720px; }
+#main .engadget p { width:600px; }
+#main .engadget p.second { width:710px; }
+#main .daringfireball p.second { width:720px; }
+#main .techcrunch p { width:630px; }

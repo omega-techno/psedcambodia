@@ -1,0 +1,17 @@
+/* buynow footer */
+#buynow .title { background:url(../images/footer_buynow_title.png); }
+#buynow.dark .title { background:url(../images/footer_buynow_title_dark.png); }
+
+/* whats new */
+body#whats-new .main #design { background-image:url(../whats-new/images/whatsnew_advanceddesign_sectionhero.jpg); }
+body#whats-new .main #sounds { background-image:url(../whats-new/images/whatsnew_inspiringsounds_sectionhero.jpg); }
+body#whats-new .main #inspiring-sounds .drummer-video-gallery .thumbnail-nav .alternative .play .signature { background-image:url(../whats-new/images/whatsnew_inspiringsounds_drummeralternative_signature_sprite.jpg); }
+body#whats-new .main #inspiring-sounds .drummer-video-gallery .thumbnail-nav .disco .play .signature { background-image:url(../whats-new/images/whatsnew_inspiringsounds_drummerdisco_signature_sprite.jpg); }
+body#whats-new .main #inspiring-sounds .drummer-video-gallery .thumbnail-nav .rock .play .signature { background-image:url(../whats-new/images/whatsnew_inspiringsounds_drummerrock_signature_sprite.jpg); }
+body#whats-new .main #inspiring-sounds .drummer-video-gallery .thumbnail-nav .rnb .play .signature { background-image:url(../whats-new/images/whatsnew_inspiringsounds_drummerrnb_signature_sprite.jpg); }
+body#whats-new .main #tools { background-image:url(../whats-new/images/whatsnew_powerfultools_sectionhero.jpg); }
+
+/* what is */
+body#what-is .main #write-and-record { background-image:url(../what-is/images/whatis_groove_sectionhero.jpg); }
+body#what-is .main #edit { background-image:url(../what-is/images/whatis_editing_sectionhero.jpg); }
+body#what-is .main #mixing { background-image:url(../what-is/images/whatis_mix_sectionhero.jpg); }

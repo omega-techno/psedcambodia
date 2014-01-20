@@ -1,0 +1,29 @@
+/* cta links */
+#billboard .cta .keynote { background-image:url(../images/cta_keynote_27pt.png); width:232px; padding:0; background-size:232px 124px; }
+#billboard .cta .video { background-image:url(../images/cta_video_27pt.png); width:208px; background-size:208px 124px; }
+#billboard .cta .tv { background-image:url(../images/cta_tv_27pt.png); width:202px; background-size:202px 124px; }
+#billboard .cta .learn { background-image:url(../images/cta_learn_27pt.png); width:131px; background-size:131px 124px; }
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+       only screen and         (min-device-pixel-ratio:1.5) and (min-device-width:321px),
+       only screen and             (min-resolution:1.5dppx) and (min-device-width:321px) {
+
+	#billboard .cta .keynote { background-image:url(../images/cta_keynote_27pt_2x.png); }
+	#billboard .cta .video { background-image:url(../images/cta_video_27pt_2x.png); }
+	#billboard .cta .tv { background-image:url(../images/cta_tv_27pt_2x.png); }
+	#billboard .cta .learn { background-image:url(../images/cta_learn_27pt_2x.png); }
+
+}
+
+
+/* iphone portrait */
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:portrait) {
+
+	#billboard .cta a { height:54px; }
+	#billboard .cta .blue { background-position:0 -54px; }
+	#billboard .cta .keynote { background-image:url(../images/cta_keynote_46pt.png); width:397px; background-size:397px 216px; }
+	#billboard .cta .video { background-image:url(../images/cta_video_46pt.png); width:357px; background-size:357px 216px; }
+	#billboard .cta .tv { background-image:url(../images/cta_tv_46pt.png); width:356px; background-size:356px 216px; }
+	#billboard .cta .learn { background-image:url(../images/cta_learn_46pt.png); width:222px; background-size:222px 216px; }
+
+}

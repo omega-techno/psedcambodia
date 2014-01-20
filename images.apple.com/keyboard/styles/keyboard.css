@@ -1,0 +1,108 @@
+@import url(../../global/styles/blackout.css);
+
+/* -- general, grid -- */
+html, body { background: #f2f2f2; }
+#main { margin: 0 auto; padding: 0 50px 25px; width: 880px; }
+
+img.flushleft { float: left; margin-left: -50px; position: relative; }
+img.flushright { float: right; margin-right: -50px; position: relative; }
+.caption { font-size: 80%; }
+
+.content h1,
+.content h2,
+.content p.intro { font-family: "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; }
+.content p.intro { font-size: 14px; }
+
+/* site-specific buy now promo footer */
+#promofooter #promos li.buy { position:relative; float:left; width:244px; padding-right:1px; margin-top:-16px; }
+#promofooter #promos li.buy { padding:0 0 0 1px; }
+#promofooter #promos li.buy .button a { float:left; padding-left: 13px; margin-top:16px; }
+#promofooter #promos li.buy .product { float:right; margin:15px 0 0 -10px; }
+#promofooter #promos li.buy ul { list-style: none; margin:55px 0 0 0; *margin-top:14px; font-size: 11px; line-height: 16px; }
+#promofooter #promos li.buy ul.clear { clear:left; }
+#promofooter #promos li.buy ul li { margin-top:2px; padding-bottom:3px; color:#666; }
+
+/* inline galleries */
+.gallery { margin:0 -50px; width: 980px; }
+.gallery .gallery-view { position:relative; }
+.gallery .gallery-content { position:absolute; }
+
+.gallery .gallery-view a.close { position:absolute; display:block; left:0; top:-30px; padding-left:16px; text-transform:lowercase; text-decoration:none; color:#888; background:url(../../global/elements/buttons/close.png) no-repeat 0 0; }
+.gallery .gallery-view a.close:hover { color:#08c; background-position:0 -50px; }
+
+/* gallery triggers */
+.gallery .gallery-triggers { position:relative; height:42px; text-align:center; overflow:hidden; background:url(../images/gallery_triggerbg20091020.png) no-repeat; }
+
+.gallery .gallery-triggers ul { display:inline; display:inline-block; *display:inline; }
+.gallery .gallery-triggers h4,
+.gallery .gallery-triggers ul li,
+.gallery .gallery-triggers ul li a,
+.gallery .gallery-triggers ul li a div { display:-moz-inline-stack; display:inline-block; *display:inline; }
+
+.gallery .gallery-triggers h4 { position:relative; top:-15px; margin-left: -56px; padding-right:10px; text-align:right; font-weight:normal; color:#5f5e62; }
+.gallery .gallery-triggers h4.nudge { padding-left:145px; }
+
+.gallery .gallery-triggers ul { /*margin-left: -28px;*/ padding-right:1px; height:42px; border-left:1px solid #ddd; background:url(../images/gallery_triggerbg_bar_last20091020.png) no-repeat 100% 0; }
+.gallery .gallery-triggers ul li a { position:relative; width:61px; height:42px; outline:none; cursor:pointer; background:url(../images/gallery_triggerbg_bar20091020.png) no-repeat 0 0; zoom:1; }
+.gallery .gallery-triggers ul li a b { position:absolute; width:61px; height:7px; *left:0; z-index:5; background:url(../images/gallery_trigger20091020.png) no-repeat 0 0; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://images.apple.com/keyboard/images/gallery_trigger20091020.png",sizingMethod="image"); }
+.gallery .gallery-triggers ul li a div { width:61px; height:42px; left:0; }
+@-moz-document url-prefix() { .gallery .gallery-triggers ul li a div { position:relative; } }
+.gallery .gallery-triggers ul li a div img { behavior:url(http://images.apple.com/global/scripts/lib/ie7pngfix.htc); }
+
+.gallery .gallery-triggers ul li a:hover { background:url(../images/gallery_triggerbg_hover20091020.png) no-repeat 0 0; }
+.gallery .gallery-triggers ul li a:hover div { opacity:.8; -moz-opacity:.8; -ms-filter:"alpha(opacity=80)"; filter:alpha(opacity=80); }
+
+.gallery .gallery-triggers ul li a.active { cursor:default; background:url(../images/gallery_triggerbg_active20091020.png) no-repeat 0 0 !important; }
+.gallery .gallery-triggers ul li a.active b { background:url(../images/gallery_trigger_active20091020.png) no-repeat 0 0; _background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://images.apple.com/keyboard/images/gallery_trigger_active20091020.png",sizingMethod="image"); }
+.gallery .gallery-triggers ul li a.active div { opacity:.5; -moz-opacity:.5; -ms-filter:"alpha(opacity=50)" !important; filter:alpha(opacity=50) !important; }
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:481px) and (max-device-width:768px),
+       only screen and (min-device-pixel-ratio:1.5) and (min-device-width:481px) and (max-device-width:768px) {
+	.gallery .gallery-triggers ul li a b { background:url(../images/gallery_trigger20091020.png) no-repeat 0 0; }
+    .gallery .gallery-triggers ul li a.active { background:url(../images/gallery_triggerbg_active20091020.png) no-repeat 0 0; }   	
+}
+
+.gallery .gallery-triggers h4.second { padding-left: 80px; }
+.gallery .gallery-triggers h4.third { padding-left: 35px; }
+
+/* -- overview -- */
+#overview #hero { height: 460px; width: 980px; padding: 0; text-align: center; *float: left; }
+#overview #hero h1 { padding-top: 55px; margin-bottom: -8px; *margin-bottom: 0; }
+#overview #hero .intro { font-size: 18px; margin-left: 20px; margin-right: 20px; }
+#overview #hero .gallery-content { width: 980px; height: 500px; position: absolute; left: 0; }
+#overview #hero .gallery-content img.fix-to-bottom { position: absolute; bottom: 0; left: 0; }
+#overview #hero .gallery-content .media,
+#overview #hero .gallery-content .moviePanel,
+#overview #hero .gallery-content .endState { width: 848px; height: 480px; }
+#overview #hero .gallery-content .media { margin: 0 auto; padding-top: 10px; }
+#overview #hero .gallery-content .vr,
+#overview #hero .gallery-content .vr .moviePanel { width: 880px; height: 470px; }
+#overview #hero .gallery-content .vr .moviePanel.movie-loading object { position: static !important; top: auto; left: auto; }
+#overview #hero .gallery-content .vr { margin-left:53px; }
+#overview #hero .gallery-content a.close { left: 7px; top: 7px; }
+
+#overview .section h3 { font-size: 14px; }
+
+#overview .section.peripheral h2,
+#overview .section.peripheral h3,
+#overview .section.peripheral p { position: relative; z-index: 2; }
+#overview .section.peripheral h2 { padding-top: 60px; }
+#overview .section.peripheral img.left { margin-top: 35px; }
+#overview .section.peripheral h3 { margin-top: 50px; }
+#overview .section.peripheral .bluetooth { margin-left: 73px; width: 327px; }
+
+#overview #with_imac { margin-left: -365px; position: relative; z-index: 1; }
+
+#overview .section.space { padding-top: 54px; *padding-top: 20px; }
+#overview .section.space .flushleft { margin-right: 50px; }
+
+#overview .section.grid2col { padding-top: 70px; *margin-bottom: 40px; }
+#overview .section.grid2col p.adjust { width: 620px; margin-bottom: 40px; }
+#overview .section.grid2col #requirement { margin-top: 35px; width: 46%; }
+#overview .section.grid2col #requirement ul { color: #777; }
+#overview .section.grid2col #left_profile { margin: 0 auto -25px; display: block; }
+
+#overview .section.grid2col .callout { position: relative; width: 360px; margin-top: 21px; padding: 0 23px 8px 29px; -webkit-box-shadow: rgba(0,0,0,0.4) 0 1px 2px; -moz-box-shadow: rgba(0,0,0,0.4) 0 1px 2px; background: transparent url(../images/battery_bg_20100727.gif) repeat-x top left; border-left: 1px solid #e5e5e5; border-right: 1px solid #e5e5e5; border-bottom: 1px solid #b3b3b3; *border:1px solid #e4e4e4; }
+#overview .section.grid2col .callout p { font-size: 11px; line-height: 16px; color: #333; }
+#overview .section.grid2col .callout h3 { font-size: 13px; padding-top: 25px; }
+#overview .section.grid2col .callout img { margin: 28px 0 0px 20px; }

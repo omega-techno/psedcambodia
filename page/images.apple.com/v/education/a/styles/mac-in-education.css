@@ -1,0 +1,109 @@
+/* Overview
+------------------------*/
+#productheader h2 { height:39px; margin-top:-3px; }
+#overview 	#productheader li#pn-overview  a,
+#resources	#productheader li#pn-resources a { color:#999 !important; cursor:default; }
+
+#overview .luminary h1 { left:46px; bottom:22px; }
+#overview .luminary h1 img { margin-left:-30px; }
+#overview .luminary h1 .title { margin-top:-25px; width:690px; }
+#overview .row h2 { margin-bottom:6px; }
+#overview .row h1 { margin-bottom:0; }
+#overview .row.title.gradient-down h1 img { margin:0 auto; display:block }
+#overview .row.title.intro { text-align:center; }
+
+#overview .apple-tv-mac .flush,
+#overview .ios-development{ background:#f8f8f8; }
+
+#overview .luminary .luminary-copy { left:76px; bottom:64px; }
+#overview .ilife-iwork-apps { margin-top:55px; }
+#overview .intro { padding:0 76px; text-align:center; }
+
+#overview .slide-gallery { margin:35px auto; }
+#overview .slide-gallery { width:980px; }
+#overview .slide-gallery .gallery-content { margin-left:0; padding:0; width:980px; height:560px; }
+#overview .gallery figure.gallery-content h4 { margin:20px 0 0; }
+#overview .gallery figure.gallery-content h4 img.title { margin:0 0 5px 15px; }
+#overview .gallery figure.gallery-content .gallery-text { padding:0; }
+#overview .gallery figure.gallery-content p { margin:0 auto 8px; width:600px; color:#333; }
+
+#overview .creative-productive { margin-bottom:26px; }
+#overview .pro-apps { margin-bottom:36px; }
+#overview .pro-apps .column.first { margin-left:-56px !important; }
+#overview .pro-apps .column.last { margin:60px 18px 0 0;}
+
+#overview .mac-app-store h1 { margin-bottom:8px; }
+#overview .mac-app-store .intro { padding:0 100px; }
+#overview .mac-app-store { margin-bottom: 25px; }
+
+#overview .volume-licensing { margin:48px 0; }
+#overview .volume-licensing .column.first img { margin-right:-18px; }
+#overview .volume-licensing .column.last { margin:8px -5px 0 0; }
+#overview .volume-licensing .column.last p { width:362px; }
+
+#overview .itunes-u-header { margin-bottom:52px; }
+#overview .itunes-u-header h1,
+#overview .mac-app-store h1 { padding-top:66px; }
+#overview .itunes-u-header .intro { padding: 0 138px; }
+
+#overview .top-institutions .column.last { margin:50px 85px 0 0; width:40%; }
+
+#overview .apple-tv-mac { margin-top:66px; }
+#overview .apple-tv-mac .grid2cola { padding-bottom:66px; }
+#overview .apple-tv-mac .column.first > div { margin:110px 0 0 90px !important; }
+#overview .apple-tv-mac .column.first p { margin-top:12px; width:380px; }
+#overview .apple-tv-mac .column.last img { margin:65px 0 0 34px; }
+
+#overview .special-education .column.first img { display:block; }
+#overview .special-education .column.last { margin:52px 5px 0 0; }
+#overview .special-education .column.last p { width:450px; margin-top:6px; }
+
+#overview .ios-development .column.first { padding:114px 0 0 90px; width:34%; }
+#overview .ios-development .column.last img { margin-left:-32px; }
+
+#overview .master-every-subject .column.first { padding-top:92px; }
+#overview .master-every-subject .column.last { margin-right:-36px !important; }
+#overview .master-every-subject .column.first .inline-header { padding:0; margin-bottom:10px; }
+
+#overview .iwork-apps-carousel,
+#overview .macapps-carousel,
+#overview .top-institutions { position:relative; }
+
+#overview .iwork-apps-carousel .page-border,
+#overview .macapps-carousel .page-border { height:100%; top:40px; }
+
+#overview .top-institutions .page-border { height:120%; top:50px; }
+
+
+
+/* How to Buy
+------------------------*/
+#how-to-buy .howtobuys { background-position:0 -75px; }
+#how-to-buy .luminary { margin-bottom:66px; }
+#how-to-buy .luminary h1 { left:50px; bottom:22px; }
+#how-to-buy .luminary h1 img { margin-left:-20px; }
+#how-to-buy .luminary h1 .title { margin-top:-8px; width:600px; font-size:18px; line-height:22px; 
+    -webkit-text-shadow:0px 0px 10px #666; 
+       -moz-text-shadow:0px 0px 10px #666; 
+            text-shadow:0px 0px 10px #666; 
+}
+#how-to-buy .row.buy .column { padding-bottom:50px; margin-bottom:46px; }
+#how-to-buy .row .column h2 { margin-bottom:0; }
+#how-to-buy .row .column p { line-height:1.6em; }
+#how-to-buy .row .column h3 { margin-bottom:6px; }
+#how-to-buy .row.buy .column { border-bottom:2px solid #ddd; min-height:174px; }
+#how-to-buy .row.buy .column p { min-height:90px; }
+#how-to-buy .row.buy .column.first p { width:355px; }
+#how-to-buy .row.buy .column.first .button { width:288px; }
+#how-to-buy .row.buy .column.last p { width:390px; }
+#how-to-buy .row.buy .column.last .button { width:320px; }
+#how-to-buy .row.other .column img { margin-bottom:15px; }
+#how-to-buy .sosumi { margin:20px 0 0 5px; }
+#how-to-buy .sosumi sup { color:#888; }
+
+
+/* Resources
+------------------------*/
+#resources .luminary h1 { left:45px; bottom:20px; }
+#resources .luminary h1 img { margin-left:-23px; }
+#resources .luminary h1 .title { margin-top:-13px; width:360px; font-size:18px; line-height:22px; }

@@ -1,0 +1,17 @@
+body#imovie .hero .intro { width:800px; }
+body#imovie .hero .hero-img { margin-left:-51px; margin-right:-51px; }
+
+body#imovie .browse .intro { width:680px; }
+
+body#imovie .trailers .intro { width:680px; }
+
+body#imovie .theater .intro { width:770px; }
+body#imovie .theater .gallery-view { width:1052px; }
+body#imovie .theater .gallery-view img { margin-bottom:21px; }
+body#imovie .theater .caption { width:700px; }
+body#imovie .theater .paddle-nav { height:496px; }
+
+body#imovie .share .intro { width:750px; }
+body#imovie .share .grid2col { margin:0 auto; width:636px; }
+body#imovie .share .hardware { margin-top:11px; }
+body#imovie .share .caption { width:730px; padding-top:25px; }

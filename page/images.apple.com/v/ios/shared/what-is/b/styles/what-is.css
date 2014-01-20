@@ -1,0 +1,219 @@
+#main .header-divider-down { background:url(../images/divider.jpg) 50% 0 no-repeat; background-size:980px 117px; }
+#main .divider-down { background:url(../images/dividerdown.jpg) 50% 0 no-repeat; background-size:1140px 2px; }
+#main .divider-down-shadow { background:url(../images/dividerdown-shadow.png) 50% 0 no-repeat; background-size:1140px 107px; padding-top:107px; margin-top:-107px; }
+#main .divider-up { background:url(../images/dividerup.jpg) 50% 0 no-repeat; background-size:1200px 107px; }
+#main .divider-wide { background:url(../images/divider_wide.png) 50% 0 no-repeat; background-size:1158px 2px; }
+#main .divider-short { background:url(../images/dividerdown.jpg) 50% 0 no-repeat; background-size:440px 2px; }
+
+
+#main .flushpad,
+#main .padright { padding-right:70px; }
+
+#main .flushpad,
+#main .padleft { padding-left:70px; }
+
+#main .flushpad,
+#main .flushright { margin-right:-70px; }
+
+#main .flushpad,
+#main .flushleft { margin-left:-70px; }
+
+#main p { line-height:1.68em; }
+#main .row img.center { margin-top:40px }
+#main .row img.across { margin-left:-50px; margin-right:-50px }
+#main .gradient-divider-up { padding-bottom:60px; }
+
+#hero,
+#main .row { padding-top:70px; padding-bottom:70px; margin-top:0; margin-bottom:0; }
+
+#main .row > p { padding:0 90px;}
+
+#main .divider-down-shadow.row { padding-top:220px; }
+
+/* vertically aligned middle */
+#main .middle { behavior:url(http://images.apple.com/v/ios/e/scripts/middle.htc);
+	display:-webkit-box; display:-moz-box; display:-ms-flexbox; display:-webkit-flex; display:flex;
+	-webkit-box-align:center; -moz-box-align:center; -webkit-align-items:center; -ms-flex-align:center; align-items:center;
+}
+#main .middle:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+
+#main .middle > * { position:relative; z-index:1; -webkit-box-flex:0; -moz-box-flex:0; -webkit-flex:0 1 auto; -ms-flex:0 1 auto; flex:0 1 auto; }
+#main .middle > .middled { -webkit-box-flex:1; -moz-box-flex:1; -webkit-flex:1 1 auto; -ms-flex:1 1 auto; flex:1 1 auto; }
+#main .middle > .middled.nudge { min-width:350px; } /* some calcuation errors on flushright, make the left col a bit bigger in this case */
+
+@-moz-document url-prefix() {
+	#main .middle { width:100%; -moz-box-sizing:border-box; }
+}
+
+#hero.row { padding-top:40px; }
+#hero p { font-size:1.2em; padding:0 100px;}
+#hero p,
+#main p { margin-bottom:0; }
+
+
+#hero h1 { margin-bottom:34px; }
+#hero h1 img,
+#hero h2 img { display:inline; }
+@media only screen and (max-device-width:768px) {
+	#hardware-software p { padding:0 31px; }
+}
+
+#main .overlay { position:relative; width:100%; height:80px; bottom:76px; margin-bottom:-40px; color:#000; font-weight:bold; background-color:#fff;}
+#main .overlay .column { padding-top:16px; }
+#main .overlay-figure { position:relative; }
+#main .overlay-figure .overlay-padding { margin:0 15px; }
+#main .overlay-figure figcaption { color:#333; font-weight:bold; }
+
+#main #features { padding:50px 0 0; border:1px solid #d9d9d9; }
+#features header h1 { margin-bottom:0; }
+#features header .intro { padding:0 200px 35px; font-size:16px; }
+#features nav { position:relative; z-index:1010; height:115px; }
+#features nav li { position:relative; display:inline-block; *display:inline; *zoom:1; text-align:center; background-image:url(../images/nav_pipe.png); background-position:0 -4px; background-image:-webkit-linear-gradient(#FFF, #E9E9E9); background-repeat:no-repeat; background-size:1px 119px; }
+
+#features nav li.first-child { background:none; }
+#features nav li a { position:relative; z-index:10; display:block; padding-left:1px; width:107px; height:116px; font-size:12px; line-height:1.36em; color:#09c; text-decoration:none;}
+#features nav li a:hover { color:#666; }
+
+#features nav .active { color:#000; }
+#features nav .active .after { position:absolute; bottom:-13px; left:45px; height:14px; width:22px; background:url(../images/divider_arrow.png) no-repeat; background-size:22px 14px; }
+#features nav li img { display:block; margin:0 auto 17px; }
+
+#features .gallery .gallery-view { position:relative; z-index:1; overflow:hidden; text-align:left; }
+#features .gallery .gallery-view.divider { background:url(../images/section_divider.png) 50% 0 no-repeat; }
+#features .gallery .gallery-content { position:relative; z-index:1; height:618px; -webkit-transform:translateZ(0); }
+#features .gallery .gallery-content .app-image { position:absolute; bottom:0; left:0; z-index:1; }
+#features .gallery .gallery-content .caption { width:360px; position:absolute; top:72px; left:524px; z-index:2; }
+#features .gallery .gallery-content .caption h1 { margin-bottom:3px; }
+#features .gallery .gallery-content .caption p { font-size:14px; }
+
+#features .gallery a.whats-new { display:block; padding:18px 0; font-size:1.286em; text-align:center; color:#666; border-top:1px solid #ccc;
+	-webkit-border-radius:4px;
+	   -moz-border-radius:4px;
+	        border-radius:4px;
+}
+#features .gallery a.whats-new .morelarge { color:#08c; }
+#features .gallery a.whats-new:hover { text-decoration:none; }
+#features .gallery a.whats-new:hover .morelarge { text-decoration:underline; }
+@media only screen and (max-device-width:768px) {
+	#features header .intro { padding:0 85px 24px; }
+}
+
+#features .gallery .divider-down-shadow { height:107px; width:100%; position:absolute; bottom:-20px; }
+
+#main #interface { padding-bottom:38px; }
+#main #interface p { padding:0 112px; }
+
+#main #hardware-software { padding-top:120px; padding-bottom:30px; }
+#main #accessibility { padding-bottom:110px; }
+#main #languages { padding-top:116px; padding-bottom:110px; }
+
+#main #hardware-software .overlay-figure-padding { margin-left:-100px; margin-right:-100px; }
+#main #apps-appstore { padding-top:0; padding-bottom:112px; }
+
+#main #icloud { padding-top:0px; padding-bottom:116px; }
+#main #icloud img.center { margin-bottom:34px; margin-left:-47px; }
+
+#main #icloud p,
+#main #accessibility p { margin-bottom:8px; }
+
+#main #easy-update { padding-top:115px; padding-bottom:0; }
+#main #easy-update p { padding:0 135px; }
+
+#main #security { position:relative; padding-top:114px; padding-bottom:3px; }
+#main #security .headline { padding:0 130px; }
+#main #security p { margin-bottom:18px; }
+#main #security section { position:relative; text-align:left; height:700px; }
+
+#main #security img.right { margin-right:140px; }
+#main #security img.left { margin-left:140px; }
+
+#main #security .malware { margin-top:60px; }
+#main #security .icloud-keychain { margin-bottom:-50px; }
+
+#main #security h3 { color:#333; font-size:1em; }
+#main #security .malware .copy,
+#main #security .find-my-iphone .copy { padding-left:516px; padding-right:100px; }
+#main #security .encryption .copy,
+#main #security .icloud-keychain .copy { padding-left:136px; padding-right:500px; }
+
+#main #security .malware .copy { padding-top:148px; }
+#main #security .encryption .copy { padding-top:160px; }
+#main #security .find-my-iphone .copy { padding-top:165px; }
+#main #security .icloud-keychain .copy { padding-top:114px; }
+#main #security .icloud-keychain .copy img { margin-bottom:-1px; }
+
+#main #languages .headline { padding:0 150px; margin-bottom:18px; }
+#main #languages .grid2col { margin-top:48px; margin-left:10px;}
+#main #languages .column.last { padding-left:20px; margin-right:-35px; text-align:left; }
+#main #languages .column h3 { color:#333; font-size:1em; margin-right:110px; margin-left:16px; }
+#main #languages .column p { margin-bottom:18px; margin-right:108px; margin-left:16px;}
+#main #languages .column p.last { margin-bottom:0; }
+
+.more-features { padding-top:122px; }
+.more-features .grid2col { padding:0 50px; }
+.more-features.row { padding-bottom:30px; }
+.more-features .column.first { position:relative; width:428px; margin-right:32px; }
+.more-features .column.first:after{content:''; position:absolute; width:1px; height:93%; background:#d0d0d0; right:0px; bottom:4px; }
+.more-features .column img.icon { margin-bottom:15px; }
+.more-features .column p { padding-bottom:8px; margin-right:145px; }
+.more-features .column.first p { margin-right:44px; }
+
+/* iphone */
+#content.iphone #buystrip { width:980px; padding-left:70px; padding-right:70px; margin-left:-120px; margin-right:-120px; }
+
+/* ipad */
+body.ipad .more-features.gradient-divider-up { padding-bottom:0; }
+body.ipad #features header .intro { padding:0 100px 20px; }
+@media only screen and (max-device-width:768px) {
+	body.ipad #features header .intro { padding:0 80px 20px; }
+}
+
+/* ios7 pullout */
+.ios7-pullout { width:854px; height:152px; margin:0 auto 40px auto; overflow:hidden; border:1px solid #d2d2d2;
+	-webkit-border-radius:4px;
+	   -moz-border-radius:4px;
+	        border-radius:4px;
+	   -webkit-box-shadow:rgba(0,0,0,0.3) 0 1px 3px;
+	           box-shadow:rgba(0,0,0,0.3) 0 1px 3px;
+}
+.ios7-pullout:nth-child(1n) { border:none; }
+.ios7-pullout a { height:152px; display:block; padding:28px 60px 0 36px; text-decoration:none; color:#333; background:#f8f8f8;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(242,242,242,1)));
+	background:-webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%);
+	background:-moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%);
+	background:linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%);
+}
+.ios7-pullout h3 { padding-top:12px; }
+.ios7-pullout a:hover p { color:#333; text-decoration:none; }
+.ios7-pullout a:hover .more { color:#08c; text-decoration:underline; }
+.ios7-pullout img.left { margin-right:26px; }
+
+
+/* overrides for pages other than /ios/ */
+#ios #main .content,
+#ios #main #content { width:980px; margin:0 auto; }
+
+.ios #main {
+	width:1120px;
+	margin-left:-70px;
+	margin-right:-70px;
+}
+
+.ios #main .platterflush {
+	margin-right:-70px;
+	margin-left:-70px;
+}
+
+.ios #main #icloud img.center {
+	margin-left:-40px;
+}
+
+/* Hi-res Imaging
+------------------------*/
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:321px),
+       only screen and (min--moz-device-pixel-ratio:1.5) and (min-device-width:321px),
+       only screen and (min-device-pixel-ratio:1.5) and (min-device-width:321px) {
+
+	#features nav .active .after { background-image:url(../images/divider_arrow_2x.png); }
+	
+}

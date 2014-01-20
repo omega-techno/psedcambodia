@@ -1,0 +1,480 @@
+/* specs shared
+------------------------*/
+body.specs #main { font-size:1.0em; line-height:1.5em; }
+
+body.specs #main table { font-size:1.2em; line-height:1.4em; font-weight:normal; }
+body.specs #main h3 { font-size:1.0em; margin-bottom:10px; font-weight:bold; }
+
+body.specs #main a.block { color:#08c; }
+body.specs #main a.block:hover { text-decoration:underline; }
+body.specs #main a.block span.more { color:#08c; font-size:1em; }
+
+body.specs #main table { margin:42px auto 0; width:980px; }
+body.specs #main table th { width:230px; border-top:1px solid #e5e5e5; vertical-align:top; }
+body.specs #main table tr td { margin:0; padding:16px 15px 40px 8px; width:330px; vertical-align:top; border-top:1px solid #e5e5e5; }
+
+body#specs #main table th h2 { position:relative; margin:12px 0 0 7px; z-index:1; }
+body#specs #main table th h2 sup { position:absolute; z-index:2; bottom:12px; }
+
+body#specs #main table tr.storage h2 sup { left:92px; }
+body#specs #main table tr.size h2 sup { left:158px; }
+body#specs #main table tr.battery h2 sup { left:180px; }
+body#specs #main table tr.built-in h2 sup { left:112px; }
+body#specs #main table tr.video-calling h2 sup { left:129px; }
+body#specs #main table tr.audio-calling h2 sup { left:132px; }
+body#specs #main table tr.siri h2 sup { left:87px; }
+
+body.specs #main table tr td.no-padding { padding-right:0; width:auto; }
+
+body.specs #main tr td .cellular-column { margin-left:10px; }
+
+body.specs #main table tr td.column-divider { width:48px; padding:0; border-top:0; }
+
+body.specs #main table .vertical-divider { border-right:1px solid #e5e5e5; }
+
+body.specs #main table dl dt { float:left; clear:left; margin-right:.3em; color:#333; }
+body.specs #main table dl dd { margin-bottom:10px; }
+body.specs #main table ul li { margin-bottom:7px; margin-right:10px; }
+
+body.specs #main table tr.color td,
+body.specs #main table tr.color th { padding-bottom:60px; border-top:0; }
+body.specs #main table tr.color h2 { margin-top:15px; }
+body.specs #main table tr.color td img { margin-top:12px; }
+
+body.specs #main table tr.color td h3,
+body.specs #main table tr.models td h3 { width:335px; padding-left:5px; font-weight:normal; }
+
+body.specs #main table tr.models td { padding-bottom:70px; }
+body.specs #main table tr.models td img { margin-top:8px; }
+
+body.specs #main .storage td { padding-bottom:0; }
+body.specs #main .storage dl { margin:-16px 0 24px 0; padding:24px 0px 5px 0px; width:300px; }
+body.specs #main .storage dt { margin-right:30px; font-size:1.1em; color:#666; }
+body.specs #main .storage dt.wider { margin-right:19px; }
+body.specs #main .storage dd { margin-bottom:20px; font-size:1.1em; }
+
+body.specs #main table tr.size td { padding-bottom:50px; }
+body.specs #main table tr.size td .size-wrap { position:relative; z-index:1; }
+body.specs #main table tr.size td img { position:relative; margin:45px 0 32px 0; z-index:1; }
+body.specs #main table tr.size td.lte .size-wrap,
+body.specs #main table tr.size td.lte a.block { margin-left:10px; }
+body.specs #main table tr.size dl { font-size:1.1428em; }
+body.specs #main table tr.size dt { color:#666; }
+body.specs #main table tr.size a.more { margin-left:10px; background-position:64% 85%; text-align:left; }
+
+body.specs #main table tr.size td span,
+body.specs #main table tr.buttons-connectors td span { position:absolute; font-size:0.8em; line-height:1.3em; text-align:left; color:#666; z-index:2; }
+
+body.specs #main table tr.display td { padding-bottom:58px; }
+body.specs #main table tr.display td ul li { width:380px; }
+
+body.specs #main table tr.chips td { padding:15px 0 20px; }
+body.specs #main table tr.chips td img.left { margin:3px 23px 30px 6px; }
+
+body.specs #main table tr.carriers td { padding-bottom:0; }
+body.specs #main table tr.carriers td .vertical-divider { margin:-16px 0 20px 0; padding:16px 0 30px 0; width:300px; }
+
+body.specs #main table tr.wireless td { padding-bottom:0; }
+body.specs #main table tr.wireless td .vertical-divider { margin:-16px 0 20px 0; padding:16px 0 28px 0; width:300px; min-height:225px; }
+
+body.specs #main table tr.camera td { padding-bottom:55px; }
+body.specs #main table tr.camera td ul li { margin-right:0; }
+body.specs #main table tr.camera td .grid3col { width:600px; }
+body.specs #main table tr.camera td .column { width:170px; }
+body.specs #main table tr.camera td .column.middle { padding-left:38px; }
+
+body.specs #main table tr.camera td img { margin-right:9px; }
+
+body.specs #main table tr.buttons-connectors td .buttons,
+body.specs #main table tr.buttons-connectors td .connectors { position:relative; z-index:1; }
+body.specs #main table tr.buttons-connectors td .buttons img { position:relative; margin:27px 0 50px 0; z-index:1; }
+body.specs #main table tr.buttons-connectors td .buttons span.home { top:245px; left:78px; }
+body.specs #main table tr.buttons-connectors td .buttons span.volume { top:200px; left:324px; }
+body.specs #main table tr.buttons-connectors td .buttons span.lock { top:170px; left:417px; }
+body.specs #main table tr.buttons-connectors td .buttons span.wake { top:60px; left:375px; }
+
+body.specs #main table tr.buttons-connectors td .connectors img { margin:4px -20px 62px 0; z-index:1; }
+body.specs #main table tr.buttons-connectors td .connectors span.microphone { top:99px; left:149px; }
+body.specs #main table tr.buttons-connectors td .connectors span.minijack { top:99px; left:261px; }
+body.specs #main table tr.buttons-connectors td .connectors span.lightning { top:16px; left:498px; }
+body.specs #main table tr.buttons-connectors td .connectors span.speaker { top:99px; left:506px; }
+
+body.specs #main table tr.buttons-connectors td h3 { margin-bottom:20px; }
+body.specs #main table tr.buttons-connectors td .connectors h3 { margin-bottom:12px; }
+
+body.specs #main table tr.battery td,
+body.specs #main table tr.input td,
+body.specs #main table tr.sensors td,
+body.specs #main table tr.location td,
+body.specs #main table tr.video-calling td,
+body.specs #main table tr.audio-calling td { padding-bottom:0; }
+
+body.specs #main table tr.battery td .vertical-divider,
+body.specs #main table tr.input td .vertical-divider,
+body.specs #main table tr.sensors td .vertical-divider,
+body.specs #main table tr.location td .vertical-divider,
+body.specs #main table tr.video-calling td .vertical-divider,
+body.specs #main table tr.audio-calling td .vertical-divider { margin:-16px 0 20px 0; padding:16px 0 28px 0; width:300px; }
+
+body.specs #main table tr.battery td .vertical-divider { min-height:178px; }
+body.specs #main table tr.input td .vertical-divider { min-height:121px; }
+body.specs #main table tr.sensors td .vertical-divider { min-height:83px; }
+body.specs #main table tr.location td .vertical-divider { min-height:96px; }
+body.specs #main table tr.video-calling td .vertical-divider,
+body.specs #main table tr.audio-calling td .vertical-divider { min-height:74px; }
+
+body.specs #main table tr.battery td ul li { width:298px; }
+
+body.specs #main table tr.connector td { padding-bottom:0; }
+body.specs #main table tr.connector td p { margin-right:40px; }
+
+body.specs #main table tr.operating-system td { padding:34px 0 55px; }
+body.specs #main table tr.operating-system td .grid2col .column { width:600px; }
+body.specs #main table tr.operating-system td img { margin:0 25px 0 5px; }
+body.specs #main table tr.operating-system td h3 { margin-bottom:0; }
+body.specs #main table tr.operating-system td .grid3col h3 { margin:35px 0 10px; *margin-top:0px; }
+body.specs #main table tr.operating-system td .grid3col .column { margin-left:0; padding-right:25px; width:175px; }
+body.specs #main table tr.operating-system td ul.disc { margin-left:17px; }
+
+body.specs #main table tr.built-in td { padding-bottom:30px; }
+body.specs #main table tr.built-in td .grid6col { margin-left:-15px; padding-top:5px; }
+body.specs #main table tr.built-in td .column { margin-left:0; width:100px; }
+body.specs #main table tr.built-in td ul li { width:100px; height:112px; }
+body.specs #main table tr.built-in td ul li img { display:block; margin:0 auto 5px; }
+body.specs #main table tr.built-in td .centered { text-align:center; font-weight:normal; color:#333; }
+
+body.specs #main table tr.video-calling td li,
+body.specs #main table tr.audio-calling td li { width:270px; }
+
+body.specs #main table tr.audio td { padding-bottom:30px; }
+body.specs #main table tr.audio td ul li { width:455px; }
+
+body.specs #main table tr.tv td { padding-bottom:30px; }
+body.specs #main table tr.tv td p { width:570px; }
+
+body.specs #main table tr.mail td { padding-bottom:30px; }
+body.specs #main table tr.mail td p { width:665px; }
+
+body.specs #main table tr.languages td { padding-bottom:15px; }
+body.specs #main table tr.languages td p { width:580px; margin-bottom:35px; }
+
+body.specs #main table tr.siri td p { padding-top:10px; }
+
+body.specs #main table tr.accessibility td,
+body.specs #main table tr.environment td { padding-bottom:35px; }
+
+body.specs #main table tr.requirements td { padding-bottom:60px; }
+body.specs #main table tr.requirements td h3 { font-weight:normal; color:#333; }
+body.specs #main table tr.requirements td ul.disc { margin-left:17px; }
+
+body.specs #main table tr.box td img { float:left; margin:0 -155px 0 155px; }
+
+/* bottom routing pullouts */
+#main #routing-pullout { width:980px; margin:25px auto 50px; }
+#main #routing-pullout .column { margin-left:15px; width:234px; }
+#main #routing-pullout .column a { height:108px; padding-top:22px; *zoom:1; color:#000; font-weight:bold; text-decoration:none; border:1px solid #e2e2e2; background:#f6f6f6;
+	-webkit-border-radius:2px;
+	   -moz-border-radius:2px;
+	        border-radius:2px;
+}
+#main #routing-pullout .column span.more { font-weight:normal; }
+#main #routing-pullout .column a:hover { background:#fafafa; }
+#main #routing-pullout .column .left { position:relative; z-index:1; margin:2px 10px 0 10px; }
+#main #routing-pullout .column .centered { color:#000; font-size:1.2em; line-height:1.286; font-weight:bold; }
+
+#main #routing-pullout .column .ipad-air .left,
+#main #routing-pullout .column .ipad-2 .left { margin-top:0; }
+#main #routing-pullout .column .ipad-mini .left { margin-left:26px; }
+#main #routing-pullout .column .ipad-mini-retina .left { margin-top:5px; margin-left:18px; }
+#main #routing-pullout .column .compare .left { margin-top:1px; margin-left:8px; }
+
+#main #routing-pullout .column .ipad-air .centered,
+#main #routing-pullout .column .ipad-2 .centered,
+#main #routing-pullout .column .ipad-mini .centered { padding-top:20px; }
+#main #routing-pullout .column .ipad-mini-retina .centered,
+#main #routing-pullout .column .compare .centered { padding-top:10px; }
+
+/* iPad Air
+------------------------*/
+body.specs.ipad-air #main table tr.size td.wifi span.width { width:223px; top:5px; left:0; text-align:center; }
+body.specs.ipad-air #main table tr.size td.wifi span.height { top:209px; right:28px; *right:30px; }
+body.specs.ipad-air #main table tr.size td.wifi span.depth { top:400px; right:41px; *right:43px; }
+
+body.specs.ipad-air #main table tr.size td.lte span.width { width:223px; top:5px; left:0; text-align:center; }
+body.specs.ipad-air #main table tr.size td.lte span.height { top:209px; right:18px; *right:30px; }
+body.specs.ipad-air #main table tr.size td.lte span.depth { top:400px; right:31px; *right:43px; }
+
+/* iPad mini retina
+------------------------*/
+body.specs.ipad-mini #main table tr.color td { padding-bottom:45px; }
+
+body.specs.ipad-mini #main table tr.models td { padding-bottom:40px; }
+
+body.specs.ipad-mini #main table tr.size td img { margin-top:40px; }
+
+body.specs.ipad-mini #main table tr.size td.wifi span.width { width:180px; top:8px; left:0; text-align:center; }
+body.specs.ipad-mini #main table tr.size td.wifi span.height { top:172px; right:68px; }
+body.specs.ipad-mini #main table tr.size td.wifi span.depth { top:365px; right:84px; }
+
+body.specs.ipad-mini #main table tr.size td.lte span.width { width:180px; top:8px; left:0; text-align:center; }
+body.specs.ipad-mini #main table tr.size td.lte span.height { top:172px; right:58px; *right:68px; }
+body.specs.ipad-mini #main table tr.size td.lte span.depth { top:365px; right:74px; *right:84px; }
+
+body.specs.ipad-mini #main table tr.size a.more { background-position:77% 85%; }
+
+/* Compare
+------------------------*/
+body#compare.specs #productheader { border-bottom:1px solid #ededed; -webkit-transform:none; }
+body#compare.specs #productheader h2 a { text-indent:0; }
+body#compare.specs #productheader h2 a img { margin-top:-1px; }
+body#compare.specs #productheader li a { text-shadow:#fff 0 1px 0; }
+
+body#compare.specs #main .sticky-container { width:980px; margin:0 auto; padding:0; overflow:hidden; }
+body#compare.specs #main .sticky-container .sticky { width:980px; height:60px; padding-top:10px; top:0; z-index:2; display:block; border-bottom:1px solid #e5e5e5; background:#fff;
+	position:-webkit-sticky;
+	position:   -moz-sticky;
+	position:        sticky;
+}
+body#compare.specs #main .sticky-container .sticky h1 { margin-left:195px; }
+
+body#compare.specs #main .compare-ipads { position:relative; z-index:1; }
+
+body#compare.specs #main .hardware-images { margin-left:191px; padding-top:33px; }
+
+body#compare.specs #main table { margin-top:25px; }
+body#compare.specs #main table th { width:139px; }
+body#compare.specs #main table th.no-border { border:0; }
+body#compare.specs #main table tr td { width:171px; }
+body#compare.specs #main table tr td.column-divider { width:48px; }
+body#compare.specs #main table th h2 { position:relative; z-index:1; margin:16px 0 0 7px; }
+
+body#compare.specs #main table th h2 sup { position:absolute; z-index:2; bottom:12px; }
+body#compare.specs #main .compare-price sup { left:93px; }
+body#compare.specs #main .compare-dimensions sup { left:116px; }
+body#compare.specs #main .compare-battery sup { left:108px; }
+body#compare.specs #main .compare-assistant sup { left:89px; }
+
+body#compare.specs #main .compare-price h3 { margin-bottom:18px; }
+body#compare.specs #main .compare-price dl.top { height:140px; }
+body#compare.specs #main .compare-price dt { margin-right:14px; font-size:0.8em; }
+body#compare.specs #main .compare-price dd { margin-bottom:8px; font-size:1.25em; }
+body#compare.specs #main .compare-price dl { height:125px; }
+body#compare.specs #main .compare-price dt.wider { margin-right:7px; }
+body#compare.specs #main .compare-price .ipad2 dl.top,
+body#compare.specs #main .compare-price .ipad-mini dl.top { height:140px; }
+
+body#compare.specs #main .compare-price a.preorder { height: 25px; background-position: 0 0; background-repeat: no-repeat; display: block; text-decoration: none; text-indent: -9999px; overflow: hidden; width: 75px; background-image: url(../../../../../../global/elements/buttons/preorders.png); _background-image: url(http://images.apple.com/global/elements/buttons/preorder.gif) }
+body#compare.specs #main .compare-price a.preorder:hover { background-position: 0 -25px; }
+body#compare.specs #main .compare-price a.preorder:active { background-position: 0 -50px; }
+
+body#compare.specs #main .compare-dimensions td { padding-bottom:23px; }
+body#compare.specs #main .compare-dimensions td dt { float:none; clear:both; color:#666; }
+
+body#compare.specs #main .compare-chip td figure.row-2 { *padding-top:25px; }
+body#compare.specs #main .compare-chip td img { margin:2px 5px 8px 0; }
+body#compare.specs #main .compare-chip td figcaption { font-weight:bold; }
+
+body#compare.specs #main .compare-camera .top { margin-bottom:20px; min-height:140px; }
+
+body#compare.specs #main .compare-camera td li,
+body#compare.specs #main .compare-videorecording td li { margin-bottom:5px; }
+
+body#compare.specs #main .compare-wireless p { margin-bottom:10px; }
+body#compare.specs #main .compare-wireless td ul { min-height:120px; }
+
+body#compare.specs #main .compare-connector td { padding-bottom:0; }
+body#compare.specs #main .compare-connector td img { display:block; }
+body#compare.specs #main .compare-connector td figcaption { float:left; }
+body#compare.specs #main .compare-connector td.lightning figcaption { margin-right:25px; }
+body#compare.specs #main .compare-connector td.thirty-pin figcaption { margin-right:20px; }
+
+body#compare.specs #main .compare-battery td ul li { width:165px; }
+
+
+/* specs-previous
+------------------------*/
+
+/* vertically centered */
+body.specs-previous #main .vertically-centered { display:table-row; *zoom:1; }
+body.specs-previous #main .vertically-centered .left { float:none; *float:left; }
+body.specs-previous #main .vertically-centered .centered { display:table-cell; *display:block; vertical-align:middle; *position:relative; *z-index:1; *zoom:1; *top:expression((this.parentNode.offsetHeight - this.offsetHeight)/2 - 2); }
+
+/* specs-previous shared
+------------------------*/
+body.specs-previous #main { width:980px; font-size:1.2em; line-height:1.45em; }
+body.specs-previous #main table { margin:50px auto 0; width:980px; }
+body.specs-previous #main table th { width:200px; border-top:1px solid #ddd; vertical-align:top; }
+body.specs-previous #main table th h2 { position:relative; margin:12px -10px 0 5px; z-index:1; }
+body.specs-previous #main table tr td { margin:0; padding:20px 53px 40px 0; width:300px; vertical-align:top; border-top:1px solid #ddd; }
+body.specs-previous #main table tr td.wide { padding-right:100px; }
+body.specs-previous #main table tr td.wide ul,
+body.specs-previous #main table tr td.wide p { *width:570px; }
+body.specs-previous #main table tr td.no-padding { padding-right:0; width:auto; }
+body.specs-previous #main table tr td.column-divider { padding:0; width:45px; border-top:0; }
+
+body.specs-previous #main table .indent,
+body.specs-previous #main table td ul { padding-left:10px; }
+
+body.specs-previous #main table dl dt { float:left; clear:left; margin-right:.3em; color:#666; }
+body.specs-previous #main table dl dd { margin-bottom:10px; }
+body.specs-previous #main table ul li { margin-bottom:7px; }
+body.specs-previous #main table dl dd span { display:block; clear:left; }
+
+body.specs-previous #main table tr.color td,
+body.specs-previous #main table tr.color th { border-top:0; }
+body.specs-previous #main table tr.color .grid2col { width:653px; }
+body.specs-previous #main table tr.color .first { width:305px; }
+body.specs-previous #main table tr.color .last { width:295px; }
+
+body.specs-previous #main table tr.color h3,
+body.specs-previous #main table tr.models h3 { margin-bottom:25px; font-size:1em; line-height:1.2em; font-weight:normal; text-align:center; }
+
+body.specs-previous #main table tr.models .grid2col { width:671px; }
+body.specs-previous #main table tr.models td { padding-bottom:0; }
+body.specs-previous #main table tr.models td img { display:block; }
+
+body.specs-previous #main table tr.size td img { margin-bottom:10px; }
+body.specs-previous #main table tr.size td dl { font-size:1.14em; }
+
+body.specs-previous #main table tr.storage td { padding-right:0; }
+body.specs-previous #main .storage td { padding-bottom:0; }
+body.specs-previous #main .storage dl { margin:-16px 0 24px 0; padding:24px 0px 5px 10px; width:300px; }
+body.specs-previous #main .storage dt { margin-right:30px; font-size:1.1em; color:#666; }
+
+body.specs-previous #main .storage dd { margin-bottom:20px; font-size:1.1em; }
+
+body.specs-previous #main table tr.wireless td { padding-bottom:10px; }
+body.specs-previous #main table tr.wireless ul { width:298px; }
+body.specs-previous #main table tr.wireless ul { width:auto; }
+
+body.specs-previous #main table tr.display td { padding-bottom:30px; }
+
+body.specs-previous #main table tr.chip td { padding:30px 0; }
+body.specs-previous #main table tr.chip img { margin:0 0 0 10px; }
+body.specs-previous #main table tr.chip p { margin:30px 0 0 160px; }
+
+body.specs-previous #main table tr.camera h2 img { *position:relative; *z-index:1; }
+body.specs-previous #main table tr.camera img.right { margin:0 85px 0 110px; }
+body.specs-previous #main table tr.camera ul { width:auto; }
+
+body.specs-previous #main table tr.buttons td h3 { font-size:1em; line-height:1.2em; }
+body.specs-previous #main table tr.battery td { padding-bottom:20px; }
+body.specs-previous #main table tr.input td { padding-bottom:20px; }
+body.specs-previous #main table tr.sensors td { padding-bottom:20px; }
+body.specs-previous #main table tr.location td { padding-bottom:25px; }
+body.specs-previous #main table tr.audio td { padding-bottom:15px; }
+body.specs-previous #main table tr.tv h3 { margin:0; }
+body.specs-previous #main table tr.mail td { padding-bottom:20px; }
+body.specs-previous #main table tr.accessibility td { padding-bottom:30px; }
+
+body.specs-previous #main table tr.operating-system td { padding:34px 0 55px; }
+body.specs-previous #main table tr.operating-system td .grid2col .column { width:600px; }
+body.specs-previous #main table tr.operating-system td img { margin:0 25px 0 5px; }
+body.specs-previous #main table tr.operating-system td h3 { margin-bottom:0; }
+body.specs-previous #main table tr.operating-system td .grid3col h3 { margin:35px 0 10px; *margin-top:0px; }
+body.specs-previous #main table tr.operating-system td .grid3col .column { margin-left:0; padding-right:25px; width:175px; }
+body.specs-previous #main table tr.operating-system td ul.disc { margin-left:7px; }
+
+body.specs-previous #main table tr.built-in td { padding-bottom:30px; }
+body.specs-previous #main table tr.built-in td .grid6col { margin-left:-15px; padding-top:5px; }
+body.specs-previous #main table tr.built-in td .column { margin-left:0; width:100px; }
+body.specs-previous #main table tr.built-in td ul li { width:100px; height:112px; }
+body.specs-previous #main table tr.built-in td ul li img { display:block; margin:0 auto 5px; }
+body.specs-previous #main table tr.built-in td .centered { text-align:center; font-weight:normal; color:#333; }
+
+body.specs-previous #main table tr.accessibility ul,
+body.specs-previous #main table tr.environment ul { width:auto; }
+
+body.specs-previous #main table tr.requirements h4 { margin-bottom:7px; font-weight:normal; color:#333; }
+body.specs-previous #main table tr.requirements ul { width:auto; }
+body.specs-previous #main table tr.requirements ul ul { margin-left:20px; }
+
+body.specs-previous #main table tr.box td.wide { width:570px; }
+body.specs-previous #main table tr.box td.wide ul { float:left; margin-top:50px; width:auto; }
+body.specs-previous #main table tr.box td.wide img { display:block; margin-right:45px; margin-left:10px; }
+
+body.specs-previous #main table tr.built-in a { display:block; margin-top:28px; margin-left:12px; }
+body.specs-previous #main table tr.built-in .grid3col { width:710px; }
+body.specs-previous #main table tr.built-in .column { width:190px; }
+body.specs-previous #main table tr.built-in .vertically-centered { clear:both; }
+body.specs-previous #main table tr.built-in .vertically-centered .left { margin:5px 11px 20px 10px; }
+body.specs-previous #main table tr.built-in .vertically-centered .centered { padding-bottom:20px; *top:expression((this.parentNode.offsetHeight - this.offsetHeight + 20)/2 - 2); }
+
+/* environment cutout */
+body.specs-previous #main #environment { margin:0 auto 30px; display:inline-block; position:relative; z-index:1; padding:40px 40px 80px; width:900px; background:#f8f8f8; color:#8a8d99;
+	-webkit-border-radius:2px;
+	   -moz-border-radius:2px;
+	        border-radius:2px;
+	-webkit-box-shadow:rgba(0,0,0,.4) 0 12px 6px -9px;
+	   -moz-box-shadow:rgba(0,0,0,.4) 0 12px 6px -9px;
+	        box-shadow:rgba(0,0,0,.4) 0 12px 6px -9px;
+}
+body.specs-previous #main #environment:after { content:""; display:block; position:absolute; z-index:1; left:0; bottom:-13px; width:100%; height:10px; background:#fff;
+	-webkit-border-radius:450% 450% 0% 0% / 670% 670% 0% 0%;
+	   -moz-border-radius:450% 450% 0% 0% / 670% 670% 0% 0%;
+	        border-radius:450% 450% 0% 0% / 670% 670% 0% 0%;
+	-webkit-box-shadow:#fff 0 -3px 3px;
+	   -moz-box-shadow:#fff 0 -3px 3px;
+	        box-shadow:#fff 0 -3px 3px;
+}
+body.specs-previous #main #environment header { margin-top:-10px; padding:10px 430px 0 0; background:url(../images/specs_cutout_greenapple.jpg) top right no-repeat; }
+body.specs-previous #environment header h1 { margin-bottom:2px; }
+body.specs-previous #main #environment header p { margin-bottom:30px; }
+body.specs-previous #main #environment .column { width:430px; }
+body.specs-previous #main #environment .column.last { width:360px; }
+body.specs-previous #main #environment h3 { margin-bottom:20px; font-size:1em; line-height:1.2em; color:#484d60; }
+body.specs-previous #main #environment li { margin-bottom:10px; }
+
+body.specs-previous #main #routing-pullout { font-size:0.8em; }
+
+/* iPad mini
+------------------------*/
+body.specs-previous.first-generation #main table tr .cellular-column { margin-left:29px; }
+body#specs.specs-previous.first-generation #main table tr.color .grid2col { width:680px; }
+body#specs.specs-previous.first-generation #main table tr.models .first { width:300px; margin-bottom:0; }
+body#specs.specs-previous.first-generation #main table tr.models .last { width:280px; margin-bottom:0; }
+
+body#specs.specs-previous.first-generation #main table tr.carriers td img { margin-right:10px; }
+
+body#specs.specs-previous.first-generation #main table tr.display td img { margin-left:150px; }
+
+body#specs.specs-previous.first-generation #main table tr.buttons h3 { margin-bottom:40px; }
+body#specs.specs-previous.first-generation #main table tr.buttons td { padding-bottom:30px; }
+body#specs.specs-previous.first-generation #main table tr.buttons h4.last { width:330px; width:340px \0/; }
+
+body#specs.specs-previous.first-generation #main table tr.size .grid2col { width:707px; }
+body#specs.specs-previous.first-generation #main table tr.size .last { width:315px; *width:324px; }
+body#specs.specs-previous.first-generation #main table tr.size a { font-size:1.1em; }
+
+body#specs.specs-previous.first-generation #main .tv p { margin-bottom:0; }
+
+body#specs.specs-previous.first-generation #main .chip img { vertical-align:middle; }
+body#specs.specs-previous.first-generation #main .chip p { display:inline; margin-left:20px; width:auto; }
+
+body#specs.specs-previous.first-generation #main table tr.camera img.right { margin:0; }
+body#specs.specs-previous.first-generation #main table tr.camera h3 { font-size:1em; line-height:1.2em; }
+body#specs.specs-previous.first-generation #main .camera .grid3col { width:630px; }
+body#specs.specs-previous.first-generation #main .camera .grid3col .first { width:200px; }
+body#specs.specs-previous.first-generation #main .camera .grid3col .middle { width:180px; }
+body#specs.specs-previous.first-generation #main .camera .grid3col .last { width:220px; }
+
+/* iPad 2
+------------------------*/
+body.specs-previous.ipad-2 #main table tr .cellular-column { margin-left:7px; }
+
+body#specs.specs-previous.ipad-2 #main table tr.color td img { margin-left:22px; }
+body#specs.specs-previous.ipad-2 #main table tr.color .first { width:348px; }
+body#specs.specs-previous.ipad-2 #main table tr.color .last { width:251px; }
+
+body#specs.specs-previous.ipad-2 #main table tr.models .first { width:356px; margin-bottom:10px; }
+body#specs.specs-previous.ipad-2 #main table tr.models .last { width:277px; margin-bottom:10px; }
+
+body#specs.specs-previous.ipad-2 #main table tr.tv ul { width:570px; }
+
+body#specs.specs-previous.ipad-2 #main table tr.carriers td img { margin-right:25px; }
+
+body#specs.specs-previous.ipad-2 #main table tr.display ul { width:400px; }
+body#specs.specs-previous.ipad-2 #main table tr.display img.right { margin-top:-97px; margin-bottom:0; }
+
+body#specs.specs-previous.ipad-2 #main table tr.camera ul { width:525px; }
+body#specs.specs-previous.ipad-2 #main table tr.camera img.right { margin-left:60px; margin-right:25px; }

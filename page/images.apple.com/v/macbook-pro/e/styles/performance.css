@@ -1,0 +1,117 @@
+/* performance retina
+----------------------------------*/
+#main #content { width:100%; }
+
+#performance-retina #productheader { position:relative; z-index:3; }
+
+#performance-retina section h1 { margin-bottom:20px; }
+#performance-retina section h1 img { display:block; margin:0 auto; }
+
+#performance-retina .background { height:570px; padding-top:30px; background-size:2880px 600px; background-repeat:no-repeat; background-position:center top;}
+#performance-retina #photography .background { background-image:url(../../../../macbook-pro/performance-retina/images/photography_bg.jpg); }
+#performance-retina #video .background { background-image:url(../../../../macbook-pro/performance-retina/images/video_bg.jpg); }
+#performance-retina #design .background { background-image:url(../../../../macbook-pro/performance-retina/images/design_bg.jpg); }
+#performance-retina #science .background { background-image:url(../../../../macbook-pro/performance-retina/images/science_bg.jpg); }
+#performance-retina #gaming  .background { background-image:url(../../../../macbook-pro/performance-retina/images/gaming_bg.jpg); }
+
+#performance-retina .hardware { width:886px; height:537px;position:relative; z-index:3; background:url(../images/hardware.png) no-repeat 0 0; margin-left:auto; margin-right:auto; }
+#performance-retina .hardware .screen { margin:31px 0 0 107px; }
+#performance-retina .hardware.gallery { margin-bottom:34px; }
+#performance-retina .hardware.gallery figcaption { margin-top:65px; font-size:.8571em; line-height:1.5; color:#9e9e9e; text-align:center; }
+
+#performance-retina .row { width:980px; margin:0 auto; }
+#performance-retina .full { width:100%; background:url(../images/performance_gradient.jpg) top center repeat-x; background-size:200px 900px; }
+#performance-retina .full .row { padding-bottom:75px; border-top:none; }
+
+#performance-retina .grid2col { width:auto; padding:0 0 0 135px; margin:0 auto; }
+#performance-retina .grid2col .first p { max-width:360px; }
+#performance-retina .grid2col .clear { max-width:720px; }
+
+/* bar chart gallery  */
+#performance-retina .chart .chart-title { margin-bottom:2px; }
+#performance-retina .chart h3 { margin-bottom:12px; font-size:.6857em; font-weight:normal; color:#666; width:450px; }
+#performance-retina .chart h3 sup { font-size:0.7857em !important; }
+#performance-retina .chart .gallery-view { position:relative; z-index:2; min-height:140px; }
+#performance-retina .chart .gallery-view .gallery-content { position:absolute; top:0; left:0;}
+
+#performance-retina .gallery .nav { width:370px; padding-top:7px; }
+#performance-retina .gallery .nav li { display:block; float:left; line-height:1.2em; text-align:center; }
+#performance-retina .gallery .nav li.first-child { width:49%; border-right:1px solid #bbb; }
+#performance-retina .gallery .nav li.last-child { width:49%; }
+#performance-retina .gallery .nav a.active { color:#666; }
+#performance-retina .gallery .nav a.active:hover { text-decoration:none; cursor:default; }
+
+/* hero */
+#performance-retina #hero { overflow:hidden; border-top:none; position:relative; }
+#performance-retina #hero h1 { margin:164px 0 3px 400px; position:relative; z-index:2; }
+#performance-retina #hero h1 img { margin:0;}
+#performance-retina #hero p { margin:0 0 225px 410px; width:495px;  position:relative; z-index:2; }
+#performance-retina #hero .hero { display:block; margin-top:-785px; margin-left:50px; margin-bottom:10px; position:relative; z-index:0; }
+
+/* bandwidth */
+#performance-retina #bandwidth { padding-top:0; }
+#performance-retina #bandwidth .row { border-top:1px solid #e6e6e6; width:870px; padding:70px 60px 80px; }
+#performance-retina #bandwidth h1 { padding-top:6px; font-weight:normal; }
+#performance-retina #bandwidth h1 img { margin:0; }
+#performance-retina #bandwidth p { width:553px; }
+#performance-retina #bandwidth .callout { float:right; padding:22px 30px 0; width:218px; text-align:center; }
+#performance-retina #bandwidth .callout p { width:auto; padding:15px 5px 10px; color:#404040; font-size:12px; }
+#performance-retina #bandwidth .callout p sup { font-size:0.7em !important; }
+
+@media only screen and (max-device-width:768px) {
+	#performance-retina #bandwidth p { width:525px; }
+}
+
+/* photography - bar chart */
+#performance-retina #photography-chart .bar-one .bar,
+#performance-retina #photography-chart.animate .bar-one .bar { width:100%; }
+
+#performance-retina #photography-chart .bar-two .bar,
+#performance-retina #photography-chart.animate .bar-two .bar { width:17%; }
+
+#performance-retina #photography-chart.can-animate .bar { width:0; }
+
+/* video */
+#performance-retina #video .grid2col { padding-top:110px; }
+#performance-retina #video .toggle-nav {  margin-top:40px; }
+#performance-retina #video .toggle-nav li { width:200px; }
+
+/* video - bar chart  */
+#performance-retina #video-chart .bar-one .bar,
+#performance-retina #video-chart.animate .bar-one .bar { width:100%; }
+
+#performance-retina #video-chart .bar-two .bar,
+#performance-retina #video-chart.animate .bar-two .bar { width:65%; }
+
+#performance-retina #video-chart .bar-three .bar,
+#performance-retina #video-chart.animate .bar-three .bar { width:81.25%; }
+
+#performance-retina #video-chart .bar-four .bar,
+#performance-retina #video-chart.animate .bar-four .bar { width:69%; }
+
+#performance-retina #video-chart.can-animate .bar { width:0; }
+
+/* design */
+#performance-retina #design .row { width:720px; }
+#performance-retina #design p { max-width:575px; }
+#performance-retina #design .row .right { margin:10px 0 0 0; }
+
+/* science */
+#performance-retina #science .row { width:720px; }
+#performance-retina #science p { max-width:575px; }
+#performance-retina #science .row .right { margin:25px -10px 0 0; }
+
+/* gaming - bar char */
+#performance-retina #gaming-chart .bar-one .bar,
+#performance-retina #gaming-chart.animate .bar-one .bar { width:105%; }
+
+#performance-retina #gaming-chart .bar-two .bar,
+#performance-retina #gaming-chart.animate .bar-two .bar { width:92%; }
+
+#performance-retina #gaming-chart .bar-three .bar,
+#performance-retina #gaming-chart.animate .bar-three .bar { width:72%; }
+
+#performance-retina #gaming-chart.can-animate .bar { width:0; }
+
+
+

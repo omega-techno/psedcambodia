@@ -1,0 +1,290 @@
+/* General Page Styles
+------------------------*/
+body { position:relative; z-index:1; width:100%; min-height:100%; min-width:1024px; background:#fff; }
+#main { width:100%; overflow-x:hidden; overflow-y:auto; }
+
+.content {
+	/* reset */
+	border:0;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-o-border-radius:4px;
+	-khtml-border-radius:4px;
+}
+
+.block { display:block; margin:0 auto; }
+a.block { color: #333; }
+.center { display:block; margin-right:auto; margin-left:auto; text-align:center; }
+
+/* links */
+a.more,
+em.more,
+span.more { display:inline-block; padding-right:.7em; line-height:1.71; line-height:1.71\9; background-image:url(../images/more_14.png); background-position:100% 59%; background-size:5px 9px; }
+
+a.more.font-10,
+em.more.font-10,
+span.more.font-10 { background-image:url(../images/more_10.png); background-size:4px 7px; background-position:100% 50%; }
+
+a.more.font-16,
+em.more.font-16,
+span.more.font-16 { background-image:url(../images/more_16.png); background-size:6px 11px; }
+
+@media only screen {
+	a.more,
+	em.more,
+	span.more,
+	a.more.font-10,
+	em.more.font-10,
+	span.more.font-10,
+	a.more.font-16,
+	em.more.font-16,
+	span.more.font-16 { background-image:url(http://images.apple.com/v/mac/home/g/images/more.svg); }
+}
+
+/* Product Browser
+------------------------*/
+.productbrowser .pb-slider { height:170px; }
+.productbrowser li.pb-macbookair { margin-left:5px; }
+.productbrowser li.pb-macbookpro { margin-left:35px; margin-right:12px; }
+.productbrowser li.pb-imac       { margin-left:18px; margin-right:18px; }
+.productbrowser li.pb-macosx     { margin-left:-20px; }
+
+.productbrowser li.pb-magicmouse     { margin-left:-12px; }
+.productbrowser li.pb-magictrackpad  { margin-left:-32px; margin-right:4px; }
+.productbrowser li.pb-airportexpress { margin-left:-4px; }
+.productbrowser li.pb-airportextreme { margin-left:-13px; }
+.productbrowser li.pb-timecapsule    { margin-left:-6px; }
+
+.productbrowser li.pb-ilife { margin-right:16px; }
+.productbrowser li.pb-iwork { margin-right:10px; }
+.productbrowser li.pb-safari { margin-right:-1px; }
+.productbrowser li.pb-finalcut { margin-left:4px; margin-right:3px; }
+
+.productbrowser li.pb-displays,
+.productbrowser li.pb-displays a { width:150px; }
+
+.productbrowser li.pb-macosxserver { margin-left:6px; margin-right:12px; }
+.productbrowser li.pb-macproserver { margin-right:16px; }
+.productbrowser li.pb-ard          { margin-right:19px; }
+
+/* Product browser overrides
+----------------------------*/
+.productbrowser { margin-bottom:24px; }
+.productbrowser .pb-slide { position:relative; }
+#pb-mac.productbrowser .pb-pageindicator { border-bottom:none; border-top:1px solid #d7d7d7; background:#fff; }
+.productbrowser .pb-pageindicator b.caret { width:24px; height:1px; margin-top:-1px; margin-left:-13px; background:none;
+	-webkit-transition-timing-function:ease-in-out;
+	   -moz-transition-timing-function:ease-in-out;
+	        transition-timing-function:ease-in-out;
+}
+.productbrowser .pb-pageindicator b.caret .caret-transform { display:block; width:100%; height:1px; border-top:1px solid #666;
+	-webkit-transform-origin:50% 50%;
+	   -moz-transform-origin:50% 50%;
+	        transform-origin:50% 50%;
+	-webkit-transition:-webkit-transform 0.4s ease-in-out;
+	   -moz-transition:   -moz-transform 0.4s ease-in-out;
+	        transition:        transform 0.4s ease-in-out;
+}
+.productbrowser .pb-pageindicator a.page { padding-top:13px; }
+
+/* Hero Gallery
+------------------------*/
+.gallery,
+.gallery .gallery-view { position:relative; z-index:1; }
+.gallery .gallery-content { position:absolute; z-index:1; top:0; left:0; }
+
+.gallery-slide { width:100%; }
+.gallery-slide .gallery-view-wrapper { margin:0 auto; width:1024px; }
+.gallery-slide .gallery-view { width:7000px; }
+.gallery-slide .gallery-content { float:left; position:relative; z-index:1; -webkit-transform:translateZ(0); }
+
+/* paddles */
+.paddle-nav { position:absolute; z-index:1003; top:50%; left:50%; width:100%; height:0; margin-left:-50%; }
+.paddle-nav li .arrow { display:block; position:absolute; z-index:1003; top:50%; margin:-65px 25px 0; width:67px; height:130px; opacity:0; filter:alpha(opacity=0); cursor:pointer; outline:none; background-image:url(../../../../../global/elements/blank.gif);
+	-webkit-transition:.25s opacity linear;
+	   -moz-transition:.25s opacity linear;
+	        transition:.25s opacity linear;
+}
+
+.gallery:hover .paddle-nav li .arrow { opacity:.75; filter:alpha(opacity=75); }
+.paddle-nav li .arrow:hover { opacity:.8; filter:alpha(opacity=80); }
+.paddle-nav li .arrow.disabled { display:none; }
+.paddle-nav li .arrow b { display:block; overflow:hidden; width:67px; height:130px; text-indent:-9999px; background:no-repeat 0 0; background-size:67px 130px; behavior:url(http://images.apple.com/global/scripts/lib/ie7pngfix.htc); }
+
+.paddle-nav li .arrow.previous { left:0; }
+.paddle-nav li .arrow.previous b { float:left; background-image:url(../images/paddle_previous.png); }
+
+.paddle-nav li .arrow.next { right:0; }
+.paddle-nav li .arrow.next b { float:right; background-image:url(../images/paddle_next.png); }
+
+/* white arrows for some sections */
+.promo-lead[data-active-slide='mavericks'] .paddle-nav li .arrow.previous b { background-image:url(../images/paddle_previous_fff.png); }
+.promo-lead[data-active-slide='mavericks'] .paddle-nav li .arrow.next b { background-image:url(../images/paddle_next_fff.png); }
+
+.paddle-nav.solid li .arrow { background-color:#ebebeb;
+	-webkit-border-radius:8px;
+	   -moz-border-radius:8px;
+	        border-radius:8px;
+}
+
+@media only screen and (min-width:1408px) { /* responsive */
+	.paddle-nav { width:1408px; margin-left:-704px; }
+}
+@media only screen and (min-width:1620px) { /* responsive */
+	.paddle-nav { width:1650px; margin-left:-825px; }
+
+	.promo-lead[data-active-slide='mavericks'] .paddle-nav li .arrow.previous b { background-image:url(../images/paddle_previous.png); }
+	.promo-lead[data-active-slide='mavericks'] .paddle-nav li .arrow.next b { background-image:url(../images/paddle_next.png); }
+}
+@media only screen and (min-width:1900px) { /* responsive */
+	.paddle-nav { width:100%; margin-left:-50%; }
+	.paddle-nav li .arrow.previous { left:5%; }
+	.paddle-nav li .arrow.next { right:5%; }
+}
+
+@media only screen and (max-device-width:768px) { /* on device */
+	.paddle-nav { display:none; }
+}
+
+/* dot nav */
+#main .dot-nav { position:absolute; z-index:1002; bottom:18px; }
+#main .dot-nav li { margin:0 5px; width:12px; height:12px; }
+#main .dot-nav li a { top:2px; left:2px; width:6px; height:6px; background:#fff; border:1px solid transparent; outline:none;
+	-webkit-box-shadow:none;
+	   -moz-box-shadow:none;
+	        box-shadow:none;
+	-webkit-border-radius:50%;
+	   -moz-border-radius:50%;
+	        border-radius:50%;
+	-webkit-transition:background-color .25s linear, border-color .25s linear;
+}
+#main .dot-nav li a:hover { top:2px; background:#fff; }
+#main .dot-nav li a.active { top:0; left:0; background-color:transparent; width:10px; height:10px; border:1px solid #fff;
+	-webkit-box-shadow:none;
+	   -moz-box-shadow:none;
+	        box-shadow:none;
+}
+
+/* dark dots when on macbook-pro slide */
+#main .promo-lead[data-active-slide='macbook-pro'] .dot-nav li a { background:#999; }
+#main .promo-lead[data-active-slide='macbook-pro'] .dot-nav li a:hover { background:#999; }
+#main .promo-lead[data-active-slide='macbook-pro'] .dot-nav li a.active { background-color:transparent; border-color:#999; }
+
+@media only screen and (max-device-width:768px) { /* on device */
+	#main .dot-nav li a { -webkit-pointer-events:none; pointer-events:none; }
+}
+
+@media only screen and (max-device-width:768px) { /* on device */
+  #main .dot-nav li a { -webkit-pointer-events:auto; pointer-events:auto; }
+}
+
+
+/* Showcase Gallery
+------------------------*/
+#showcase { height:693px; margin-top:15px; box-shadow:none; *width:100%; }
+#showcase .promo-lead { position:relative; z-index:1; margin:0 auto; width:100%; height:692px; color:#000; font-size:16px; line-height:1.5; border-bottom:1px solid #e2e2e2; }
+
+#showcase .promo-lead.gallery { z-index:1001; overflow:hidden; width:100%; }
+#showcase .promo-lead.gallery .gallery-view { z-index:1001; margin-left:0%; min-width:3840px; width:300%; -webkit-transform:translateZ(0); transform:translateZ(1px); }
+#showcase .promo-lead.gallery .gallery-content { z-index:1001; float:left; position:relative; overflow:hidden; min-width:1024px; width:33.3333%; height:693px; -webkit-transform:translateZ(0); }
+
+#showcase .promo-lead.gallery .gallery-content img { -webkit-transform:translateZ(0); }
+
+@media only screen and (max-device-width:768px) {
+	#showcase .promo-lead.gallery .gallery-view { width:3072px; }
+	#showcase .promo-lead.gallery .gallery-content { width:1024px; overflow:hidden; }
+}
+
+#showcase .promo-lead.gallery .content-wrap { width:100%; height:100%; margin:0 auto; text-align:center; }
+
+#showcase .promo-lead.gallery .column { position:relative; }
+#showcase .promo-lead.gallery .column .clickbooster { display:block; position:absolute; top:0; bottom:0; right:0; left:0; background:url(../../../../../global/elements/blank.gif); }
+
+#showcase .gallery-macbook-pro { position:relative; background-color:#f8f8f8; }
+#showcase .gallery-macbook-pro h1 { margin:0 0 18px; padding-top:47px; }
+#showcase .gallery-macbook-pro .hero { position:absolute; bottom:40px; left:50%; margin-left:-635px; }
+
+#showcase .gallery-mac-pro { position:relative; background-color:#000; text-align:center; }
+#showcase .gallery-mac-pro h1 { margin:0 0 1px; padding-top:74px; }
+#showcase .gallery-mac-pro h2 { margin-bottom:29px; }
+#showcase .gallery-mac-pro .coming { *position:relative; *zoom:1; padding:9px 20px; line-height:1.2; font-style:normal; color:#999; border:1px solid #333; border-radius:6px; text-decoration:none; }
+#showcase .gallery-mac-pro .hero { position:absolute; bottom:0; left:50%; margin-left:-389px; }
+
+#showcase .gallery-mavericks { position:relative; background: #f8f8f8 url(../../../../../mac/home/images/tab_hero_mavericks.jpg) 50% 50% no-repeat; }
+#showcase .gallery-mavericks h1 { margin:0 0 16px; padding-top:112px; }
+
+/* wave background image grows from its actual width to max-width of design */
+@media only screen and (min-width:1320px) {
+	#showcase .gallery-mavericks { background-size:100% auto; }
+}
+@media only screen and (min-width:1440px) {
+	#showcase .gallery-mavericks { background-size:1440px auto; }
+}
+
+/* apps row */
+#apps { margin:0 auto; }
+#apps a.block { padding:55px 0; }
+#apps h1 { margin-bottom:29px; }
+#apps img.center { margin-bottom:40px; }
+#apps p { margin:0 auto; width:600px; font-size:1.2em; line-height:2em; text-align:center; color:#333; }
+
+
+/* bucket row */
+#buckets { max-width:1440px; margin:auto; background:#cfcfcf; }
+
+#buckets .column { width:50%; }
+
+#buckets .first a,
+#buckets .last a { width:100%; height:260px; margin:0; background-repeat:no-repeat; text-align:center; color:#fff; }
+
+#buckets .first a { float:right; border-right:2px solid #cfcfcf; background-image:url(../../../../../ipad/home/images/tab_content_education.jpg); background-position:right 0; }
+#buckets .last a { float:left; background-image:url(../../../../../ipad/home/images/tab_content_business.jpg); background-position:left 0; }
+
+#buckets a h1 { margin:180px auto 15px; color:#fff; }
+
+/* holiday tiles */
+.holiday { margin: 0 auto; padding:23px 0 30px 0; width: 980px; border-top: 1px solid #e2e2e2; }
+.holiday a { font-size: 14px; line-height: 1.5em; padding: 25px 0; min-height: 118px; } 
+.holiday .column { width: 48%; margin: 1px 0; position: relative; }
+.holiday h1 { position: relative; margin-bottom: -6px; *margin-bottom: 3px; z-index: 10; }
+.holiday p { position: relative; color: #666; margin-bottom: 0; z-index: 10; }
+.holiday .screen { bottom: 3px; right: 32px; position: absolute; z-index: 1; }
+.holiday .last a { margin-left: 60px; }
+.holiday .last .screen { right: 0; bottom: 13px; }
+.holiday span.more { *line-height: 17px; }
+
+/* buy strip
+------------------------*/
+#buystrip { margin:0 auto; width:1014px; padding:25px 0 0; font-size:14px; line-height:1.4em; word-spacing:-1px; zoom:1; background-image:none; }
+#buystrip.border-top { border-top:1px solid #e2e2e2; }
+
+#buystrip .grid4col { margin:0 auto; width:1014px; }
+#buystrip .grid4col .column { position:relative; margin:0; padding-bottom:25px; width:245px; min-height:208px; _height:208px; text-align:center; }
+#buystrip .grid4col .column h2 { margin-bottom:18px; }
+#buystrip .grid4col .column h2 img { display:block; margin:0 auto; }
+#buystrip .grid4col .column p { display:block; margin:0 auto; width:186px; font-size:0.8571em; line-height:1.4166em; color:#666; }
+#buystrip .grid4col .column.third p { width:175px; }
+#buystrip .grid4col .column a:hover { text-decoration:none; }
+#buystrip .grid4col .column a:hover p { cursor:pointer; }
+#buystrip .grid4col .column a:hover .more,
+#buystrip .grid4col .column a:hover .bottom-align { text-decoration:underline; }
+#buystrip .grid4col .column.first { margin-right:20px; }
+#buystrip .grid4col .column.first li { display:block; margin:-4px 0 0; }
+#buystrip .grid4col .column.first p { margin-bottom:9px; font-size:0.9em; }
+#buystrip .grid4col .column .bottom-align { position:absolute; width:100%; bottom:4px; left:0; text-align:center; font-size:1.1429em; line-height:1.71 }
+
+#buystrip .app-link { width:980px; margin:4px auto 0; padding:18px 0 20px; font-size:0.7857em; text-align:center; }
+#buystrip .app-link img { *position:relative; *z-index:1; margin:0 6px -7px 0; }
+#buystrip .app-link a.inline-block { display:inline-block; padding:0 20px; color:#333; cursor:pointer; }
+
+/* page specific */
+#buystrip .grid4col .column .compare h2 { margin-top:0; margin-bottom:17px; }
+#compare #buystrip .grid4col .column .compare h2 { margin-top:16px; }
+
+/* sosumi */
+.sosumi { width:940px; margin:18px auto; padding:0 20px; }
+#globalfooter .sosumi a { color:#333; }

@@ -1,0 +1,103 @@
+/*common styles*/
+#main .relative { *position:relative; *z-index:1; *zoom:1; }
+
+#compare { margin:0 auto 20px; overflow:hidden; width:980px; box-shadow:rgba(0,0,0,0.3) 0 1px 3px; -moz-box-shadow:rgba(0,0,0,0.3) 0 1px 3px; -webkit-box-shadow:rgba(0,0,0,0.3) 0 1px 3px; background:#fff; border:1px solid; border-color:#e5e5e5 #dbdbdb #d2d2d2; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px; -o-border-radius:4px; -khtml-border-radius:4px;}
+#compare:nth-child(1n) { border:0; }
+
+#compare .sosumi { width:880px; margin:0; padding:40px 50px 40px; }
+#compare .sosumi li { padding-bottom:5px; }
+
+#compare .expand-bottom { margin-top:-1px; position:relative; z-index:2; background:#fff; border-top:1px solid #bcbcbc; }
+#compare .expand-bottom .preorders { margin:0 auto; }
+#compare .expand-bottom .buynows { margin:0 auto; }
+#compare .expand-bottom .buys { margin:0 auto; width:62px; height:25px; display:block; overflow:hidden; text-decoration:none; text-indent:-9999px; background-repeat:no-repeat; background-position:0 0; }
+#compare .expand-bottom .buys:hover { background-position:0 -25px; }
+#compare .expand-bottom .buys:active { background-position:0 -50px; }
+
+.ipod-comparison-table { width:100%; font-size:12px; }
+.ipod-comparison-table sup { vertical-align:top; }
+
+.ipod-comparison-table .description img { display:block; margin:0 -10px 0 0; }
+
+.ipod-comparison-table .shuffle,
+.ipod-comparison-table .nano,
+.ipod-comparison-table .classic,
+.ipod-comparison-table .touch,
+.ipod-comparison-table .touch-16gb { width:118px }
+
+.ipod-comparison-table th,
+.ipod-comparison-table td { padding:32px 21px 25px; border-bottom:1px solid #bfbfbf; vertical-align:top; }
+.ipod-comparison-table td { border-left:1px solid #bfbfbf; }
+
+.ipod-comparison-table th h3 { font-size:1.167em; line-height:1.3em; font-weight:normal; }
+
+.ipod-comparison-table .specs-head th { border-left:1px solid #bfbfbf; background:#fafafa;
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,255,255,0)), to(#f2f2f2));
+	background-image:-webkit-linear-gradient(top, rgba(255,255,255,0) 0%, #f2f2f2 100%);
+	background-image:-moz-linear-gradient(center top, rgba(255,255,255,0) 0%, #f2f2f2 100%);
+	background-image:-o-linear-gradient(rgba(255,255,255,0), #f2f2f2);
+	background-image:linear-gradient(top, rgba(255,255,255,0) 0%, #f2f2f2 100%);
+}
+
+.ipod-comparison-table .specs-head th.touch { width:279px; }
+.ipod-comparison-table .specs-head th h2 { margin:0; text-align:center; }
+.ipod-comparison-table .specs-head .first-col { border-left:none; }
+
+.ipod-comparison-table .specs-head .shuffle { border-left:none; }
+.ipod-comparison-table .specs-head .shuffle a { position:relative; z-index:1; }
+.ipod-comparison-table .specs-head .shuffle span.border { position:absolute; left:-21px; top:-33px; display:block; height:120px; width:1px; border-left:1px solid #bfbfbf; }
+
+.ipod-comparison-table .specs-body td h4 { font-size:12px; }
+
+.ipod-comparison-table .specs-body .shuffle { border-left:none; background:url(../images/cell_inset_gradient.jpg) repeat-y 0 0; }
+
+.ipod-comparison-table .specs-body .first-row .shuffle { background:url(../images/cell_inset_gradient_top.jpg) no-repeat 0 0; }
+.ipod-comparison-table .specs-body .last-row .shuffle { background:url(../images/cell_inset_gradient_bottom.jpg) no-repeat 0 100%; }
+
+.ipod-comparison-table .specs-body .color p.exclusive { margin:2px 0 6px; color:#363636; line-height:1.25em; }
+
+.ipod-comparison-table .specs-body .color .shuffle,
+.ipod-comparison-table .specs-body .color .nano { *padding-left:20px; *padding-right:20px; }
+
+.ipod-comparison-table .specs-body .color .shuffle .colorbar,
+.ipod-comparison-table .specs-body .color .nano .colorbar { margin-left:-2px; }
+
+.ipod-comparison-table .specs-body .color .product-red-color { margin-top:15px; }
+.ipod-comparison-table .specs-body .color .prodred { vertical-align:middle; }
+
+.ipod-comparison-table .specs-body .price p { float:left; }
+.ipod-comparison-table .specs-body .price p.padtop { padding-top:15px; }
+.ipod-comparison-table .specs-body .price span.dollar { font-size:13px; font-weight:bold; margin-left:4px; }
+
+.ipod-comparison-table .specs-body .price h4 { margin-bottom:20px; font-size:20px; line-height:1; font-weight:bold; letter-spacing:-1px; }
+.ipod-comparison-table .specs-body .buy-buttons td { padding:30px 25px; text-align:center; }
+
+a.more-info { float:right; margin:20px 25px 0 0; padding-right:10px; background:url(../../../../../global/elements/arrows/downarrow_08c.gif) 100% 50% no-repeat; }
+
+/* compare page */
+#compare-ipods { padding-top:18px; background:#f5f6f7 url(../images/gradient_texture.jpg) repeat-x 0 0; }
+#compare-ipods #globalheader { margin-top:0; }
+
+#compare-ipods .ipod-comparison-table .specs-body th,
+#compare-ipods .ipod-comparison-table .specs-body td { padding:32px 21px 13px; }
+
+#compare-ipods .ipod-comparison-table .first-col { width:118px; }
+
+#compare-ipods .ipod-comparison-table .description a { padding-bottom:18px; }
+
+#compare-ipods .ipod-comparison-table .front-camera td { padding-right:12px; }
+
+#compare-ipods .navigation .shuffle { background:url(../images/cell_inset_gradient.jpg) repeat-y 0 0; }
+
+#compare-ipods .buy-now .last-row th,
+#compare-ipods .buy-now .last-row td { padding-top:30px !important;  padding-bottom:30px !important; }
+
+#compare-ipods .buy-now .last-row .shuffle { *width:120px; background:url(../images/cell_inset_gradient_bottom.jpg) no-repeat 0 100%; }
+#compare-ipods .buy-now .last-row .nano { *width:120px; }
+
+#compare-ipods .more { margin:15px 15px 0 0; }
+#compare-ipods .more a#moreinfo-trigger { background-image:url(../../../../../global/elements/arrows/downarrow_08c.gif); }
+#compare-ipods .more a#moreinfo-trigger.open { background-image:url(../../../../../global/elements/arrows/uparrow_08c.gif); }
+
+#compare-ipods .sosumi ol { margin-left:15px; margin-bottom:0; }
+#compare-ipods .sosumi ul.sosumi { padding:0; }

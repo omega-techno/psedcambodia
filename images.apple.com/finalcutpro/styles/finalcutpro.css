@@ -1,0 +1,73 @@
+/* product header
+------------------------*/
+.finalcutpro #productheader h2 a { width:180px; background-image: url(../images/productheader_title_dark.png); }
+.motion #productheader h2 a { width:89px; background-image: url(../motion/images/productheader_title.png); }
+.compressor #productheader h2 a { width:151px; background-image: url(../compressor/images/productheader_title.png); }
+
+
+/* overview
+------------------------*/
+#overview #productheader h2 a { background-image: url(../images/productheader_title_light.png); }
+#overview #video-tray a.block { width: 110px; }
+#overview #video-tray a.faster-editing .image { background-image: url(../images/hero_thumb_faster.png); }
+#overview #video-tray a.new-organize .image { background-image: url(../images/hero_thumb_organize.png); }
+#overview #video-tray a.motion-graphics .image { background-image: url(../images/hero_thumb_motion.png); }
+#overview #video-tray a.file-based .image { background-image: url(../images/hero_thumb_workflow.png); }
+#overview #video-tray a.multicam .image { background-image: url(../images/hero_thumb_multicam.png); }
+#overview #video-tray h2 { text-align: center; }
+
+@media only screen and (max-device-width:768px) {
+	#overview .playing-video div#buckets.grid3col.spotlight { margin-top:0; }
+}
+
+#overview header img.hero { position:relative; }
+#overview #video-tray { position:relative; }
+#overview div#buckets.grid3col.spotlight { position:relative; }
+
+
+/* what is
+------------------------*/
+#what-is.finalcutpro #multicam .image { background-image: url(../what-is/images/revolutionary_multicam_thumb.png); }
+#what-is.finalcutpro #inline-editor .image { background-image: url(../what-is/images/revolutionary_inline_thumb.png); }
+#what-is.finalcutpro #magnetic .image { background-image: url(../what-is/images/revolutionary_magnetic_thumb.png); }
+#what-is.finalcutpro #audition .image { background-image: url(../what-is/images/revolutionary_audition_thumb.png); }
+#what-is.finalcutpro #powerful-video-container .image { background-image: url(../what-is/images/powerful_media_organization_thumb.png); }
+
+#what-is.finalcutpro #keywords .image { background-image: url(../what-is/images/powerful_keywords_thumb.png); }
+
+#what-is.finalcutpro #video-swap .hero-video-nav-overview { width: 230px; }
+#what-is.finalcutpro #video-swap .hero-video-nav-overview .image { background-image: url(../what-is/images/hero_video_nav_overview.png); }
+#what-is.finalcutpro #video-swap .hero-video-nav-demo .image { background-image: url(../what-is/images/hero_video_nav_demo.png); }
+#what-is.finalcutpro #video-swap .hero-video-nav-gallery .image { background-image: url(../what-is/images/hero_video_nav_gallery.png); }
+#what-is.finalcutpro .ZoomViewContainer .simple-nav li { overflow:visible; }
+
+@media only screen and (max-device-width:768px) {
+	#overview header img.hero { position:relative; }
+	#overview #video-tray { position:relative; }
+	#overview .playing-video #video-swap .video-swap { padding-bottom:148px; }
+	#overview .playing-video #buckets { position:relative; margin-top:0; }
+}
+
+
+/* motion
+------------------------*/
+#what-is.motion #parameter .image { background-image: url(../motion/images/parameter_rigs_thumb.png); }
+#what-is.motion #video-swap .hero-video-nav-gallery { width: 230px; }
+#what-is.motion #video-swap .hero-video-nav-gallery .image { background-image: url(../motion/images/hero_video_nav_gallery.png); }
+
+/* what's new
+------------------------*/
+#whats-new #content ul.disc { padding-left:15px; list-style:disc; }
+#whats-new #content .multicam #video-tray li a.hero-video-nav-overview span.image { background-image: url(../whats-new/images/video_nav_overview.html); }
+#whats-new #content .multicam #video-tray li a.hero-video-nav-demo span.image { background-image: url(../whats-new/images/video_nav_demo.html); }
+
+#whats-new #content .later { padding-top:50px; border-top:1px solid #ccc; }
+#whats-new #content .later .grid2col { width:546px; }
+#whats-new #content .later .grid2col ul.first { width:278px; }
+#whats-new #content .later .grid2col ul.last { width:222px; }
+#whats-new #content .later img { margin:-53px 49px 0 0; }
+
+/* resources
+------------------------*/
+#communities ul.multi { margin-bottom:5px; }
+

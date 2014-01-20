@@ -1,0 +1,171 @@
+/* -- general -- */
+html, body { background: #f2f2f2; }
+#main { width: 980px; margin:0 auto; zoom:1; }
+
+.shadow { box-shadow: rgba(0,0,0,0.3) 0 1px 3px; -webkit-box-shadow: rgba(0,0,0,0.3) 0 1px 3px; -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px; -o-box-shadow: rgba(0,0,0,0.3) 0 1px 3px; }
+
+#overview #productheader #pn-videos { display: none; }
+
+#productheader h2 a { text-indent: 0; }
+#productheader #productheader-title{ width:300px; height:30px;}
+
+.bottomContent{
+	width: 850px;
+	top: 30px;
+	margin:15px  auto;
+	overflow: hidden;
+}
+.voip{outline: 1px solid red; display: none;}
+#content { width:880px; padding:50px; overflow:hidden; }
+#content:after { content:'.'; display:block; clear:both; height:0; visibility:hidden; }
+
+
+
+#promofooter #promos li.buy { margin-top: 0; }
+#promofooter #promos li.buy a.download { width: 184px; height: 43px; text-indent: -9999px; display: block; background: url(../../../../quicktime/images/buypromo-button.png) no-repeat 0 0; _background: url(http://images.apple.com/quicktime/images/buypromo-button.gif) no-repeat 0 0; }
+#promofooter #promos li.buy a.download,
+#promofooter #promos li.buy a.header img { margin: 0 auto; display: block; }
+#promofooter #promos li.buy a.header img { margin-top: 11px; margin-bottom: 9px; }
+#promofooter #promos li.buy a.download:hover { background-position-y: -43px; }
+#promofooter #promos li.buy a.download:active { background-position-y: -86px; }
+
+#overview #content { padding-top: 43px; padding-bottom: 70px; }
+#overview #main h1 { text-align: center; margin-bottom: 5px; line-height: 10px; }
+#overview #main p.intro { text-align: center; font-size: 18px; line-height: 24px; margin-bottom: 67px; }
+#overview #main .grid2col { margin-bottom: 22px; }
+#overview #main .column { position: relative; width: 397px; height: 389px; border: 1px solid #d6d6d6; padding: 9px 8px 0; background: url(../../../../apple-events/images/overview_bucket_bg_20100525.gif) repeat-x bottom left; }
+#overview #main .column p { padding-left: 3px; }
+#overview #main .column h3 { padding-left: 3px; margin-top: 10px; margin-bottom: 4px; line-height: 16px; font-weight: normal; }
+#overview #main .column h3.sub { color: #666; margin-top: 0; margin-bottom: 11px; }
+#overview #main .column span.play { position: absolute; top: 70px; left: 139px; width: 135px; height: 133px; background: url(../../../../apple-events/images/play_20100525.png) no-repeat 0 0; behavior:url(global/scripts/lib/iepngfix.htc); }
+
+
+/*-------------- details ------------------*/
+#details .ipad { padding-top: 32px; }
+#details .content img.right { padding: 5px; }
+#details .content h1 {margin-bottom: 0px; line-height:18px;}
+#details .content p.intro { width: auto; text-align:center; margin:7px auto 14px; color: #444; font-size: 16px; line-height: 20px; clear: left;}
+#details .content p.sosumi { text-align: center; font-size: 12px !important; padding:0 8%;}
+#details .content p.links { float: left; clear: left; }
+#details .content a.getqt { float: right; margin-top: -136px; position: absolute; right: 62px; }
+#details .content a.staf { float: left; clear: left; height: 14px; width: 20px; font-size: 11px; color:#666; background:url(../../../../apple-events/images/send_20100525.gif) no-repeat 100% 2px; }
+
+#details .content ul { float: right; /*margin-bottom: 8px;*/ width: 202px; margin-top:2px; }
+#details .content ul li { _height: 25px; }
+#details .content ul li a { margin-bottom: 4px; height: 25px; width: 202px; background-repeat: no-repeat; display: block; text-indent: -9999px; outline: none; }
+#details .content ul li a:hover { background-position-y: -25px; }
+#details .content ul li a:active { background-position-y: -50px; }
+#details .content ul li.triggerSL { *display: none; }
+#details a.quicktime-download { margin: 0 0 20px; *margin-bottom: 0; padding: 0; font-size: 14px; line-height: 20px; color: #08c; text-align: left; }
+#details a.quicktime-download:hover { text-decoration: underline; }
+#details span.quicktime-download-button {text-align:center; }
+#details a.loading { background-image: url(../../../../apple-events/images/events_button_loading_20100525.gif) !important; _background-position: 0 0 !important; }
+
+#details .button320 { background-image: url(../../../../apple-events/images/events_button_low_20100525.gif); }
+#details .button480 { background-image: url(../../../../apple-events/images/events_button_med_20100525.gif); }
+#details .button640 { background-image: url(../../../../apple-events/images/events_button_high_20100525.gif); }
+#details #trigger { background-image: url(../../../../apple-events/images/events_button_default_20100525.gif); }
+#details #triggerSL { display: none; background-image: url(../../../../apple-events/images/events_button_default_20100525.gif); }
+#details #triggerHD { background-image: url(../../../../apple-events/images/events_button_hd_20100525.gif); }
+
+#details #unveiled { border-top:1px solid #e7e7e7; padding:23px 0 20px;}
+#details #unveiled .title { margin:0 auto; display:block; }
+#details #unveiled .grid3col { margin-top:39px; margin-bottom:45px; }
+#details #unveiled .column{ width: 266px; margin-left: 25px;}
+#details #unveiled .column .box_title{ padding: 15px 0 4px; display:block;}
+#details #unveiled .column a { display:block; text-decoration:none; }
+#details #unveiled .column p { font-size:14px; line-height:20px; margin-bottom:5px; color:#333; }
+#details #unveiled .column span.arrow { background:url(../images/link_bracket_right.png) 100% 60% no-repeat; font-size:14px; padding-right: 13px; }
+#details #unveiled .column a:hover span.arrow { text-decoration:underline; }
+
+
+#details #apps { border-top:1px solid #e7e7e7; padding:49px 0 20px; }
+#details #apps .grid2col { padding-left:104px; width:714px; }
+#details #apps .first { width:194px; }
+#details #apps .last { width:520px; }
+#details #apps .column p { width:460px; font-size:14px; line-height:20px; color:#333; }
+#details #apps .column span.arrow { background:url(../images/link_bracket_right.png) 100% 60% no-repeat; font-size:14px; padding-right:13px; color:#08c; }
+#details #apps .video-thumb { position:relative; z-index:1; width:156px; }
+#details #apps .video-thumb img { border:1px solid #e7e7e7; }
+#details #apps .video-thumb .play { display:block; position:absolute; z-index:1; width:46px; height:46px; top:26px; left:56px; background:url(../images/video_play_small.png) 0 0 no-repeat; }
+#details #apps a.grid2col:hover .video-thumb .play { background-position:0 -46px; }
+
+@media only screen {
+	#details #apps .video-thumb .play { background-image:url(http://images.apple.com/v/apple-events/c/images/video_play_small.svg); }
+}
+
+/*-------------- share/video ------------------*/
+#details #content.shareactive { min-height:500px; _height:500px; }
+#details #content.shareactive #share { display:block; }
+#details #content.shareactive #intro { display:none; }
+#details #content #share { display:none; position:relative; }
+#details #content #qt, #content #qtHD { position:absolute; left:-9999px; }
+#details #content #qt-iphone #movie { position:absolute; margin:auto; }
+#details #content .ipad #qt-iphone #movie { position:relative; top:0; left:0; }
+
+#backtovideo { position: absolute; z-index:9999; bottom: 5px; _bottom:80px; left: 340px; font-size:12px; background: url(../../../../quicktime/qtv/specialevent0909/images/share/video_icon20090909.html) center left no-repeat; padding-left: 25px; }
+
+/***additions****/
+#message{position: absolute; top: 290px; margin: auto;display: none;color: #fff; width: 850px; height: 100px; z-index:1000000; font-size: 4em;text-align: center;line-height: 2em;}
+#details #content #qt-iphone{ width:848px; height: 480px; }
+#details #content #qt-iphone.mozilla{height: 515px !important;}
+#details #content #qt-iphone.mozilla .controllerPanel.slim .ACMediaControls .mediaControllerPanel{width:846px;}
+
+#details #content #qt-iphone #videojpg, #videoimage{ border: 1px solid #bbb;}
+#videoimage{ position:absolute; left:43px; }
+
+#videoimage.hide { display:none; }
+
+.ACMediaControls,
+.moviePanel OBJECT { *top:0; *margin-top:0 !important; }
+
+.trigger320, .trigger480, .trigger640{
+	display: none;
+}
+.fastForward, .fastBackward{
+	display:none;
+}
+
+#details .content ul.endState, #details .content ul.endStateActive{
+	z-index: 2000000;
+	float: none;
+	top: 240px;
+	display:none;
+	width: 120px;
+	height: 120px;
+	left: 403px;
+	margin:0;
+	background: none;
+
+}
+#details .content ul.endStateActive{
+	display: block;
+	position: absolute;
+
+}
+
+#details .content ul.endStateActive li a{
+	background: url(../images/video_play_large.png) 50% 50% no-repeat;
+	width: 120px;
+	height: 120px;
+	display: block;
+}
+
+#details .content ul.endStateActive .pillbutton {
+	padding: 0;
+	margin: 0;
+}
+
+#details .content ul.endStateActive .pillbutton span, #details .content ul.endStateActive .pillbutton b{
+	display: none;
+}
+/*
+.ACMediaControls .mediaControllerPanel > .ACMediaController .track,
+.ACMediaControls .ACMediaController .track{visibility: hidden;}
+.ACMediaControls .ACMediaController .timeDisplay-enabled {visibility: hidden;}
+.ACMediaControls .ACMediaController .durationDisplay-enabled{visibility: hidden;}
+*/
+
+.controllerPanel.slim .ACMediaControls .mediaControllerPanel > .ACMediaController .settingsControls .fullscreenControl-enabled {
+	display:none;
+}

@@ -1,0 +1,183 @@
+#main { width:auto; margin:0; padding-top:50px; }
+
+.grid a,
+#cover a,
+#cover span,
+.main .preview a.controller { behavior:url(http://images.apple.com/global/scripts/lib/iepngfix.htc); }
+
+.charts a.more,
+.charts em.more,
+.charts span.more { background:url(../../../../../global/elements/arrows/morearrow_08c.gif) no-repeat 100% 50%; }
+
+/* landing pages
+----------------------------- */
+body.landing .hero h1 { margin-bottom:3px; }
+body.landing .hero .intro { padding:0 150px; text-align:center; }
+
+body.landing .main .grid { padding:28px 43px 0; width:894px; }
+body.landing .main .grid h1,
+body.landing .main .grid a.all { display:-moz-inline-stack; display:inline-block; *display:inline; zoom:1; margin:0; }
+body.landing .main .grid h1 { font-size:1.125em; margin-right:20px; }
+body.landing .main .grid a.all { padding:0 10px 0 0; }
+
+body.landing .main .grid ul { width:980px; padding-left:15px; clear:both; list-style-type:none; }
+body.landing .main .grid ul:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+body.landing .main .grid ul li { float:left; position:relative; width:150px; margin:0; padding:0 44px 24px 0; font-size:0.6875em; }
+body.landing .main .grid ul li span { display:block; margin:-16px 0 0 15px }
+
+body.landing .main .grid strong { position:relative; right:155px; top:13px; text-align:right; font-weight:normal; display:block; }
+body.landing .main .grid h3,
+body.landing .main .grid h4,
+body.landing .main .grid span { display:block; width:120px; *width:150px; height:1.4em; margin:0; font-weight:normal; overflow:hidden; font-size:1em; line-height:1.4em; color:#999; }
+
+body.landing .main .grid h3 a { color:#4c4c4c; }
+
+body.landing .main .grid h3,
+body.landing .main .grid h4,
+body.landing .main .grid a.more { float:left; }
+
+body.landing .main .grid a.all { float:none; font-size:0.8em; }
+
+body.landing .main .grid h3 { clear:left; font-weight:bold; }
+
+body.landing .main .grid img { display:block; position:relative; z-index:1; margin-bottom:5px; -ms-interpolation-mode:bicubic
+	-webkit-box-shadow:0 0 4px 0px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow:0 0 4px 0px rgba(0, 0, 0, 0.4);
+	box-shadow:0 0 4px 0px rgba(0, 0, 0, 0.4);
+}
+
+body.landing .main .grid.apps img { margin-top:-9px; margin-bottom:10px; -webkit-border-radius:20px; -moz-border-radius:20px; border-radius:20px;
+	-webkit-box-shadow:0 4px 3px -2px rgba(0, 0, 0, 0.8);
+	-moz-box-shadow:0 4px 3px -2px rgba(0, 0, 0, 0.8);
+	box-shadow:0 4px 3px -2px rgba(0, 0, 0, 0.8);
+}
+body.landing .main .grid.movies li { padding-right:40px; }
+body.landing .main .grid.music-videos li { padding-right:37px; }
+body.landing .main .grid.music-videos li a.container { width:133px; height:70px; margin:0 0 16px; padding:0; overflow:hidden;
+	-webkit-box-shadow:0 0 4px 0px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow:0 0 4px 0px rgba(0, 0, 0, 0.4);
+	box-shadow:0 0 4px 0px rgba(0, 0, 0, 0.4);
+}
+body.landing .main .grid.music-videos li a.container .frame { display:table; height:70px; background-color:#000; }
+body.landing .main .grid.music-videos li a.container .frame .image { *position:absolute; *top:50%; display:table-cell; vertical-align:middle; padding:0; margin:0; }
+body.landing .main .grid.music-videos li a.container .frame .image img { *position:relative; *top:-50%; margin:0; -webkit-box-shadow:none; -moz-box-shadow:none; box-shadow:none; }
+
+body.landing .main .grid a { display:block; position:relative;  padding: 7px;
+margin: -7px 0 -3px -7px; color:#999; }
+body.landing .main .grid a:hover { text-decoration:underline; }
+body.landing .main .grid a.more { height:1.4em; line-height:1.4em; color:#08c; }
+
+body.landing #itunesmodule-gallery { margin:0 auto; width:980px; padding-bottom:20px; }
+body.landing #itunesmodule-gallery .gallery { background-position:50% 100%; }
+
+/* sub nav */
+.main .subnav { margin:35px 0 10px; padding:13px; line-height:1.4em; background-color:#e6e6e6; font-size:0.8125em; font-weight:bold; text-align:center; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px; -o-border-radius:4px; -khtml-border-radius:4px; }
+.main .subnav:after { content:'.'; display:block; clear:both; height:0; visibility:hidden; }
+.main .subnav li { display:-moz-inline-stack; display:inline-block; *display:inline; zoom:1; width:auto; margin-right:10px; padding:4px 12px; border:1px solid #e6e6e6; border-radius:12px; -webkit-border-radius:12px; -moz-border-radius:12px; -o-border-radius:12px; line-height:1.3em; }
+.main .subnav li a { color:#333; outline:none; }
+.main .subnav li a:hover { color:#767676; text-decoration:none; }
+.main .subnav li.musicvideos { margin-right:0 !important; }
+
+body#featured .subnav li.featured,
+body#songs .subnav li.songs,
+body#albums .subnav li.albums,
+body#shows .subnav li.shows,
+body#movies .subnav li.movies,
+body#videorentals .subnav li.videorentals,
+body#books .subnav li.books,
+body#free-apps .subnav li.freeapps,
+body#paid-apps .subnav li.paidapps,
+body#musicvideos .subnav li.musicvideos { color:#FFF; border:1px solid #4c4c4c;  background:#989898; -webkit-box-shadow:inset 0 1px 3px 0px rgba(0,0,0,0.8); }
+
+#main .subnav li:nth-child(1n) { border:none; }
+
+body#featured .subnav li.featured a,
+body#songs .subnav li.songs a,
+body#albums .subnav li.albums a,
+body#shows .subnav li.shows a,
+body#movies .subnav li.movies a,
+body#videorentals .subnav li.videorentals a,
+body#books .subnav li.books a,
+body#free-apps .subnav li.freeapps a,
+body#paid-apps .subnav li.paidapps a,
+body#musicvideos .subnav li.musicvideos a  { color:#fff; cursor:default; }
+
+body.featured .main .grid { background:url(../../a/images/grid_divider.png) 50% 100% no-repeat; }
+body.featured .main .grid.last { background:none; }
+body.featured .main .subnav { margin-bottom:30px; }
+
+/* detail pages
+----------------------------- */
+.main .grid3col { padding-top:4em; border-top:1px solid #222; }
+
+#cover { position:relative; float:left; margin-right:45px; }
+body.songs #cover,
+body.albums #cover { width:170px; }
+body.shows #cover,
+body.musicvideos #cover { width:227px; }
+body.movies #cover,
+body.videorentals #cover { width:151px; }
+body.books #cover { width:151px; }
+#cover a { display:block; position:relative; padding:10px; margin:-2px -10px 0; background: url(../../../../../itunes/charts/images/shadow_album20090114.png) no-repeat; }
+#cover img { display:block; }
+body.shows #cover a { background:url(../../../../../itunes/charts/images/shadow_show20090114.png); }
+body.movies #cover a,
+body.videorentals #cover a { background:url(../../../../../itunes/charts/images/shadow_movie20090114.png); }
+body.books #cover a { background:url(../../../../../itunes/charts/images/shadow_movie20090114.png); }
+body.musicvideos #cover a { padding-bottom:0; background:url(../../../../../itunes/charts/images/shadow_musicvideo_top20090114.png); }
+body.musicvideos #cover span { position:absolute; bottom:-10px; left:-10px; display:block; width:247px; height:10px; font-size:1px; background:url(../../../../../itunes/charts/images/shadow_musicvideo_bottom20090114.png); }
+
+.main #details { width:370px; margin:0; }
+body.shows .main #details,
+body.musicvideos .main #details { width:294px; }
+.main .grid3col h2 { padding-bottom:0; border:none; margin:0 0 0.7em; font-size:26px; line-height:1.4em; font-weight:normal; color:#fff; }
+.main #details h3 { margin-bottom:0.3em; color:#fff; font-size:16px;  }
+.main #details ul { line-height:1.2em; }
+.main #details li { padding-bottom:0.3em; }
+.main #details a.button { clear:both; display:block; width:105px; height:23px; margin:20px 0 0 -2px; _margin-left:0; text-indent:-9999px; background:url(../../../../../itunes/charts/images/button_itunes20090107.gif); }
+.main #details a.button:hover { background-position:0 100%; }
+.main #details #summary { overflow:hidden; margin-top:20px; }
+.main #details #summary p { font-size:1em; line-height:1.5em; color:#979697; }
+.main #details #summary_toggle { display:none; cursor:pointer; float:right; position:relative; right:0; font-size:11px; color:#ccc; text-align:right; padding-right:11px; background:url(../../../../../itunes/charts/images/morearrow_white20090107.gif) no-repeat 100% 7px; }
+.main #details #summary_toggle:hover { text-decoration:underline; }
+.main #details #summary_toggle.visible { display:block; }
+.main #details #summary_toggle.less { background:url(../../../../../itunes/charts/images/morearrow_white20090107.gif) no-repeat 100% -38px; }
+
+.main #related { float:right; padding:16px 12px 16px 18px; width:260px; font-size:12px; background:#282828 url(../../../../../itunes/charts/images/rel_content_bg20090107.gif) repeat-x; border-radius:6px; -webkit-border-radius:6px; -moz-border-radius:6px; -o-border-radius:6px; -khtml-border-radius:6px; }
+.main #related h3 { margin-bottom:0.5em; font-weight:normal; }
+.main #related ol { margin:0 0 0 20px; }
+.main #related ol li { width:230px; height:1.5em; *width:auto; *height:auto; }
+
+/* song quicktime preview */
+.main .preview { margin-top:10px; display:none; }
+.main #download_itunes { margin-top:10px; }
+.main .preview:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+.main .preview a.audio { background:none; padding-left:0; float:left; }
+.main .preview a.audio img { vertical-align:middle; margin-right:10px; }
+.main .preview a { display:block; padding-top:11px; outline:none; }
+.main .preview a.controller { width:40px; height:40px; margin-right:10px; padding-top:0; text-indent:-9999px; background:url(../../../../../itunes/charts/images/preview_button20090107.png) no-repeat; }
+.main .preview a.controller:hover { background-position:0 100%; }
+
+/* to avoid an ie bug on slide */
+#promofooter { position:relative; }
+
+body > .controllerPanel { width:40px; height:40px; }
+.controllerPanel .ACQuicktimeCircularController { position:absolute; width:40px; height:40px; margin:0; left:0; overflow:hidden; }
+.controllerPanel .ACQuicktimeCircularController .control { position:absolute; top:7px; left:8px; width:24px; height:24px; overflow:hidden; text-align:center; text-indent:-999px; }
+.controllerPanel .ACQuicktimeCircularController .background { position:absolute; left:-49px; top:1px; width:89px; height:40px;
+	background-image:url(../../../../../itunes/charts/images/preview_controller_parts20090107.png) !important;
+	*background-image:expression('none') !important; *background-image:none !important;
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../itunes/charts/images/preview_controller_parts20090107.png', sizingMethod='crop');
+}
+.controllerPanel .ACQuicktimeCircularController .background:hover { background-position:0 100%; }
+.controllerPanel .ACQuicktimeCircularController .control.play .background { left:0; top:-6px; }
+.controllerPanel .ACQuicktimeCircularController .control.pause .background { left:-24px; top:-6px; }
+.controllerPanel .ACQuicktimeCircularController canvas { left:1px; top:1px; width:38px; height:38px; }
+.controllerPanel .ACQuicktimeCircularController canvas { *left:2px; *top:2px; *width:36px; *height:36px; }
+
+
+/* facebook module */
+#facebook { clear:both; width:980px; height:63px; margin:26px auto 0; padding:0; border:1px solid #ddd; background:#f4f6f7; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px; -o-border-radius:4px; -khtml-border-radius:4px; }
+#facebook .fbfan { background:url(../../../../../itunes/images/border_fbfan.gif) no-repeat 100% 10px; float:left; margin-right:18px; width:230px; height:100%; }
+#facebook .fbfan.last { width:217px; margin-right:20px; float:left !important; }
+#facebook p { margin-top:1.8em; margin-bottom:0; }

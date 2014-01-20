@@ -1,0 +1,21 @@
+/* ---- BUILT FILE. DO NOT MODIFY THIS DIRECTLY. ---- */
+/* 
+
+Copyright (c) 2011 Apple Computer, Inc.. All rights reserved.
+
+*/
+
+/* BEGIN ./styles/application.css */
+/* BEGIN styles/src/ac_darkbox.css */
+html.blackout{background:#fff;}
+body.noscroll{position:static;overflow:hidden;border:none;box-shadow:none;-webkit-box-shadow:none;-moz-box-shadow:none;*padding:0;*width:100%;}
+body.noscroll *{display:none !important;}
+body.noscroll .noscroll-show,body.noscroll .noscroll-show *{display:block !important;}
+.darkbox-content{display:none;position:absolute;top:0;left:0;width:100%;}
+.darkbox-content .close{display:block;z-index:2000;position:absolute;top:24px;left:24px;width:31px;height:31px;cursor:pointer;background:url('images/darkbox_close.png') 0 0;_background:url('images/darkbox_close.gif') 0 0;}
+@media only screen{.darkbox-content .close{background-image:url(images/darkbox_close.svg);}
+}
+.darkbox-content .close:hover{background-position:0 32px;}
+/* END styles/src/ac_darkbox.css */
+/* END ./styles/application.css */
+

@@ -1,0 +1,145 @@
+.legal #hero { width:980px;}
+.legal #hero .intro { width:910px; }
+.legal .top-row { width:980px; }
+
+/* Legal Questions */
+.legal #main label { font-size:13px; line-height:19px; margin-bottom:4px; color:#333; }
+.legal #main #select-question { float:left; position:relative; margin-bottom:25px; }
+.legal #main #select-question ul li label { display:block; font-weight:bold; }
+.legal #main #select-question ul li.dropdown { margin-bottom:0; padding-bottom:0; }
+.legal #main #select-question ul li.dropdown span { display:block; *display:none; right:27px; top:25px; }
+.legal #main #select-question ul li.dropdown i { display:none; }
+
+.legal #main ul.inputs { position:relative; float:left; }
+.legal #main ul.inputs li { float:left; position:relative; }
+.legal #main ul.inputs li.dropdown select { position:relative; width:302px; height:26px; cursor:pointer; padding:4px 27px 2px 6px; margin:0; background:url(../../../../legal/contact/images/customselect.gif) no-repeat top left !important; font-size:12px; border:none; 
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-o-border-radius:6px;
+	-khtml-appearance:none;
+	-webkit-appearance:none;
+}
+.legal #main ul.inputs li.dropdown span { position:absolute; z-index:10; bottom:22px; right:27px; width:17px; height:22px; background:url(../../../../legal/contact/images/customselect_bg.gif) repeat-x top left; *display:none; }
+.legal #main ul.inputs li.dropdown select:hover { background:url(../../../../legal/contact/images/customselect_hover.gif) no-repeat top left !important; }
+
+.legal #main div.content { margin:0; width:815px; float:left; }
+.legal #main div p { padding-bottom:12px; }
+
+
+/* Show forms */
+#show-content { width:880px; float:left; position:relative; height:0; overflow:hidden; /*visibility:hidden;*/ }
+#show-content .content { width:980px; /*height:0;*/ overflow:hidden; position:relative; /*visibility:hidden;*/ }
+
+#main ul.inputs li.counterfeit_label { padding-top:20px; }
+#main ul.inputs li.counterfeit_label fieldset { margin-bottom:0; }
+
+.legal #main #form-questions #show-content h3 { margin-bottom:20px; }
+
+.legal #main #form-questions #show-content ul.inputs { width:660px; }
+.legal #main #form-questions #show-content ul.inputs li { padding-bottom:10px; *padding-bottom:5px; }
+.legal #main #form-questions #show-content ul.inputs li label { display:block; font-weight:bold; }
+.legal #main #form-questions #show-content ul.inputs li.checkbox_label { width:100%; padding-top:30px; margin-top:20px; border-top:1px solid #c0c0c0; }
+
+.legal #main #form-questions #show-content ul.inputs li.radio_label { padding:0; margin:0; }
+.legal #main #form-questions #show-content ul.inputs li.radio_label .radio input { *width:auto !important; }
+.legal #main #form-questions #show-content ul.inputs li.radio_label .customradiowrap p.legend { margin:0; padding-bottom:8px !important; }
+
+.legal #main #form-questions #show-content ul.requirements li { list-style-type:square; margin:5px 0 20px 20px; }
+
+.legal #main #form-questions #show-content ul li span.formwrap { display:inline; float:left; position:relative; width:438px; border:4px solid #f0f0f0;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
+.legal #main #form-questions #show-content ul li span.formwrap input,
+.legal #main #form-questions #show-content ul li span.formwrap textarea { border:1px solid #c0c0c0; }
+.legal #main #form-questions #show-content ul li input,
+.legal #main #form-questions #show-content ul li textarea { width:436px; margin:0; padding:0; font-size:1em; float:left; position:relative; font-family:"Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif; }
+.legal #main #form-questions #show-content ul li input { height:23px; }
+.legal #main #form-questions #show-content ul li textarea { height:170px; }
+.legal #main #form-questions #show-content ul li i { position:absolute; right:0; top:5px; width:58px; height:16px; background:url(../../../../legal/contact/images/required_label.png) no-repeat 0 0; text-indent:-9999px; z-index:1; behavior:url(/global/scripts/lib/ie7pngfix.htc); overflow:hidden; }
+.legal #main #form-questions #show-content ul li i.failed { background-position:0 -16px; z-index:2; }
+.legal #main #form-questions #show-content ul li span.formwrap i { right:-72px; }
+
+.legal #main #form-questions #show-content input.submit { width:123px; height:36px; float:right; position:relative; margin-top:15px; margin-right:155px; }
+
+
+/* checkbox_label */
+.legal #main #form-questions #show-content .submit-container { float:left; width:600px; margin-top:22px; padding-top:14px; border-top:1px solid #c0c0c0; }
+.legal #main #form-questions #show-content .submit-container input.submit { margin-right:0; }
+
+ul.inputs li.checkbox_label .customcheckboxwrap ul.customcheckbox { margin-left:5px; }
+ul.inputs li.checkbox_label .customcheckboxwrap ul.customcheckbox li { padding-bottom:0px !important; margin-bottom:15px; color:#000; background:url(../images/customcheckbox.jpg) no-repeat 0 0; background-size:19px 66px; -webkit-user-select:none; }
+ul.inputs li.checkbox_label .checkbox label,
+ul.inputs li.checkbox_label .customcheckboxwrap ul.customcheckbox li.checkbox span { float:left; position:relative; margin-left:30px; font-size:14px; color:#333; }
+ul.inputs li.checkbox_label .checkbox div { *clear:both; }
+ul.inputs li.checkbox_label .checkbox input { width:auto !important; margin-left:5px !important; }
+ul.inputs li.checkbox_label .checkbox label { float:none; margin-bottom:10px !important; font-weight:normal !important; }
+ul.inputs li.checkbox_label .customcheckboxwrap ul.customcheckbox li.selected { background-position:0 -47px; }
+
+
+/* radio_label */
+ul.inputs li.radio_label .customradiowrap ul.customradio { margin-left:5px; }
+ul.inputs li.radio_label .customradiowrap ul.customradio li { margin-right:10px; padding-right:8px; color:#333; background:url(../images/customradio.jpg) no-repeat 0 0; background-size:19px 55px; -webkit-user-select:none; }
+ul.inputs li.radio_label .radio label,
+ul.inputs li.radio_label .customradiowrap ul.customradio li.radio span { float:left; position:relative; margin-left:25px; *margin-left:10px; font-size:12px; font-weight:bold; }
+ul.inputs li.radio_label .customradiowrap ul.customradio li.selected { background-position:0 -38px; }
+ul.inputs li.radio_label .radio input { width:auto !important; }
+ul.inputs li.radio_label .radio label { margin-left:5px !important; margin-right:15px !important; }
+
+
+/* large dropdown */
+.legal #main #form-questions #show-content ul.inputs li select { width:445px; background:url(../../../../legal/contact/images/customselect_long.gif) no-repeat top left !important; }
+.legal #main #form-questions #show-content ul.inputs li select:hover { background:url(../../../../legal/contact/images/customselect_long_hover.gif) no-repeat top left !important; }
+.legal #main #form-questions #show-content ul.inputs li.dropdown span.formwrap { border:none; width:441px; margin-left:28px; margin-top:25px; }
+.legal #main #form-questions #show-content ul.inputs li.dropdown span.hide { float:left; *display:none; _display:none; bottom:30px; right:auto; left:402px; }
+
+
+/* apple-trademark-infringement */
+#show-piracy, #show-counterfeit, #end-user, #distributor, #internet { width:980px; height:0; overflow:hidden; position:relative; visibility:hidden; }
+
+
+/* Legal Question - Validation */
+#main .advice { position:absolute; width:270px; height:auto !important; *top:30%; right:0; z-index:1; overflow:visible; }
+
+#main .wrapper { margin:20px 0 40px; padding:15px 25px 1px; border:1px solid #eaeaea; border-color:#f8f8f8 #eaeaea #d4d4d4; background-color:#fafafa; color:red;
+	-webkit-border-radius:5px;
+	   -moz-border-radius:5px;
+	        border-radius:5px;
+}
+#main .wrapper h3 { margin:0 0 5px; font-size:12px; color:red; font-weight:bold; } /* padding needs to be on child elements of #validation advice to avoid jerky motion in scriptaculous effects */
+#main .wrapper ul { margin-left:25px; margin-bottom:18px; }
+
+#main li.checkbox fieldset input { margin-right:5px; }
+#main li.checkbox fieldset div { margin-bottom:8px; }
+#main li.checkbox fieldset.checkbox div { display:none; }
+#main li.radio input { *border:none !important; }
+
+#main legend,
+#main p.legend { display:block; clear:both; margin:0; padding:0 0 3px; color:#333; }
+#main label span,
+#main legend span,
+#main p.legend span { font-weight:normal; }
+#main label sup,
+#main ul.inputs li fieldset legend sup { font-size:10px; font-weight:normal; }
+#main label p,
+#main form label span,
+#main ul.inputs li fieldset legend p,
+#main ul.inputs li fieldset legend span { font-weight:normal; }
+#main input,
+#main form select,
+#main form textarea { margin-top:0; margin-bottom:1.5em; }
+#main ul input { width:auto; padding:0.1em; margin-top:0; margin-right:3px; font-size:1.3em; }
+
+#main ul.inputs li fieldset { margin-bottom:1.75em; *margin-bottom:0; }
+#main ul.inputs li fieldset legend,
+#main ul.inputs li p.legend { margin-bottom:4px; }
+#main ul.inputs li fieldset input { width:auto; margin:0; }
+#main ul.inputs li fieldset label { display:inline; font-weight:normal; color:#666; padding:0 7px 0 1px; }
+
+
+/* custom controls */
+#main select.replaced,
+#main fieldset.replaced { position:absolute; left:-99999px; width:0 !important; }
+
+#main form p.sosumi.policy { float:left; width:350px; padding:0; color:#7a7a7a; font-weight:normal; font-size:12px !important; }

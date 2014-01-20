@@ -1,0 +1,93 @@
+/* Design CSS */
+body#design .grey-bg { background-color:#f6f6f6; }
+
+body#design #main .row { position:relative; }
+body#design #main .row .positioned { position:absolute; bottom:0; margin:0; z-index:1; }
+body#design #main .row h2 { margin-bottom:14px; }
+body#design #main .row p.intro { padding:10px 65px 0; text-align:center; }
+
+body#design #main .hero { padding:48px 0 34px; }
+body#design #main .hero .left { margin-left:35px; }
+body#design #main .hero .last { padding-top:124px; margin-right:-16px; }
+body#design #main .hero .last h1 { margin-bottom:26px; }
+
+body#design #main .display .first { padding:146px 0 179px 16px; width:366px; min-height:874px; }
+body#design #main .display .first h1  { margin-bottom:20px; }
+body#design #main .display .positioned { right:-282px; }
+
+body#design #main .size .last { padding:164px 0 156px 0; margin-right:24px; width:389px; min-height:879px; }
+body#design #main .size .last h1 { margin-bottom:20px; }
+body#design #main .size .last .left { margin-top:10px; }
+body#design #main .size .last .caption { font-size:.85em; line-height:1.6em; font-weight:bold; }
+body#design #main .size .last .left.display-tablet { margin:20px 30px 0 0; }
+body#design #main .size .last .note { clear:both; padding-top:20px; width:360px; font-size:.85em; color:#666; }
+body#design #main .size .last .note span { font-weight:bold; }
+body#design #main .size .positioned { left:45px; }
+
+body#design #main .performance .row { padding:75px 0; }
+body#design #main .performance h2 { padding-top:10px; }
+body#design #main .performance .first { padding:28px 0 53px 16px; width:403px; }
+body#design #main .performance .right { margin:42px -22px 0 0; }
+body#design #main .performance .technology-within { width:820px; padding-left:16px; margin-bottom:60px; }
+body#design #main .performance img.diagram { margin-left:-27px; }
+
+body#design #main .detail { padding-top:72px; background:#101010; }
+body#design #main .detail .container { width:980px; margin:0 auto; }
+body#design #main .detail p.intro { width:770px; margin:0 auto; color:#ddd; text-align:center; }
+body#design #main .detail .gallery { position:relative; z-index:1; margin:20px -230px 0; width:1440px; height:795px; overflow:hidden; }
+body#design #main .detail .gallery .gallery-view { position:relative; z-index:1; margin:0 auto; width:5760px; height:795px; }
+body#design #main .detail .gallery .gallery-content { z-index:1000; position:relative; width: 1440px; float:left; -webkit-transform:translateZ(0); }
+body#design #main .detail .gallery .gallery-content .slide-image { z-index:1000; display:block; margin:-5px 0 0; width:1440px; height:800px; }
+body#design #main .detail .gallery .video-gallery .slide-image { display:none; }
+body#design #main .detail .gallery .gallery-content .slide-video { margin:-5px 0 0; width:1440px; height:800px; }
+body#design #main .detail .gallery .gallery-content .slide-mask { position:absolute; top:0; left:0; display:block; margin:-5px 0 0; width:1440px; height:800px; }
+body#design #main .detail .gallery .caption { z-index:1000; position:absolute; width:690px; left:25%; bottom:70px; margin:0 auto; color:#ddd; text-align:center; }
+body#design #main .detail .gallery .caption p { margin-bottom:0; }
+body#design #main .detail .gallery .dot-nav { position:absolute; z-index:1002; left:0; bottom:30px; }
+body#design #main .detail .gallery .dot-nav li a.active { border-color:#aaa; }
+body#design #main .detail .gallery .dot-nav li a.active:hover { background:transparent; }
+body#design #main .detail .gallery .dot-nav li a:hover { background:#fff; }
+body#design #main .detail .detail-gallery-preload { width:0; height:0; opacity:0; }
+
+body#design #main .ios { position:static; }
+
+/* filled paddle arrow nav */
+body#design #main .detail .gallery .paddle-nav .arrow { height:550px; }
+body#design #main .detail .paddle-nav li .arrow.previous { left:288px; *left:140px; }
+body#design #main .detail .paddle-nav li .arrow.previous b { left:10px; }
+body#design #main .detail .paddle-nav li .arrow.next { right:288px; *right:140px; }
+body#design #main .detail .paddle-nav li .arrow.next b { right:10px; }
+
+@media only screen and (min-width:1350px) {
+	body#design #main .detail .paddle-nav li .arrow.previous { left:80px; }
+	body#design #main .detail .paddle-nav li .arrow.previous b { left:90px; }
+	body#design #main .detail .paddle-nav li .arrow.next { right:80px; }
+	body#design #main .detail .paddle-nav li .arrow.next b { right:90px; }
+}
+
+@media only screen and (min-width:1440px) {
+	body#design #main .detail .paddle-nav li .arrow.previous { left:0; }
+	body#design #main .detail .paddle-nav li .arrow.next { right:0; }
+}
+
+body#design #main .ios { padding-bottom:70px; }
+body#design #main .ios .first { padding:230px 0 0 16px; width:410px; }
+body#design #main .ios .right { margin:80px -275px 0 0; }
+
+body#design #main .smart .grid2col { padding-top:78px; }
+body#design #main .smart .column { position:relative; padding:21px 0 558px; width:383px; min-height:381px; z-index:2; }
+body#design #main .smart .column.first { padding-left:21px; }
+body#design #main .smart .column.last { margin-right:28px; }
+body#design #main .smart .positioned.case { right:-730px; z-index:1; }
+body#design #main .smart .positioned.cover { left:-730px; z-index:1; }
+
+body#design #main .environment { padding:70px 0 0; }
+body#design #main .environment .grid2col { padding:18px 0 45px; }
+body#design #main .environment .column.first { width:380px; padding-bottom:50px; }
+body#design #main .environment img.profile { margin:0 0 50px -50px; }
+body#design #main .environment .column.last { margin:10px 0 0 0; }
+body#design #main .environment .column.last ul { margin:0 44px 50px 0; padding:22px 20px 24px; width:378px; height:355px; border:1px solid #999; border-radius:4px; }
+body#design #main .environment .column.last li { margin-bottom:11px; padding-left:10px; border-bottom:1px solid #ddd; background:url(../images/check_mark.png) 340px 17px no-repeat; }
+body#design #main .environment .column.last li:last-child { border-bottom:none; }
+body#design #main .environment .column.last li h3 { padding:14px 0 15px; }
+body#design #main .environment .column.last li p { margin:-4px 0 19px; font-size:.7em; line-height:1em; color:#444; }

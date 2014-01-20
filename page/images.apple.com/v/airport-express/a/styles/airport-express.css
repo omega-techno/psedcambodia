@@ -1,0 +1,68 @@
+/* hero  */
+.main #hero .row { height:813px; }
+.main #hero h1 { margin:32px 0 -9px 0; }
+#hero nav { position:relative; z-index:1; width:890px; margin:-215px auto 0; }
+#hero nav li { margin-right:15px; }
+#hero nav li.last { margin-right:0; }
+
+/* wifi */
+#wifi { padding-bottom:25px; }
+#wifi header { margin-bottom:0; }
+
+#wifi .high-performance,
+#wifi .extend-network { padding:0 144px 11px 217px; }
+
+#wifi .dual-demo { margin:0 -42px; padding-bottom:12px; }
+
+/* airplay */
+#airplay { padding-bottom:21px; }
+#airplay header { margin:0 0 0 3px; }
+
+#airplay .grid2col { width:840px; margin:0 0 0 71px; }
+#airplay .grid2col .first { width:404px; }
+#airplay .grid2col .last  { width:389px; }
+#airplay .airplay-demo { margin:0 0 38px -59px; }
+#airplay .remote-app { display:block; width:388px; margin:33px auto 50px; padding:25px 0 20px; border:1px solid #ddd; background:#fff;
+	-webkit-border-radius:2px;
+	   -moz-border-radius:2px;
+	        border-radius:2px;
+}
+#airplay .remote-app img { float:right; margin-top:1px; margin-right:25px; margin-left:23px; }
+#airplay .remote-app h3,
+#airplay .remote-app p,
+#airplay .remote-app a { margin:0 0 4px 29px; }
+#airplay .remote-app p { padding-bottom:3px; }
+
+/* wireless printing */
+#printing { padding-bottom:50px; }
+#printing header { margin:0 0 0 6px; }
+#printing header h1 { margin:0 0 0 -4px; }
+#printing .printing-demo { margin:0 0 8px 2px; }
+#printing h3,
+#printing p { width:596px; margin:0 0 4px 218px; }
+
+/* safety */
+#safety .row { padding-bottom:0; }
+#safety .product-ports { width:980px; height:193px; margin:0 0 98px 1px; position:relative; z-index:1; }
+#safety .product-ports img,
+#safety .product-ports .pins { position:absolute; z-index:1; top:-1px; }
+
+#safety .product-ports .pins .pin { display:block; position:absolute; z-index:2; width:102px; height:52px; border-left:1px solid #d2d2d2; }
+#safety .product-ports .pins .pin .label { display:block; position:relative; left:-50%; top:58px; z-index:1; font-size:0.78571em; line-height:1.46em; color:#76797c; text-align:center; }
+
+#safety .product-ports .power,
+#safety .product-ports .ethernet-wan,
+#safety .product-ports .ethernet-lan,
+#safety .product-ports .usb,
+#safety .product-ports .audio { top:148px; }
+
+#safety .product-ports .power { left:306px; }
+#safety .product-ports .ethernet-wan { left:438px; }
+#safety .product-ports .ethernet-lan { left:538px; }
+#safety .product-ports .usb { left:635px; }
+#safety .product-ports .audio { left:706px; }
+
+/* buystrip */
+#buystrip .product p { position:relative; z-index:1; top:-11px; margin-bottom:4px; margin-left:23px; line-height:1.45em; }
+#buystrip .product .product-image { margin-bottom:-10px; }
+#buystrip .product .more { top:88px; font-size:14px; }

@@ -1,0 +1,49 @@
+#productheader { border-bottom:1px solid #d5d5d5; }
+
+#content { width:980px; padding:18px 0; }
+#content.grid3col .column { width:484px; margin-left:12px; }
+#content.grid3col .column.first { width:236px; }
+#content.grid3col .column.last { width:236px; }
+
+#content img.across { display:block; }
+
+/* sideboxes */
+#content .sidebox { position:relative; width:200px; padding:0 18px 6px; margin-bottom:14px; background:url(../images/sidebox_bg20080701.gif) repeat-y; }
+#content .sidebox .bottomcap { position:absolute; left:0; bottom:0; _bottom:-1px; height:6px; _font-size:1px; width:236px; background:url(../images/sidebox_bg_capbottom20080701.gif) no-repeat; }
+#content .sidebox p { font-size:11px; line-height:1.5em; margin-bottom:10px; }
+#content .sidebox h2 { width:200px; padding:0 18px; margin:0 -18px 1em; line-height:31px; min-height:31px; font-size:12px; font-weight:normal; background:url(../images/sidebox_bg_captop_arrow20080701.gif) no-repeat; }
+#content .sidebox h2 a { display:block; color:#000; }
+#content .sidebox h2 a:hover { text-decoration:none; }
+#content .sidebox h4 { margin-bottom:0.5em; font-size:12px; font-weight:normal; }
+#content .sidebox img.employees { position:relative; margin:6px -4px 10px -4px; }
+#content .sidebox .leftside { float:left; width:60px;font-size:11px; line-height:1.5em; margin-bottom:10px; }
+#content .sidebox .rightside { float:right; width:95px;font-size:11px; line-height:1.5em; margin-bottom:10px; margin-right:0px; _margin-right:0; }
+#content .sidebox a.more { display:inline-block; }
+
+#content .column.last .sidebox,
+#content .column.last img.even-margin { margin-bottom:25px; }
+
+/* sort nav */
+#content .contentheading { position:relative; min-height:31px; background:#e2e2e2 url(../images/pr_sortnav_bgbottom20080701.gif) no-repeat bottom left; *height:32px; *margin-bottom:1.5em; _height:24px; }
+#content .contentheading h2 { font-size:12px; padding-left:12px; line-height:31px; font-weight:normal; background:url(../images/pr_sortnav_bgtop20080701.gif) no-repeat top left; margin-bottom:12px; _margin-bottom:0; }
+#content .contentheading .rss a { position:absolute; top:8px; right:8px; display:block; height:15px; width:27px; text-indent:-9999px; background:url(../images/rss_icon20080701.gif) no-repeat; }
+
+/* press release listing feed  */
+#content #pr-listing { position:relative; margin-bottom:24px; }
+#content #pr-listing.loading { background:url(../images/loading20080701.gif) no-repeat 50% 50%; }
+#content #pr-listing #pr-feed-url { display:none; }
+#content #pr-listing ul.stories { margin-top:-12px; }
+#content #pr-listing li { position:relative; zoom:1; padding-top:0.6em; }
+#content #pr-listing li.newdate { padding-top:16px; }
+#content #pr-listing li a { color:#252525; }
+#content #pr-listing li a:hover { color:#08c; }
+#content #pr-listing li a.link { display:block; margin-left:100px; margin-right:18px; margin-bottom:0; line-height:15px; }
+#content #pr-listing span.date { position:absolute; left:15px; top:16px; color:#888; }
+#content #pr-listing #viewall { position:absolute; right:15px; bottom:-28px; font-size:11px; padding-right:8px; }
+#content #pr-listing div.loading #viewall { display:none; }
+
+/* global footer */
+#directorynav .column { width:113px; line-height:1.3em; }
+#directorynav .column.last { width:150px; float:right !important; margin-right:18px; }
+#directorynav ul { margin-top:0.2em; margin-bottom:18px; }
+#directorynav li { margin-bottom:0.4em; }

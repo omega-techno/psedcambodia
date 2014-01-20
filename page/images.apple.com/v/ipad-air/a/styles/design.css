@@ -1,0 +1,118 @@
+/* Design CSS */
+
+body#design .top-wrap { margin:-20px auto 0; padding-top:20px; }
+body#design .grey-bg { background-color:#f6f6f6; }
+
+@media only screen and (max-device-width:768px) {
+	body#design .top-wrap { margin-bottom:-20px; padding-bottom:20px; }
+}
+
+body#design #main .row { position:relative; }
+body#design #main .row.border-divider { border:1px; border-bottom:1px solid #ddd; }
+body#design #main .row .positioned { position:absolute; bottom:0; margin:0; z-index:1; }
+
+body#design #main .row h2 { padding-bottom:18px; }
+body#design #main .row p.intro { padding:12px 122px 0; text-align:center; }
+
+body#design #main .hero { margin-top:0px; padding:48px 0 60px; }
+body#design #main .hero h1 { padding:0 0 80px 7px; }
+body#design #main .hero .hero-image { margin-left:-108px; }
+body#design #main .hero p { padding:90px 0 0 22px; }
+
+body#design #main .best-design { padding-top:50px; }
+body#design #main .best-design .row { padding:0; width:980px; }
+body#design #main .best-design .holding .grid2col .column.first { position:relative; padding:50px 300px 0 50px; width:390px; z-index:2; }
+body#design #main .best-design .holding .grid2col .column.first img.tiles { margin-top:10px; padding-bottom:88px; }
+body#design #main .best-design .holding .grid2col img.design-image { position:relative; z-index:1; margin:-1170px 37px 0 0; }
+body#design #main .best-design .holding .grid2col .dimensions { position:relative; z-index:1; min-height:471px; }
+body#design #main .best-design .holding .grid2col .dimensions img { position:absolute; bottom:-21px; left:5px; z-index:1; }
+
+body#design #main .best-design .display { padding:70px 0; border-top:1px solid #ddd; }
+body#design #main .best-design .display img.left { margin-left:-160px; }
+body#design #main .best-design .grid2col .column.last { width:390px; padding:50px 35px 60px 0; }
+body#design #main .best-design .display .column.last img.resolution { margin-top:10px; }
+body#design #main .best-design .caption { font-size:0.85em; line-height:2em; color:#666; }
+body#design #main .best-design .dimensions .caption { padding-top:20px; }
+
+body#design #main .detail { padding-top:72px; background:#101010; }
+body#design #main .detail .container { width:980px; margin:0 auto; }
+body#design #main .detail p.intro { width:770px; margin:0 auto; color:#ddd; text-align:center; }
+body#design #main .detail .gallery { position:relative; z-index:1; margin:20px -230px 0; width:1440px; height:795px; overflow:hidden; }
+body#design #main .detail .gallery .gallery-view { position:relative; z-index:1; margin:0 auto; width:5760px; height:795px; }
+body#design #main .detail .gallery .gallery-content { z-index:1000; position:relative; width: 1440px; float:left; -webkit-transform:translateZ(0); }
+body#design #main .detail .gallery .gallery-content .slide-image { z-index:1000; display:block; margin:-5px 0 0; width:1440px; height:800px; }
+body#design #main .detail .gallery .video-gallery .slide-image { display:none; }
+body#design #main .detail .gallery .gallery-content .slide-video { margin:-5px 0 0; width:1440px; height:800px; }
+body#design #main .detail .gallery .gallery-content .slide-mask { position:absolute; top:0; left:0; display:block; margin:-5px 0 0; width:1440px; height:800px; }
+body#design #main .detail .gallery .caption { z-index:1000; position:absolute; width:690px; left:25%; bottom:70px; margin:0 auto; color:#ddd; text-align:center; }
+body#design #main .detail .gallery .caption p { margin-bottom:0; }
+body#design #main .detail .gallery .dot-nav { position:absolute; z-index:1002; left:0; bottom:30px; }
+body#design #main .detail .gallery .dot-nav li a.active { border-color:#aaa; }
+body#design #main .detail .gallery .dot-nav li a.active:hover { background:transparent; }
+body#design #main .detail .gallery .dot-nav li a:hover { background:#fff; }
+body#design #main .detail .detail-gallery-preload { width:0; height:0; opacity:0; }
+
+/* filled paddle arrow nav */
+body#design #main .detail .gallery .paddle-nav .arrow { height:550px; }
+body#design #main .detail .paddle-nav li .arrow.previous { left:288px; *left:140px; }
+body#design #main .detail .paddle-nav li .arrow.previous b { left:10px; }
+body#design #main .detail .paddle-nav li .arrow.next { right:288px; *right:140px; }
+body#design #main .detail .paddle-nav li .arrow.next b { right:10px; }
+
+@media only screen and (min-width:1350px) {
+	body#design #main .detail .paddle-nav li .arrow.previous { left:80px; }
+	body#design #main .detail .paddle-nav li .arrow.previous b { left:90px; }
+	body#design #main .detail .paddle-nav li .arrow.next { right:80px; }
+	body#design #main .detail .paddle-nav li .arrow.next b { right:90px; }
+}
+
+@media only screen and (min-width:1440px) {
+	body#design #main .detail .paddle-nav li .arrow.previous { left:0; }
+	body#design #main .detail .paddle-nav li .arrow.next { right:0; }
+}
+
+body#design #main .power { padding-top:75px; }
+body#design #main .power .row { padding:0; width:980px; }
+body#design #main .power .power-stack { margin:28px 0 0 -92px; }
+body#design #main .power .chip { padding:34px 0 30px; width:880px; }
+body#design #main .power .chip .column { width:400px; padding-right:10px; }
+body#design #main .power .chip .column .center { margin-bottom:45px; }
+body#design #main .power .chip .column h2 { margin-left:-18px; }
+body#design #main .power .technology { width:880px; padding:68px 0 50px; }
+body#design #main .power .technology .center { margin:0 0 62px -105px; }
+body#design #main .power .technology h2,
+body#design #main .power .technology p { width:820px; padding-left:40px; }
+
+body#design #main .hardware-software .column.first { padding:213px 0 198px; width:400px; min-height:619px; }
+body#design #main .hardware-software .column.first h1 { margin:0; padding-bottom:24px; }
+body#design #main .hardware-software .positioned { right:38px; }
+
+body#design #main .smart .row { padding-top:172px; }
+body#design #main .smart h1 { position:relative; margin-left:-10px; z-index:3; }
+body#design #main .smart h2 { position:relative; padding-bottom:4px; z-index:3; }
+body#design #main .smart p { position:relative; z-index:3; }
+body#design #main .smart p.intro { padding:12px 80px 624px; min-height:84px; }
+
+body#design #main .smart .grid2col { position:relative; }
+body#design #main .smart .grid2col.cover { *z-index:2; }
+body#design #main .smart .grid2col.case { *z-index:1; }
+
+body#design #main .smart .column.last { margin-right:58px; padding-bottom:5px; width:360px; min-height:378px; }
+body#design #main .smart .column.first { width:340px; padding-bottom:276px; min-height:350px; }
+body#design #main .smart .smart-red { position:absolute; top:0; left:-620px; z-index:2; }
+body#design #main .smart .smart-green { position:absolute; top:170px; right:-642px; z-index:1; }
+body#design #main .smart .smart-blue-pink { position:absolute; top:-607px; left:-330px; z-index:1; }
+body#design #main .smart .smart-yellow { position:absolute; bottom:0; right:-323px; z-index:1; }
+
+body#design #main .environment { padding:70px 0 0; }
+body#design #main .environment .grid2col { padding:18px 0 45px; }
+body#design #main .environment .column.first { width:380px; padding-bottom:50px; }
+body#design #main .environment img.profile { margin:0 0 50px -50px; }
+body#design #main .environment .column.last { margin:10px 0 0 0; }
+body#design #main .environment .column.last ul { margin:0 44px 50px 0; padding:22px 20px 24px; width:378px; height:355px; border:1px solid #999; border-radius:4px; }
+body#design #main .environment .column.last li { margin-bottom:11px; padding-left:10px; border-bottom:1px solid #ddd; background:url(../images/check_mark.png) 340px 17px no-repeat; }
+body#design #main .environment .column.last li:last-child { border-bottom:none; }
+body#design #main .environment .column.last li h3 { padding:14px 0 15px; }
+body#design #main .environment .column.last li p { margin:-4px 0 19px; font-size:.7em; line-height:1em; color:#444; }
+
+body#design #buystrip { border-top:none; }

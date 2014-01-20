@@ -1,0 +1,470 @@
+#billboard { position:absolute; left:0; top:0; bottom:292px; right:0; overflow:hidden; }
+#billboard .hero { position:absolute; left:0; right:0; margin:0 auto; height:100%; }
+
+/* billboard baseline */
+#billboard .header { position:absolute; top:50%; left:0; right:0; }
+
+#billboard .title { margin-bottom:0;  }
+#billboard .title img { display:none; margin-left:auto; margin-right:auto; }
+
+#billboard .subtitle { margin-bottom:0; }
+#billboard .subtitle img { display:none; margin-left:auto; margin-right:auto; }
+
+#billboard .subheadline { margin-bottom:0; }
+#billboard .subheadline img { display:none; margin-left:auto; margin-right:auto; }
+
+#billboard .hero-image img { display:none; margin-left:auto; margin-right:auto; }
+
+
+/* cta iphone portrait */
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:portrait) {
+	#billboard .cta a { display:block; margin-left:auto; margin-right:auto; }
+	#billboard .cta .keynote { margin-bottom:25px; }
+}
+
+/* desktop 11  */
+@media only screen and (max-height:910px) {
+	html, body { min-height:830px; *height:830px; }
+}
+
+/* reset for handheld portrait */
+@media only screen and (max-device-width:768px) and (orientation:portrait) {
+	html, body { min-height:initial; }
+}
+
+/* iPad Air
+=================================================================*/
+#billboard .ipad-air { z-index:4; background:#fff; }
+
+/* baseline */
+#billboard .ipad-air .title .large { margin-bottom:13px; }
+#billboard .ipad-air .title .medium { margin-bottom:17px; }
+#billboard .ipad-air .title .small { margin-bottom:10px; }
+
+
+/* desktop 15 & desktop 11 (default) */
+#billboard .ipad-air .header { margin-top:-160px; }
+
+#billboard .ipad-air .title .small { display:block; }
+#billboard .ipad-air .subheadline .small { display:block; }
+#billboard .ipad-air .hero-image .small { display:block; }
+
+#billboard .ipad-air .subheadline { margin-bottom:46px; }
+#billboard .ipad-air .hero-image { margin-bottom:45px; }
+
+
+/* large desktop & ipad portrait */
+@media only screen and (min-height:1250px), only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:portrait) {
+	#billboard .ipad-air .header { margin-top:-308px; }
+
+	#billboard .ipad-air .title .small,
+	#billboard .ipad-air .title .large,
+	#billboard .ipad-air .subheadline .small,
+	#billboard .ipad-air .subheadline .large,
+	#billboard .ipad-air .hero-image .small,
+	#billboard .ipad-air .hero-image .medium { display:none; }
+
+	#billboard .ipad-air .title .medium,
+	#billboard .ipad-air .subheadline .medium,
+	#billboard .ipad-air .hero-image .large { display:block; }
+
+	#billboard .ipad-air .subheadline { margin-bottom:56px; }
+	#billboard .ipad-air .hero-image { margin-bottom:42px; }
+}
+
+/* iphone landscape short */
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:landscape) {
+	#billboard .ipad-air .header { margin-top:-180px; }
+}
+
+/* iphone portrait */
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:portrait) {
+	#billboard .ipad-air .header { margin-top:-330px; }
+
+	#billboard .cta a { display:block; margin-left:auto; margin-right:auto; }
+	#billboard .cta .keynote { margin-bottom:25px; }
+
+	#billboard .ipad-air .title .small,
+	#billboard .ipad-air .title .medium,
+	#billboard .ipad-air .subheadline .small,
+	#billboard .ipad-air .subheadline .medium,
+	#billboard .ipad-air .hero-image .small,
+	#billboard .ipad-air .hero-image .medium { display:none; }
+
+	#billboard .ipad-air .header .title .large,
+	#billboard .ipad-air .header .subheadline .large,
+	#billboard .ipad-air .header .hero-image .large { display:block; }
+
+	#billboard .ipad-air .subheadline { margin-bottom:12px; }
+	#billboard .ipad-air .hero-image { margin-bottom:22px; }
+}
+
+
+#billboard .ipad-air .header .cta { *width:478px; *margin-left:auto; *margin-right:auto; }
+#billboard .ipad-air .header .cta a { *display:block; *float:left; }
+
+/* iPad Mini
+=================================================================*/
+#billboard .ipad-mini { z-index:3; background:#fff; }
+#billboard .ipad-mini .header { width:1024px; left:50%; margin-left:-512px; }
+
+/* baseline */
+#billboard .ipad-mini .title .large { margin-bottom:30px; }
+#billboard .ipad-mini .title .medium { margin-bottom:17px; }
+#billboard .ipad-mini .title .small { margin-bottom:12px; }
+
+#billboard .ipad-mini .subtitle .large { margin-bottom:23px; }
+#billboard .ipad-mini .subtitle .medium { margin-bottom:17px; }
+#billboard .ipad-mini .subtitle .small { margin-bottom:13px; }
+
+
+/* desktop 11 */
+@media only screen and (max-height:910px) {
+	#billboard .ipad-mini .header { margin-top:-90px; }
+
+	#billboard .ipad-mini .full { top:-54px; }
+
+	#billboard .ipad-mini .subtitle img,
+	#billboard .ipad-mini .subheadline img { margin-left:-323px; margin-right:0; }
+
+	#billboard .ipad-mini .title,
+	#billboard .ipad-mini .subtitle,
+	#billboard .ipad-mini .subheadline,
+	#billboard .ipad-mini .cta { width:334px; margin:0; overflow:hidden; }
+
+	#billboard .ipad-mini .hero-image { float:right; margin-top:-234px; padding-right:30px; }
+
+	#billboard .ipad-mini .title .small,
+	#billboard .ipad-mini .subtitle .small,
+	#billboard .ipad-mini .subheadline .small,
+	#billboard .ipad-mini .hero-image .small { display:block; }
+
+	#billboard .ipad-mini .subheadline { margin-bottom:41px; }
+
+}
+
+/* desktop 15, exclude handheld */
+@media only screen and (min-height:911px) and (max-height:1250px) and (min-device-width:769px) {
+	#billboard .ipad-mini .header { margin-top:-90px; }
+
+	#billboard .ipad-mini .full { top:-114px; }
+
+	#billboard .ipad-mini .subtitle img,
+	#billboard .ipad-mini .subheadline img { margin-left:-323px; margin-right:0; }
+
+	#billboard .ipad-mini .title,
+	#billboard .ipad-mini .subtitle,
+	#billboard .ipad-mini .subheadline,
+	#billboard .ipad-mini .cta { width:334px; margin:0; overflow:hidden; }
+
+	#billboard .ipad-mini .hero-image { float:right; margin-top:-300px; padding-right:70px; }
+
+	#billboard .ipad-mini .hero-image .small { display:none; }
+
+	#billboard .ipad-mini .title .small,
+	#billboard .ipad-mini .subtitle .small,
+	#billboard .ipad-mini .subheadline .small,
+	#billboard .ipad-mini .hero-image .medium { display:block; }
+
+	#billboard .ipad-mini .subheadline { margin-bottom:41px; }
+
+}
+
+
+/* large desktop, exclude handheld */
+@media only screen and (min-height:1251px) and (min-device-width:769px) {
+
+	#billboard .ipad-mini .header { margin-top:-378px; }
+
+	#billboard .ipad-mini .title .medium,
+	#billboard .ipad-mini .subtitle .medium,
+	#billboard .ipad-mini .subheadline .medium,
+	#billboard .ipad-mini .hero-image .large { display:block; }
+
+	#billboard .ipad-mini .hero-image .large { margin:0 0 0 -12px; }
+	#billboard .ipad-mini .subheadline { margin-bottom:24px; }
+	#billboard .ipad-mini .cta { margin-top:-427px; }
+}
+
+
+/* iPad portrait */
+@media only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:portrait) {
+	#billboard .ipad-mini .header { margin-top:-350px; }
+
+	#billboard .ipad-mini .full { height:823px; }
+
+	#billboard .ipad-mini .title .medium,
+	#billboard .ipad-mini .subtitle .medium,
+	#billboard .ipad-mini .subheadline .medium,
+	#billboard .ipad-mini .hero-image .medium { display:block; }
+
+	#billboard .ipad-mini .hero-image { margin-top:99px; margin-right:-49px; }
+
+
+	#billboard .ipad-mini .cta { margin-top:-913px; }
+}
+
+/* iPad landscape */
+@media only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:landscape) {
+	#billboard .ipad-mini .header { margin-top:-70px; }
+
+	#billboard .ipad-mini .full { top:-79px; }
+
+	#billboard .ipad-mini .title,
+	#billboard .ipad-mini .subtitle,
+	#billboard .ipad-mini .subheadline,
+	#billboard .ipad-mini .cta { margin-left:20px; }
+
+	#billboard .ipad-mini .hero-image { margin-top:-262px; }
+}
+
+/* iphone landscape */
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:landscape) {
+	#billboard .ipad-mini .header { margin-top:-133px; }
+
+	#billboard .ipad-mini .title .medium,
+	#billboard .ipad-mini .subtitle .medium,
+	#billboard .ipad-mini .subheadline .medium,
+	#billboard .ipad-mini .hero-image .large { display:none; }
+
+	#billboard .ipad-mini .title .small,
+	#billboard .ipad-mini .subtitle .small,
+	#billboard .ipad-mini .subheadline .small,
+	#billboard .ipad-mini .hero-image .small { display:block; }
+
+	#billboard .ipad-mini .title,
+	#billboard .ipad-mini .subtitle,
+	#billboard .ipad-mini .subheadline,
+	#billboard .ipad-mini .cta { margin-left:20px; }
+
+	#billboard .ipad-mini .cta { margin-top:0; }
+}
+
+/* iphone 4 portrait */
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (device-aspect-ratio:2/3) and (orientation:portrait) {
+
+	#billboard .ipad-mini .header { margin-top:-330px; }
+
+	#billboard .cta a { display:block; margin-left:auto; margin-right:auto; }
+	#billboard .cta .keynote { margin-bottom:25px; }
+
+	#billboard .ipad-mini .title .medium,
+	#billboard .ipad-mini .subtitle .medium,
+	#billboard .ipad-mini .subheadline .medium,
+	#billboard .ipad-mini .hero-image .large { display:none; }
+
+	#billboard .ipad-mini .title .large,
+	#billboard .ipad-mini .subtitle .large,
+	#billboard .ipad-mini .subheadline .large,
+	#billboard .ipad-mini .hero-image .small { display:block; }
+
+	#billboard .ipad-mini .subheadline { margin-bottom:35px; }
+	#billboard .ipad-mini .hero-image { margin-right:-36px; }
+	#billboard .ipad-mini .cta { position:relative; z-index:1; margin-top:-227px; }
+}
+
+/* iphone 5 portrait */
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (device-aspect-ratio:40/71) and (orientation:portrait) {
+
+	#billboard .ipad-mini .header { margin-top:-450px; }
+
+	#billboard .ipad-mini .full { height:1040px; }
+
+	#billboard .ipad-mini .title .medium,
+	#billboard .ipad-mini .subtitle .medium,
+	#billboard .ipad-mini .subheadline .medium,
+	#billboard .ipad-mini .hero-image .large { display:none; }
+
+	#billboard .ipad-mini .title .large,
+	#billboard .ipad-mini .subtitle .large,
+	#billboard .ipad-mini .subheadline .large,
+	#billboard .ipad-mini .hero-image .medium { display:block; }
+
+	#billboard .ipad-mini .hero-image .medium { margin-top:175px; }
+	#billboard .ipad-mini .hero-image { margin-top:-20px; margin-right:-30px; }
+	#billboard .ipad-mini .subheadline { margin-bottom:54px; }
+	#billboard .ipad-mini .cta { position:relative; z-index:1; margin-top:-966px; }
+}
+
+/* IE8 fallback */
+html, body { *min-height:950px; }
+
+#billboard .ipad-mini .header { *margin-top:-80px; }
+
+#billboard .ipad-mini .full { *top:-140px; }
+
+#billboard .ipad-mini .subtitle img,
+#billboard .ipad-mini .subheadline img { *margin-left:-323px; *margin-right:0; }
+
+#billboard .ipad-mini .title,
+#billboard .ipad-mini .subtitle,
+#billboard .ipad-mini .subheadline,
+#billboard .ipad-mini .cta { *width:334px; *margin:0; *overflow:hidden; }
+
+#billboard .ipad-mini .subheadline { *margin-bottom:41px; }
+
+#billboard .ipad-mini .hero-image .small { *display:none; }
+
+#billboard .ipad-mini .title .small,
+#billboard .ipad-mini .subtitle .small,
+#billboard .ipad-mini .subheadline .small,
+#billboard .ipad-mini .hero-image .medium { *display:block; *position:relative; *z-index:1; }
+
+#billboard .ipad-mini .hero-image { *float:right; *width:541px; *margin-top:-300px; *padding-right:70px; }
+#billboard .ipad-mini .hero-image .medium {  }
+
+#billboard .ipad-mini .full { *z-index:2; }
+#billboard .ipad-mini .cta { *z-index:3; }
+#billboard .ipad-mini .cta a { *display:block; *width:234px; }
+
+
+/* iPhone 5c
+=================================================================*/
+
+#billboard .iphone-5c { background:#5ac6ff; z-index:2; }
+
+
+/* baseline */
+#billboard .iphone-5c .title .large { margin-bottom:11px; }
+#billboard .iphone-5c .title .medium { margin-bottom:14px; }
+#billboard .iphone-5c .title .small { margin-bottom:18px; }
+
+
+/* desktop 15 & desktop 11 (default) */
+#billboard .iphone-5c .header { margin-top:-155px; }
+
+#billboard .iphone-5c .title .small,
+#billboard .iphone-5c .subheadline .small,
+#billboard .iphone-5c .hero-image .small { display:block; }
+
+#billboard .iphone-5c .subheadline { margin-bottom:40px; }
+#billboard .iphone-5c .hero-image { margin-bottom:43px; }
+
+
+/* large desktop & ipad portrait */
+@media only screen and (min-height:1250px), only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:portrait) {
+	#billboard .iphone-5c .header { margin-top:-217px; }
+
+	#billboard .iphone-5c .title .small,
+	#billboard .iphone-5c .subheadline .small,
+	#billboard .iphone-5c .hero-image .small { display:none; }
+
+	#billboard .iphone-5c .title .medium,
+	#billboard .iphone-5c .subheadline .medium,
+	#billboard .iphone-5c .hero-image .large { display:block; }
+
+	#billboard .iphone-5c .subheadline { margin-bottom:57px; }
+	#billboard .iphone-5c .hero-image { margin-bottom:60px; }
+}
+
+/* iPad landscape */
+@media only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:landscape) {
+	#billboard .iphone-5c .header { margin-top:-135px; }
+}
+
+/* iphone landscape short */
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:landscape) {
+	#billboard .iphone-5c .header { margin-top:-150px; }
+}
+
+/* iphone portrait */
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:portrait) {
+	#billboard .iphone-5c .header { margin-top:-296px; }
+
+	#billboard .cta a { display:block; margin-left:auto; margin-right:auto; }
+	#billboard .cta .tv { margin-bottom:25px; }
+
+	#billboard .iphone-5c .title .small,
+	#billboard .iphone-5c .title .medium,
+	#billboard .iphone-5c .subheadline .small,
+	#billboard .iphone-5c .subheadline .medium,
+	#billboard .iphone-5c .hero-image .small { display:none; }
+
+	#billboard .iphone-5c .header .title .large,
+	#billboard .iphone-5c .header .subheadline .large,
+	#billboard .iphone-5c .header .hero-image .large { display:block; }
+
+	#billboard .iphone-5c .subheadline { margin-bottom:77px; }
+	#billboard .iphone-5c .hero-image { margin-bottom:54px; }
+}
+
+#billboard .iphone-5c .header .cta { *width:460px; *margin-left:auto; *margin-right:auto; }
+#billboard .iphone-5c .header .cta a { *display:block; *float:left; }
+
+
+/* iPhone 5s
+=================================================================*/
+
+#billboard .iphone-5s { z-index:1; width:auto;
+	background:url(../images/texture_gold.png);
+	background:url(../images/texture_50.png), url(../images/gradient_gold.png);
+	background-size: auto auto, 20px 100%;
+}
+
+
+/* baseline */
+#billboard .iphone-5s .title .large { margin-bottom:11px; }
+#billboard .iphone-5s .title .medium { margin-bottom:15px; }
+#billboard .iphone-5s .title .small { margin-bottom:8px; }
+
+
+/* desktop 15 & desktop 11 (default) */
+#billboard .iphone-5s .header { margin-top:-185px; }
+
+#billboard .iphone-5s .title .small,
+#billboard .iphone-5s .subheadline .small,
+#billboard .iphone-5s .hero-image .small { display:block; }
+
+#billboard .iphone-5s .subheadline { margin-bottom:33px; }
+#billboard .iphone-5s .hero-image { margin-bottom:34px; }
+
+
+/* large desktop & ipad portrait */
+@media only screen and (min-height:1250px), only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:portrait) {
+	#billboard .iphone-5s .header { margin-top:-259px; }
+
+	#billboard .iphone-5s .title .small,
+	#billboard .iphone-5s .subheadline .small,
+	#billboard .iphone-5s .hero-image .small { display:none; }
+
+	#billboard .iphone-5s .title .medium,
+	#billboard .iphone-5s .subheadline .medium,
+	#billboard .iphone-5s .hero-image .large { display:block; }
+
+	#billboard .iphone-5s .subheadline { margin-bottom:57px; }
+	#billboard .iphone-5s .hero-image { margin-bottom:60px; }
+}
+
+/* iPad landscape */
+@media only screen and (min-device-width:481px) and (max-device-width:768px) and (orientation:landscape) {
+	#billboard .iphone-5s .header { margin-top:-160px; }
+}
+
+/* iphone landscape short */
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:landscape) {
+	#billboard .iphone-5s .header { margin-top:-160px; }
+}
+
+/* iphone portrait */
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation:portrait) {
+	#billboard .iphone-5s .header { margin-top:-296px; }
+
+	#billboard .cta a { display:block; margin-left:auto; margin-right:auto; }
+	#billboard .cta .tv { margin-bottom:25px; }
+
+	#billboard .iphone-5s .title .small,
+	#billboard .iphone-5s .title .medium,
+	#billboard .iphone-5s .subheadline .small,
+	#billboard .iphone-5s .subheadline .medium,
+	#billboard .iphone-5s .hero-image .small { display:none; }
+
+	#billboard .iphone-5s .header .title .large,
+	#billboard .iphone-5s .header .subheadline .large,
+	#billboard .iphone-5s .header .hero-image .large { display:block; }
+
+	#billboard .iphone-5s .subheadline { margin-bottom:49px; }
+	#billboard .iphone-5s .hero-image { margin-bottom:54px; }
+}
+
+#billboard .iphone-5s .header .cta { *width:460px; *margin-left:auto; *margin-right:auto; }
+#billboard .iphone-5s .header .cta a { *display:block; *float:left; }

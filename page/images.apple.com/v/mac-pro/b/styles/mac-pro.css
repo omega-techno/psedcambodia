@@ -1,0 +1,229 @@
+body, h1, h2, h3, h4, h5, h6, p, strong { color: #e3e3e3; }
+
+html, body { background: #000; }
+
+body a { color: #70bce2; }
+
+sup, sup a { color: #999; }
+
+/* product nav */
+.productnav-wrapper { z-index: 10; width: 100%; }
+
+.productnav { width: 980px; position: relative; z-index: 10; margin: 0 auto; padding-top: 12px; border-bottom: 1px solid #363532; }
+
+.productnav .inner { width: 980px; margin: 0 auto; }
+
+.productnav .productname { float: left; margin: 0; padding: 0 0 16px 0; }
+
+.productnav ul { float: right; padding-top: 1px; }
+
+.productnav ul li { display: block; float: left; margin: 0 15px; padding: 11px 0 0 0; }
+
+.productnav ul li a { color: #fff; }
+
+.productnav ul li a:hover { color: #70bce2; text-decoration: none; }
+
+.productnav ul .pn-buy { margin-right: 0; padding-top: 9px; }
+
+.productnav .pn-comingsoon { display: none; margin-top: 9px; margin-right: 0; background: #1a1a1a; padding: 1px 12px; border: 1px solid #262626; border-radius: 24px; color: #999999; }
+
+/* hide buy now, show coming soon */
+.productnav ul .pn-buy { display: none; }
+
+.productnav ul .pn-comingsoon { display: none; }
+
+.overview #wrapper .pn-overview a, #performance .pn-performance a, #specs .pn-specs a { color: #999; }
+
+/* Image Replacement Styles */
+.ir { background-size: 100% 100%; background-repeat: no-repeat; text-indent: 200%; white-space: nowrap; overflow: hidden; font-size: 0; line-height: 0; color: transparent; }
+
+html.desktop, html.mobile { /* links */ }
+html.desktop a.more, html.desktop em.more, html.desktop span.more, html.mobile a.more, html.mobile em.more, html.mobile span.more { padding-right: 12px; background-image: url(../images/open_arrow.png); background-position: 100% 60%; background-size: 6px 11px; background-repeat: no-repeat; }
+@media only screen { html.desktop a.more, html.desktop em.more, html.desktop span.more, html.mobile a.more, html.mobile em.more, html.mobile span.more { background-image: url(http://images.apple.com/v/mac-pro/b/images/open_arrow.svg); } }
+
+/* sticky nav */
+.stickynav.stickynav-undocked .stickynav-wrapper #productheader { margin: 0 auto; width: 980px; }
+
+.stickynav.stickynav-undocked .productnav { background: rgba(0, 0, 0, 0.8); width: 100%; }
+
+.stickynav.stickynav-undocked .stickynav-wrapper { z-index: 9996; position: fixed; top: 0; height: 56px; width: 100%; background: rgba(0, 0, 0, 0.7); -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); -webkit-animation: navDropDown 300ms; animation: navDropDown 300ms; -webkit-transition: opacity 400ms; -moz-transition: opacity 400ms; transition: opacity 400ms; }
+
+.stickynav.stickynav-undocked.stickynav-navless .stickynav-wrapper { opacity: 0; pointer-events: none; }
+
+.stickynav.stickynav-undocked.stickynav-docking .stickynav-wrapper { position: absolute; top: 0; padding-top: 72px; background-color: rgba(245, 245, 245, 0); -webkit-transition: border-color 0.35s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0.35s cubic-bezier(0.645, 0.045, 0.355, 1); -moz-transition: border-color 0.35s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0.35s cubic-bezier(0.645, 0.045, 0.355, 1); transition: border-color 0.35s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0.35s cubic-bezier(0.645, 0.045, 0.355, 1); -webkit-animation: none !important; animation: none !important; }
+
+.stickynav.stickynav-undocked.stickynav-docking .grey-bg .stickynav-wrapper { background-color: whitesmoke; }
+
+.stickynav.stickynav-undocked.stickynav-docking .stickynav-wrapper #productheader h2 { margin-top: 4px; margin-bottom: 3px !important; }
+
+.stickynav.stickynav-undocked.stickynav-docking .stickynav-wrapper #productheader ul { margin-top: 0; }
+
+.stickynav.stickynav-undocked.stickynav-docking .stickynav-wrapper #productheader ul li a.buynow { margin-top: .7em; }
+
+.stickynav.stickynav-undocked .stickynav-wrapper #productheader h2 { margin-top: 6px; margin-bottom: 1px !important; }
+
+.stickynav.stickynav-undocked .stickynav-wrapper #productheader ul { margin-top: -5px; }
+
+.stickynav.stickynav-undocked .stickynav-wrapper #productheader ul li a.buynow { margin-top: 9px; }
+
+.stickynav.stickynav-undocked.stickynav-idle .stickynav-wrapper { -webkit-animation: navDropDown 600ms; animation: navDropDown 600ms; }
+
+@-webkit-keyframes navDropDown { 0% { -webkit-transform: translateY(-56px); }
+  100% { -webkit-transform: translateY(0); } }
+
+@keyframes navDropDown { 0% { transform: translateY(-56px); }
+  100% { transform: translateY(0); } }
+
+/* footer */
+.footer-wrapper { margin-top: 30px; padding-top: 30px; background: #1b1b1b; overflow: hidden; }
+
+/* buystrip */
+#buystrip { margin-bottom: 32px; width: 980px; margin: 0 auto; }
+
+#buystrip .col { display: block; width: 209px; padding: 0 15px; border-right: 1px solid #363532; text-align: center; color: #e8e8e8; float: left; }
+
+#buystrip .col .block { display: block; padding: 0 5px; }
+
+#buystrip .col .block:hover { text-decoration: none; }
+
+#buystrip .col .more { text-align: center; font-size: 1.1666em; color: #70bce2; }
+
+#buystrip .col.first { width: 257px; border-right: 0; padding: 0; }
+
+#buystrip .col.first, #buystrip .col.first .more { text-align: left; }
+
+#buystrip .col.first .block { padding-left: 0; }
+
+#buystrip .col.last { border-right: 0; }
+
+#buystrip .col .icon { display: block; margin: 0 auto; }
+
+#buystrip .col.shop .icon { padding: 6px 0 7px; }
+
+#buystrip .col.visit .icon { padding: 10px 0; }
+
+#buystrip .col.call .icon { padding: 14px 0 11px; }
+
+#buystrip .col.compare { padding-right: 3px; }
+
+#buystrip .col.compare .productimage { display: block; float: right; padding-top: 40px; }
+
+#buystrip .col.compare .title { margin-bottom: 12px; }
+
+#buystrip .col.compare .more { margin-top: 117px; }
+
+#buystrip.comingsoon { position: relative; left: 90px; margin-bottom: 40px; }
+
+#buystrip.comingsoon .productimage, #buystrip.comingsoon .title, #buystrip.comingsoon .copy { float: left; }
+
+#buystrip.comingsoon .title { margin: 30px 62px 30px 36px; }
+
+#buystrip.comingsoon .copy { margin: 8px 0 0 0; padding: 17px 0 10px 30px; border-left: 1px solid #616161; }
+
+#buystrip.comingsoon .copy .starting { margin-bottom: -2px; }
+
+#buystrip.comingsoon .copy .coming { margin-bottom: 0; }
+
+/* global footer overrides */
+#globalfooter a { color: #70bce2; }
+
+#breadory { border-color: #444; }
+
+#globalfooter ul.piped a, #globalfooter ul.piped a.contact_us, #globalfooter .gf-sosumi { border-color: #444; }
+
+#globalfooter #breadory ol#breadcrumbs li, #globalfooter #breadory ol#breadcrumbs li a { color: #999; text-shadow: none; }
+
+.sosumi { color: #999; text-shadow: none; width: 980px; margin: 60px auto; }
+
+.sosumi li { padding-bottom: 5px; }
+
+#globalfooter #breadory ol#breadcrumbs li a:hover { color: #666; }
+
+#breadory ol#breadcrumbs li a { background-image: url(../../home/a/images/breadcrumb_separator.png); }
+
+#breadory ol#breadcrumbs li.home a, #breadory ol#breadcrumbs li.home a:hover { background-image: url(../../home/a/images/breadcrumb_home.png); }
+
+@media only screen { #breadory ol#breadcrumbs li a { background-image: url(http://images.apple.com/v/mac-pro/home/a/images/breadcrumb_separator.svg); }
+  #breadory ol#breadcrumbs li.home a, #breadory ol#breadcrumbs li.home a:hover { background-image: url(http://images.apple.com/v/mac-pro/home/a/images/breadcrumb_home.svg); } }
+html.mobile { /* fonts */ /* links */ /* Sosumi */ }
+html.mobile, html.mobile body { background: #000; width: 1024px; }
+html.mobile sup { padding-left: 5px; bottom: .5em; }
+html.mobile sup, html.mobile .sosumi { font-size: 24px !important; }
+html.mobile .content-wrapper #main { /* Charts */ }
+html.mobile .content-wrapper #main .callouts { margin: 84px 0 -100px; /* Selfclear */ }
+html.mobile .content-wrapper #main .callouts .callout { position: relative; font-size: .85em; line-height: inherit; border-top: 3px solid #FFF; border-radius: 0px; width: 45%; margin-bottom: 100px; z-index: 1; }
+html.mobile .content-wrapper #main .callouts .callout h3, html.mobile .content-wrapper #main .callouts .callout p { font-size: 1em; line-height: inherit; color: #FFF; }
+html.mobile .content-wrapper #main .callouts .callout h3 { font-weight: normal; margin: 15px 0; padding: 0; }
+html.mobile .content-wrapper #main .callouts .callout > .name { position: absolute; top: -140px; }
+html.mobile .content-wrapper #main .callouts .callout:last-child { float: right; }
+html.mobile .content-wrapper #main .callouts .callout:first-child { float: left; }
+html.mobile .content-wrapper #main .callouts .callout p:last-child br { display: none; }
+html.mobile .content-wrapper #main .callouts:after { content: '.'; display: block; height: 0; clear: both; visibility: hidden; }
+html.mobile .content-wrapper #main .chart { width: 100%; margin-bottom: 100px; color: #FFF; font-size: .8em; position: relative; /* fade in on */ }
+html.mobile .content-wrapper #main .chart .text-value { white-space: nowrap; opacity: 0; }
+html.mobile .content-wrapper #main .chart .bar-caption { display: none; }
+html.mobile .content-wrapper #main .chart .caption-value { display: inline; opacity: 0; text-indent: 0px; overflow: visible; margin-left: 16px; white-space: nowrap; color: #FFF; }
+html.mobile .content-wrapper #main .chart .visual-label, html.mobile .content-wrapper #main .chart .bar-label, html.mobile .content-wrapper #main .chart .data-value { display: none; }
+html.mobile .content-wrapper #main .chart .data-subdued { margin-left: 16px; }
+html.mobile .content-wrapper #main .chart.animate .bar .text-value, html.mobile .content-wrapper #main .chart.animate .caption-value { opacity: 1; }
+html.mobile .content-wrapper #main .chart .bars { padding-top: 11px; }
+html.mobile .content-wrapper #main .chart .bar .text-value, html.mobile .content-wrapper #main .chart .caption-value { -webkit-transition-property: opacity; -moz-transition-property: opacity; transition-property: opacity; -webkit-transition-timing-function: cubic-bezier(0.28, 0.11, 0.32, 1); -moz-transition-timing-function: cubic-bezier(0.28, 0.11, 0.32, 1); transition-timing-function: cubic-bezier(0.28, 0.11, 0.32, 1); -webkit-transition-duration: 0.8s; -moz-transition-duration: 0.8s; transition-duration: 0.8s; }
+html.mobile .content-wrapper #main .chart .bar { position: relative; left: 0px; margin: 0 0 28px 0; padding-top: 6px; width: 0%; opacity: 1; -webkit-transition-property: all; -moz-transition-property: all; transition-property: all; -webkit-transition-timing-function: cubic-bezier(0.28, 0.11, 0.32, 1); -moz-transition-timing-function: cubic-bezier(0.28, 0.11, 0.32, 1); transition-timing-function: cubic-bezier(0.28, 0.11, 0.32, 1); -webkit-transition-duration: 0.4s; -moz-transition-duration: 0.4s; transition-duration: 0.4s; /* Default delay */ }
+html.mobile .content-wrapper #main .chart .bar.blue { border-top: 6px solid #70bce2; }
+html.mobile .content-wrapper #main .chart .bar.blue .text-value { color: #70bce2; }
+html.mobile .content-wrapper #main .chart .bar.blue .data-subdued { color: #586d78; }
+html.mobile .content-wrapper #main .chart .bar.orange { border-top: 6px solid #f59000; }
+html.mobile .content-wrapper #main .chart .bar.orange .text-value { color: #f59000; }
+html.mobile .content-wrapper #main .chart .bar, html.mobile .content-wrapper #main .chart .bar .text-value, html.mobile .content-wrapper #main .chart .bar .caption-value { -webkit-transition-delay: 0.28s; -moz-transition-delay: 0.28s; transition-delay: 0.28s; }
+html.mobile .content-wrapper #main .chart .bar.one, html.mobile .content-wrapper #main .chart .bar.one .text-value { -webkit-transition-delay: 0s; -moz-transition-delay: 0s; transition-delay: 0s; }
+html.mobile .content-wrapper #main .chart .bar.one .caption-value { -webkit-transition-delay: 0.8s; -moz-transition-delay: 0.8s; transition-delay: 0.8s; }
+html.mobile .content-wrapper #main .chart .bar.two, html.mobile .content-wrapper #main .chart .bar.two .text-value { -webkit-transition-delay: 0.07s; -moz-transition-delay: 0.07s; transition-delay: 0.07s; }
+html.mobile .content-wrapper #main .chart .bar.two .caption-value { -webkit-transition-delay: 0.87s; -moz-transition-delay: 0.87s; transition-delay: 0.87s; }
+html.mobile .content-wrapper #main .chart .bar.three, html.mobile .content-wrapper #main .chart .bar.three .text-value { -webkit-transition-delay: 0.14s; -moz-transition-delay: 0.14s; transition-delay: 0.14s; }
+html.mobile .content-wrapper #main .chart .bar.three .caption-value { -webkit-transition-delay: 0.94s; -moz-transition-delay: 0.94s; transition-delay: 0.94s; }
+html.mobile .content-wrapper #main .chart .bar.four, html.mobile .content-wrapper #main .chart .bar.four .text-value { -webkit-transition-delay: 0.21s; -moz-transition-delay: 0.21s; transition-delay: 0.21s; }
+html.mobile .content-wrapper #main .chart .bar.four .caption-value { -webkit-transition-delay: 1.01s; -moz-transition-delay: 1.01s; transition-delay: 1.01s; }
+html.mobile .content-wrapper #main .chart .bar.five, html.mobile .content-wrapper #main .chart .bar.five .text-value { -webkit-transition-delay: 0.28s; -moz-transition-delay: 0.28s; transition-delay: 0.28s; }
+html.mobile .content-wrapper #main .chart .bar.five .caption-value { -webkit-transition-delay: 1.08s; -moz-transition-delay: 1.08s; transition-delay: 1.08s; }
+html.mobile .content-wrapper #main .chart .bar.six, html.mobile .content-wrapper #main .chart .bar.six .text-value { -webkit-transition-delay: 0.35s; -moz-transition-delay: 0.35s; transition-delay: 0.35s; }
+html.mobile .content-wrapper #main .chart .bar.six .caption-value { -webkit-transition-delay: 1.15s; -moz-transition-delay: 1.15s; transition-delay: 1.15s; }
+html.mobile .content-wrapper #main .acoustic-chart .idle .orange .bar { background-color: #f59000; }
+html.mobile .content-wrapper #main .acoustic-chart .idle .blue .bar { background-color: #70bce2; }
+html.mobile .content-wrapper #main .acoustic-chart .idle .bar.notch { display: inline-block; width: 56px; height: 181px; margin: 0px; }
+html.mobile #wrapper { color: #888; }
+html.mobile #wrapper #hero, html.mobile #wrapper header, html.mobile #wrapper #main, html.mobile #wrapper .main { margin-left: 58px; margin-right: 58px; width: inherit; position: relative; }
+html.mobile #wrapper #main, html.mobile #wrapper .main, html.mobile #wrapper header, html.mobile #wrapper .sku-selector { position: relative; z-index: 1; background-color: #000; font-size: 3.750em; line-height: 1.4285em; word-spacing: -1px; /* 14px/20px */ -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* Fonts */ /* 24px/28px */ /* 18px/25px */ /* 16px/20px */ /* 16px/20px */ /* 12px/18px */ /* 18px/25px */ /* Layout */ }
+html.mobile #wrapper #main h1, html.mobile #wrapper #main h2, html.mobile #wrapper #main h3, html.mobile #wrapper .main h1, html.mobile #wrapper .main h2, html.mobile #wrapper .main h3, html.mobile #wrapper header h1, html.mobile #wrapper header h2, html.mobile #wrapper header h3, html.mobile #wrapper .sku-selector h1, html.mobile #wrapper .sku-selector h2, html.mobile #wrapper .sku-selector h3 { color: #CCC; }
+html.mobile #wrapper #main h4, html.mobile #wrapper .main h4, html.mobile #wrapper header h4, html.mobile #wrapper .sku-selector h4 { color: #FFF; }
+html.mobile #wrapper #main h1, html.mobile #wrapper .main h1, html.mobile #wrapper header h1, html.mobile #wrapper .sku-selector h1 { font-size: 1.7142em; line-height: 1.1666em; margin-bottom: 10px; font-weight: normal; }
+html.mobile #wrapper #main h2, html.mobile #wrapper .main h2, html.mobile #wrapper header h2, html.mobile #wrapper .sku-selector h2 { font-size: 1.2857em; line-height: 1.3888em; margin-bottom: 7px; }
+html.mobile #wrapper #main h3, html.mobile #wrapper .main h3, html.mobile #wrapper header h3, html.mobile #wrapper .sku-selector h3 { font-size: 1.1428em; line-height: 1.25em; margin-bottom: 7px; }
+html.mobile #wrapper #main h4, html.mobile #wrapper .main h4, html.mobile #wrapper header h4, html.mobile #wrapper .sku-selector h4 { font-size: 1.0em; margin-bottom: 7px; font-weight: normal; }
+html.mobile #wrapper #main h1 img, html.mobile #wrapper #main h2 img, html.mobile #wrapper .main h1 img, html.mobile #wrapper .main h2 img, html.mobile #wrapper header h1 img, html.mobile #wrapper header h2 img, html.mobile #wrapper .sku-selector h1 img, html.mobile #wrapper .sku-selector h2 img { display: block; margin: 0; }
+html.mobile #wrapper #main .title, html.mobile #wrapper .main .title, html.mobile #wrapper header .title, html.mobile #wrapper .sku-selector .title { font-size: 2em; margin-bottom: 10px; }
+html.mobile #wrapper #main .title h1, html.mobile #wrapper #main .title h2, html.mobile #wrapper .main .title h1, html.mobile #wrapper .main .title h2, html.mobile #wrapper header .title h1, html.mobile #wrapper header .title h2, html.mobile #wrapper .sku-selector .title h1, html.mobile #wrapper .sku-selector .title h2 { font-size: 1em; margin-bottom: 0; line-height: 1.2142em; font-weight: normal; }
+html.mobile #wrapper #main .title h2, html.mobile #wrapper .main .title h2, html.mobile #wrapper header .title h2, html.mobile #wrapper .sku-selector .title h2 { color: #898989; }
+html.mobile #wrapper #main .small, html.mobile #wrapper .main .small, html.mobile #wrapper header .small, html.mobile #wrapper .sku-selector .small { font-size: .8571em; line-height: 1.5em; }
+html.mobile #wrapper #main .intro, html.mobile #wrapper .main .intro, html.mobile #wrapper header .intro, html.mobile #wrapper .sku-selector .intro { font-size: 1.2857em; line-height: 1.3888em; color: #888; font-weight: normal; }
+html.mobile #wrapper #main .caption, html.mobile #wrapper .main .caption, html.mobile #wrapper header .caption, html.mobile #wrapper .sku-selector .caption { color: #666; }
+html.mobile #wrapper #main .hero, html.mobile #wrapper .main .hero, html.mobile #wrapper header .hero, html.mobile #wrapper .sku-selector .hero { position: relative; z-index: 20; }
+html.mobile #wrapper #main .hero h1, html.mobile #wrapper .main .hero h1, html.mobile #wrapper header .hero h1, html.mobile #wrapper .sku-selector .hero h1 { margin-bottom: 2px; }
+html.mobile #wrapper #main a, html.mobile #wrapper .main a, html.mobile #wrapper header a, html.mobile #wrapper .sku-selector a { cursor: pointer; }
+html.mobile a.more, html.mobile em.more, html.mobile span.more { padding-right: 0.81em; background-position: 100% 58%; background-size: 0.45em 0.82499em; }
+html.mobile .sosumi { width: 940px; margin: 18px auto; padding: 0 20px; color: #888; text-shadow: none; }
+html.mobile .sosumi a { color: #333; }
+html.mobile .sosumi ol { margin: 0; padding-right: 21px; padding-left: 21px; }
+html.mobile .sosumi ul { margin: 0; }
+html.mobile .sosumi li { padding-bottom: 5px; }
+html.mobile .sosumi p { margin: 0; padding-bottom: 5px; }
+html.mobile .sosumi small { font-size: 1em; }
+html.mobile ol.sosumi { width: 898px; margin: 18px auto; }
+html.mobile #globalfooter a { color: #70bce2; }
+html.mobile #globalfooter ul.piped a, html.mobile #globalfooter ul.piped a.contact_us, html.mobile #globalfooter .gf-sosumi { border-color: #444; }
+html.mobile #globalfooter #breadory { border-color: #444; }
+html.mobile #globalfooter #breadory ol#breadcrumbs li, html.mobile #globalfooter #breadory ol#breadcrumbs li a { color: #888; text-shadow: none; }
+html.mobile #globalfooter #breadory ol#breadcrumbs li a { background-image: url(../../home/a/images/breadcrumb_separator.png); }
+html.mobile #globalfooter #breadory ol#breadcrumbs li a:hover { color: #666; }
+html.mobile #globalfooter #breadory ol#breadcrumbs li.home a, html.mobile #globalfooter #breadory ol#breadcrumbs li.home a:hover { background-image: url(../../home/a/images/breadcrumb_home.png); }
+@media only screen { html.mobile #globalfooter #breadory ol#breadcrumbs li a { background-image: url(http://images.apple.com/v/mac-pro/home/a/images/breadcrumb_separator.svg); }
+  html.mobile #globalfooter #breadory ol#breadcrumbs li.home a, html.mobile #globalfooter #breadory ol#breadcrumbs li.home a:hover { background-image: url(http://images.apple.com/v/mac-pro/home/a/images/breadcrumb_home.svg); } }

@@ -1,0 +1,108 @@
+/* platterization */
+html, body { background:#fff; }
+body { min-width:1024px; }
+#main { position:static; width:100%; min-width:980px; margin:0 auto; overflow-x:hidden; overflow-y:hidden; }
+#main .content,
+#main #content { border:none;
+	-webkit-box-shadow:none;
+	   -moz-box-shadow:none;
+	        box-shadow:none;
+	-webkit-border-radius:0;
+	   -moz-border-radius:0;
+	        border-radius:0;
+}
+
+@media only screen and (max-device-width:768px) {
+	/* Changing body font-size to ~13.714px, which changes #content font-size to 16px */
+	body { font-size:.85714em; }
+}
+
+
+/* fonts */
+#content { font-size:1.167em; line-height:1.4285em; }
+#content h1 { margin-bottom:.75em; font-size:3.2857em; line-height:1.1666em; font-weight:normal; letter-spacing:-1px; }
+#content h1 em { font-style:normal; color:#8a8d99; }
+
+#content h2 { margin-bottom:.3em; font-size:1.1428em; line-height:1.25em; }
+#content h3 { margin-bottom:.2em; font-size:1.1em; }
+#content h4 { margin-bottom:0; font-size:1em; }
+
+#content .intro { font-size:1.3em; line-height:1.35em; color:#666; font-weight:normal; }
+
+#content header { padding:0 70px 40px; zoom:1; }
+#content header h1 { margin-bottom:15px; }
+#content header:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+
+#content section h1 { margin-bottom:8px; font-size:1.5em; line-height:1.2em; font-weight:normal; }
+
+/* layout */
+#main .content { width:980px; margin:0 auto; }
+
+#main .column { *display:inline; }
+#main .center { display:block; margin-right:auto; margin-left:auto; text-align:center; }
+
+/* links */
+#main a { cursor:pointer; }
+
+/* globalfooter */
+#globalfooter { clear:both; margin-top:0; }
+
+/* sosumi */
+.sosumi { width:940px; margin:0 auto 18px; padding:0 20px; }
+.sosumi a { color:#333; }
+.sosumi ol { margin:0; padding-right:21px; padding-left:21px; }
+.sosumi ul { margin:0; }
+.sosumi li { padding-bottom:5px; }
+.sosumi p { margin:0; padding-bottom:5px; }
+ol.sosumi { width:898px; margin:18px auto; }
+.sosumi small { font-size:1em; }
+
+
+/* page specific
+------------------------*/
+#lte .dropdown { position:relative; width:980px; margin:0 auto; padding:18px 0; text-align:right; z-index:1; }
+#lte .dropdown .dropdown-wrapper { float:right; width:440px; }
+#lte .dropdown .dropdown-wrapper select { float:right; width:302px; height:26px; cursor:pointer; padding:4px 27px 2px 9px; margin:0 0 20px; background:url(../images/lte_select.gif) no-repeat top left !important; font-size:1em; border:none;
+	-webkit-border-radius:6px;
+	   -moz-border-radius:6px;
+	    -o-border-radius:6px;
+	       border-radius:6px;
+	 -khtml-appearance:none;
+	-webkit-appearance:none;
+}
+#lte .dropdown span { position:absolute; z-index:2; top:20px; right:26px; width:18px; height:22px; background:url(../images/lte_select_bg.gif) repeat-x top left; display:none/9; *display:none; }
+
+#lte .dropdown .dropdown-wrapper label { float:left; padding-top:4px; *padding-top:2px; }
+
+#lte .dropdown select:hover { background:url(../images/lte_select_hover.gif) no-repeat top left !important; }
+
+@media only screen and (max-device-width:768px) {
+	#lte .dropdown .dropdown-wrapper { width:455px; }
+}
+
+#lte h2.intro { width:800px; }
+
+#lte .border-bottom { border-bottom:1px solid #7f7f7f; }
+
+#lte .lte-chart { width:100%; margin:60px 0 30px; border-bottom-color:#e5e5e5; table-layout:fixed; word-spacing:-1px; }
+#lte .lte-chart * { color:#333; }
+
+#lte .lte-chart th { vertical-align:bottom; }
+#lte .lte-chart th h3 { margin-right:16px; border-bottom:2px solid #333; font-size:1.14em; line-height:1.25em; padding-bottom:9px; }
+#lte .lte-chart th:last-child h3,
+#lte .lte-chart th.last-child h3 { margin-right:0; }
+#lte .lte-chart td { padding:18px 0; width:245px; vertical-align:top; }
+#lte .lte-chart td h4 { margin-bottom:0; }
+#lte .lte-chart td h4 em { font-weight:normal; font-style:normal; }
+#lte .lte-chart .last-row td { padding-bottom:42px; }
+
+#lte .lte-chart td .countries { position:relative; width:490px; margin-top:-19px; padding-top:18px; }
+#lte .lte-chart td .countries.border { border-top:1px solid #7f7f7f; }
+#lte .lte-chart td .countries dt,
+#lte .lte-chart td .countries dd { float:left; padding-bottom:18px; }
+#lte .lte-chart td .countries dt { clear:left; width:245px; line-height:2.1429em; }
+#lte .lte-chart td .countries dt img { margin-bottom:-10px; margin-right:10px; *position:relative; *z-index:1; }
+#lte .lte-chart td .countries dd { padding-top:5px; }
+#lte .lte-chart td .countries .border-bottom { margin-bottom:18px; border-bottom-color:#b2b2b2; }
+
+#lte .sosumi { margin-bottom:6px; }

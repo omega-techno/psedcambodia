@@ -1,0 +1,44 @@
+#content { padding:18px 0 0; color:#565656; }
+#content h1 { text-align:center; margin-bottom:0.3em; }
+#content h3, #content h3 a, #content h4, #content h4 a { position:relative; color:#292929; }
+#content h3 a:hover, #content h4 a:hover { text-decoration:underline; }
+#content p.intro { margin-bottom:70px; font-size:20px; color:#a1a5a9; text-align:center; font-weight:normal; }
+#content .grid2col { width:855px; margin-left:82px; }
+#content .grid2col .column { margin-bottom:15px; }
+#content .grid2col .column.first { width:368px; }
+#content .grid2col .column.last { width:416px; }
+#content .grid2col img.reflect { margin-bottom:-1em; }
+#content .grid2col p { }
+
+/* resource box
+----------------------------- */
+#content .boxfull { position:relative; width:940px; padding:20px 20px 30px; background:url(../images/working_boxfull_bg20080701.gif) repeat-y; }
+#content .boxfull .cap { position:absolute; left:0; width:980px; height:5px; _font-size:1px; }
+#content .boxfull .cap.top { top:0; background:url(../images/working_boxfull_bgtop20080701.gif) no-repeat; }
+#content .boxfull .cap.bottom { bottom:0; _bottom:-1px; background:url(../images/working_boxfull_bgbottom20080701.gif) no-repeat; }
+#content .boxfull .column { margin-left:25px; }
+#content .boxfull .column.first { float:left; }
+#content .boxfull .column.last { float:right; }
+#content .boxfull h3 { font-size:14px; margin-bottom:1em; }
+#content .boxfull p { font-size:10px; line-height:1.5em; margin:0; }
+
+/* promo footer
+----------------------------- */
+#promofooter { margin-left: -2px; margin-right: -2px; }
+#promofooter ul#promos li.promo:hover h4 a { color: #252525; }
+#promofooter ul#promos li.promo h4 a { color: #252525; font-size: 14px; font-weight:normal; padding-top: 17px; }
+#promofooter ul#promos li.promo p { margin-bottom: 5px; }
+
+#promofooter ul#promos li.buy p { font-size: 11px; line-height: 16px; padding:0 15px 0 15px; }
+#promofooter ul#promos li.buy a { color: #08c; }
+#promofooter ul#promos li.buy a:hover { text-decoration: underline; }
+#promofooter ul#promos li.buy h4 a:hover { text-decoration: none; }
+#promofooter ul#promos li.buy ul li { margin-bottom: 4px; }
+#promofooter ul#promos li.buy img.right { margin:0 18px 0 -100px; display:inline; *position:relative; *z-index:1;}
+
+/* directory nav
+----------------------------- */
+#directorynav .column { width:113px; line-height:1.3em; }
+#directorynav .column.last { width:150px; float:right !important; margin-right:18px; }
+#directorynav ul { margin-top:0.5em; }
+#directorynav li { margin-bottom:0.4em; }

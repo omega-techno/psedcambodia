@@ -1,0 +1,25 @@
+.galleryoverlay .store-gallery-content .scrim { display:none; }
+#OverlayPanel .galleryoverlay #store-gallery .storeVR .scrim { display:block; }
+
+#OverlayPanel .galleryoverlay #store-gallery .vr,
+#OverlayPanel .galleryoverlay #store-gallery .scrim { width:640px; height:400px; position:absolute; z-index:1; left:54px; top:78px; }
+#OverlayPanel .galleryoverlay #store-gallery .scrim { -webkit-transition: opacity .4s ease-out; pointer-events:none; }
+#OverlayPanel .galleryoverlay #store-gallery .scrim p { font-size:1.4em; margin-top:280px; text-align:center; color:rgba(255,255,255,0.7); }
+
+#OverlayPanel .galleryoverlay #store-gallery .vr .ac-cube360-container img { left:0; top:0; }
+
+#OverlayPanel .galleryoverlay #store-gallery .scrim { cursor:-webkit-grab; z-index:2; background:rgba(0,0,0,.65) url(../images/scrim_icon.png) 50% 50% no-repeat; }
+#OverlayPanel .galleryoverlay #store-gallery .scrim.device-motion { background-image:url(../images/scrim_icon.png); }
+	
+@media only screen and (max-device-width: 768px) {
+	#OverlayPanel .galleryoverlay #store-gallery .scrim { padding:1px; margin:-1px; } /* sub-pixel rendering fix */
+}
+
+#OverlayPanel .galleryoverlay #store-gallery .scrim .device-motion,
+#OverlayPanel .galleryoverlay #store-gallery .scrim.device-motion .mouse { display:none; }
+#OverlayPanel .galleryoverlay #store-gallery .scrim .mouse,
+#OverlayPanel .galleryoverlay #store-gallery .scrim.device-motion .device-motion { display:block; }
+
+#OverlayPanel .galleryoverlay .store-gallery-trigger { text-decoration:none; }
+#OverlayPanel .galleryoverlay .store-gallery-trigger .three-sixty { display:block; padding:0 3px 0 4px; font-size:10px; -webkit-font-smoothing:subpixel-antialiased; line-height:19px; color:#c3c3c3; background:#000; background:rgba(0,0,0,.6); position:absolute; z-index:1; text-decoration:none; }
+#OverlayPanel .galleryoverlay .store-gallery-trigger .three-sixty b { font-size:11px; }

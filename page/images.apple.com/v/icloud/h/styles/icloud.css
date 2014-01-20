@@ -1,0 +1,280 @@
+/* Site-wide Styles
+------------------------*/
+#main { margin:0 auto; position:static; }
+#main .content { margin:0 auto 18px; padding:60px 0 32px; zoom:1; }
+#main .content .content { width:auto; padding:0; }
+
+/* typography */
+.main { font-size:1.167em; line-height:1.5714em; word-spacing:-1px; } /* 14px/22px */
+.main h1 { font-size:1.7142em; line-height:1.1666em; margin-bottom:10px; font-weight:normal; } /* 24px/28px */
+.main h2 { font-size:1.2857em; line-height:1.3888em; margin-bottom:7px; } /* 18px/25px */
+.main h3 { font-size:1.1428em; line-height:1.25em; margin-bottom:7px; }/* 16px/20px */
+.main h4 { font-size:1em; margin-bottom:7px; } /* 14px/20px */
+
+.main h1 img,
+.main h2 img { display:block; margin:0; }
+
+.main p { font-size:1.1429em; line-height:1.6875em; } /* 16px/27px */
+.main p.intro { font-size:1.2857em; line-height:1.6667em; color:#404040; } /* 18px/30px */
+
+.main .title,
+.main .title h1,
+.main .title h2 { line-height:1.2142em; font-weight:normal; }
+
+.main .title { font-size:2em; margin-bottom:10px; }
+.main .title h1,
+.main .title h2 { font-size:1em; margin-bottom:0; }
+.main .title h2 { color:#898989; }
+
+.main .small { font-size:.8571em; line-height:1.5em; } /* 12px/18px */
+.main .intro { font-size:1.2857em; line-height:1.3888em; color:#888; font-weight:normal; } /* 18px/25px */
+.main .caption { color:#666; }
+
+.main .hero h1 { margin-bottom:2px; }
+
+body.specs #main { font-size:1em; line-height:1.4286em; }
+
+/* layout */
+.main .row { padding-top:50px; padding-bottom:32px; }
+
+.main .column { *display:inline; }
+
+.main .block { display:block; }
+.main .inline { display:inline; }
+.main .left { float:left; }
+.main .right { float:right; }
+.main .center { display:block; margin-right:auto; margin-left:auto; text-align:center; }
+
+.main .flushpad,
+.main .padright { padding-right:90px; }
+
+.main .flushpad,
+.main .padleft { padding-left:90px; }
+
+.main .flushpad,
+.main .flushright { margin-right:-90px; }
+
+.main .flushpad,
+.main .flushleft { margin-left:-90px; }
+
+.main .flushtop,
+.main .flushbottom,
+.main .flushright,
+.main .flushleft,
+.main .relative { *position:relative; *z-index:1; *zoom:1; }
+
+/* links */
+.main a { cursor:pointer; }
+.main a.block { color:#000; }
+.main a.wrap { text-decoration:none; }
+.main a.wrap:hover span { text-decoration:underline; cursor:pointer; } /* investigate styles for 2 line .more links */
+
+/* aesthetic */
+.main .shadow { border:1px solid #ccc; -webkit-box-shadow:0 1px 4px rgba(0,0,0,0.4); -moz-box-shadow:0 1px 4px rgba(0,0,0,0.4); box-shadow:0 1px 4px rgba(0,0,0,0.4); }
+.main .inset { border:1px solid #ccc; -webkit-box-shadow:inset 0 1px 4px rgba(0,0,0,0.4); -moz-box-shadow:inset 0 1px 4px rgba(0,0,0,0.4); box-shadow:inset 0 1px 4px rgba(0,0,0,0.4); }
+
+.main .shadow:nth-child(1n),
+.main .inset:nth-child(1n) { border:none; }
+
+.main .gradient {
+	background:#f2f2f2;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(242,242,242,1)));
+	background:-webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%);
+	background:   -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%);
+	background:     -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%);
+	background:        linear-gradient(top, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%);
+}
+
+
+/* product header */
+#productheader { padding-bottom:0; border-bottom:1px solid #e6e6e6; }
+#productheader h2 a { text-indent:0; }
+#productheader li a { text-shadow:#fff 0 1px 0; }
+
+#overview #pn-overview a,
+#features #pn-features a,
+.setup #pn-setup a { color:#999 !important; cursor:default; }
+
+
+/* Footers
+------------------------*/
+
+/* sosumi */
+.sosumi { width:940px; margin:18px auto; padding:0 20px; }
+.sosumi a { color:#333; }
+.sosumi ol { margin:0; padding-right:21px; padding-left:21px; }
+.sosumi ul { margin:0; }
+.sosumi li { padding-bottom:5px; }
+.sosumi p { margin:0; padding-bottom:5px; }
+.sosumi small { font-size:1em; }
+
+
+/* Page Specific
+------------------------*/
+
+/* overview */
+#overview #main .content { margin:0; padding-top:40px; padding-bottom:0; }
+#overview #main .content .divider h1 { margin-bottom:0; }
+#overview #main .content .divider p.center { margin-bottom:35px; }
+
+#overview #main .content .hero { padding-bottom:53px; }
+#overview #main .content .hero .icon { margin-bottom:8px; }
+#overview #main .content .hero h1 { margin-bottom:4px; }
+
+#overview #main .content .devices { padding-top:65px; }
+#overview #main .content .devices h1 { margin-bottom:6px; }
+#overview #main .content .devices p.center { width:800px; }
+
+#overview #main .content .gallery { position:relative; }
+#overview #main .content .gallery .gallery-nav { margin:25px 0; }
+#overview #main .content .gallery .paddle-nav li .arrow {  padding:0 15px; }
+#overview #main .content .gallery .paddle-nav li .arrow b { margin-top:273px; }
+#overview #main .content .gallery-view .gallery-content { margin-left:-100px; }
+
+@media only screen and (max-device-width:768px) {
+	#overview #main .content .gallery .gallery-content { width:1024px; padding:0 100px; }
+}
+
+#overview #main .content .icloud-sharing { padding-top:42px; padding-bottom:70px; }
+#overview #main .content .icloud-sharing p.center { padding:0 70px; margin-bottom:35px; }
+#overview #main .content .icloud-sharing img.wide { margin:0 -120px; }
+
+#overview #main .content .icloud-secure { padding-top:7px; padding-bottom:70px; }
+#overview #main .content .icloud-secure p.center { padding:0 80px; margin-bottom:35px; }
+
+#overview #main .content .sosumi { width:auto; margin-bottom:0; }
+#overview #main .content .sosumi p { padding:17px 45px 0 25px; margin-bottom:0; font-size:1em; }
+
+/* setup shared styles */
+.icloud.setup#ios .sn-ios,
+.icloud.setup#mac .sn-mac,
+.icloud.setup#pc .sn-pc { border:1px solid #08c; color:#000; }
+.icloud.setup#ios .sn-ios:hover,
+.icloud.setup#mac .sn-mac:hover,
+.icloud.setup#pc .sn-pc:hover { background:#fcfcfc; }
+
+.setup #main .content { padding-top:50px; }
+.setup .header h1 { margin-bottom:5px; }
+.setup .header p.intro { width:580px; margin:0 auto 30px; text-align:center; line-height:1.55em; }
+
+.setup .setup-nav { margin-bottom:72px; }
+.setup .setup-nav ul { text-align:center; }
+.setup .setup-nav li { display:inline-block; *display:inline; zoom:1; margin:0 15px; vertical-align:top; }
+.setup .setup-nav li a { width:236px; height:198px; padding-top:25px; display:block; border-radius:6px; border:1px solid #c3c3c3; background:#fcfcfc; color:#404040; }
+.setup .setup-nav li a:hover { text-decoration:none; border:1px solid #aaa; background:#f7f7f7; color:#000; }
+.setup .setup-nav li a img { display:block; margin:0 auto 12px; }
+.setup .setup-nav li a span { display:block; font-weight:bold; font-size:1em; line-height:1.285em; }
+.setup .setup-nav li a span.one-line { padding-top:8px; }
+
+.setup .row { padding-top:72px; padding-bottom:56px; }
+.setup #step-one.row { padding-top:0; }
+.setup img.hero { z-index:1; position:relative; }
+.setup span.divider.up,
+.setup span.divider.down { display:block; width:100%; height:62px; z-index:2; position:relative; }
+.setup span.divider.down { height:72px; }
+.setup .step { z-index:2; position:relative; }
+.setup .grid3col.step .column.first,
+.setup .devices .step .column.first { width:39px; padding-top:5px; }
+.setup .grid3col.step .column,
+.setup .devices .step .column { width:320px; margin-left:36px; }
+.setup .grid3col.step .column.last { width:573px; }
+.setup #free-icloud { padding:65px 0 0 0; width:980px; background:#f0f0f0; border:1px solid #dbdbdb;
+	-webkit-border-radius:6px;
+	   -moz-border-radius:6px;
+	        border-radius:6px;
+}
+.setup #free-icloud .grid2col .column.last { width:265px; padding:0 65px 0 0; }
+.setup #free-icloud img.hero { margin:-294px 0 0 65px; }
+.setup .devices .step .column.mac { width:253px; margin-left:64px; text-align:center; }
+.setup .devices .step .column.ios { width:253px; margin:0 0 0 64px; text-align:center; }
+.setup .devices .step .column.last { width:232px; text-align:center; }
+.setup .devices .step .column.mac img,
+.setup .devices .step .column.ios img,
+.setup .devices .step .column.last img { margin-top:-7px; margin-bottom:6px; }
+
+/* setup overview */
+#setup .header p { width:680px; }
+
+#setup .apple-tv { position:relative; padding-top:60px; }
+#setup .apple-tv .column.first { text-align:right; width:182px; padding-top:30px; }
+#setup .apple-tv .column.last { width:762px; }
+#setup .apple-tv .column.last p { width:720px; }
+
+/* setup ios */
+#ios .row { padding-bottom:0; }
+#ios #step-one img.hero { margin-top:-304px; }
+#ios #step-two img.hero { margin-top:-390px; }
+#ios #step-three img.hero { margin-top:-205px; }
+#ios #free-icloud { margin-top:72px; }
+#ios #step-four { padding-bottom:56px; }
+#ios #step-four .column p { font-size:14px; }
+
+/* setup mac */
+#mac img.right { margin-bottom:10px; }
+#mac #step-one p { width:280px; }
+#mac #step-one .grid3col.step .column.last img.right { margin-right:-40px; }
+#mac #step-two { padding-bottom:62px; }
+#mac #step-two p { width:240px; }
+#mac #free-icloud .grid2col { padding-bottom:40px; }
+#mac #free-icloud .grid2col .column.first img { margin-left:50px; }
+#mac #free-icloud .grid2col .column.last h1 { margin-top:20px; }
+#mac #step-three .grid3col.step .column.last img.right { margin-right:-40px; }
+#mac #step-three { padding-top:72px; }
+#mac #step-four p { width:280px; }
+#mac #step-five .column p { font-size:14px; }
+
+/* setup pc */
+#pc img.right { margin-bottom:10px; }
+#pc #step-one .grid3col.step .column.last img.right { margin-right:-40px; }
+#pc #step-four.devices .step .column.last { width:253px; }
+
+/* find my iphone */
+#find-my-iphone #hero { text-align:center; }
+#find-my-iphone #hero .hero-img { margin-bottom:30px; }
+#find-my-iphone #hero .intro { width:770px; margin:0 auto 30px; }
+#find-my-iphone #hero .outro { width:750px; margin:0 auto 100px; }
+
+#find-my-iphone #details { margin-bottom:65px; }
+#find-my-iphone #details .toggle-nav { margin-bottom:40px; }
+#find-my-iphone #details .gallery-content img { margin:0 1px; }
+#find-my-iphone #details .caption { font-size:1.1429em; line-height:1.6875em; color:#404040; text-align:center; width:850px; margin:0 auto; padding-top:20px; }
+#find-my-iphone #details .gallery-details-lock-screen .caption,
+#find-my-iphone #details .gallery-details-track-location .caption { width:670px; }
+#find-my-iphone #details .gallery-details-get-notified .caption { width:560px; }
+
+#find-my-iphone #activation-lock { padding-bottom:65px; }
+#find-my-iphone #activation-lock .grid2col { position:relative; z-index:2; }
+#find-my-iphone #activation-lock .first { width:365px; padding:15px 0 0 85px; }
+#find-my-iphone #activation-lock .last { width:413px; }
+
+#find-my-iphone .icloud-setup { background:none; padding-top:60px; }
+
+/* icloud photo sharing */
+#icloud-photo-sharing p.intro { margin:0 auto 30px; text-align:center; }
+#icloud-photo-sharing .row { margin-bottom:85px; padding:0; }
+
+#icloud-photo-sharing #hero p.intro { width:820px; }
+#icloud-photo-sharing #hero img.hero { margin-left:34px; }
+
+#icloud-photo-sharing #get-started p.intro { width:740px; }
+#icloud-photo-sharing #get-started .image { margin:0 -70px 30px; }
+#icloud-photo-sharing #get-started .grid3col { width:970px; margin:0 auto; text-align:center; }
+#icloud-photo-sharing #get-started .grid3col .column { width:298px; margin-left:37px; }
+#icloud-photo-sharing #get-started .grid3col .column p { padding:0 20px; }
+
+#icloud-photo-sharing #pov { margin-bottom:0; }
+#icloud-photo-sharing #pov p.intro { width:780px; }
+#icloud-photo-sharing #pov .image { margin:0 0 -124px -23px; }
+
+#icloud-photo-sharing #updates p.intro { width:850px; }
+#icloud-photo-sharing #updates .image { margin:0 0 30px 34px; }
+#icloud-photo-sharing #updates .grid3col { width:900px; margin:0 auto; text-align:center; }
+#icloud-photo-sharing #updates .grid3col p { padding:0 23px; }
+
+#icloud-photo-sharing #shared { padding-bottom:85px; margin-bottom:0; }
+#icloud-photo-sharing #shared h1 img { display:block; margin:0 auto; }
+#icloud-photo-sharing #shared p.intro { width:840px; }
+#icloud-photo-sharing #shared .image { display:block; margin:0 auto; }
+
+#icloud-photo-sharing .icloud-setup { background:none; }
+

@@ -1,0 +1,152 @@
+html { width:100%; height:100%; background:#fff; }
+body { min-height:100%; width:980px; margin:0 auto; padding:0 70px; position:relative; z-index:1; background:#fff; overflow-x:hidden; overflow-y:auto; *overflow-x:visible; *overflow-y:visible;
+	-webkit-box-shadow:none;
+	   -moz-box-shadow:none;
+	        box-shadow:none;
+}
+body:nth-child(1n) { border:none; }
+body:before { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+
+#main,
+#main #content { position:static; background:transparent; }
+#main .content,
+#main #content { border:none;
+	-webkit-box-shadow:none;
+	   -moz-box-shadow:none;
+	        box-shadow:none;
+	-webkit-border-radius:0;
+	   -moz-border-radius:0;
+	        border-radius:0;
+}
+
+#main .content p.first { margin-bottom:10px !important; }
+
+@media only screen and (max-width:1119px) {
+	html { background:#fff; }
+	body { width:980px; padding-left:22px; padding-right:22px;
+		-webkit-box-shadow:none;
+		   -moz-box-shadow:none;
+		        box-shadow:none;
+	}
+}
+
+@media only screen and (max-width:1023px) {
+	body { overflow:auto; }
+}
+
+@media only screen and (max-device-width:768px) {
+	body { width:1024px; padding-left:0; padding-right:0; }
+	#main { overflow:hidden; width:980px; padding:0 22px; }
+}
+
+#globalfooter { clear:both; }
+
+
+/* links */
+.main a.more, .main em.more, .main span.more { padding-right:.7em; background-image:url(../images/more_16.png); background-size:7px 11px; background-position:100% 55%; *background-position:100% 62%; }
+.main .more.font-14 { font-size:14px; background-image:url(../images/more_14.png); background-size:6px 9px; }
+
+@media only screen {
+	.main .more,
+	.main a.more,
+	.main em.more,
+	.main span.more,
+	.main .more.font-14 { background-image:url(http://images.apple.com/v/icloud/shared/a/images/more.svg); }
+}
+
+
+/* dividers */
+.divider { margin-left:-70px; margin-right:-70px; padding-left:70px; padding-right:70px; background-repeat:no-repeat; background-position:50% 0; }
+.divider.line { background-image:url(../images/divider_line.png); }
+.divider.down { background-image:url(../images/divider_down.png); }
+.divider.up { background-image:url(../images/divider_up.png); background-position: 50% 100%; }
+
+.divider.sosumi { padding-top:20px; }
+
+/* dot-nav */
+.dot-nav:nth-child(1n) li { margin:0 8px; width:12px; height:12px; }
+.dot-nav:nth-child(1n) li a { top:2px; left:2px; width:4px; height:4px; background:#949494; border:2px solid transparent; outline:none;
+	-webkit-box-shadow:none;
+	   -moz-box-shadow:none;
+	        box-shadow:none;
+	-webkit-border-radius:50%;
+	   -moz-border-radius:50%;
+	        border-radius:50%;
+}
+.dot-nav:nth-child(1n) li a:hover { top:2px; background:#bebebe; }
+.dot-nav:nth-child(1n) li a.active { top:0; left:0; width:8px; height:8px; border:2px solid #08c; background:transparent;
+	-webkit-box-shadow:none;
+	   -moz-box-shadow:none;
+	        box-shadow:none;
+}
+.dot-nav li { *margin:0 8px; }
+.dot-nav li a { *width:8px; *height:8px; *background:#949494; *border:2px solid transparent; }
+.dot-nav li a:hover { *background:#bebebe; }
+.dot-nav li a.active { *top:0; *border-color:#08c; *background:transparent; }
+
+/* gallery */
+@media only screen and (max-device-width:768px) {
+	.gallery .gallery-view-swipe { width:10000px; }
+	.gallery .gallery-content { float:left; }
+}
+
+/* paddle-nav */
+#main .gallery .paddle-nav li .arrow { display:block; position:absolute; z-index:1012; top:0; width:68px; height:100%; padding:0 23px; outline:none; opacity:0; cursor:pointer; *background-image:url(../../../../../global/elements/blank.gif);
+	-webkit-transition:opacity 0.25s ease-out;
+	   -moz-transition:opacity 0.25s ease-out;
+	        transition:opacity 0.25s ease-out;
+}
+#main .gallery:hover .paddle-nav li .arrow { opacity:0.85; }
+#main .gallery .paddle-nav li .arrow.disabled { display:none; }
+#main .gallery .paddle-nav li .arrow b { display:block; margin-top:0; width:68px; height:131px; padding:0; background-repeat:no-repeat; background-position:50% 50%; behavior:url(http://images.apple.com/global/scripts/lib/ie7pngfix.htc); -webkit-transform:translateZ(0); }
+#main .gallery .paddle-nav li .arrow.prev { left:0; padding-right:70px; }
+#main .gallery .paddle-nav li .arrow.prev b { float:left; background-image:url(../images/paddle_prev.png); background-size:68px 131px; }
+#main .gallery .paddle-nav li .arrow.next { right:0; padding-left:70px; }
+#main .gallery .paddle-nav li .arrow.next b { float:right; background-image:url(../images/paddle_next.png); background-size:68px 131px; }
+
+/* paddle nav adjustment for iPad and iPhone */
+@media only screen and (max-device-width:768px) {
+	#main .gallery .paddle-nav li .arrow { display:none; }
+}
+/* paddle nav adjustment for Small Desktop */
+@media only screen and (max-width:1136px) {
+	#main .gallery .paddle-nav li .arrow { background:transparent; }
+	#main .gallery .paddle-nav li .arrow.prev { margin-left:65px; }
+	#main .gallery .paddle-nav li .arrow.next { margin-right:65px; }
+}
+
+
+/* toggle-nav */
+#main .toggle-nav { margin:0 auto; width:100%; text-align:center; }
+#main .toggle-nav li,
+#main .toggle-nav li a { display:-moz-table-cell; display:inline-block; *display:inline; *zoom:1; outline:none; }
+#main .toggle-nav li a { min-width:115px; padding:6px 20px; color:#666; text-decoration:none; border:1px solid #cfcfcf; background:#fff; border-left-color:transparent; }
+#main .toggle-nav li a:hover { color:#2587d3; }
+
+#main .toggle-nav li a.first-child { border-left:1px solid #cfcfcf; }
+
+#main .toggle-nav li:first-child a {
+	-webkit-border-radius:6px 0 0 6px;
+	   -moz-border-radius:6px 0 0 6px;
+	        border-radius:6px 0 0 6px;
+}
+#main .toggle-nav li:last-child a {
+	-webkit-border-radius:0 6px 6px 0;
+	   -moz-border-radius:0 6px 6px 0;
+	        border-radius:0 6px 6px 0;
+}
+#main .toggle-nav li a.active { color:#fff; text-decoration:none; cursor:default; border:1px solid #2587d3; background:#59b1f6; }
+
+
+/* icloud setup nav */
+.icloud .icloud-setup { padding-top:72px; padding-bottom:40px; }
+.icloud .icloud-setup h1 { margin-bottom:5px !important; }
+.icloud .icloud-setup p.center { padding: 0 190px; margin-bottom:35px; }
+
+.icloud .icloud-setup ul { text-align:center; }
+.icloud .icloud-setup ul li { margin:0; float:left !important; }
+.icloud .icloud-setup ul li.setup-ios { padding-left:82px; width:174px; }
+.icloud .icloud-setup ul li.setup-mac { width:252px; padding:0 55px 0 88px; }
+.icloud .icloud-setup ul li.setup-pc { width:232px; }
+.icloud .icloud-setup ul li img { display:block; margin-bottom:10px; }
+

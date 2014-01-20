@@ -1,0 +1,22 @@
+body#pages .hero .intro { width:760px; }
+body#pages .hero .hero-img { margin-left:-51px; margin-right:-51px; }
+
+body#pages .beautiful .intro { width:750px; }
+body#pages .beautiful .caption { width:800px; }
+
+body#pages .simple .intro { width:800px; }
+body#pages .simple .caption { width:500px; }
+
+body#pages .tools .intro { width:700px; }
+body#pages .tools .caption { width:720px; }
+
+body#pages .icloud { padding-bottom:37px; }
+body#pages .icloud .intro { width:860px; }
+body#pages .icloud .hero-img { position:relative; z-index:1; margin:23px -140px 27px; }
+
+body#pages .share .intro { width:770px; }
+body#pages .share .caption { width:600px; }
+
+body#pages .online { padding-bottom:40px; }
+body#pages .online .intro { width:860px; }
+body#pages .online h1 { margin-left:-53px; margin-right:-53px; }

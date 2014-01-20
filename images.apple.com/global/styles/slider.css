@@ -1,0 +1,22 @@
+.ACSlider { position:relative; }
+
+/* dot nav at the top */
+.ACSliderPageNav { position:absolute; top:0; left:50%; height:8px; padding:0; margin:0 auto; text-align:center; }
+.ACSliderPageNav li { display:inline; }
+.ACSliderPageNav li a { display:block; float:left; width:4px; height:4px; padding:2px; margin:0 2px; cursor:pointer; text-indent:-9999px; background:url(../elements/slider/dot20070414.png) center top no-repeat; _background-image:url(http://images.apple.com/global/elements/slider/dot20070414.gif); overflow:hidden; }
+.black .ACSliderPageNav li a { background-image:url(../elements/slider/dot_black20070414.png); _background-image:url(http://images.apple.com/global/elements/slider/dot_black20070414.gif); }
+.ACSliderPageNav li a:hover { background-position:center -8px; }
+.ACSliderPageNav li a.active { background-position:center -16px; cursor:default; }
+
+/* previous and next nav */
+.ACSliderPreviousArrow, .ACSliderNextArrow { position:absolute; top:50%; width:14px; height:14px; cursor:pointer; text-indent:-9999px; behavior:url(http://images.apple.com/global/scripts/lib/iepngfix.htc); overflow:hidden; }
+.ACSliderPreviousArrow { left:0; background:url(../elements/slider/arrow_left20070414.png) center top no-repeat; }
+.black .ACSliderPreviousArrow { background-image:url(../elements/slider/arrow_left_black20070414.png); }
+.ACSliderNextArrow { right:0; background:url(../elements/slider/arrow_right20070414.png) center top no-repeat; }
+.black .ACSliderNextArrow { background-image:url(../elements/slider/arrow_right_black20070414.png); }
+.ACSliderPreviousArrow:hover, .ACSliderNextArrow:hover { background-position:center -14px; }
+
+/* container */
+.ACSliderMaskDiv { position:relative; overflow:hidden; margin:0 30px; }
+.ACSliderMaskDiv ul { position:absolute; top:16px; width:9999px; margin:0; padding:0; }
+.ACSliderMaskDiv ul li { }

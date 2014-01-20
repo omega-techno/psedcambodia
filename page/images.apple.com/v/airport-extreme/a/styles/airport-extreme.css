@@ -1,0 +1,21 @@
+.main #hero .row { height:787px; overflow:hidden; }
+.main #hero h1 { margin-left:411px; margin-top:87px; }
+.main #hero .hero-image { margin-left:77px; margin-top:-490px; }
+.main .section-nav { width:890px; margin:-7px auto 0; }
+.main .section-nav li { margin-right: 15px; }
+
+
+/* buystrip */
+#buystrip .product { position:relative; }
+#buystrip .product .product-name,
+#buystrip .product .product-image { position:absolute; top:0; }
+#buystrip .product .product-name  { left:0; }
+#buystrip .product .product-image { right:0; }
+#buystrip .product,
+#buystrip .product a,
+#buystrip .product p,
+#buystrip .product .more { width:100%; text-align:left; }
+#buystrip .product p,
+#buystrip .product .more { position:relative; top:95px; left:6px; width:110px; margin-left:0; }
+#buystrip .product p     { line-height:1.45em; }
+#buystrip .product .more { top:85px; width:auto; }

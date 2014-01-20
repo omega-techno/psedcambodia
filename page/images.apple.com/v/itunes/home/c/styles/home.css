@@ -1,0 +1,62 @@
+body#overview .main { margin-bottom:-30px; padding-bottom:30px; }
+body#overview .main .hero { text-align:center; padding-top:50px; padding-bottom:70px; }
+body#overview .main .hero h1 { margin-bottom:5px; }
+body#overview .main .hero .intro { margin-bottom:14px; padding:0 170px; text-align:center; color:#404040; }
+body#overview .main .hero .intro.nopad { margin-bottom:10px; }
+body#overview .main .hero .button { display:inline-block; padding:3px 13px 4px 46px; border:1px solid #ff2d55; font-size:0.95em; color:#ff2d55; background:url(../../../d/images/radio_icon.png) no-repeat 13px 4px;
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+	        border-radius:3px;
+}
+body#overview .main .hero #start-listening.disabled { display:none; }
+body#overview .main .hero .hero-image { margin-top:30px; }
+
+body#overview .main .hero .small { color:#666; }
+
+/* download button */
+body#overview .main .download-button { display:inline-block; margin-bottom:5px; padding:14px 26px 10px 25px; color:#fff; font-size:18px; text-shadow:0 -1px 0 rgba(0,0,0,.20);
+	background-color:#349ade;
+	background:-webkit-gradient(linear, left top, left bottom, from(#49aae2), to(#1d88d9));
+	background:-moz-linear-gradient(top, #49aae2, #1d88d9);
+	   -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,.75), 0 1px 3px rgba(0,0,0,0.3);
+	   -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.50), 0px 1px 0px rgba(0,0,0,0.25);
+	   border-left:1px solid #588db0;
+	   border-right:1px solid #588db0;
+}
+body#overview .main .download-button .arrow { padding-right:27px;
+	background:url(../images/download_arrow.png) 100% 50% no-repeat;
+	_background:url(../images/download_arrow.gif) 100% 50% no-repeat;
+}
+body#overview .main .download-button:hover { text-decoration: none;
+	background-color:#2d85ce;
+	background:-webkit-gradient(linear, left top, left bottom, from(#4095c6), to(#1974d7));
+	background:-moz-linear-gradient(top, #4095c6, #1974d7);
+}
+body#overview .main .download-button:hover .arrow { _background:url(../images/download_arrow_hover.gif) 100% 50% no-repeat; }
+body#overview .main .download-button:active {
+	background-color:#2d85ce;
+	background:-webkit-gradient(linear, left top, left bottom, from(#4095c6), to(#1974d7));
+	background:-moz-linear-gradient(top, #4095c6, #1974d7);
+	-webkit-box-shadow:inset 0 1px 5px rgba(0,0,0,0.3);
+	   -moz-box-shadow:inset 0 1px 5px rgba(0,0,0,0.3);
+	        box-shadow:inset 0 1px 5px rgba(0,0,0,0.3);
+}
+
+body#overview .features { padding-top:60px; padding-bottom:60px; }
+body#overview .features .column.first { width:415px; margin:35px 85px 0 0; }
+
+body#overview .giftcards { padding-top:60px; padding-bottom:70px; }
+body#overview .giftcards .left { margin:30px 0 0 12px; }
+body#overview .giftcards .left.pullup { margin:-35px 0 0 -20px; }
+body#overview .giftcards .column.last li { float:left; margin-right:30px; }
+
+body#overview .main #itunesmodule { margin-bottom:0; }
+body#overview .main #itunesmodule-gallery { margin-bottom:40px; }
+
+/*iPhone Only Layout Adjustments*/
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+	body#overview .main .hero .flushleft { margin-left: -210px; }
+	body#overview .main .features .column.first { width:395px; margin:35px 30px 0 30px !important; }
+	body#overview .main .giftcards .left { margin-left:20px;}
+	body#overview .main .giftcards .last { width:450px; margin:30px 20px 0 20px !important; }
+}

@@ -1,0 +1,178 @@
+@import url(../../global/styles/blackout.css);
+
+/* temp */
+#main a[href="#"] { color:red !important; }
+
+html, body { background-color:#f7f7f7; }
+#main { background:url(../images/content_bg_20090310.png) repeat-y 0 0; }
+.maincap { height:7px; }
+.maincap.top { top:0; background:url(../images/content_top_20090310.png) no-repeat; }
+.maincap.bottom { bottom:0; *bottom:-1px; background:url(../images/content_bottom_20090310.png) no-repeat 0 100%; _background:url(http://images.apple.com/contact/images/content_bottom_20090310.gif) no-repeat 0 100%; }
+
+
+/* content */
+#content { width:854px; padding:55px 63px 30px; *padding-bottom:10px; position:relative; }
+
+#content h1 { margin-bottom:3px; line-height:18px; }
+#content p.intro { width:525px; *width:370px; font-size:12px; line-height:18px; margin-bottom:1em; }
+#content img.left.icon { margin-right:30px; margin-top:0; }
+
+#content a.block { color:#333; text-decoration:none; }
+#content a.block em.more { color:#08c; font-style:normal; white-space:nowrap; padding-right:10px; background:url(../../global/elements/arrows/morearrow_08c.gif) no-repeat 100% 50%; zoom:1; }
+#content a.block:hover em.more { text-decoration:underline; }
+
+
+/* sidebar
+------------------------*/
+#main .sidebar { width:253px; margin-top:11px; font-size:11px; line-height:1.4; }
+
+#main .sidebar .box { margin:0 0 18px; padding:13px 22px 0; border:1px solid #eaeaea; border-color:#f8f8f8 #eaeaea #d4d4d4; background-color:#fafafa; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px; -khtml-border-radius:5px; zoom:1; }
+#main .sidebar .box:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+#main .sidebar .box ul li { margin:0 0 14px; }
+#main .sidebar .box h3 { margin:0 -22px 10px; padding:0 22px 10px; color:#5f5f5f; border-bottom:1px solid #eaeaea; font-size:12px; line-height:12px; -webkit-box-shadow:0 1px 1px #fff; }
+#main .sidebar .box p { margin-bottom:0; }
+#main .sidebar .box a.arrow { float:right; background:url(../../global/elements/arrows/morearrow_intro.gif) no-repeat 100% 60%; margin-bottom:15px; *margin-bottom:0; padding-right:19px; font-size:12px; }
+
+#main .sidebar .box.support { padding:20px 15px 0 19px; background:#f2f2f2 url(../images/support_bg.gif) repeat-x 0 0; }
+#main .sidebar .box.support h3 { padding:0 0 6px; margin:0 !important; border-bottom:none !important; color:#000; font-size:14px; -webkit-box-shadow:none; }
+#main .sidebar .box.support img.left { margin:0 15px 0 -2px; }
+
+
+/* adjustments */
+#xserve img.left.icon { margin-top:6px; margin-bottom:45px; }
+
+#macmini img.left.icon,
+#airportextreme img.left.icon,
+#timecapsule img.left.icon { margin-bottom:25px; }
+
+#xserve.thankyou h1,
+#timecapsule.thankyou h1,
+#superdrive.thankyou h1 { margin-top:0px !important; }
+
+#macmini.thankyou h1,
+#airportextreme.thankyou h1,
+#timecapsule.thankyou h1 { margin-top:7px !important; }
+
+#superdrive img.left.icon,
+#magicmouse img.left.icon { margin-bottom:42px; }
+#magicmouse.thankyou h1 { margin-top:2px !important; }
+
+#ichat #content { *padding-bottom:45px; }
+
+p.discussions { padding-left:115px; width:410px !important; *width:350px; }
+
+#content label.other { margin-top:-9px !important; font-weight:normal !important; position:relative; }
+
+.thankyou #content { *padding-bottom:35px; }
+.thankyou #content h1 { margin-top:21px; }
+.thankyou #content .column.first h3 { clear:both; margin-top:36px; *margin-top:0; }
+.thankyou img.left.icon { margin-bottom:24px !important; }
+
+.display ul.inputs { margin-top:0 !important; }
+
+
+/* forms
+------------------------*/
+#content label { width:467px; }
+#content form { clear:both; }
+
+#content ul.inputs { position:relative; margin-top:29px; padding-bottom:20px; margin-bottom:18px; border-bottom:1px solid #eee; cursor:default; zoom:1; }
+#content ul.inputs.noborder { padding-bottom:0; margin-bottom:0; border-bottom:none; }
+#content ul.inputs.topadjust { margin-top:0; }
+#content ul.inputs:after { content:'.'; display:block; height:0; clear:both; visibility:hidden; }
+#content ul.inputs li { position:relative; clear:both; float:left; }
+#content ul.inputs li input { width:450px; height:23px; margin:0; padding:0; }
+#content ul.inputs li textarea { width:450px; margin:0; padding:0; }
+
+#content ul.inputs li span.formwrap { width:452px; height:25px; *height:27px; border:6px solid #f0f0f0; display:block; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; -khtml-border-radius: 4px; margin-bottom:18px; }
+#content ul.inputs li span.formwrap input,
+#content ul.inputs li span.formwrap textarea { border:1px solid #c0c0c0; }
+#content ul.inputs li span.formwrap i { margin-top:14px; *margin-top:15px; }
+
+#content ul.inputs li.textarea span.formwrap textarea { height:65px; resize:none; }
+#content ul.inputs li.textarea span.formwrap { height:67px; *height:69px; }
+
+#content ul.inputs li.comments span.formwrap { height:132px; *height:134px; }
+#content ul.inputs li.comments span.formwrap textarea { height:130px !important; resize:none; }
+#content ul.inputs li.comments span.formwrap i.failed { top:13px; *top:12px; _top:14px; }
+
+#content ul.inputs li.dropdown select { position:relative; width:302px; *width:464px; height:26px; cursor:pointer; padding:4px 27px 2px 6px; margin:0 0 20px; background:url(../images/customselect.gif) no-repeat top left !important; font-size:12px; border:none; -webkit-border-radius:6px; -moz-border-radius:6px; -o-border-radius:6px; -khtml-appearance:none; -webkit-appearance:none; }
+#content ul.inputs li.dropdown span { position:absolute; z-index:10; top:23px; right:192px; width:18px; height:22px; background:url(../images/customselect_bg.gif) repeat-x top left !important; *display:none; }
+#content ul.inputs li.dropdown select:hover { background:url(../images/customselect_hover.gif) no-repeat top left !important; }
+#content ul.inputs li.dropdown.twoline span { top:41px; }
+#content ul.inputs li.dropdown i { *margin-top:6px; }
+
+#content ul.inputs li i { position:absolute; right:-66px; top:1.7em; width:56px; height:13px; margin-top:7px; _margin-top:9px; background:#bbb url(../images/required_label.png) no-repeat 0 0; text-indent:-9999px; z-index:1; behavior:url(/global/scripts/lib/ie7pngfix.htc); overflow:hidden; }
+#content ul.inputs li i.failed { background-color:#ed7d7a !important; z-index:2; }
+#content ul.inputs li i.info { top:-.8em; font-style:normal; font-size:.8em; width:auto; height:auto; margin-top:6px; background:none; text-indent:0; z-index:1; }
+#content ul.inputs li i.twolines { margin-top:25px; }
+
+#content li.checkbox div { *clear:both; }
+#content li.checkbox input { *float:left; *border:none !important; *width:22px !important; *height:22px !important; }
+#content li.checkbox label { *white-space:nowrap; *float:right; *margin-top:1px; }
+#content li.checkbox legend { *margin-left:-7px; }
+#content li.checkbox fieldset input { margin-right:5px; }
+#content li.checkbox fieldset div { margin-bottom:8px; }
+
+#content li.radio input { *border:none !important; }
+#content li.radio legend { *margin-left:-7px; }
+
+#content label,
+#content legend,
+#content p.legend { display:block; clear:both; margin:0; padding:0 0 3px; font-size:12px; font-weight:bold; color:#333; }
+#content label span,
+#content legend span,
+#content p.legend span { font-weight:normal; }
+#content label sup,
+#content ul.inputs li fieldset legend sup { font-size:10px; font-weight:normal; }
+#content label p,
+#content form label span,
+#content ul.inputs li fieldset legend p,
+#content ul.inputs li fieldset legend span { font-weight:normal; }
+#content input,
+#content form select,
+#content form textarea { margin-top:0; margin-bottom:1.5em; }
+#content ul input { width:auto; padding:0.1em; margin-top:0; margin-right:3px; font-size:1.3em; }
+
+#content ul.inputs li fieldset { margin-bottom:1.75em; }
+#content ul.inputs li fieldset legend,
+#content ul.inputs li p.legend { margin-bottom:4px; }
+#content ul.inputs li fieldset input { width:auto; margin:0; }
+#content ul.inputs li fieldset label { display:inline; font-weight:normal; color:#666666; padding:0 7px 0 1px; }
+
+
+/* custom controls */
+#content select.replaced,
+#content fieldset.replaced { position:absolute; left:-99999px; width:0 !important; }
+
+
+/* checkboxes and radios */
+#content ul.customradio { width:100%; margin-bottom:12px; }
+
+#content ul.customcheckbox li,
+#content ul.customradio    li { float:left; clear:both; height:17px; margin-right:1em; margin-bottom:8px; padding-left:25px; color:#666; -webkit-user-select:none; }
+#content ul.customcheckbox li { background:url(../images/customcheckbox.gif) no-repeat 0 0; }
+#content ul.customradio    li { clear:none; background:url(../images/customradio.gif) no-repeat 0 0; }
+
+#content ul.customcheckbox li.selected,
+#content ul.customradio    li.selected { background-position:0 -20px; }
+
+#content ul.customcheckbox li:focus,
+#content ul.customradio    li:focus { /*outline:none;*/ }
+
+#content ul li.checkbox { margin-bottom:9px; *margin-bottom:-9px; }
+#content ul li.radio { margin-bottom:9px; *margin-bottom:-9px; }
+
+
+/* validation styles */
+#content #form-advice { position:relative; clear:both; overflow:hidden; }
+#content #form-advice .wrapper { display:block; margin:20px 40px 0 0; padding:15px 25px 1px; border:1px solid #eaeaea; border-color:#f8f8f8 #eaeaea #d4d4d4; background-color:#fafafa; color:red; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px; -khtml-border-radius:5px; }
+#content #form-advice h3 { margin:0 0 5px; font-size:12px; color:red; font-weight:bold; } /* padding needs to be on child elements of #validation advice to avoid jerky motion in scriptaculous effects */
+#content #form-advice ul { margin-left:25px; margin-bottom:18px; }
+
+#content #validation-advice { position:relative; overflow:hidden; display:block; margin:20px 40px 20px 0; padding:15px 25px 1px; border:1px solid #eaeaea; border-color:#f8f8f8 #eaeaea #d4d4d4; background-color:#fafafa; color:red; -moz-border-radius:5px; -webkit-border-radius:5px; -o-border-radius:5px; -khtml-border-radius:5px; }
+#content #validation-advice h3 { margin:0 0 5px; font-size:12px; color:red; font-weight:bold; } /* padding needs to be on child elements of #validation advice to avoid jerky motion in scriptaculous effects */
+#content #validation-advice ul { margin-left:25px; margin-bottom:18px; }
+
+#content form input.submit { float:right; width:168px; height:36px; }
+#content form p.sosumi.policy { float:left; width:350px; padding:0; color:#7a7a7a; font-weight:normal; font-size:12px !important; }

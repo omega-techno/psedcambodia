@@ -1,0 +1,38 @@
+/* General Styles
+---------------------------*/
+body#overview .row { border-top:1px solid #e6e6e6; width:100%; *zoom:1; }
+body#overview .row h1 { text-align:center; margin:0; }
+body#overview .row h1 img { margin:0 auto; }
+body#overview .row img.hero { display:block; margin:0 auto 20px; }
+body#overview .row p { text-align:center; margin-left:auto; margin-right:auto; }
+
+/* Section Specific
+---------------------------*/
+body#overview #hero { border-top:none; padding-top:60px; }
+body#overview #hero .hero { margin:40px 0 10px -360px;}
+body#overview #hero ul { margin-bottom:60px; text-align:center; line-height:1.3em; color:#333; }
+body#overview #hero ul li { display:inline-block; *display:inline; border-left:1px solid #666; line-height:18px; padding:0 1em; }
+body#overview #hero .first-item { border:0; }
+body#overview #hero .gallery-link { margin-bottom:17px; }
+
+body#overview #display { position:relative; z-index:1200; }
+body#overview #display a.block { padding-top:0; }
+body#overview #display p { max-width:800px; }
+body#overview #display .hero { margin-left:-60px;}
+body#overview #display .loupe-gallery { position:absolute; z-index:1200; top:111px; left:74px; }
+body#overview #display .loupe-gallery .loupe-container,
+body#overview #display .loupe-gallery .loupe-container.degraded { display:none; }
+body#overview #display .loupe-gallery .loupe-container.active { display:block; }
+body#overview #display .loupe-gallery .loupe { -webkit-transform:translate(2000px, 0); -moz-transform:translate(2000px, 0); -ms-transform:translate(2000px, 0); transform:translate(2000px, 0); }
+
+body#overview #performance .hero { margin-left:-59px; }
+body#overview #performance p { max-width:870px; }
+
+body#overview #design { padding-top:0; }
+body#overview #design .hero { margin-left:-280px; }
+body#overview #design p { max-width:840px; }
+
+body#overview #apps .hero { margin-left:-44px; }
+body#overview #apps p { max-width:880px; }
+
+body#overview #os p { max-width:835px; }

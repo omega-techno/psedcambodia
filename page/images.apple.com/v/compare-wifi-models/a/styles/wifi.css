@@ -1,0 +1,53 @@
+/* product header */
+#productheader { padding:12px 0 3px; border-bottom:1px solid #ddd; }
+#productheader h2 { margin:0 0 6px; }
+#productheader h2 a { text-indent:0; }
+#productheader h2 a img { margin:-3px 0 0; }
+
+/* sosumi */
+.sosumi { width:940px; margin:18px auto; padding:0 20px; }
+.sosumi a { color:#333; }
+.sosumi ol { margin:0; padding-right:21px; padding-left:21px; }
+.sosumi ul { margin:0; }
+.sosumi li { padding-bottom:5px; }
+.sosumi p { margin:0; padding-bottom:5px; }
+.sosumi small { font-size:1em; }
+
+/* general table */
+.compare-table { width:980px; margin:50px auto 0; table-layout:fixed; font-size:1.0833em; line-height:1.6em; }
+.compare-table th,
+.compare-table td { vertical-align:top; }
+.compare-table th { width:215px; padding-right:30px; }
+.compare-table th span { display:block; min-height:100px; margin-top:-1px; padding:7px 0 0; border-top:1px solid #ddd; }
+.compare-table td { width:210px; padding:15px 35px 43px 0; border-top:1px solid #ddd; }
+.compare-table td.last-cell { width:206px; padding-right:5px; vertical-align:top; }
+.compare-table td .indent { margin:0 0 0 25px; }
+.compare-table td .users-count { width:20px; padding:9px 30px; border:2px solid #888; font-size:1.231em; color:#888; text-align:center;
+	-webkit-border-radius:8px;
+	   -moz-border-radius:8px;
+	        border-radius:8px;
+}
+
+/* header row */
+.compare-table thead tr th,
+.compare-table thead tr td { padding-bottom:35px; }
+.compare-table thead tr td { padding-top:0; border-top:none; }
+.compare-table thead tr td.last-cell { padding-right:0; }
+.compare-table thead tr td p,
+.compare-table thead tr td .more { font-size:1.077em; }
+.compare-table thead tr td a { display:block; position:relative; z-index:1; width:215px; text-align:center; }
+.compare-table thead tr td a h1,
+.compare-table thead tr td a p ,
+.compare-table thead tr td a img { display:block; position:relative; z-index:1; margin:0 auto; text-align:center; }
+.compare-table thead tr td a h1 { margin-bottom:7px; }
+.compare-table thead tr td a p { margin:0 0 5px; color:#666; }
+.compare-table thead tr td p .nowrap { text-decoration:none; color:#666; }
+
+.compare-table thead tr .airport-express a { left:-2px; top:234px; }
+.compare-table thead tr .airport-extreme img,
+.compare-table thead tr .airport-extreme p,
+.compare-table thead tr .airport-extreme .more { left:-4px; }
+.compare-table thead tr .airport-time-capsule img { left:-6px; }
+
+/* footer row */
+.compare-table .price .buynows { margin-top:19px; }

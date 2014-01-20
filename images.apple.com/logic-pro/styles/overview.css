@@ -1,0 +1,8 @@
+/* Overview */
+body#overview.logic-pro .main #hero .gallery-drummer .stage .video-wrapper .poster { background-image:url(../images/drummer_poster.jpg); }
+body#overview.logic-pro .main #hero .gallery-arpeggiator .stage .video-wrapper .poster { background-image:url(../images/arpeggiator_poster.jpg); }
+body#overview.logic-pro .main #hero .gallery-flexpitch .stage .video-wrapper .poster { background-image:url(../images/flexpitch_poster.jpg); }
+
+/* Mainstage */
+body#overview.logic-pro #mainstage { background-image:url(../images/index_mainstage_background.jpg); }
+

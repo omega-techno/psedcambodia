@@ -1,0 +1,164 @@
+/* layout */
+body#features #main h3,
+body#features #main h4 { color:#333; line-height:1.35em; margin-bottom:0; }
+body#features #main .subhead { line-height:1.35em; color:#999; }
+body#features #main .row { padding-top:70px; }
+body#features #main .row p.intro { margin:0 auto 45px; padding-left:65px; padding-right:65px; text-align:center; }
+body#features #main .row.gray { width:100%; padding-left:0; padding-right:0; background-color:#f6f6f6; }
+body#features #main .row.gray .bg { position:absolute; left:0; top:0; z-index:1; width:100%; height:100%; }
+body#features #main .row.gray .container { width:880px; margin:0 auto; padding:0 50px; }
+body#features #main .grid2col .column { width:404px; }
+body#features #main ul.data { width:344px; margin:0 auto 4px; }
+body#features #main ul.data li { float:left; margin:0 14px; }
+body#features #main p.intro.left-aligned { text-align:left; padding-left:110px; padding-right:110px; }
+
+/* apps galleries */
+body#features #main .apps.gallery { height:720px; padding-top:0; *width:622px; width:622px \0/; }
+body#features #main .apps.gallery .gallery-view { width:4572px; margin:0 80px; }
+body#features #main .apps.gallery .gallery-view:after { display:none; }
+body#features #main .apps.gallery .gallery-view .gallery-content { float:left; width:572px; padding:27px 75px; margin:0 40px 0 0; -webkit-transform:translateZ(0); position:relative; z-index:1001; }
+body#features #main .apps.gallery .gallery-view .gallery-content img { margin:0 0 29px; }
+body#features #main .apps.gallery .gallery-view .gallery-content figcaption { padding-top:32px; font-size:0.9em; }
+
+/* filled paddle arrow nav */
+body#features #main .paddle-nav li .arrow.previous { left:-22px; *left:-150px; left:-150px \0/; }
+body#features #main .paddle-nav li .arrow.next { right:-22px; *right:-150px; right:-150px \0/; }
+
+@media only screen and (min-width:1240px) {
+	body#features #main .paddle-nav li .arrow.previous { left:-230px; }
+	body#features #main .paddle-nav li .arrow.previous b { left:160px; }
+	body#features #main .paddle-nav li .arrow.next { right:-230px; }
+	body#features #main .paddle-nav li .arrow.next b { right:160px; }
+}
+
+@media only screen and (min-width:1600px) {
+	body#features #main .paddle-nav li .arrow.previous { left:-300px; }
+	body#features #main .paddle-nav li .arrow.previous b { left:90px; }
+	body#features #main .paddle-nav li .arrow.next { right:-300px; }
+	body#features #main .paddle-nav li .arrow.next b { right:90px; }
+}
+
+body#features #main .gallery .outer-dot-nav { z-index:1; }
+
+/* parallax */
+body#features #main .parallax { display:block; height:850px; padding-top:0; text-align:center; overflow:hidden; }
+body#features #main .parallax img { position:relative; margin:47px auto 0; z-index:1100; -webkit-transform:translateZ(0); }
+
+/* hero */
+body#features #main .hero { padding-top:51px; }
+body#features #main .hero h1 { padding-bottom:10px; }
+body#features #main .hero .intro { padding-left:35px; padding-right:35px; }
+body#features #main .hero .hero-image { margin-left:20px; }
+
+/* sections */
+body#features #main #display .container { padding-bottom:50px; }
+body#features #main #display .parallax img { *margin-top:70px; }
+body#features #main #display ul.data { width:510px; }
+
+body#features #main #design .parallax img { margin:61px -21px 0; *margin-top:70px; *margin-left:-200px; }
+body#features #main #design h1 img { margin:0 -22px; }
+body#features #main #design .container { padding-bottom:70px; }
+body#features #main #design img.profile { padding-bottom:45px; }
+
+body#features #main #performance .row.gray { padding-bottom:70px; padding-bottom:0; }
+body#features #main #performance .container { padding-top:70px; }
+body#features #main #performance .parallax img { margin:10px -382px 0; *margin-top:70px; *margin-left:-300px; }
+body#features #main #performance p.intro { margin-bottom:70px; }
+body#features #main #performance .a7 { padding-top:0; }
+body#features #main #performance .grid2col .column.last h3 { width:408px; }
+
+body#features #main #wireless .grid2col { padding:25px 0 50px; }
+body#features #main #wireless .parallax img { margin:55px -318px 0; *margin-top:70px; *margin-left:-70px; }
+body#features #main #wireless ul.data { margin:50px 0 0 0; width:345px; }
+body#features #main #wireless ul.data li { margin:0 28px 0 0; }
+
+body#features #main #builtin .parallax img { margin:-414px -660px 0; *margin-top:-480px; *margin-left:-70px; }
+body#features #main #builtin .row .icons { padding-top:70px; margin-bottom:25px; }
+body#features #main #builtin .apps.gallery { height:755px; }
+
+body#features #main #builtin .apps.gallery .gallery-view .gallery-content,
+body#features #main #appstore .apps.gallery .gallery-view .gallery-content { background:url(../images/hardware_landscape.jpg) no-repeat 0 0; }
+body#features #main #builtin .gallery .outer-dot-nav,
+body#features #main #appstore .gallery .outer-dot-nav { bottom:75px; }
+
+body#features #main #appstore .apps.gallery { height:747px; }
+
+body#features #main #facetime .row.gray { padding:0; }
+body#features #main #facetime .container { padding-bottom:50px; }
+body#features #main #facetime .parallax img { margin:35px -297px 0; *margin-top:30px; }
+body#features #main #facetime .grid2col { padding-top:70px; padding-bottom:50px; }
+body#features #main #facetime h1 img { margin-bottom:40px; }
+body#features #main #facetime .grid2col .column { padding-top:25px; }
+body#features #main #facetime .dualmicrophones { position:relative; padding:0; border-bottom:1px solid #ddd; z-index:1; font-size:.85em; }
+body#features #main #facetime .dualmicrophones p { width:570px; padding-bottom:10px; }
+body#features #main #facetime .dualmicrophones img { margin-bottom:0; }
+
+body#features #main #ios { padding-bottom:70px; }
+
+body#features #main #icloud { padding-bottom:70px; }
+body#features #main #icloud img.hero-image { margin-left:-110px; }
+
+body#features #main #air { padding-bottom:50px; height:960px; min-height:960px; }
+body#features #main #air h1 img { padding-bottom:30px; }
+body#features #main #air img.hero-image { margin-bottom:106px; }
+body#features #main #air .toggle-nav { top:780px; }
+body#features #main #air figure figcaption { padding-left:70px; padding-right:30px; }
+
+/* smart */
+body#features #main #smart { padding-bottom:50px; }
+body#features #main #smart h1 img { margin-bottom:30px; }
+body#features #main #smart img.hero-image { margin:0 -20px 50px; }
+body#features #main #smart .grid2col.row { padding-top:0; }
+
+body#features #main #smart .case-content { display:none; }
+
+body#features #main #smart .gallery { width:880px; margin:0 auto 60px; }
+body#features #main #smart .gallery .gallery-view { width:644px; margin:0 auto; }
+
+body#features #main #smart .gallery figure { height:488px; background:#fff; }
+body#features #main #smart .gallery figure img { width:644px; height:413px; padding-top:20px; -webkit-transform:translateZ(0); }
+
+body#features #main #smart .row.accessories { width:660px; padding-top:30px; }
+body#features #main #smart .row.accessories .left { margin-right:55px; }
+body#features #main #smart .row.accessories p { margin-bottom:10px; padding-top:10px; }
+
+/* applecare */
+body#features #main #applecare h1 img { margin:0 -28px; }
+
+/* performance fix for flush to edge slide galleries on iOS */
+@media only screen and (max-device-width: 1024px) {
+	body#features #main .row.apps.gallery { width:1024px; overflow:hidden; padding:0; }
+	body#features #main .row.apps.gallery .gallery-view { margin:0 152px; }
+}
+
+/* manually mooping backgrounds in these galleries */
+@media only screen and (max-device-width:768px) {
+	body#features #main #appstore .apps.gallery .gallery-view .gallery-content,
+	body#features #main #builtin .apps.gallery .gallery-view .gallery-content { background:url(../images/hardware_landscape_2x.jpg) no-repeat 0 0; background-size:748px 543px; }
+}
+
+/* static background images for parallax on iOS */
+@media only screen and (max-device-width: 1024px) {
+	body#features #main #display .parallax,
+	body#features #main #design .parallax,
+	body#features #main #performance .parallax,
+	body#features #main #wireless .parallax,
+	body#features #main #builtin .parallax,
+	body#features #main #facetime .parallax { width:1024px; overflow:hidden; }
+	body#features #main #display .parallax img,
+	body#features #main #design .parallax img,
+	body#features #main #performance .parallax img,
+	body#features #main #wireless .parallax img,
+	body#features #main #builtin .parallax img,
+	body#features #main #facetime .parallax img { display:none; }
+}
+
+/* static background images for parallax on iOS Retina */
+@media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-device-pixel-ratio:1.5) {
+	body#features #main #display .parallax { background-size:1024px 850px; }
+	body#features #main #design .parallax { background-size:1024px 850px; }
+	body#features #main #performance .parallax { background-size:1024px 850px; }
+	body#features #main #wireless .parallax { background-size:1024px 850px; }
+	body#features #main #builtin .parallax { background-size:1024px 850px; }
+	body#features #main #facetime .parallax { background-size:1024px 850px; }
+}

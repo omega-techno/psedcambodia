@@ -1,0 +1,128 @@
+/* ---- BUILT FILE. DO NOT MODIFY THIS DIRECTLY. ---- */
+/* !important is needed in the following rules because ac_darbox.css !important that we need to override */ 
+html.blackout,
+html.blackout body.noscroll,
+html.blackout body.noscroll #full-takeover-color-picker-overlay-wrapper {
+	display:block !important; position:absolute !important; position:fixed !important; overflow:hidden !important; width:100%; height:100%;
+}
+
+/* devices */
+@media only screen and (max-device-width:768px) {
+	html.blackout,
+	html.blackout body.noscroll,
+	html.blackout body.noscroll #full-takeover-color-picker-overlay-wrapper {
+		position:absolute !important;
+	}
+}
+
+/* darkbox open animation */
+#full-takeover-color-picker-overlay-wrapper,
+#full-takeover-color-picker-overlay-wrapper .darkbox-content .simplenav
+#full-takeover-color-picker-overlay-wrapper .darkbox-content .close {
+	-webkit-transition-property:opacity !important;
+	   -moz-transition-property:opacity !important;
+	        transition-property:opacity !important;
+	-webkit-transition-duration:0.025ms !important;
+	   -moz-transition-duration:0.025ms !important;
+	        transition-duration:0.025ms !important;
+}
+
+/* gallery */
+#full-takeover-color-picker-overlay-wrapper .gallery { position:relative; z-index:1; width:100%; height:100% !important; }
+#full-takeover-color-picker-overlay-wrapper .gallery-view,
+#full-takeover-color-picker-overlay-wrapper .gallery-view figure,
+#full-takeover-color-picker-overlay-wrapper .gallery-view figure img { position:absolute; z-index:1; top:0; left:0; width:100%; height:100%; }
+
+#full-takeover-color-picker-overlay-wrapper .gallery-view figure,
+#full-takeover-color-picker-overlay-wrapper .gallery-view figure img { -webkit-transform:translateZ(0); }
+
+@media only screen and (orientation:landscape) and (min-device-width:320px) and (max-device-width:480px) {
+	html.iphone-ios7,
+	html.iphone-ios7 body.noscroll,
+	html.iphone-ios7 body.noscroll #full-takeover-color-picker-overlay-wrapper {
+		height:92% !important;
+	}
+}
+
+/* paddle nav */
+#full-takeover-color-picker-overlay-wrapper .paddle-nav li .arrow.previous { left:0; }
+#full-takeover-color-picker-overlay-wrapper .paddle-nav li .arrow.next { right:0; }
+#full-takeover-color-picker-overlay-wrapper .paddle-nav li .arrow.disabled { display:none !important; }
+
+/* color picker dots */
+#full-takeover-color-picker-overlay-wrapper .color-nav { position:absolute; z-index:1; top:33px; width:100%; height:40px; -webkit-transform:translateZ(0); }
+#full-takeover-color-picker-overlay-wrapper .color-nav * { display:inline-block !important; *display:inline !important; *zoom:1 !important; }
+
+#full-takeover-color-picker-overlay-wrapper .color-nav h4 { position:relative; z-index:1; top:-15px; font-size:14px; *padding-right:10px; }
+#full-takeover-color-picker-overlay-wrapper .color-nav .color-nav-devices { padding-right:22px; }
+
+/* angle thumbnail nav */
+#full-takeover-color-picker-overlay-wrapper .angle-nav { position:absolute; z-index:1; bottom:41px; left:0; width:100%; height:49px; text-align:center; }
+#full-takeover-color-picker-overlay-wrapper .angle-nav * { display:inline-block !important; *display:inline !important; *zoom:1 !important; }
+#full-takeover-color-picker-overlay-wrapper .angle-nav ul { height:49px; text-align:center; }
+#full-takeover-color-picker-overlay-wrapper .angle-nav ul li { width:67px; height:47px; }
+#full-takeover-color-picker-overlay-wrapper .angle-nav ul li a { width:67px; height:47px; margin:0; padding:0; border:2px solid transparent;
+	-webkit-border-radius:8px;
+	   -moz-border-radius:8px;
+	        border-radius:8px;
+}
+#full-takeover-color-picker-overlay-wrapper .angle-nav ul li a.active { border-color:#2695ef; }
+#full-takeover-color-picker-overlay-wrapper .angle-nav ul li a img { margin:4px auto 0; }
+
+.full-takeover-color-picker-content { display:none; }
+
+#full-takeover-color-picker-overlay-wrapper.darkbox-content .close { left:40px; top:40px; width:30px; height:30px; background:url(../images/close.png) no-repeat 0 0; background-size:30px 30px; }
+@media only screen {
+	#full-takeover-color-picker-overlay-wrapper.darkbox-content .close { background-image:url(http://images.apple.com/v/iphone-5c/a/images/close.svg); }
+}
+
+/* paddles */
+#full-takeover-color-picker-overlay-wrapper .paddle-nav { position:absolute; z-index:1003; top:50%; left:50%; width:100%; height:0; margin-left:-50%; }
+#full-takeover-color-picker-overlay-wrapper .paddle-nav li .arrow { display:block; position:absolute; z-index:1003; top:50%; margin:-65px 25px 0; width:67px; height:130px; opacity:0; filter:alpha(opacity=25); cursor:pointer; outline:none; background-image:url(../../../../global/elements/blank.gif); -webkit-transform:translateZ(0);
+	-webkit-transition:.25s opacity linear;
+	   -moz-transition:.25s opacity linear;
+	        transition:.25s opacity linear;
+}
+
+/* paddle opacity */
+#full-takeover-color-picker-overlay-wrapper .gallery .paddle-nav li .arrow { opacity:.5; filter:alpha(opacity=50); }
+#full-takeover-color-picker-overlay-wrapper .gallery:hover .paddle-nav li .arrow { opacity:.6; filter:alpha(opacity=60); }
+#full-takeover-color-picker-overlay-wrapper .gallery .paddle-nav li .arrow:hover { opacity:.1; filter:alpha(opacity=10); }
+
+/* ios - override hover states */
+@media only screen and (max-device-width:768px) {
+	#full-takeover-color-picker-overlay-wrapper .gallery:hover .paddle-nav li .arrow,
+	#full-takeover-color-picker-overlay-wrapper .gallery .paddle-nav li .arrow:hover { opacity:.5; filter:alpha(opacity=50); }
+}
+
+
+#full-takeover-color-picker-overlay-wrapper .paddle-nav li .arrow.disabled { display:none; }
+#full-takeover-color-picker-overlay-wrapper .paddle-nav li .arrow b { display:block; overflow:hidden; width:67px; height:130px; text-indent:-9999px; background:no-repeat 0 0; background-size:67px 130px; behavior:url(http://images.apple.com/global/scripts/lib/ie7pngfix.htc); }
+
+#full-takeover-color-picker-overlay-wrapper .paddle-nav li .arrow.previous { left:0; }
+#full-takeover-color-picker-overlay-wrapper .paddle-nav li .arrow.previous b { float:left; background-image:url(../images/paddle_previous.png); }
+
+#full-takeover-color-picker-overlay-wrapper .paddle-nav li .arrow.next { right:0; }
+#full-takeover-color-picker-overlay-wrapper .paddle-nav li .arrow.next b { float:right; background-image:url(../images/paddle_next.png); }
+
+#full-takeover-color-picker-overlay-wrapper .paddle-nav.solid li .arrow {
+	-webkit-border-radius:8px;
+	   -moz-border-radius:8px;
+	        border-radius:8px;
+}
+
+@media only screen and (min-width:1408px) { /* responsive */
+	#full-takeover-color-picker-overlay-wrapper .paddle-nav { width:1408px; margin-left:-704px; }
+}
+@media only screen and (min-width:1620px) { /* responsive */
+	#full-takeover-color-picker-overlay-wrapper .paddle-nav { width:1650px; margin-left:-825px; }
+}
+@media only screen and (min-width:1900px) { /* responsive */
+	#full-takeover-color-picker-overlay-wrapper .paddle-nav { width:100%; margin-left:-50%; }
+	#full-takeover-color-picker-overlay-wrapper .paddle-nav li .arrow.previous { left:5%; }
+	#full-takeover-color-picker-overlay-wrapper .paddle-nav li .arrow.next { right:5%; }
+}
+
+@media only screen and (max-device-width:768px) { /* on device */
+	#full-takeover-color-picker-overlay-wrapper .paddle-nav { display:none; }
+}

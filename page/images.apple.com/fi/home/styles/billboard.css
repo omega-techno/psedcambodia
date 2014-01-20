@@ -1,0 +1,18 @@
+/* ipad air */
+#billboard #ipad-air .text h1 { padding-top:199px; margin-bottom:13px; }
+#billboard #ipad-air .text h2 { margin-bottom:54px; }
+#billboard #ipad-air { overflow:hidden; }
+#billboard #ipad-air .image { background-image: url(../../../euro/home/i_alt/screens_us/images/ipadair_hero.jpg); width: 980px; height: 353px; }
+#billboard #ipad-air .background { min-width: 980px; overflow: hidden; position: relative; height: 497px; left: 50%; margin-left: -490px; }
+
+/* 2x imagery */
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) and (min-device-width:481px)
+and (max-device-width:768px), only screen and (min-device-pixel-ratio:1.5) and
+(min-device-width:481px) and (max-device-width:768px) {
+	#billboard #macbook-pro .image { background-image: url(../../../euro/home/i_alt/screens_us/images/ipadair_hero.jpg); background-size: 980px 353px; }
+}
+
+#ipadmini .text { padding-top:272px; }
+#ipadmini .text h2 { margin-bottom:55px; }
+#billboard .text h1 { padding-top: 100px; }
+#billboard .text h2.subtitle { margin-bottom: 10px; }

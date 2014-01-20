@@ -1,0 +1,78 @@
+/* Promo row
+------------------------*/
+.promos { max-width:1440px; min-width:1024px; margin:0 auto; }
+.promos .column { position:relative; z-index:1; width:33.333%; *width:33.3%; max-width:480px; height:256px; overflow:hidden; border-bottom:1px solid #e2e2e2; }
+.promos .image-wrap { display:inline-block; position:relative; z-index:1; right:-50%; *float:left; }
+.promos .image-wrap .image { position:relative; z-index:1; left:-50%; }
+.promos .video { margin:0; display:block; }
+
+/* video thumb */
+.promos .video .play { position:absolute; top:50%; left:50%; z-index:2; display:block; width:70px; height:70px; margin-top:-35px; margin-left:-35px; *margin-top:-23px; *margin-left:-23px; opacity:1; *visibility:visible; background:url(../images/play_black.png) no-repeat; background-size:70px 70px; }
+.promos .video .play.blue { background-image:url(../images/play_blue.png); }
+.promos .video .play.white { background-image:url(../images/play_white.png); }
+.promos .video .play.lightblue { background-image:url(../images/play_lightblue.png); }
+@media only screen {
+	.promos .video .play { background-image:url(http://images.apple.com/v/mac/home/g/images/play_black.svg); }
+	.promos .video .play.blue { background-image:url(http://images.apple.com/v/mac/home/g/images/play_blue.svg); }
+	.promos .video .play.white { background-image:url(http://images.apple.com/v/mac/home/g/images/play_white.svg); }
+	.promos .video .play.lightblue { background-image:url(http://images.apple.com/v/mac/home/g/images/play_lightblue.svg); }
+}
+
+.promos .video .play.top,
+.promos .video .play.bottom {
+	-webkit-transition:opacity 300ms cubic-bezier(0.445, 0.050, 0.550, 0.950);
+	   -moz-transition:opacity 300ms cubic-bezier(0.445, 0.050, 0.550, 0.950);
+	        transition:opacity 300ms cubic-bezier(0.445, 0.050, 0.550, 0.950);
+}
+
+.promos .video .play.top { z-index:3; opacity:1; *visibility:visible; }
+.promos .video .play.bottom { z-index:2; opacity:0; *visibility:hidden; }
+
+.promos .video:hover .play.top,
+a:hover .promos .video .play.top,
+.promos .video:hover .play.bottom,
+a:hover .promos .video .play.bottom {
+	-webkit-transition-duration:150ms;
+	   -moz-transition-duration:150ms;
+	        transition-duration:150ms;
+}
+
+.promos .video:hover .play.top,
+a:hover .promos .video .play.top { opacity:0; *visibility:hidden; }
+
+.promos .video:hover .play.bottom,
+a:hover .promos .video .play.bottom { opacity:1; *visibility:visible; }
+
+.promos .video:hover,
+.promos .video:hover .more { text-decoration:underline; }
+
+/* Promo - iLife/iWork
+------------------------*/
+.ilife-iwork { width:980px; margin:0 auto; padding:45px 0; text-align:center; font-size:1.27em; line-height:1.4; }
+.ilife-iwork .hero { margin:0 0 20px -18px; }
+.ilife-iwork p { margin:0 90px 8px; }
+
+/* Promo - Mac in Education
+------------------------*/
+.mac-in-education { max-width:1440px; margin:0 auto; height:256px; background:url(../images/promo_mac_in_education.jpg) 50% 0 no-repeat; }
+.mac-in-education .block { height:100%; }
+.mac-in-education .title { margin-bottom:0; padding-top:155px; line-height:0; }
+.mac-in-education .subtitle { width:980px; font-size:1.35em; line-height:1.1667em; color:#fff; }
+
+/* Why Mac
+------------------------*/
+#whymac { padding:47px 0 38px; }
+#whymac a.more:hover { text-decoration:underline; }
+#whymac h1 { font-size:1.5em; font-weight:normal; margin-bottom:0; }
+#whymac p { font-size:1.083em; line-height:1.54em; } /* 13px */
+#whymac ul { font-size:1.167em; line-height:1.54em; }
+#whymac .column { position:relative; z-index:1; min-height:192px; _height:192px; }
+#whymac .column img.bottom { position:absolute; z-index:1; }
+
+#whymac .column.first { width:284px; padding-right:196px; padding-left:10px; border-right:1px solid #e1e1e1; }
+#whymac ul li.first a { margin-right:10px; }
+#whymac ul li.second a { padding-left:10px; border-left:1px solid #b4b4b4; }
+#whymac .first img.bottom { bottom:0; right:20px; }
+#whymac .column.last { width:297px; padding-right:160px; padding-left:30px; }
+#whymac .last h1 { margin-right:-40px; }
+#whymac .last img.bottom { bottom:7px; right:1px; }

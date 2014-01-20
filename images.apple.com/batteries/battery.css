@@ -1,0 +1,26 @@
+.grid2cola .column.first { width:65%; }
+
+#content .col1 {width: 230px; float: left;}
+#content .col2 {width: 230px; float: right;}
+
+.center { display:block; margin:0 auto; text-align:center; }
+
+#main span {color: #76797c;}
+#content { padding:18px 0; }
+#content .caption {float: left; width: 160px; border: 1px solid #a1a5a9; background: #f1f1f1; padding: 10px; margin: 0 20px 10px 0; font-size: 10px; padding-bottom: 10px;}
+
+#nav {margin-bottom: 2em; border: 1px solid #a1a5a9; padding: 0 15px 15px;}
+#nav h2 {margin: 0 -15px 10px -15px; padding: 5px 15px; border-bottom: 1px solid #a1a5a9; background: #e2e2e2;}
+#nav p {margin-bottom: 2em;}
+#nav a {font-weight: bold;}
+
+#main .first h3 {font-size: 14px;}
+#main .last h3 {font-size: 12px;}
+
+img.across {margin-bottom: 5px;}
+img.border {border: 1px solid #a1a5a9;}
+
+#sidebar { font-size:10px; }
+#sidebar h2 a { text-decoration: none; color: #000; }
+
+#globalfooter p.sosumi { float: right; color: #999; margin-top: -10px; }

@@ -1,0 +1,68 @@
+html, body { background:#fff; }
+body { min-width:1024px; }
+#main { position:static; width:100%; margin:0 auto; }
+
+#globalfooter { clear:both; }
+
+
+/* Misc
+------------------------*/
+.center { display:block; margin-right:auto; margin-left:auto; text-align:center; }
+
+.flushpad,
+.padright { padding-right:22px; }
+
+.flushpad,
+.padleft { padding-left:22px; }
+
+.flushpad,
+.flushright { margin-right:-22px; }
+
+.flushpad,
+.flushleft { margin-left:-22px; }
+
+.replaced { text-indent:-1000em; overflow:hidden; height:0; margin:0; padding:0; }
+
+a.close { color:#888; display:block; float:left; padding-left:18px; background:url(../../../../../global/elements/buttons/close.png) no-repeat 0 0; text-decoration:none; text-transform:lowercase; }
+a.close:hover { color:#08c; background-position:0 -50px; }
+a.close.right { float:right; padding-right:18px; padding-left:0; background-position:100% 0; text-transform:none; }
+a.close.right:hover { background-position:100% -50px; }
+a.close.dark { color:#fff; background-image:url(../../../../../global/elements/buttons/close_dark_bg.png); }
+a.close.dark:hover { color:#00a2ff; background-image:url(../../../../../global/elements/buttons/close_dark_bg.png); }
+
+.right { float:right; }
+.left { float:left; }
+
+
+/* Product Browser
+------------------------*/
+.productbrowser { margin-bottom:0; height:150px; border-bottom:1px solid #dbdbdb; }
+.productbrowser li { width:120px; margin:4px 0; }
+.productbrowser li a:link,
+.productbrowser li a:visited { width:120px; }
+.productbrowser li a img { width:120px; height:110px; }
+ 
+ 
+.productbrowser li.pb-iphone5s { margin-left:10px; margin-right:14px; }
+.productbrowser li.pb-iphone5c { margin-left:14px; margin-right:14px; }
+.productbrowser li.pb-accessories { margin-left:40px; margin-right:32px; }
+.productbrowser li.pb-accessories,
+.productbrowser li.pb-accessories a { width:148px; }
+.productbrowser li.pb-accessories a img { width:184px; margin-right:-35px; }
+.productbrowser li.pb-compare { width:140px; margin-left:22px; margin-right:-4px; }
+.productbrowser li.pb-compare a,
+.productbrowser li.pb-compare a img { width:140px; }
+.productbrowser li.pb-ios { margin-left:23px; margin-right:6px; }
+
+.productbrowser.pb-open ul:first-child li:nth-child(4) a { -webkit-animation-name:open-5; -moz-animation-name:open-5; -o-animation-name:open-5; animation-name:open-5; }
+.productbrowser.pb-open ul:first-child li:nth-child(5) a { -webkit-animation-name:open-6; -moz-animation-name:open-6; -o-animation-name:open-6; animation-name:open-6; }
+
+.productbrowser #pb-pi-iphone { display:none; }
+
+
+/* Footer
+------------------------*/
+#main .sosumi { padding:18px 20px 0; }
+
+#globalfooter { margin-top:12px; *width:980px; }
+#globalfooter p.sosumi { text-align:right; margin:-26px 0 0; *margin-top:-17px; }

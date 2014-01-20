@@ -1,0 +1,260 @@
+@charset "utf-8";
+/* CSS Document */
+h1, p, body, html {
+	margin:0;
+	padding:0;
+	}
+#head{
+	background-image:url(image/PSED%20head.jpg);
+	width:1024px;
+	height:143px;
+	margin:auto;
+	}
+#logo{
+	width:880px;
+	height:81px;
+	margin-left:-80px;
+	}
+.logo{
+	float:left;
+	font-family:Norma;
+	font-size:40pt;
+	color:#fff;
+	padding-top:60px;
+	padding-left:90px;
+	letter-spacing:15px;	
+	}
+#logonext{
+	color:#fff;
+	width:auto;
+	height:13px;
+	position:absolute;
+	margin-left:175px;
+	margin-top:-40px;
+	}
+.logonext{
+	font-family:Norma;
+	font-size:23pt;
+	color:#fff;
+	letter-spacing:1px;	
+	}
+#menu{
+	width:500px;
+	height:25px;
+	position:absolute;
+	margin-left:550px;
+	margin-top:82px;
+	}
+#menu ul li{
+	display:inline;
+	color:#fff;
+	font-size:16px;
+	}
+#menu ul li a{
+	font-family:Myriad Pro;
+	text-decoration:none;
+	color:#fff;
+	font-size:12px;
+	}
+#menu ul li a:hover{
+	color:#3189AD;
+	}
+
+.slideshow{
+		width:500px;
+		list-style: none;
+		position:relative;
+		margin-top:-15px;
+	}
+ul.slideshow li {
+		position:absolute;
+		left:1px;
+		top:-1px;
+		display:inline;
+	}
+#letter{
+	width:512px;
+	margin:auto;
+	z-index:600;
+	position:absolute;
+	margin-top:-90px;
+	margin-left:250px;
+	}
+.letter{
+	font-size:60px;
+	color:#000;
+	}
+#border{/*
+	display:none;*/
+	
+	height:590px;
+	width:900px;
+	margin-top:30px;
+ 
+	border: 7px solid #686868;
+	-moz-border-radius: 5px;/*Firefox*/
+	-webkit-border-radius: 5px;/*Safari, Chrome*/
+	border-radius: 5px;
+	}
+.General{
+	color:#0F92CA;
+	font-size:21px;
+	padding-left:25px;
+	padding-top:15px;
+	width:195px;
+	}
+.img{
+	padding-left:25px;
+	padding-top:-10px;
+	}
+.letter{
+	font-weight:590;
+	color:#0F92CA;
+	font-size:16px;
+	line-height:22px;
+	padding-left:30px;
+	}
+.letter2{
+	color:#0F92CA;
+	font-size:16px;
+	line-height:22px;
+	padding-left:40px;
+	}
+#bar{
+	border:1px solid #0F92CA;
+	border-right-style:none;
+	width:0px;
+	height:80px;
+	position:absolute;
+	margin-left:190px;
+	margin-top:58px;
+	}
+#bodytbl{
+	width:796px;
+	margin:auto;
+	border:1px solid #686868;
+	border-left-style:none;
+	border-right-style:none;	
+	}
+#headtbl a{
+	text-decoration:none;
+	color:#0F92CA;
+	}
+#headtbl a:hover{
+	color:#999;
+	text-decoration:underline;
+	}
+.img2{
+	padding-left:21px;
+	padding-top:55px;
+	}
+#bodytbl{
+	margin-top:50px;
+	}
+#Finanical{
+	position:absolute;
+	}
+.Finanical{
+	color:#0F92CA;
+	font-size:21px;
+	padding-left:21px;
+	padding-top:15px;
+	}
+.img3{
+	padding-left:42px;
+	}
+#save{
+	position:absolute;
+	margin-left:240px;
+	margin-top:50px;
+	}
+#save a{
+	text-decoration:none;
+	color:#FFF;
+	}
+#save a:hover{
+	color:#3189AD;
+	}
+.save{
+	color:#FFF;
+	font-size:54px;
+	}
+#loan{
+	position:absolute;
+	margin-left:650px;
+	margin-top:50px;
+	}
+#loan a{
+	text-decoration:none;
+	color:#FFF;
+	}
+#loan a:hover{
+	color:#3189AD;
+	}
+.loan{
+	color:#FFF;
+	font-size:54px;
+	}
+#undertbl{
+	margin-top:20px;
+	}
+#undertbl a{
+	text-decoration:none;
+	color:#0F92CA;
+	}
+#undertbl a:hover{
+	color:#999;
+	text-decoration:underline;
+	}
+#Business{
+	position:absolute;
+	}
+.Business{
+	color:#0F92CA;
+	font-size:21px;
+	padding-left:21px;
+	padding-top:30px;
+	}
+.img4{
+	padding-left:40px;
+	padding-top:60px;
+	}
+#bar2{
+	border:1px solid #0F92CA;
+	border-right-style:none;
+	width:0px;
+	height:100px;
+	position:absolute;
+	margin-left:260px;
+	margin-top:32px;
+	}
+.letter3{
+	color:#0F92CA;
+	font-size:16px;
+	line-height:22px;
+	padding-left:20px;
+	padding-top:20px;
+	}
+form{
+	text-align:center;
+	color:#11435A;
+	font-size:16px;
+	padding-left:20px;
+	}
+.text{
+	background-color:#C4BEBE;
+	width:185px;
+	height:20px;
+	}
+#Sing{
+	position:absolute;
+	margin-left:208px;
+	margin-top:65px;
+	}
+#Sing a{
+	text-decoration:none;
+	color:#11435A;
+	}
+#Sing a:hover{
+	color:#3189AD;
+	}

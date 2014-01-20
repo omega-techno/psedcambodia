@@ -1,0 +1,66 @@
+
+/*
+	ZoomView Styles
+*/
+.ZoomView { position: relative; }
+
+.ZoomViewActive { overflow: hidden; }
+.ZoomViewDidShow #globalheader,
+.ZoomViewDidShow #productheader,
+.ZoomViewDidShow #main,
+.ZoomViewDidShow #buystrip,
+.ZoomViewDidShow #globalfooter { visibility: hidden; }
+.ZoomViewContainer { width: 100%; height: 100%; overflow: auto; position: fixed; top: 0; left: 0; z-index: 10000; }
+.ZoomViewContainer.fixedToX { overflow-x: hidden; }
+.ZoomViewContainer.fixedToY { overflow-y: hidden; }
+.ZoomViewContainer.fixedToBoth { overflow: hidden; }
+.ZoomViewContainer .ZoomView .ZoomViewImage { width: 100%; height: 100%; display: block; margin: 0; padding: 0; -webkit-transform: translateZ(0); }
+
+.ZoomViewDidShow,
+.ZoomViewDidShow body,
+.ZoomViewContainer,
+.ZoomViewContainer .ZoomViewSection { background: #000; }
+
+.ZoomViewContainer .ZoomViewSection { width: 100%; height: 100%; }
+.ZoomViewContainer .ZoomViewSection .ZoomViewElement { -webkit-transition: .5s opacity ease-out; }
+@media only screen and (max-device-width: 480px){
+	.ZoomViewContainer .ZoomViewSection .ZoomViewElement { -webkit-transition: none; }
+}
+.ZoomViewContainer .ZoomViewSection.loading { background: url(../elements/zoom_view/zoom-view-image-loading.gif) no-repeat 50% 50%; }
+.ZoomViewContainer .ZoomViewSection.loading .ZoomViewElement { opacity: 0; }
+
+/* simple dot navs */
+.ZoomViewContainer .simple-nav { margin-bottom:1em; height:13px; text-align:center; position: absolute; bottom: 0; width: 100%; z-index: 10001; }
+.ZoomViewContainer .simple-nav li,
+.ZoomViewContainer .simple-nav li a { display:-moz-inline-stack; display:inline-block; *display:inline; zoom:1; }
+.ZoomViewContainer .simple-nav li { position:relative; margin-right:8px; width:13px; height:13px; *height: 12px; overflow:hidden; }
+.ZoomViewContainer .simple-nav li.last-dot { margin-right: 0; }
+.ZoomViewContainer .simple-nav li a { position:absolute; width:13px; height:38px; top:0; left:0; outline:none; cursor:pointer; text-indent:-9999px; line-height:0; background:url(../elements/zoom_view/zoom-view-simplenav.png) no-repeat 0 0; }
+.ZoomViewContainer .simple-nav li a:hover { top:-13px; }
+.ZoomViewContainer .simple-nav li a.active { cursor:default; top:-26px; opacity:1; -moz-opacity:1; }
+
+/* Arrows */
+.ZoomViewNav li { height: 100%; width: 100%; position: absolute; top: 0; left: 0; *position: static; *width: auto; *height: auto; }
+.ZoomViewNav li .arrow { position: absolute; display: block; height: 50%; width: 100px; -moz-opacity:0; opacity:0; -webkit-transition: .25s opacity ease-out; float: none; padding: 0; outline: none; z-index: 10002; top:25%; -webkit-transform: translateZ(0); *zoom: 1; *background: url(../elements/blank.gif); }
+.ZoomViewNav li .arrow span { display: block; *display: none; margin-top: -22px; margin-left: -13.5px; position: absolute; top: 50%; left: 50%; text-indent: -1000em; width: 27px; height: 44px; background: no-repeat; overflow: hidden; }
+.ZoomViewNav li .arrow.right span { margin-left: 0; margin-right: -13.5px; left: auto; }
+.ZoomViewNav li .arrow.left { left: 0; }
+.ZoomViewNav li .arrow.right { right: 0; }
+.ZoomViewNav li .arrow.left span { background-image: url(../elements/zoom_view/zoom-view-arrow-left.png); }
+.ZoomViewNav li .arrow.right span { background-image: url(../elements/zoom_view/zoom-view-arrow-right.png); }
+.ZoomViewNav li .arrow:hover { -moz-opacity:1; opacity:1; }
+.ZoomViewNav li .arrow:hover span { *display: block; }
+.ZoomViewNav li .arrow.disabled { display: none; }
+
+/* Close Button */
+.ZoomViewClose { width: 62px; height: 62px; background: url(../elements/zoom_view/zoom-view-btn-close.png) no-repeat 50% 0; position: absolute; top: 0; left: 0; z-index: 10003; text-indent: -1000em; overflow: hidden; outline: none; }
+.ZoomViewClose:hover { background-position: 50% 100%; }
+@media only screen and (max-device-width: 480px){
+	.ZoomViewClose { width: 94px; height: 94px; background: url(../elements/zoom_view/zoom-view-btn-close-iphone.png) no-repeat 50% 50%; }
+}
+
+/* iOS Styles */
+body.isiOS .ZoomViewNav li { height: 70px; top: auto; bottom: 0; }
+body.isiOS .ZoomViewNav li .arrow { width: 70px; opacity: 1; -webkit-transition: none; }
+body.isiOS .simple-nav { bottom: 12px; }
+body.isiOS .ZoomViewClose:hover { background-position: 50% 0; }

@@ -1,0 +1,126 @@
+/* Site-wide Styles
+------------------------*/
+html { width:100%; height:100%; background:#fff; }
+body { min-height:100%; width:100%; background:#fff; color:#404040; }
+body#itunes-radio #main { width:100%; min-width:980px; margin:0 auto 18px; padding:25px 0 32px; overflow-x:hidden; overflow-y:auto; zoom:1; }
+body .section { width:980px; margin:0 auto; z-index:1; position:relative; }
+
+/* fonts */
+body#itunes-radio .main { word-spacing:-1px; font-size:1.311em; line-height:1.777em; } /* 16px/27px */
+body#itunes-radio .main h1 { font-size:1.7142em; line-height:1.1666em; margin-bottom:0; font-weight:normal; } /* 24px/28px */
+body#itunes-radio .main h2 { font-size:1.2857em; line-height:1.3888em; margin-bottom:7px; } /* 18px/25px */
+body#itunes-radio .main h4 { font-size:1em; margin-bottom:7px; clear:right; color:#333; } /* 14px/20px */
+
+body#itunes-radio .main .hero h1 { margin-bottom:2px; }
+
+body#itunes-radio .main p { margin-bottom:10px; }
+
+/* layout */
+body#itunes-radio .main .column { *display:inline; }
+
+body#itunes-radio .main .block { display:block; }
+body#itunes-radio .main .left { float:left; }
+body#itunes-radio .main .center { display:block; margin-right:auto; margin-left:auto; text-align:center; }
+
+body#itunes-radio .main .flushleft { margin-left:-120px; }
+body#itunes-radio .main .flushright { margin-right:-120px; margin-top:23px; }
+
+body#itunes-radio .main .row { position:relative; z-index:1; margin:0 auto; }
+
+/* links */
+body#itunes-radio .main a { cursor:pointer; }
+
+body#itunes-radio .main .more.font-16 { padding-right:.7em; background-position:100% 58%; *background-position:100% 65%; background-image:url(../../../d/images/more_16.png); background-size:6px 11px; }
+body#itunes-radio .main .more.font-14 { padding-right:.7em; background-position:100% 58%; *background-position:100% 65%; background-image:url(../../../d/images/more_14.png); background-size:5px 9px; }
+body#itunes-radio .main .more.font-11 { padding-right:.7em; background-position:100% 58%; *background-position:100% 65%; background-image:url(../../../d/images/more_10.png); background-size:4px 7px; }
+@media only screen {
+	body#itunes-radio .main .more.font-16,
+	body#itunes-radio .main .more.font-14 { background-image:url(http://images.apple.com/v/itunes/d/images/more.svg); }
+	body#itunes-radio .main .more.font-11 { background-image:url(http://images.apple.com/v/itunes/d/images/more.svg); background-size:5px 7px; }
+}
+/* Video Elements */
+body#itunes-radio .main .overlaycontent { padding-top:100px; position:relative; z-index:1000; }
+body#itunes-radio .main .close { position:absolute; z-index:1010; top:60px; left:25px; width:29px; height:29px; color:transparent; overflow:hidden; background:url(../../../d/images/close_button.png) no-repeat 0 0; _behavior:url(/global/scripts/lib/iepngfix.htc); -webkit-transform:translateZ(0); *text-indent:-999em; }
+body#itunes-radio .main .moviePanel { width:848px; height:480px; margin:auto; z-index:1000; }
+
+/* aesthetic */
+body#itunes-radio .main .divider { border-top:1px solid #bdbcbc; }
+
+body#itunes-radio .main .grid2col { margin-bottom:80px; }
+
+/* Section Specific */
+body#itunes-radio .hero { padding-top:10px; text-align:center; }
+body#itunes-radio .main .hero h2 { margin-bottom:10px; }
+body#itunes-radio .main .hero .subheadline { margin:-78px auto 80px 15px; }
+body#itunes-radio .main .hero .flushleft { margin-left:-95px; }
+body#itunes-radio .main .hero .button { display:inline-block; padding:3px 13px 4px 46px; border:1px solid #ff2d55; font-size:.95em; color:#ff2d55; background:url(../../../d/images/radio_icon.png) no-repeat 13px 4px;
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+	        border-radius:3px;
+}
+body#itunes-radio .main .hero #start-listening.disabled { display:none; }
+
+body#itunes-radio .main .music { height:650px; margin-bottom:70px; }
+body#itunes-radio .main .music .flushleft { margin-left:-585px; }
+body#itunes-radio .main .music .column.last { width:430px; margin-top:75px; }
+body#itunes-radio .main .music .column.last p { padding-right:35px; }
+body#itunes-radio .main .music .trigger-intro-video.play { background-image:url(../../../d/images/more_video.html); background-repeat:no-repeat; background-size:15px 15px; background-position:right; padding-right:1.1875em; padding-top:5px; padding-bottom:5px; }
+@media only screen {
+	body#itunes-radio .main .music .trigger-intro-video.play { background-image:url(http://images.apple.com/v/itunes/d/images/more_video.svg); background-size:15px 15px; }
+}
+
+body#itunes-radio .main .rules .column.first { width:315px; padding-left:15px; margin-right:70px; padding-top:85px; }
+body#itunes-radio .main .rules .column .captions { width:600px; text-align:center; margin-top:10px; margin-bottom:0; }
+body#itunes-radio .main .rules .column .captions .column { width:200px; }
+body#itunes-radio .main .rules .column .captions .column.firstcol { width:230px; margin-right:25px; }
+
+body#itunes-radio .main .rules .column .captions h4,
+body#itunes-radio .main .rules .column .captions p { line-height: 1.59em; margin-bottom:0; }
+
+body#itunes-radio .main .stations { display:block; visibility:visible; }
+body#itunes-radio .main .stations.disabled { display:none; visibility:hidden; }
+
+body#itunes-radio .main .stations p { padding:0 190px; line-height:1.8em; margin-bottom:40px; }
+body#itunes-radio .main .stations .feature-stations { width:950px; height:170px; margin:0 auto 60px; }
+body#itunes-radio .main .stations .feature-stations .station { float:left; width:125px; margin-right:12px; font-size:0.9em; line-height:1.5; }
+body#itunes-radio .main .stations .feature-stations .station.last { margin-right:0; }
+body#itunes-radio .main .stations .feature-stations .station img { margin-bottom:10px;
+	-webkit-transition:border-color 0.25s linear;
+	   -moz-transition:border-color 0.25s linear;
+		    transition:border-color 0.25s linear;
+}
+
+body#itunes-radio .main .devices { margin-bottom:55px; }
+body#itunes-radio .main .devices p { padding:0 150px; line-height:1.8em; }
+body#itunes-radio .main .devices .products { margin:15px auto auto -60px; }
+
+body#itunes-radio .main .tunein { width:980px; margin:auto auto 80px; }
+body#itunes-radio .main .tunein h1 { margin-bottom:12px; }
+body#itunes-radio .main .tunein .icon { float:left; margin:0 15px 30px; }
+body#itunes-radio .main .tunein .column.last .icon { margin-top:10px; }
+body#itunes-radio .main .tunein h4 { margin:5px -10px 0 2px; font-size:0.88em; }
+body#itunes-radio .main .tunein p { line-height:1.377em; font-size:0.88em; }
+
+body#itunes-radio .main .match .column.first { width:430px; padding-left:15px; padding-top:5px; margin-right:20px; }
+body#itunes-radio .main .match .column.last img { margin-top:0; }
+
+body#itunes-radio .main .collection { padding-left:90px; }
+body#itunes-radio .main .collection .column.first { width:48%; }
+body#itunes-radio .main .collection .column.first img { margin-left:-60px; }
+body#itunes-radio .main .collection .column.last { padding:155px 20px 0 0; }
+body#itunes-radio .main .collection .column.last p { padding-right:80px; padding-top:5px; }
+
+body#itunes-radio .main .siri .column.first { padding-left:15px; padding-top:5px; width:370px; }
+body#itunes-radio .main .siri .column.first p.top { margin-bottom:30px; }
+body#itunes-radio .main .siri .column.last img { margin-top:0; margin-left:-62px; }
+
+body#itunes-radio .main .share { padding-left:70px; }
+body#itunes-radio .main .share .flushleft { margin-left:-49px; float:left; }
+body#itunes-radio .main .share .column.last { padding:215px 0px 0 0; }
+body#itunes-radio .main .share .column.last p { padding-right:105px; padding-top:5px; }
+
+body#itunes-radio .ios7 { padding-top:61px; }
+body#itunes-radio .ios7 a { height:96px; display:block; padding-left:80px; background-image:url(../../../../../itunes/itunes-radio/images/ios7_title_sprite.png); background-repeat:no-repeat; background-position:185px 0; }
+body#itunes-radio .ios7 a:hover { text-decoration:none; background-position:185px -96px; }
+
+body#itunes-radio .sosumi { width:940px; margin:18px auto; padding:0 20px; }

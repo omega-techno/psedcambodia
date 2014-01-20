@@ -1,0 +1,29 @@
+body#design .hero .image { background:url(../design/images/hero.jpg) top left no-repeat; }
+
+body#design .materials-hero .gallery-view .image { background:no-repeat 0px 29px; }
+body#design .materials-hero .gallery-view .pink { background-image:url(../design/images/band_plastics_device_pink.jpg); }
+body#design .materials-hero .gallery-view .blue { background-image:url(../design/images/band_plastics_device_blue.jpg); }
+body#design .materials-hero .gallery-view .green { background-image:url(../design/images/band_plastics_device_green.jpg); }
+body#design .materials-hero .gallery-view .yellow { background-image:url(../design/images/band_plastics_device_yellow.jpg); }
+body#design .materials-hero .gallery-view .white { background-image:url(../design/images/band_plastics_device_white.jpg); }
+
+@media only screen and (max-width: 1024px) {
+	body#design .hero .image { background:url(../design/images/hero_1024.jpg) top center no-repeat; }
+
+	body#design .materials-hero .gallery-view .pink { background-image:url(../design/images/band_plastics_device_pink_1024.jpg); }
+	body#design .materials-hero .gallery-view .blue { background-image:url(../design/images/band_plastics_device_blue_1024.jpg); }
+	body#design .materials-hero .gallery-view .green { background-image:url(../design/images/band_plastics_device_green_1024.jpg); }
+	body#design .materials-hero .gallery-view .yellow { background-image:url(../design/images/band_plastics_device_yellow_1024.jpg); }
+	body#design .materials-hero .gallery-view .white { background-image:url(../design/images/band_plastics_device_white_1024.jpg); }
+}
+
+
+
+
+body#design .interstitial.a6-hero .image.front { background-image:url(../design/images/band_a6_device_front.jpg); }
+body#design .interstitial.a6-hero .image.back { background-image:url(../design/images/band_a6_device_back.png); }
+
+body#design .interstitial.cases-hero .image.front { background-image:url(../design/images/band_cases_device_front.png); }
+body#design .interstitial.cases-hero .image.back { background-image:url(../design/images/band_cases_device_back.png); }
+
+body#design .interstitial.ios7-hero .image { background-image:url(../design/images/band_device_white.jpg); }

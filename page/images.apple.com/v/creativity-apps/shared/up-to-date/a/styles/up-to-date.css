@@ -1,0 +1,7 @@
+#main .up-to-date { padding-top:0; padding-bottom:16px; }
+#main .up-to-date .row { width:1024px; padding:20px 0 0; }
+#main .up-to-date .app-icons { display:inline-block; height:77px; margin:9px 0 4px; }
+#main .up-to-date .app-icons img { float:left; }
+#main .up-to-date .icon-pages { margin-right:-7px; }
+#main .up-to-date .icon-numbers { margin-right:-11px; }
+#main .up-to-date p { width:700px; }

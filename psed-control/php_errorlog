@@ -1,0 +1,20 @@
+[16-Jan-2014 00:24:39 CST6CDT] PHP Fatal error:  Access denied for user 'root'@'localhost' (using password: NO) in /home/omega/public_html/psed/psed-control/Connections/PSED.php on line 9
+[16-Jan-2014 00:27:56 CST6CDT] PHP Fatal error:  Access denied for user 'root'@'localhost' (using password: NO) in /home/omega/public_html/psed/psed-control/Connections/PSED.php on line 9
+[16-Jan-2014 00:28:21 CST6CDT] PHP Fatal error:  Access denied for user 'root'@'localhost' (using password: NO) in /home/omega/public_html/psed/psed-control/Connections/PSED.php on line 9
+[16-Jan-2014 00:57:44 CST6CDT] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/omega/public_html/psed/conf/conf.ph' (include_path='.:/usr/local/php53/pear') in /home/omega/public_html/psed/psed-control/index.php on line 1
+[16-Jan-2014 01:02:05 CST6CDT] PHP Notice:  Undefined variable: database_PSED in /home/omega/public_html/psed/psed-control/index.php on line 56
+[16-Jan-2014 01:02:05 CST6CDT] PHP Notice:  Undefined variable: PSED in /home/omega/public_html/psed/psed-control/index.php on line 56
+[16-Jan-2014 01:02:05 CST6CDT] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, null given in /home/omega/public_html/psed/psed-control/index.php on line 56
+[16-Jan-2014 01:02:05 CST6CDT] PHP Notice:  Undefined variable: PSED in /home/omega/public_html/psed/psed-control/index.php on line 61
+[16-Jan-2014 01:02:05 CST6CDT] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/omega/public_html/psed/psed-control/index.php on line 61
+[16-Jan-2014 01:05:17 CST6CDT] PHP Notice:  Undefined variable: database_PSED in /home/omega/public_html/psed/psed-control/index.php on line 56
+[16-Jan-2014 01:05:17 CST6CDT] PHP Notice:  Undefined variable: PSED in /home/omega/public_html/psed/psed-control/index.php on line 56
+[16-Jan-2014 01:05:17 CST6CDT] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, null given in /home/omega/public_html/psed/psed-control/index.php on line 56
+[16-Jan-2014 01:05:17 CST6CDT] PHP Notice:  Undefined variable: PSED in /home/omega/public_html/psed/psed-control/index.php on line 61
+[16-Jan-2014 01:05:17 CST6CDT] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/omega/public_html/psed/psed-control/index.php on line 61
+[16-Jan-2014 01:06:01 CST6CDT] PHP Notice:  Undefined variable: PSED in /home/omega/public_html/psed/psed-control/index.php on line 61
+[16-Jan-2014 01:06:01 CST6CDT] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/omega/public_html/psed/psed-control/index.php on line 61
+[18-Jan-2014 01:50:35 CST6CDT] PHP Warning:  require_once(/home/psedcam/public_html/psed/conf/conf.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/psedcam/public_html/psed-control/index.php on line 5
+[18-Jan-2014 01:50:35 CST6CDT] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/psedcam/public_html/psed/conf/conf.php' (include_path='.:/usr/local/php53/pear') in /home/psedcam/public_html/psed-control/index.php on line 5
+[18-Jan-2014 02:37:40 CST6CDT] PHP Warning:  require_once(/home/psedcam/public_html/psed/conf/conf.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/psedcam/public_html/psed-control/index.php on line 5
+[18-Jan-2014 02:37:40 CST6CDT] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/psedcam/public_html/psed/conf/conf.php' (include_path='.:/usr/local/php53/pear') in /home/psedcam/public_html/psed-control/index.php on line 5
